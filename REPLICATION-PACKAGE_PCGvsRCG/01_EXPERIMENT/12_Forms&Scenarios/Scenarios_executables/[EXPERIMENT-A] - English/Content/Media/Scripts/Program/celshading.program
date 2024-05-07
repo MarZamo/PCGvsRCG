@@ -1,0 +1,20 @@
+// Cel Shading program
+
+//////////////////////////////////////////////////
+
+vertex_program CelShadingTexturedVP cg
+{
+  source celshadingtextured.cg
+  entry_point main_vp
+  profiles vs_1_1 arbvp1
+
+  default_params
+  {
+    param_named_auto lightPosition light_position_object_space 0
+    param_named_auto eyePosition camera_position_object_space
+    param_named_auto worldViewProj worldviewproj_matrix
+    param_named shininess float 10
+  }
+}
+
+//////////////////////////////////////////////////

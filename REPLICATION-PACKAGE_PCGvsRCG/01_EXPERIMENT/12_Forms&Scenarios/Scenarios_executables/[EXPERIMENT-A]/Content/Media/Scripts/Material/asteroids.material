@@ -1,0 +1,35 @@
+// Asteroids related materials
+
+import GlowPlain from "default.material"
+
+//////////////////////////////////////////////////
+
+// Base material
+
+material Asteroid : GlowPlain
+{
+  set $ambient  "0.0  0.0  0.0  0.0"
+  set $diffuse  "0.08 0.08 0.08 1.0"
+  set $specular "0.08 0.08 0.08 1.0"
+  set $emissive "0.0  0.0  0.0  0.0"
+}
+
+//////////////////////////////////////////////////
+
+material Asteroid0 : Asteroid
+{
+}
+
+//////////////////////////////////////////////////
+
+material Asteroid1 : Asteroid
+{
+}
+
+//////////////////////////////////////////////////
+
+material Asteroid2 : Asteroid
+{ 
+}
+
+//////////////////////////////////////////////////

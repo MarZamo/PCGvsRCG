@@ -1,0 +1,499 @@
+// Basic materials
+
+//////////////////////////////////////////////////
+
+material Base
+{
+  receive_shadows off
+}
+
+//////////////////////////////////////////////////
+
+// Line material
+
+material LineMaterial : Base
+{
+  technique Default
+  {
+    pass
+    {
+      lighting off
+      fog_override true
+      ambient  1.0 1.0 1.0 1.0
+      diffuse  1.0 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 1.0 1.0 1.0 1.0
+    }
+  }
+}
+
+//////////////////////////////////////////////////
+
+// Blank with translucent texture material
+
+material BlankWithTranslucentTexture : Base
+{
+  set $ambient  "0.0 0.0 0.0 1.0"
+  set $diffuse  "0.0 0.0 0.0 1.0"
+  set $specular "0.0 0.0 0.0 0.0"
+  set $emissive "0.0 0.0 0.0 0.0"
+
+  technique Default
+  {
+    pass
+    {
+      ambient  $ambient
+      diffuse  $diffuse
+      specular $specular
+      emissive $emissive
+      texture_unit
+      {
+        texture translucent.png
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+// Polished with translucent texture material
+
+material PolishedWithTranslucentTexture : Base
+{
+  set $diffuse "0.0  0.0  0.0  1.0"
+
+  technique Default
+  {
+    pass
+    {
+      ambient  0.0 0.0 0.0 1.0
+      diffuse  $diffuse
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0 0.0
+      texture_unit
+      {
+        texture translucent.png
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+// Glow plain material
+
+material GlowPlain : Base
+{
+  set $sceneblend "one zero"
+  set $depthwrite "on"
+  set $ambient    "0.0  0.0  0.0  1.0"
+  set $diffuse    "0.0  0.0  0.0  1.0"
+  set $specular   "0.0  0.0  0.0  0.0"
+  set $emissive   "0.0  0.0  0.0  0.0"
+
+  technique Glow
+  {
+    scheme Glow
+    pass
+    {
+      fog_override true
+      scene_blend $sceneblend
+      depth_write $depthwrite
+      ambient     $ambient
+      diffuse     $diffuse
+      specular    $specular
+      emissive    $emissive
+    }
+    // End of pass
+  }
+  // End of technique
+
+  technique Default
+  {
+    pass
+    {
+      scene_blend $sceneblend
+      depth_write $depthwrite
+      ambient     $ambient
+      diffuse     $diffuse
+      specular    $specular
+      emissive    $emissive
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+
+// Glow with translucent texture material
+
+material GlowWithTranslucentTexture : Base
+{
+  set $ambient  "0.0  0.0  0.0  1.0"
+  set $diffuse  "0.0  0.0  0.0  1.0"
+  set $specular "0.0  0.0  0.0  0.0"
+  set $emissive "0.0  0.0  0.0  0.0"
+
+  technique Glow
+  {
+    scheme Glow
+    pass
+    {
+      fog_override true
+      ambient  $ambient
+      diffuse  $diffuse
+      specular $specular
+      emissive $emissive
+    }
+    // End of pass
+  }
+  // End of technique
+
+  technique Default
+  {
+    pass
+    {
+      ambient  $ambient
+      diffuse  $diffuse
+      specular $specular
+      emissive $emissive
+      texture_unit
+      {
+        texture translucent.png
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+// Glow with two textures material
+
+material GlowWith2Textures : Base
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "0.0  0.0  0.0  0.0"
+  set $emissive        "0.0  0.0  0.0  0.0"
+  set $fallbackTexture "translucent.png"
+  set $glowTexture     "translucent.png"
+
+  //lod_strategy Distance
+  //lod_values 1000.0
+  //lod_distances 1000.0
+
+  technique Glow
+  {
+    //lod_index 0
+    scheme Glow
+    pass
+    {
+      fog_override true
+      ambient  $ambient
+      diffuse  $diffuse
+      specular $specular
+      emissive $emissive
+      texture_unit GlowTexture
+      {
+        texture $glowTexture
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+
+  technique Default
+  {
+    //lod_index 1
+    pass
+    {
+      ambient  $ambient
+      diffuse  $diffuse
+      specular $specular
+      emissive $emissive
+      texture_unit FallbackTexture
+      {
+        texture $fallbackTexture
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+// Glow with two textures material
+
+material GlowWith2TexturesAndSphereMap : Base
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "0.0  0.0  0.0  0.0"
+  set $emissive        "0.0  0.0  0.0  0.0"
+  set $fallbackTexture "translucent.png"
+  set $glowTexture     "translucent.png"
+
+  //lod_strategy Distance
+  //lod_values 1000.0
+  //lod_distances 1000.0
+
+  technique Glow
+  {
+    //lod_index 0
+    scheme Glow
+    pass
+    {
+      fog_override true
+      ambient  $ambient
+      diffuse  $diffuse
+      specular $specular
+      emissive $emissive
+      texture_unit GlowTexture
+      {
+        texture $glowTexture
+        //colour_op_ex blend_manual src_texture src_current 0.1
+        env_map spherical
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+
+  technique Default
+  {
+    //lod_index 1
+    pass
+    {
+      ambient  $ambient
+      diffuse  $diffuse
+      specular $specular
+      emissive $emissive
+      texture_unit FallbackTexture
+      {
+        texture $fallbackTexture
+        //colour_op_ex blend_manual src_texture src_current 0.1
+        env_map spherical
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+// Glow with two textures material
+
+material GlowWith2TexturesAndCubicMap : Base
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "0.0  0.0  0.0  0.0"
+  set $emissive        "0.0  0.0  0.0  0.0"
+  set $fallbackTexture "translucent.png"
+  set $glowTexture     "translucent.png"
+
+  //lod_strategy Distance
+  //lod_values 1000.0
+  //lod_distances 1000.0
+
+  technique Glow
+  {
+    //lod_index 0
+    scheme Glow
+    pass
+    {
+      fog_override true
+      ambient  $ambient
+      diffuse  $diffuse
+      specular $specular
+      emissive $emissive
+      texture_unit GlowTexture
+      {
+        cubic_texture $glowTexture combinedUVW
+        //tex_address_mode clamp
+        //texture $glowTexture
+        colour_op_ex blend_manual src_texture src_current 0.1
+        //colour_op_ex add src_texture src_current
+        //colour_op_multipass_fallback one one
+        env_map cubic_reflection
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+
+  technique Default
+  {
+    //lod_index 1
+    pass
+    {
+      ambient  $ambient
+      diffuse  $diffuse
+      specular $specular
+      emissive $emissive
+      texture_unit FallbackTexture
+      {
+        cubic_texture $fallbackTexture combinedUVW
+        //tex_address_mode clamp
+        //texture $fallbackTexture
+        colour_op_ex blend_manual src_texture src_current 0.1
+        //colour_op_ex add src_texture src_current
+        //colour_op_multipass_fallback one one
+        env_map cubic_reflection
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+material ParticleTextured : Base
+{
+  set $particleTexture "translucent.png"
+
+  technique
+  {
+    scheme Default
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      cull_hardware clockwise
+      cull_software back
+
+      texture_unit
+      {
+        texture $particleTexture
+        tex_address_mode clamp
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+material ParticleGlowTextured : Base
+{
+  set $particleTexture "translucent.png"
+  set $depth_bias      0
+  set $slopescale_bias 0
+
+  technique
+  {
+    scheme Glow
+    pass
+    {
+      fog_override true
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      depth_bias $depth_bias $slopescale_bias
+      cull_hardware clockwise
+      cull_software back
+
+      texture_unit
+      {
+        texture $particleTexture
+        tex_address_mode clamp
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+
+  technique
+  {
+    scheme Default
+    pass
+    {
+      lighting off
+      scene_blend alpha_blend
+      depth_write off
+      depth_bias $depth_bias $slopescale_bias
+      cull_hardware clockwise
+      cull_software back
+
+      texture_unit
+      {
+        texture $particleTexture
+        tex_address_mode clamp
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+material CelShadingTextured : Base
+{
+  technique
+  {
+    pass
+    {
+      iteration once_per_light
+      vertex_program_ref CelShadingTexturedVP
+      {
+        param_named shininess float 1.0 // you can change this as well
+      }
+      texture_unit
+      {
+        texture cel_shading_diffuse.png 1d
+        tex_address_mode clamp
+        filtering none
+        colour_op add
+      }
+      texture_unit
+      {
+        texture cel_shading_specular.png 1d
+        tex_address_mode clamp
+        filtering none
+        tex_coord_set 1
+        colour_op add
+      }
+      texture_unit
+      {
+        texture cel_shading_edge.png 1d
+        tex_address_mode clamp
+        filtering none
+        tex_coord_set 2
+      }
+      texture_unit
+      {
+        texture mars.png
+        //diffuse_map.png add your diffuse map here
+      }
+      //texture_unit
+      //{
+      //   texture skin.jpg//specular_map.png //add your specular map here
+      //}
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+material Invisible : GlowPlain
+{
+  set $diffuse "0.0 0.0 0.0 0.0"
+}
+
+//////////////////////////////////////////////////

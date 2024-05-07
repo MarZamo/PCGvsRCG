@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<MISSIONS Number="1">
+
+  <GLOBAL GlobalTranslationX="17000" GlobalTranslationY="0" GlobalTranslationZ="0" />
+
+  <!-- THYMIATERION ***************************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="-3000" />
+    <MissionData ReferenceType="1102"
+                 ReferencePositionX="161090" ReferencePositionY="-13620" ReferencePositionZ="315135"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GATES Number ="1" >
+      <GateData GateType="1" SealDisabled="1"
+                AreaIndex="0" LevelIndex="0"
+                LocalPositionX="3" LocalPositionY="0" LocalPositionZ="0" />
+    </GATES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Argos.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+</MISSIONS>

@@ -1,0 +1,31 @@
+// Soul related materials
+
+import GlowPlain from "default.material"
+
+//////////////////////////////////////////////////
+
+// Base material
+
+material Soul : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material SoulCapsule : Soul
+{
+  set $ambient  "0.0  0.0  0.0  1.0"
+  set $diffuse  "0.3  0.3  0.3  0.5"
+  set $emissive "0.1 0.1 0.1 0.0"
+}
+
+//////////////////////////////////////////////////
+
+material SoulCore: Soul
+{
+  set $ambient  "0.35 0.35 0.35 1.0"
+  set $diffuse  "0.6  0.6  0.6  0.6"
+  set $emissive "0.5  0.5  0.5  0.5"
+}
+
+//////////////////////////////////////////////////

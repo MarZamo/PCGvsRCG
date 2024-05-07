@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<GATE>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="2000" InitialScaleY="2000" InitialScaleZ="2000"
+           DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="2">
+    <Hull HullType="0">
+      <ObjectData ModelFileName="door0.mesh" ScaleX="2000" ScaleY="2000" ScaleZ="2000" 
+                  PositionX="0" PositionY="0" PositionZ="0" 
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="COMPOUND" ObjectMass="0" ObjectMaterial="1">
+        <CollisionComponents Number="1">
+          <!--Door ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.462065" ComponentScaleY="0.462065" ComponentScaleZ="0.024958"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+        </CollisionComponents>
+      </PhysicalObjectData>
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="frame0.mesh" ScaleX="2000" ScaleY="2000" ScaleZ="2000" 
+                  PositionX="0" PositionY="0" PositionZ="0" 
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="COMPOUND" ObjectMass="0" ObjectMaterial="1">
+        <CollisionComponents Number="4">
+          <!--Top ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.702091" ComponentScaleY="0.120013" ComponentScaleZ="0.118897"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0.582078" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Shafts ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.120013" ComponentScaleY="0.462065" ComponentScaleZ="0.118897"
+                                    ComponentLocalPositionX="-0.582078" ComponentLocalPositionY="0" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.120013" ComponentScaleY="0.462065" ComponentScaleZ="0.118897"
+                                    ComponentLocalPositionX="0.582078" ComponentLocalPositionY="0" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Bottom ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.702091" ComponentScaleY="0.120013" ComponentScaleZ="0.118897"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.582078" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+        </CollisionComponents>
+      </PhysicalObjectData>
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+    
+  </HULL>
+  <!--***************************************************************************************************************-->
+  <GateData MarkerFileName="marker0.mesh" ParticleFileName="door0.mesh" NumberOfParticles="9" IsOneWay="0" />
+  <!--***************************************************************************************************************-->
+</GATE>

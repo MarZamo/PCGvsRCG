@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+
+<MISSIONS Number="5">
+
+  <GLOBAL GlobalTranslationX="-1000000" GlobalTranslationY="0" GlobalTranslationZ="0" />
+
+
+
+
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1070"
+                 ReferencePositionX="0" ReferencePositionY="-72" ReferencePositionZ="1000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1013"
+                 ReferencePositionX="0" ReferencePositionY="-40" ReferencePositionZ="1900"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1013"
+                 ReferencePositionX="0" ReferencePositionY="-40" ReferencePositionZ="2300"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1013"
+                 ReferencePositionX="0" ReferencePositionY="-40" ReferencePositionZ="2700"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+  <!--GATE ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="0" ReferencePositionY="69" ReferencePositionZ="1600"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GATES Number ="1" >
+      <GateData GateType="1" SealDisabled="1"
+                AreaIndex="0" LevelIndex="0"
+                LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+    </GATES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="9000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <DUNGEONS Number="1"
+            StepDistance="200"
+            ActivationDistance="95"
+            TotemTypeSingle="63"
+            TotemTypeForwardEntrance="64"
+            TotemTypeForward="65"
+            TotemTypeForwardUp="66"
+            TotemTypeForwardLeftAndRight="67"
+            TotemTypeForwardEnd="68">
+    <DUNGEON>
+      <DungeonData PositionX="0" PositionY="0" PositionZ="4300"
+                   OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" Pattern="[x^xcxvxcxvx>x{" />
+      <BossData FileName="DaimonAlpha.xml" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+      <EnemiesData FileName="DaimonEta.xml" Number="10" />
+    </DUNGEON>
+  </DUNGEONS>
+
+</MISSIONS>

@@ -1,0 +1,275 @@
+// Particles materials
+
+import Base                 from "default.material"
+import GlowPlain            from "default.material"
+import ParticleGlowTextured from "default.material"
+import ParticleTextured     from "default.material"
+
+//////////////////////////////////////////////////
+
+material Ether : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material WhirlArm : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material WhirlSpark : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material BrightWhite: GlowPlain
+{
+  set $ambient  "0.0  0.0  0.0  1.0"
+  set $diffuse  "0.8  0.8  0.8  1.0"
+  set $emissive "0.8  0.8  0.8  0.0"
+}
+
+//////////////////////////////////////////////////
+
+material ExplosionDefault : ParticleTextured
+{
+  set $particleTexture "explosion_default.png"
+}
+
+//////////////////////////////////////////////////
+
+material StarDust0 : ParticleGlowTextured
+{
+  set $particleTexture "star_dust_0.png"
+}
+
+//////////////////////////////////////////////////
+
+material StarDust1 : ParticleGlowTextured
+{
+  set $particleTexture "star_dust_1.png"
+}
+
+//////////////////////////////////////////////////
+
+material StarDust2 : ParticleGlowTextured
+{
+  set $particleTexture "star_dust_2.png"
+}
+
+//////////////////////////////////////////////////
+
+material Cloud0 : ParticleGlowTextured
+{
+  set $particleTexture "cloud_0.png"
+  set $depth_bias      10
+  set $slopescale_bias 10
+}
+
+//////////////////////////////////////////////////
+
+material Cloud1 : ParticleGlowTextured
+{
+  set $particleTexture "cloud_1.png"
+  set $depth_bias      15
+  set $slopescale_bias 15
+}
+
+//////////////////////////////////////////////////
+
+material Cloud2 : ParticleGlowTextured
+{
+  set $particleTexture "cloud_2.png"
+  set $depth_bias      15
+  set $slopescale_bias 15
+}
+
+//////////////////////////////////////////////////
+
+material LightRibbonTrail : Base
+{
+  technique Default
+  {
+    pass
+    {
+      lighting off
+      scene_blend add
+      //depth_write off
+
+      texture_unit
+      {
+        texture ribbonband.png 1d
+        tex_address_mode clamp
+        filtering none
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+
+  technique Glow
+  {
+    scheme Glow
+    pass
+    {
+      lighting off
+      scene_blend add
+      depth_write off
+
+      texture_unit
+      {
+        texture ribbonband.png 1d
+        tex_address_mode clamp
+        filtering none
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+material LightRibbonTrailTurbulence : Base
+{
+  technique Default
+  {
+    pass
+    {
+      vertex_program_ref RibbonTurbulenceVp
+      {
+        param_named curlSize float 0.0001
+        param_named seed float3 0.0 -0.0 0.0
+        param_named amount float 0.05
+      }
+      
+      lighting off
+      scene_blend add
+      //depth_write off
+      cull_hardware none
+      cull_software none
+
+      texture_unit
+      {
+        texture ribbonband.png 1d
+        tex_address_mode clamp
+        filtering none
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+
+  technique Glow
+  {
+    scheme Glow
+    pass
+    {
+      vertex_program_ref RibbonTurbulenceVp
+      {
+        param_named curlSize float 0.0001
+        param_named seed float3 100.0 -100.0 100.0
+        param_named amount float 0.05
+      }
+      
+      lighting off
+      scene_blend add
+      depth_write off
+      cull_hardware none
+      cull_software none
+
+      texture_unit
+      {
+        texture ribbonband.png 1d
+        tex_address_mode clamp
+        filtering none
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+material LightRibbonTrailTurbulenceHigh : Base
+{
+  technique Default
+  {
+    pass
+    {
+      vertex_program_ref RibbonTurbulenceVp
+      {
+        //param_named curlSize float 0.0001
+        //param_named seed float3 0.0 -0.0 0.0
+        //param_named amount float 0.5
+        
+        param_named curlSize float 0.035
+        param_named seed float3 123 -456 789
+        param_named amount float 2
+      }
+      
+      lighting off
+      scene_blend add
+      //depth_write off
+      cull_hardware none
+      cull_software none
+
+      texture_unit
+      {
+        texture ribbonband.png 1d
+        tex_address_mode clamp
+        filtering none
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+
+  technique Glow
+  {
+    scheme Glow
+    pass
+    {
+      vertex_program_ref RibbonTurbulenceVp
+      {
+        //param_named curlSize float 0.0001
+        //param_named seed float3 0.0 -0.0 0.0
+        //param_named amount float 0.5
+        
+        param_named curlSize float 0.035
+        param_named seed float3 123 -456 789
+        param_named amount float 2
+      }
+      
+      lighting off
+      scene_blend add
+      depth_write off
+      cull_hardware none
+      cull_software none
+
+      texture_unit
+      {
+        texture ribbonband.png 1d
+        tex_address_mode clamp
+        filtering none
+      }
+    }
+    // End of pass
+  }
+  // End of technique
+}
+
+//////////////////////////////////////////////////
+
+material Debris0 : GlowPlain
+{
+  set $ambient  "0.0  0.0  0.0  1.0"
+  set $diffuse  "0.0  0.0  0.0  1.0"
+  set $emissive "0.1  0.1  0.1  0.0"
+}
+
+//////////////////////////////////////////////////

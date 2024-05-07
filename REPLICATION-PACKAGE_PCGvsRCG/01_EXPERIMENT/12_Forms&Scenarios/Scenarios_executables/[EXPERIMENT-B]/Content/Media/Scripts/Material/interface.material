@@ -1,0 +1,39 @@
+// Interface related materials
+
+import GlowPlain from "default.material"
+
+//////////////////////////////////////////////////
+
+material SelectorBox : GlowPlain
+{
+  set $diffuse "0.0  0.0  0.0  0.95"
+}
+
+//////////////////////////////////////////////////
+
+//material Selection
+//{
+//  technique
+//  {
+//    pass
+//    {
+//      texture_unit
+//      {
+//        texture white.png
+//      }
+//      texture_unit
+//      {
+//        cubic_texture rim.dds combinedUVW
+//        tex_address_mode clamp
+//        colour_op_ex add src_texture src_current
+//        colour_op_multipass_fallback one one
+//        env_map cubic_normal
+//      }
+//
+//    }
+//    // End of pass
+//  }
+//  // End of technique
+//}
+
+//////////////////////////////////////////////////

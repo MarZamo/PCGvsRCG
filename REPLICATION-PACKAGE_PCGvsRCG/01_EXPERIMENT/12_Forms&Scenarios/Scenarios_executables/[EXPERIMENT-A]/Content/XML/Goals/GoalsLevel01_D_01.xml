@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<MISSIONS Number="2">
+
+  <GLOBAL GlobalTranslationX="0" GlobalTranslationY="10000" GlobalTranslationZ="0" />
+
+
+
+  <MISSION>
+    <MissionData ReferenceType="0" ReferencePositionX="161000" ReferencePositionY="-10000" ReferencePositionZ="318580" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="9000" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+  <MISSION>
+    <MissionData ReferenceType="0" ReferencePositionX="174000" ReferencePositionY="-10000" ReferencePositionZ="318480" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="9000" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="1" />
+        <EnemiesData FileName="Ichthyos.xml" Number="6" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <DUNGEONS Number="2"
+            StepDistance="200"
+            ActivationDistance="200"
+            TotemTypeSingle="63"
+            TotemTypeForwardEntrance="64"
+            TotemTypeForward="65"
+            TotemTypeForwardUp="66"
+            TotemTypeForwardLeftAndRight="67"
+            TotemTypeForwardEnd="68">
+    <DUNGEON>
+      <DungeonData PositionX="161000" PositionY="-10000" PositionZ="318580"
+                   OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" Pattern="{x^x>xcx]" />
+      <BossData FileName="DroneAlpha.xml" />
+      <EnemiesData FileName="Ichthyos.xml" Number="0" />
+      <EnemiesData FileName="Ichthyos.xml" Number="0" />
+      <EnemiesData FileName="Ichthyos.xml" Number="0" />
+      <EnemiesData FileName="Ichthyos.xml" Number="6" />
+      <EnemiesData FileName="Ichthyos.xml" Number="0" />
+      <EnemiesData FileName="Ichthyos.xml" Number="0" />
+      <EnemiesData FileName="Ichthyos.xml" Number="6" />
+      <EnemiesData FileName="Ichthyos.xml" Number="6" />
+      <EnemiesData FileName="Ichthyos.xml" Number="6" />
+      <EnemiesData FileName="Ichthyos.xml" Number="6" />
+    </DUNGEON>
+    <DUNGEON>
+      <DungeonData PositionX="161000" PositionY="-10000" PositionZ="318580"
+                   OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" Pattern="[x^xv>]" />
+      <BossData FileName="DroneAlpha.xml" />
+      <EnemiesData FileName="Ichthyos.xml" Number="6" />
+      <EnemiesData FileName="Ichthyos.xml" Number="6" />
+    </DUNGEON>
+  </DUNGEONS>
+
+</MISSIONS>

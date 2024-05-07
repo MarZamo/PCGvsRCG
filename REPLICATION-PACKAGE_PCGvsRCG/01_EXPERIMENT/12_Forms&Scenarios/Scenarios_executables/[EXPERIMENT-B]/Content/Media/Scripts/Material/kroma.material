@@ -1,0 +1,106 @@
+// Kroma related materials
+
+import GlowPlain                      from "default.material"
+import GlowWith2TexturesAndSphereMap  from "default.material"
+
+//////////////////////////////////////////////////
+
+material KromaLight : GlowPlain
+{
+  set $ambient  "0.0  0.0  0.0  1.0"
+  set $diffuse  "0.3  0.3  0.3  1.0"
+  set $emissive "0.3  0.3  0.3  0.0"
+}
+
+//////////////////////////////////////////////////
+
+material KromaWhite : GlowPlain
+{
+  set $ambient  "0.0  0.0  0.0  1.0"
+  set $diffuse  "0.15  0.15  0.15  1.0"
+  set $emissive "0.15  0.15  0.15  0.0"
+}
+
+//////////////////////////////////////////////////
+
+material KromaBlack : GlowPlain
+{
+  set $ambient  "0.0  0.0  0.0  1.0"
+  set $diffuse  "0.1  0.1  0.1  1.0"
+  set $emissive "0.02 0.02 0.02 0.0"
+}
+
+
+//////////////////////////////////////////////////
+
+material KromaCortex : GlowPlain
+{
+  set $ambient  "0.0   0.0   0.0   1.0"
+  set $diffuse  "0.2   0.2   0.2   1.0"
+  set $emissive "0.025 0.025 0.025 0.0"
+}
+
+//////////////////////////////////////////////////
+
+material KromaCapsule : GlowPlain
+{
+  set $ambient  "0.0  0.0  0.0  1.0"
+  set $diffuse  "0.2  0.2  0.2  0.5"
+  set $emissive "0.01 0.01 0.01 0.0"
+}
+
+//////////////////////////////////////////////////
+
+material KromaLink : GlowPlain
+{
+  set $ambient  "0.0  0.0  0.0  1.0"
+  set $diffuse  "0.6  0.6  0.6  1.0"
+  set $emissive "0.6  0.6  0.6  0.0"
+}
+
+//////////////////////////////////////////////////
+
+material KromaField : GlowPlain
+{
+  set $ambient  "0.0   0.0   0.0   1.0"
+  set $diffuse  "0.2   0.2   0.2   1.0"
+  set $emissive "0.025 0.025 0.025 0.0"
+}
+
+//////////////////////////////////////////////////
+
+material DarkChrome : GlowWith2TexturesAndSphereMap
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "0.5  0.5  0.5  1.0  128.0"
+  set $emissive        "0.01 0.01 0.01 0.0"
+  set $fallbackTexture "darkmetalsphere.png"
+  set $glowTexture     "darkmetalsphere.png"
+}
+
+//////////////////////////////////////////////////
+
+material GreenChrome : GlowWith2TexturesAndSphereMap
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.08  0.25  0.08  1.0"
+  set $specular        "0.7  0.7  0.7  128.0"
+  set $emissive        "0.08  0.25  0.08  0.0"
+  set $fallbackTexture "whitemetalsphere.png"
+  set $glowTexture     "whitemetalsphere.png"
+}
+
+//////////////////////////////////////////////////
+
+material OrangeChrome : GlowWith2TexturesAndSphereMap
+{
+  set $ambient         "0.5  0.25  0.1  1.0"
+  set $diffuse         "0.5  0.25  0.1  1.0"
+  set $specular        "0.7  0.7  0.7  128.0"
+  set $emissive        "0.5  0.25  0.1  0.0"
+  set $fallbackTexture "metalsphere.png"
+  set $glowTexture     "metalsphere.png"
+}
+
+//////////////////////////////////////////////////

@@ -1,0 +1,41 @@
+compositor GlowSimple2
+{
+  technique
+  {
+    texture rt0   target_width target_height PF_A8R8G8B8
+    texture AtoB  target_width target_height PF_A8R8G8B8
+
+    //Fetch scene contents.
+    target rt0
+    {
+      input previous
+      shadows off
+    }
+
+    //Blur it along X.
+    target AtoB
+    {
+      input none
+      shadows off
+
+      pass render_quad
+      {
+        material GlowCompositorMat/Glow2A
+        input 0 rt0
+      }
+    }
+
+    //Blur along Y, add to original, and output.
+    target_output
+    {
+      input none
+      shadows off
+      pass render_quad
+      {
+        material GlowCompositorMat/Glow2B
+        input 0 rt0
+        input 1 AtoB
+      }
+    }
+  }
+}

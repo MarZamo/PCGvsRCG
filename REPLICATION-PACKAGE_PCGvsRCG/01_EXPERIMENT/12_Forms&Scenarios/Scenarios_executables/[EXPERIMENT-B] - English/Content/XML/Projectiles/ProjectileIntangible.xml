@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<COMPOUND>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="1" InitialScaleY="1" InitialScaleZ="1"
+           DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="1">
+    <Hull HullType="0">
+      <ObjectData ModelFileName="dummy0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1" 
+                  PositionX="0" PositionY="0" PositionZ="0" 
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMaterial="0" ObjectMass="10" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000010" EffectsMaskDestroy="00000000000000000000000000000010" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      <MarkersSets Number="1">
+        <MarkersSet>
+          <ForcedProgram ProgramId="20" CycleDuration="0.025" TimeMultiplier="2" />
+          <Markers Number="2">
+            <MarkerData ModelFileName="flame_I_0.mesh" />
+            <MarkerData ModelFileName="flame_I_0.mesh" />
+            <MarkerData ModelFileName="flame_I_0.mesh" />
+          </Markers>
+        </MarkersSet>
+      </MarkersSets>
+
+    </Hull>
+  </HULL>
+  <!--***************************************************************************************************************-->
+  <ProjectileData ScaleTime="1.0"
+                  FinalScaleX="300.0" FinalScaleY="300.0" FinalScaleZ="300.0"
+                  InitialLinearVelocityX="0" InitialLinearVelocityY="0" InitialLinearVelocityZ="30"
+                  InitialAngularVelocityX="0" InitialAngularVelocityY="0" InitialAngularVelocityZ="0" />
+  <!--***************************************************************************************************************-->
+</COMPOUND>

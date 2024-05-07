@@ -1,0 +1,1041 @@
+﻿GAME TEXTS
+
+
+//Language original names
+English
+Español
+Français
+Deutsch
+Italiano
+日本語
+Русский
+Português
+
+
+//Language translated names
+Inglese
+Spagnolo
+Francese
+Tedesco
+Italiano
+Giapponese
+Russo
+Portoghese
+
+
+//DEVICE
+DISPOSITIVO
+//Sensitivity
+Sensibilità
+//Pitch Up
+Beccheggio in alto
+//Pitch Down
+Beccheggio in basso
+//Yaw Left
+Imbardata a sinistra
+//Yaw Right
+Imbardata a destra
+//Roll Left
+Rollio a sinistra
+//Roll Right
+Rollio a destra
+//Accelerate
+Accelerazione
+//Decelerate
+Decelerazione
+//Boost
+Slancio
+//Strafe Up
+Scorrimento in alto
+//Strafe Down
+Scorrimento in basso
+//Strafe Left
+Scorrimento a sinistra
+//Strafe Right
+Scorrimento a destra
+//Primary Fire
+Fuoco primario
+//Secondary Fire
+Fuoco secondario
+//Next Armor
+Armatura successiva
+//Previous Armor
+Armatura precedente
+//Spinner Left Grappling Hook
+Spinner rampino sinistro
+//Spinner Center Grappling Hook
+Spinner rampino centrale
+//Spinner Right Grappling Hook
+Spinner rampino destro
+//Change Special Weapon
+Cambia arma speciale
+//Change Armor
+Cambia armatura
+//Invert Pitch inputs
+Inverti input beccheggio
+//Stats
+Statistiche
+//Options
+Opzioni
+//(NOT CUSTOMIZABLE)
+(NON PERSONALIZZABILE)
+//KEY IN\nUSE
+TASTO IN\nUSO
+
+
+//DEVICE TO BE CONFIGURED
+DISPOSITIVO DA CONFIGURARE
+//SENSITIVITY\nPERCENTAGE
+PERCENTUALE\nSENSIBILITÀ
+//PITCH UP PROPELLERS
+BECCHEGGIO ALTO ELICHE
+//PITCH DOWN PROPELLERS
+BECCHEGGIO BASSO ELICHE
+//YAW LEFT PROPELLERS
+IMBARDATA SINISTRA ELICHE
+//YAW RIGHT PROPELLERS
+IMBARDATA DESTRA ELICHE
+//ANTI-CLOCKWISE ROLL\nPROPELLERS
+ROLLIO ANTIORARIO\nELICHE
+//CLOCKWISE ROLL\nPROPELLERS
+ROLLIO ORARIO\nELICHE
+//ACCELERATION MAIN\nPROPELLERS
+ACCELERAZIONE ELICHE\nPRINCIPALI
+//DECELERATION MAIN\nPROPELLERS
+DECELERAZIONE ELICHE\nPRINCIPALI
+//PROPELLERS BOOST
+SLANCIO ELICHE
+//STRAFING UP PROPELLERS
+SCORRIMENTO IN ALTO ELICHE
+//STRAFING DOWN PROPELLERS
+SCORRIMENTO IN BASSO ELICHE
+//STRAFING LEFT PROPELLERS
+SCORRIMENTO A SINISTRA ELICHE
+//STRAFING RIGHT PROPELLERS
+SCORRIMENTO A DESTRA ELICHE
+//MAIN FIRE
+FUOCO PRINCIPALE
+//SECONDARY FIRE
+FUOCO SECONDARIO
+//CHANGE TO NEXT ARMOR
+PASSA ALL'ARMATURA SUCCESSIVA
+//CHANGE TO PREVIOUS ARMOR
+PASSA ALL'ARMATURA PRECEDENTE
+//LEFT GRAPPLING HOOK FIRE
+SPARA RAMPINO SINISTRO
+//CENTER GRAPPLING HOOK FIRE
+SPARA RAMPINO CENTRALE
+//RIGHT GRAPPLING HOOK FIRE
+SPARA RAMPINO DESTRO
+//SPECIAL WEAPON CHANGE
+CAMBIA ARMA SPECIALE
+//ARMOR CHANGE
+CAMBIA ARMATURA
+//PITCH INPUTS REVERSAL
+INVERTI INPUT BECCHEGGIO
+//CURRENT STATS
+STATISTICHE ATTUALI
+//OPTIONS MENU
+MENU OPZIONI
+
+
+//Wake up, son...
+Svegliati, figliolo...
+//The prize is fair...
+Il premio in palio è onesto...
+//...And the way is long.
+...e la strada è lunga.
+
+
+//START
+AVVIA
+//CONFIRM
+CONFERMA
+//OK
+OK
+//CANCEL
+ANNULLA
+//LOCKED
+BLOCCATO
+//CONTINUE
+CONTINUA
+//YES
+SÌ
+//NO
+NO
+
+
+//KROMAIA
+KROMAIA
+//STORY MODE
+MODALITÀ STORIA
+//SCORE ATTACK
+ATTACCO A PUNTI
+//BOSS TRIAL
+PROVA CONTRO IL BOSS
+//VERSUS MODE
+MODALITÀ SCONTRO
+//STORY MODE DEMO
+DEMO MODALITÀ STORIA
+//LOAD
+CARICA
+//CONFIGURATION
+CONFIGURAZIONE
+//CLEAR DATA
+AZZERA DATI
+//EXIT
+ESCI
+
+
+//START\nSCORE ATTACK
+AVVIA\nATTACCO A PUNTI
+//ELYSIUM
+ELYSIUM
+//REBOOT
+RIAVVIA
+//ARMOR SELECTION MENU
+MENU SELEZIONE ARMATURA
+//EXIT
+ESCI
+//SCORE
+PUNTEGGIO
+
+
+//Enter Your Name
+Inserisci il tuo nome
+//ELYSIUM
+ELYSIUM
+
+
+//RESOLUTION
+RISOLUZIONE
+//VISUAL STYLE (F6)
+STILE VISIVO (F6)
+//VOLUME
+VOLUME
+//MUSIC
+MUSICA
+//FX
+EFFETTI
+//MUSIC VOLUME
+VOLUME MUSICA
+//FX VOLUME
+VOLUME EFFETTI
+//ON
+SÌ
+//OFF
+NO
+//LANGUAGE
+LINGUA
+//SCREEN MODE
+MODALITÀ SCHERMO
+//CONTROLS
+COMANDI
+//APPLY & SAVE
+APPLICA E SALVA
+//BACK
+INDIETRO
+//SAVE
+SALVA
+//SAVE & CONTINUE
+SALVA E CONTINUA
+//EXIT WITHOUT SAVING
+ESCI SENZA SALVARE
+//APPLY DEFAULT\nSETTINGS
+APPLICA IMPOSTAZIONI\nPREDEFINITE
+
+
+//LOAD SLOT-
+CARICA SLOT-
+//CLEAR SLOT-
+SVUOTA SLOT-
+//EMPTY
+VUOTO
+//NEW FILE
+NUOVO FILE
+//AREA
+AREA
+//TIME
+TEMPO
+
+
+//RESUME
+RIPRENDI
+//EXIT
+ESCI
+
+
+//Xbox 360 controller supported
+Controller Xbox 360 supportato
+
+
+//Ending Demo
+Fine della demo
+//Demo Time Left
+Tempo demo rimasto
+
+
+//Wake up...
+Svegliati...
+
+
+//At last...
+Finalmente...
+//My thoughts have\nreached you, son.
+I miei pensieri ti hanno\nraggiunto, figliolo.
+//They are the only things\nwhich I am allowed to keep...
+Sono le uniche cose che\nho il diritto di conservare...
+//So listen to them...
+Quindi ascoltali...
+//...and grant me revenge.
+...e vendicati per me.
+
+
+//Collect every gate component\nto unlock jumpgates.
+Raccogli ogni componente del portale\nper sbloccarlo.
+//The icons in a door indicate\nhow many keys are needed.
+L'icona su una porta indica\nquante chiavi richiede.
+
+
+//There is a solid ring with a\npointer surrounding your armor...
+Un anello continuo con un\nindicatore circonda la tua armatura...
+//This compass will lead\nyou to the truth...
+Questa bussola ti porterà\nalla verità...
+//The arrow in the ring surrounding\nyou points to the next target.
+La freccia nell'anello che ti circonda\nindica il prossimo obiettivo.
+
+
+//Shoot at buttons to activate\ndevices or open doors.
+Spara ai pulsanti per attivare\ndispositivi o aprire porte.
+
+
+//Don't be afraid of entering the portal
+Non aver paura di attraversare il portale.
+//Those gates will let you travel\nto different nodes in time and space.
+Queste porte ti trasporteranno\na vari nodi nel tempo e nello spazio.
+
+
+//A node can be entered only with its\ndefault armor until it is cleared\nfor the first time.
+Puoi accedere a un nodo solo con la sua\narmatura standard finché non l'hai\ncompletato per la prima volta.
+//Once a node is cleared\nit can be entered with different armors.
+Una volta completato,\npuoi accedere a un nodo con altre armature.
+//New armor available at Kyllene.\nCollect a mask to summon an armor.
+Nuova armatura disponibile a Kyllene.\nRaccogli una maschera per evocare un'armatura.
+//You must defeat each of those traitors\nwith every armor to light the\nKyllene Wheel at full power.
+Devi sconfiggere ognuno di questi traditori\ncon ogni armatura per accendere la\nRuota di Kyllene alla massima potenza.
+
+
+//Tap the boost key to multiply\nthe active thrusters power
+Tocca il tasto Slancio per moltiplicare\nil potere di propulsione attivo.
+//Advanced Boost does not work tapping\nthe boost key, but holding it.
+Attiva lo Slancio avanzato tenendo\npremuto il tasto Slancio.
+
+
+//Heavy impacts at great speeds may destroy\nyour armor despite having shields left.
+Forti collisioni a gran velocità possono\ndistruggerti l'armatura anche se hai scudo.
+
+
+//Look, son...
+Figliolo, guarda qui...
+//This is the key to\nruling time and space...
+Questa è la chiave per\ndominare tempo e spazio...
+//Take it and\nopen the gates...
+Prendila e apri\ni portali...
+//...to our fate.
+...verso il nostro destino.
+
+
+//Even if You don't remember who you are...
+Anche se non ricordi chi sei...
+//I know well what i owe you, son.
+Io so bene quanto ti devo, figliolo.
+//Accept your reward...
+Accetta la tua ricompensa...
+//...and let all knowledge be one.
+...e lascia che tutta la conoscenza si fonda.
+
+
+//Yes, four gods...
+Sì, quattro dei...
+//They are the ones to\nblame for all.
+Sono loro i colpevoli\ndi tutto.
+//Vermis, the first of them\nbut not the oldest...
+Vermis, il primo di loro,\nma non il più vecchio...
+//The worm god will rise when\ndisturbance reaches the pillared shrine.
+Il dio-verme sorgerà quando\nla confusione giungerà al santuario con colonne.
+
+
+//we are closer to freedom...
+Siamo più vicini alla libertà...
+//They will pay for their crime.\nRepentance will not erase the guilt.
+Pagheranno per i loro crimini.\nIl pentimento non cancella la colpa.
+//Far beyond the metal forest, Teuthus sleeps peacefully...
+Molto oltre la foresta di metallo, Teuthus dorme pacificamente...
+//Don't be reckless, He has always\nknown that we would search for him.
+Non essere incauto, ha sempre\nsaputo che l'avremmo cercato.
+
+
+//Time and space are on our side...
+Il tempo e lo spazio sono dalla nostra parte...
+//There is no way they\ncan warn each other.
+Loro non possono\nallertarsi in alcun modo.
+//Every device ruled by Argos works\nto gather raw energy for their master...
+Ogni dispositivo che Argos comanda\naccumula energia grezza per lui...
+//A greed which is only second\nto his brute force.
+Un'avidità seconda solo alla\nsua forza bruta.
+
+
+//There is only a way to\nfuse these branches and reign:
+C'è solo un modo per\nfondere questi rami e regnare:
+//Bring the same fate\nto all of them.
+portare ad essi\nlo stesso destino.
+//Orion chose a world filled\nwith life and taught its offspring.
+Orion ha scelto un mondo pieno\ndi vita e ha istruito la sua prole.
+//The hunter and his tribe will use\ntheir science to destroy you at any cost.
+Il cacciatore e la sua tribù useranno\nla scienza per distruggerti a ogni costo.
+
+
+//The big one is a menace...
+Quello grosso è una minaccia...
+//Take its life...
+Prendi la sua vita...
+
+
+//Vermis is an elderly god...
+Vermis è un dio vecchio...
+//But not totally weak...
+Ma non completamente debole...
+
+
+//His strength goes beyond his arms...
+La sua forza va oltre le sue braccia...
+//Don't hesitate...
+Non esitare...
+
+
+//Argos has the upper\nhand in close combat...
+Argos ha un vantaggio\nnella lotta ravvicinata...
+//It is time to test your agility...
+È ora di mettere alla prova la tua agilità...
+
+
+//Orion knows the principles\nbehind your armors...
+Orion conosce i principi\ndelle tue armature...
+//Show him what you have learnt.
+Mostragli ciò che hai imparato.
+
+
+//...
+...
+//There is a long way to go...
+C'è molta strada da fare...
+//Now sleep, son...
+Ora dormi, figliolo...
+
+
+//Thank you, son.
+Grazie, figliolo.
+//Those remaining realities in which I was defeated...
+Quella realtà in cui io sono stato sconfitto...
+//... Now they are just bad dreams.
+...ora non è altro che un brutto sogno.
+//...
+...
+//These brothers did well,\nmy soul was nearly sealed.
+Quei fratelli se la sono cavata bene,\nla mia anima è stata quasi rapita.
+//But I was still able to reach\nto the strongest of them...
+Ma ho potuto raggiungere\nil più forte fra loro...
+//...and erase his mind. Your mind.
+...azzerandogli la mente. La tua mente.
+
+
+//My gift to you...
+Il mio dono per te...
+//I will take you to the same place...
+Ti porterò nello stesso luogo...
+//...where your memories rest.
+...in cui riposano i tuoi ricordi.
+
+
+//Don't you understand?
+Non capisci?
+//If I return to Chaos,\nthe world we have built\nwill be lost only to start again...
+Se torno a Caos,\nil mondo che abbiamo costruito\nandrà perso per poi ricominciare...
+//I just wanted to bring this\nendless circle to an end.
+Volevo solo porre fine\na questo circolo infinito.
+//But I guess you can't\nescape your nature...
+Ma forse tu non puoi\nsfuggire alla tua natura...
+//...And your nature is to survive.
+...e la tua natura ti impone di sopravvivere.
+
+
+//It is time to\nmake your choice.
+È ora di fare\nla tua scelta.
+//End your existence here in the void...
+Porre fine alla tua esistenza qui nel vuoto...
+//Or enter the gate and give back\nthe time I granted you.
+O entrare nel portale e restituire\nil tempo che ti ho dato.
+
+
+//Wake up, son...
+Svegliati, figliolo...
+//Let's play this hopeless\ngame one more time.
+Giochiamo questo inutile\ngioco ancora una volta.
+
+
+//Piloting Basics
+Basi di pilotaggio
+//Yawing And Pitching
+Imbardare e beccheggiare
+//Main orientation mechanics.
+Principali meccaniche di orientamento.
+//Forward acceleration
+Accelerazione in avanti
+//Keep pressed to increase linear velocity.
+Tenere premuto per aumentare la velocità lineare.
+//Strafing
+Scorrimento laterale
+//Strafing thrusters are used for dodging\nand complex maneuvering.
+Lo scorrimento laterale serve a schivare\ned effettuare manovre complesse.
+//Rolling
+Rollio
+//Advanced orientation thrusters.
+Propulsori per l'orientamento avanzato.
+//Boost
+Slancio
+//Multiplies the power of active thrusters.\nIneffective on inactive thrusters.
+Moltiplica la potenza dei propulsori attivi.\nPropulsori inefficaci o inattivi.
+//Primary Fire
+Fuoco primario
+//Main weapon. Low reloading time.
+Arma principale. Basso intervallo di ricarica.
+//Secondary Fire
+Fuoco secondario
+//Auxiliary weapon.\nHigh firepower and slow reloading.
+Arma ausiliaria.\nAlto potere di fuoco e lungo intervallo di ricarica.
+
+
+//+1 SHIELD LAYER
++1 STRATO SCUDO
+//SHIELDS RESTORED
+SCUDI RIPRISTINATI
+//SHIELD LAYER LOST
+STRATO SCUDO PERSO
+//SHIELDS DOWN
+SCUDI NON ATTIVI
+//ADVANCED BOOST
+SLANCIO AVANZATO
+//ADD-ON
+SUPPLEMENTI
+//NEW UPGRADE
+NUOVO POTENZIAMENTO
+
+
+//ALPHA
+ALFA
+//TAU
+TAU
+//MU
+MU
+//PSI
+PSI
+//OMEGA
+OMEGA
+
+
+//Alpha Armor
+Armatura Alfa
+//Tau Armor
+Armatura Tau
+//Mu Armor
+Armatura Mu
+//Psi Armor
+Armatura Psi
+//Omega Armor
+Armatura Omega
+
+
+//Artillery Type
+Tipo di artiglieria
+//Assisted Aiming Unit
+Unità di mira assistita
+//Precision Shooter
+Fuoco di precisione
+//Close Combat Oriented
+Orientato al combattimento ravvicinato
+//No Data Available
+Nessun dato disponibile
+
+
+//STANDARD
+STANDARD
+//ASSISTED
+ASSISTITO
+//DIFFICULT
+DIFFICILE
+//ELITE
+ELITE
+//NO DATA AVAILABLE
+NESSUN DATO DISPONIBILE
+
+
+//Select Armor
+Seleziona armatura
+//Firepower
+Potenza di fuoco
+//Ease Of Hitting
+Facilità di fuoco
+//Rate Of Fire
+Frequenza di fuoco
+
+
+//BOOST
+SPINTA
+//SCATTER DRIVE
+SCATTER DRIVE
+//SEEKER
+SEEKER
+//LIGHT NEEDLE
+LIGHT NEEDLE
+//FIELD BREAKER
+FIELD BREAKER
+//OMEGA DEVICE
+OMEGA DEVICE
+
+
+//SMART TURRETS
+TORRETTE INTELLIGENTI
+
+
+//The Scatter Drive shot spread is\nan optimal short range defense\nagainst fast targets getting too close.
+Lo Scatter Drive sparpaglia i colpi.\nUn'ottima difesa a corto raggio\ncontro bersagli veloci che si avvicinano troppo.
+//Hold Secondary Fire to lock\nmultiple missile targets to be searched.\nRelease when targets are locked.
+Tieni premuto il Fuoco secondario\nper agganciare bersagli multipli.\nRilasciare una volta agganciati i bersagli.
+//Holding Secondary Fire adds nextra\nduration for the Light Needle beam.
+Tenendo premuto il Fuoco secondario si\nprolunga la durata del raggio Light Needle.
+//Hold Secondary Fire until the Field Breaker\nstar blade is ready to be launched.
+Tenere premuto il Fuoco secondario finché la lama\nField Breaker è pronta per essere lanciata.
+
+
+//Hold Secondary Fire until loading is complete.
+Tenere premuto il Fuoco secondario finché il caricamento non è completo.
+//Hold Secondary Fire to lock multiple targets.\nRelease when targets are locked.
+Tenere premuto il Fuoco secondario per agganciare bersagli multipli.\nRilasciare una volta agganciati i bersagli.
+
+
+//Smart Turrets are A.I. devices\nwhich aim and fire automatically
+Le Torrette intelligenti sono dispositivi di I.A.\nche mirano e fanno fuoco automaticamente.
+
+
+//WAITING
+IN ATTESA
+//RELOADING
+RICARICA
+//READY
+PRONTO
+
+
+//SPINNER
+SPINNER
+//MINE-PROBE
+MINE-PROBE
+//RADIAL BOLT
+RADIAL BOLT
+//GRAVITY SHELL
+GRAVITY SHELL
+//FUSION THRUSTER
+FUSION THRUSTER
+//DRONES
+DRONI
+//OFFENSIVE DRONES
+DRONI OFFENSIVI
+//DEFENSIVE DRONES
+DRONI DIFENSIVI
+
+
+//The Spinner is a grappling hook device\nallowing extreme manoeuvrability\nand fast displacements.\nUse it to cling to structures, asteroids or enemies.
+Lo Spinner è un dispositivo con rampino\nche permette manovrabilità estrema\ne spostamenti veloci.\nSi aggrappa a strutture, asteroidi o nemici.
+//Tap the Spinner fire\nto launch grappling hooks.
+Tocca l'espulsione dello Spinner\nper sparare i rampini.
+//A second Spinner fire tap\ncuts a fixed cable.
+Toccandola una seconda volta\nsi trancia un cavo fisso.
+//Hold Spinner fire\nto reel a fixed cable.
+Tenendo premuta l'espulsione\nsi avvolge un cavo fisso.
+//Releasing Spinner fire while reeling\ncuts the cable.
+Rilasciando l'espulsione mentre si avvolge\nsi trancia il cavo.
+//The Mine-Probe is a two-stage bomb device.\nTap fire to launch the projectile and rush\nthe delayed detonation with a second tap.
+Il Mine-Probe è un dispositivo a bomba in due tempi.\nTocca il pulsante di espulsione per sparare il proiettile, quindi\nfallo detonare con un secondo tocco.
+//The Radial Bolt is a close combat weapon\nwhich detects alive entities within range,\nfiring energy streams at their bodies.
+Il Radial Bolt è un'arma da combattimento\nravvicinato, che individua entità aliene\nper colpirle con fasci energetici.
+//The Gravity Shell is a device casting a gravity bomb\nwhich attracts and assimilates low to medium mass entities before collapsing.
+Il Gravity Shell sgancia una bomba gravitazionale\nche attrae e assimila corpi piccoli o medi prima di esplodere.
+//The Fusion Thruster works as a continuous\nAdvanced Boost, with unlimited power supply.
+Il Fusion Thruster funge da Slancio avanzato\nperennemente attivo, con alimentazione illimitata.
+//Drones are smart units which operate and\nselect their own targets independently.
+I Droni sono unità intelligenti che operano\ne selezionano obiettivi indipendentemente.
+
+
+//JUMPGATE COMPONENT
+COMPONENTE PORTALE
+//ALTERNATIVE MARKER ITEM
+ELEMENTO ALTERANTE
+//WEAPON UP ITEM
+ELEMENTO ARMANTE
+//THISAUROS
+THESAUROS
+//SOUL VIAL
+FIALA DELL'ANIMA
+//SHIELD ITEM
+SCUDO
+//BONUS
+BONUS
+//ADVANCED BOOST
+SLANCIO AVANZATO
+//ADVANCED BOOST LEFT PACK
+PACCHETTO SLANCIO AVANZATO SINISTRO
+//ADVANCED BOOST RIGHT PACK
+PACCHETTO SLANCIO AVANZATO DESTRO
+//EXTRA BONUS
+BONUS EXTRA
+//MACRO BONUS
+BONUS MACRO
+//KEY
+CHIAVE
+//MESSAGE
+MESSAGGIO
+//ADD-ON
+SUPPLEMENTI
+//ADD-ON FIRST PACK
+PRIMO PACCHETTO SUPPLEMENTI
+//ADD-ON SECOND PACK
+SECONDO PACCHETTO SUPPLEMENTI
+
+
+//WARNING
+AVVERTIMENTO
+//NEXT BONUS\nAVAILABLE
+BONUS SUCCESSIVO\nDISPONIBILE
+//DOOR UNLOCKED
+PORTA SBLOCCATA
+
+
+//GAME OVER
+HAI PERSO
+
+
+//Code Accepted
+Codice accettato
+//Sequence Error
+Errore di sequenza
+
+
+//SC
+PT
+//LV
+LV
+//Level
+Livello
+//Level Up
+Aumento di livello
+//Power Increased
+Aumento potenza
+//Top Speed Raised
+Aumento velocità
+//Reloading Time Improved
+Aumento velocità ricarica
+//Advanced Boost Capacity Increased
+Aumento potenza slancio
+//Shield Capacity Increased
+Aumento potenza scudo
+//Your score will be use to level up
+Il tuo punteggio ti fa avanzare di livello
+//Level up to improve your skills
+Sali di livello per migliorare le tue abilità
+//Super-Frame Mode
+Super-Frame Mode
+//New Super-Frame Mode Unlocked
+Nuova modalità Super-Frame Mode sbloccata
+//After completing a game cycle\nA new Super-Frame Mode is unlocked
+Dopo aver completato un ciclo di gioco\nsbloccherai la modalità Super-Frame Mode
+//Super-Frame Modes increase difficulty level
+La modalità Super-Frame Mode aumenta la difficoltà dei livelli
+
+
+//EXTRA
+EXTRA
+
+
+//Racer
+Pilota
+
+
+//Games
+Partite
+
+
+//Credits
+Riconoscimenti
+
+
+//Time left
+Tempo rimasto
+
+
+//Round -
+Round -
+
+
+//Player -
+Giocatore -
+//Wins
+Vince
+
+
+//DIFFICULTY LEVEL
+LIVELLO DI DIFFICOLTÀ
+//EASY
+FACILE
+//MEDIUM
+MEDIO
+//HARD
+DIFFICILE
+//ULTIMATE
+ESTREMO
+
+
+//Score Attack
+Attacco a punti
+//Racer
+Pilota
+//Asteroids Mode
+Modalità Asteroidi
+//Survival Mode
+Modalità Sopravvivenza
+//Endless Runner
+Corsa infinita
+//Time Attack
+Attacco a tempo
+//Kromaia: Rogue
+Kromaia: Rogue
+
+
+//Collect items and destroy enemies\nto reach the highest score
+Raccogli oggetti e distruggi nemici\nper totalizzare il punteggio più alto
+//Retrieve all the items as fast as you can
+Recupera tutti gli elementi il più velocemente possibile
+//Destroy every asteroid in your way
+Distruggi tutti gli asteroidi sul tuo percorso
+//Survive as long as you can
+Sopravvivi più a lungo che puoi
+//Avoid every obstacle to survive
+Evita tutti gli ostacoli per sopravvivere
+//Reach the next check point before\nrunning out of time
+Raggiungi il prossimo checkpoint prima\nche scada il tempo
+//Explore beyond your homebase domains\nand upgrade your equipment
+Esplora oltre la tua base\ne migliora la tua attrezzatura
+
+
+// Achievement Titles (Don't translate)
+Give Me My Bullets
+Rider On The Worm
+Space Bound Ricochet
+Squid Row
+Playing With Fire
+Breaking The Claw
+Ace Of Lightspades
+Cosmic Dance End
+One
+Sad Strings Of Destiny
+Bomb Rules
+Try The Lightning
+And Physics For All
+Master Of Realities
+Fade To White
+Keeper of the 12 Keys
+I'm In For The Kill
+Staying Hungry
+Third Evening In Scoreland
+Appetite For Insolation
+Who's Next?
+Chaining Is My Business
+So Far, So Good
+Star Way To Hell
+Beyond Strength
+Four Kicks
+
+
+// Achievement Descriptions
+//Unlock the Alpha Armor
+Sblocca l'armatura Alfa
+//Defeat Vermis
+Sconfiggi Vermis
+//Unlock the Tau Armor
+Sblocca l'armatura Tau
+//Defeat Teuthus
+Sconfiggi Teuthus
+//Unlock the Mu Armor
+Sblocca l'armatura Mu
+//Defeat Argos
+Sconfiggi Argos
+//Unlock the Psi Armor
+Sblocca l'armatura Psi
+//Defeat Orion
+Sconfiggi Orion
+//Unlock the Omega Armor
+Sblocca l'armatura Omega
+//Obtain the Spinner
+Ottieni lo Spinner
+//Obtain the Mine-Probe
+Ottieni il Mine-Probe
+//Obtain the Radial Bolt
+Ottieni il Radial Bolt
+//Obtain the Gravity shell
+Ottieni il Gravity Shell
+//Clear every dimension
+Completa ogni dimensione
+//Complete the game
+Completa il gioco
+//Obtain every treasure
+Ottieni ogni tesoro
+//Score 25,000 In Score Attack Mode
+Totalizza 25.000 punti in modalità Attacco a punti
+//Score 50,000 In Score Attack Mode
+Totalizza 50.000 punti in modalità Attacco a punti
+//Score 100,000 In Score Attack Mode
+Totalizza 100.000 punti in modalità Attacco a punti
+//Reach the Sun
+Raggiungi il Sole
+//Beat a boss without getting any damage
+Sconfiggi un boss senza subire danni
+//Achieve a x100 hit combo
+Esegui una combo x100 colpi
+//Reach the end and unlock Super-Frame Mode 1
+Raggiungi la fine e sblocca la modalità Super-Frame Mode 1
+//Reach the end for a second time and unlock Super-Frame Mode 2
+Raggiungi la fine una seconda volta e sblocca la modalità Super-Frame Mode 2
+//Unlock Super-Frame Mode 3
+Sblocca la modalità Super-Frame Mode 3
+//Unlock Super-Frame Mode 4
+Sblocca la modalità Super-Frame Mode 4
+
+
+//DIFFICULTY:\nCHOOSE SAVE POINT\nFREQUENCY
+DIFFICOLTÀ:\nSCEGLI LA FREQUENZA\nDEI PUNTI DI SALVATAGGIO
+//EXPLORER MODE:\nPLAY IN A NON\nHOSTILE ENVIRONMENT
+MODALITÀ ESPLORATORE:\nGIOCA IN UN AMBIENTE\nNON OSTILE
+//SAVE POINT
+PUNTO DI SALVATAGGIO
+//SAVING...
+SALVATAGGIO...
+//DELETE
+ELIMINA
+
+
+//GLOW (F5)
+GLOW (F5)
+//SHADER QUALITY (F7)
+QUALITÀ DELLO SHADER (F7)
+
+
+// Omega-II Gemini armor texts
+//OMEGA-II GEMINI
+OMEGA-II GEMINI
+//Omega-II Gemini Armor
+Armatura Omega-II Gemini
+//DRONE CASTER
+PORTA DRONI
+//The Drone Caster fires smart\nunits which operate and select\ntheir own targets independently
+Il Porta droni rilascia piccole\nunità che operano e selezionano\ni loro obiettivi in modo indipendente
+//Assault Unit
+Unità d’assalto
+//TANK
+CARRO ARMATO
+
+// Configuration texts
+//CO-OP MODE
+MODALITÀ CO-OP
+//Enables/Disables Co-op Mode
+Abilita/Disabilita modalità Co-op
+//CAMERA CHANGE
+CAMBIA VISUALE
+//Switches To Next Camera
+Passa alla telecamera successiva
+//LINEAR FRICTION DEACTIVATOR
+DISINNESCO FRIZIONE LINEARE
+//Disables Linear Friction Simulation
+Disabilita la simulazione di frizione lineare
+
+// Modes text
+//PURE MODE
+MODALITÀ PURA
+//Conquer Kromaia Ω in one life!
+Conquista Kromaia Ω in una vita!
+
+// Leaderboard menu texts
+//LEADERBOARDS
+CLASSIFICHE
+//Previous/Next Page
+Pagina precedente/successiva
+//All Users
+Tutti gli utenti
+//My Friends
+I miei amici
+//Search Myself
+Cerca me stesso
+
+// Power-ups
+//LIFE WIPER
+TERGIVITA
+
+// Treasure power-up
+//LINEAR FRICTION DEACTIVATOR
+DISINNESCO FRIZIONE LINEARE
+//The Linear Friction Deactivator\nallows to disable\nlinear friction simulation\nfor your armor.
+Il Disinnesco della frizione lineare\nti permette di disabilitare\nla simulazione di frizione lineare\nper la tua armatura.
+
+// Weapons
+//Stunning Bolt
+Dardo stordente
+//Explosive Bullet
+Pallottola esplosiva
+//Limpet Grenade
+Granata appiccicosa
+//Chain Reaction Explosive
+Esplosivo reazione a catena
+//Turret Armed Drone
+Drone con torretta
+//Bolt Casting Drone
+Drone rilascia dardi
+//Flamethrower
+Lanciafiamme
+//Incendiary Bomb
+Bomba incendiaria
+
+// Messages
+//Current Leaderboard Position:
+Posizione corrente in classifica:
+//LOADING...
+CARICAMENTO IN CORSO...
+//THANK YOU FOR PLAYING
+GRAZIE PER AVERE GIOCATO
+
+// Co-operative mode
+//The Co-operative Ad Hoc Mode\nallows to split the armor\ncontrols between two players.
+La modalità cooperativa ad-hoc\nti permette di suddividere i comandi\ndell’armatura fra due giocatori.
+//The player enabling it controls\nthe weaponry turret while\nthe other one pilots the armor.
+Il giocatore che l’abilita controlla\nle torrette armate, mentre\nl’altro pilota l’armatura.
+//Use the defined button to\nenable/disable this special mode.
+Usa il pulsante indicato per\nabilitare o disabilitare questa modalità speciale.
+
+// Special unit
+//The Omega-II Gemini armor\nis equipped with a Plasma\nCannon and a Drone Caster.
+L’armatura Omega-II Gemini\nè dotata di un Cannone\nal plasma e di Porta droni.
+//You will lose it when it is\ndamaged or after teleporting\nthrough gates.
+La perderai quando viene\ndanneggiata o se ti teletrasporti\nattraverso i portali.
+
+// Symbols
+§
+
+// Options
+//Use Motion Sensor
+Usa sensore di movimento

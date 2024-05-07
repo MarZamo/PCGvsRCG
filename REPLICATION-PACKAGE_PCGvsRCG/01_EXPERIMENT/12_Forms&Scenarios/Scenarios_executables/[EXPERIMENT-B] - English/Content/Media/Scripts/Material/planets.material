@@ -1,0 +1,122 @@
+// Planet related materials
+
+import GlowPlain         from "default.material"
+import GlowWith2Textures from "default.material"
+
+//////////////////////////////////////////////////
+
+// Base material
+
+material Planet : GlowWith2Textures
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "1.0  1.0  1.0  1.0"
+  set $specular        "0.08 0.08 0.08 1.0"
+  set $emissive        "0.0  0.0  0.0  0.0"
+}
+
+//////////////////////////////////////////////////
+
+material Ilios : GlowPlain
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.7  0.4  0.0  1.0"
+  set $specular        "0.03 0.03 0.03 1.0"
+  set $emissive        "0.30 0.30 0.24 0.0"
+}
+
+//////////////////////////////////////////////////
+
+material SunCortex : Planet
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "0.03 0.03 0.03 1.0"
+  set $emissive        "0.20 0.20 0.10 0.0"
+  set $fallbackTexture "ilios.png"
+  set $glowTexture     "ilios.png"
+}
+
+//////////////////////////////////////////////////
+
+material Ermis : Planet
+{
+  set $fallbackTexture "ermis.png"
+  set $glowTexture     "ermis.png"
+}
+
+//////////////////////////////////////////////////
+
+material Afrodhiti : Planet
+{
+  set $fallbackTexture "afrodhiti.png"
+  set $glowTexture     "afrodhiti.png"
+}
+
+//////////////////////////////////////////////////
+
+material Gaia : Planet
+{
+  set $fallbackTexture "gaia.png"
+  set $glowTexture     "gaia.png"
+}
+
+//////////////////////////////////////////////////
+
+material Aris : Planet
+{
+  set $fallbackTexture "aris.png"
+  set $glowTexture     "aris.png"
+}
+
+//////////////////////////////////////////////////
+
+material Zeus : Planet
+{
+  set $fallbackTexture "zeus.png"
+  set $glowTexture     "zeus.png"
+}
+
+//////////////////////////////////////////////////
+
+material Kronos : Planet
+{
+  set $fallbackTexture "kronos.png"
+  set $glowTexture     "kronos.png"
+}
+
+//////////////////////////////////////////////////
+
+material Ouranos : Planet
+{
+  set $fallbackTexture "ouranos.png"
+  set $glowTexture     "ouranos.png"
+}
+
+//////////////////////////////////////////////////
+
+material Poseidhonas : Planet
+{
+  set $fallbackTexture "poseidhonas.png"
+  set $glowTexture     "poseidhonas.png"
+}
+
+//////////////////////////////////////////////////
+
+material Adhis : Planet
+{
+  set $fallbackTexture "adhis.png"
+  set $glowTexture     "adhis.png"
+}
+
+//////////////////////////////////////////////////
+
+material Corona : GlowPlain
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.7  0.4  0.0  1.0"
+  set $specular        "0.03 0.03 0.03 1.0"
+  set $emissive        "0.30 0.30 0.24 0.0"
+}
+
+//////////////////////////////////////////////////

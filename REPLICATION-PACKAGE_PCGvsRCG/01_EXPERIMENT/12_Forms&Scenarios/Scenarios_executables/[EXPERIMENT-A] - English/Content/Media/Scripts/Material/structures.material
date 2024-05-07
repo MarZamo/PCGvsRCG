@@ -1,0 +1,219 @@
+// Structures related materials
+
+import GlowPlain            from "default.material"
+import ParticleGlowTextured from "default.material"
+import GlowWith2TexturesAndSphereMap  from "default.material"
+
+//////////////////////////////////////////////////
+
+// Base material
+
+material Altar : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material Plastic : GlowWith2TexturesAndSphereMap
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.1  0.1  0.1  1.0"
+  set $specular        "1.0  1.0  1.0  1.0  128.0"
+  set $emissive        "0.1  0.1  0.1  0.0"
+  set $fallbackTexture "plasticsphere.png"
+  set $glowTexture     "plasticsphere.png"
+}
+
+//////////////////////////////////////////////////
+
+material AltarDefault : Altar
+{
+  set $diffuse  "0.2  0.2  0.2  1.0"
+  set $emissive "0.02 0.02 0.02 0.0"
+  set $specular "0.4  0.4  0.4  1.0  10.0"
+}
+
+//////////////////////////////////////////////////
+
+//material AltarDefault : GlowWith2TexturesAndCubicMap
+//{
+//  set $ambient         "0.0  0.0  0.0  1.0"
+//  set $diffuse         "0.0  0.0  0.0  1.0"
+//  set $specular        "1.0  1.0  1.0  9800.0"
+//  set $emissive        "0.1  0.1  0.1  0.0"
+//  set $fallbackTexture "metalcube.png"
+//  set $glowTexture     "metalcube.png"
+//}
+
+//////////////////////////////////////////////////
+
+material AltarDefaultTranslucent : AltarDefault
+{
+  set $diffuse  "0.3  0.3  0.3  0.5"
+
+  technique Glow
+  {
+    scheme Glow
+    pass
+    {
+      cull_hardware none
+      cull_software none
+    }
+  }
+
+  technique Default
+  {
+    pass
+    {
+      cull_hardware none
+      cull_software none
+    }
+  }
+}
+
+//////////////////////////////////////////////////
+
+material AltarGlyph : Altar
+{
+  set $diffuse  "0.01 0.01 0.01 1.0"
+  set $emissive "0.01 0.01 0.01 0.0"
+  set $specular "0.04 0.04 0.04 1.0 10.0"
+}
+
+//////////////////////////////////////////////////
+
+material AltarGlyphTranslucent : AltarGlyph
+{
+  set $diffuse  "0.0  0.0  0.0  0.5"
+
+  technique Glow
+  {
+    scheme Glow
+    pass
+    {
+      cull_hardware none
+      cull_software none
+    }
+  }
+
+  technique Default
+  {
+    pass
+    {
+      cull_hardware none
+      cull_software none
+    }
+  }
+}
+
+//////////////////////////////////////////////////
+
+material AltarInvisible : Altar
+{
+  set $ambient  "0.0  0.0  0.0  0.0"
+  set $diffuse  "0.0  0.0  0.0  0.0"
+  set $emissive "0.0  0.0  0.0  0.0"
+}
+
+//////////////////////////////////////////////////
+
+material AltarGray : Altar
+{
+  set $ambient  "0.02 0.02 0.02 1.0"
+  set $diffuse  "0.0  0.0  0.0  1.0"
+  set $emissive "0.02 0.02 0.02 0.0"
+}
+
+//////////////////////////////////////////////////
+
+material AltarLight : Altar
+{
+  set $ambient  "0.05 0.05 0.05 1.0"
+  set $diffuse  "0.0  0.0  0.0  1.0"
+}
+
+//////////////////////////////////////////////////
+
+material AltarCrystal : Altar
+{
+  set $diffuse  "0.0  0.0  0.0  0.4"
+}
+
+//////////////////////////////////////////////////
+
+material AltarDarkCrystal : Altar
+{
+  //set $diffuse  "0.0  0.0  0.0  0.8"
+  set $diffuse  "0.01  0.01  0.01  1.0"
+  set $emissive "0.005 0.005 0.005 0.0"
+  set $specular "0.1  0.1  0.1  1.0  10.0"
+}
+
+//////////////////////////////////////////////////
+
+material GateDoor : GlowPlain
+{
+  set $diffuse  "0.5  0.5  0.5  0.5"
+}
+
+//////////////////////////////////////////////////
+
+material GateMarker : GlowPlain
+{
+  set $ambient  "1.0  1.0  1.0  1.0"
+  set $diffuse  "1.0  1.0  1.0  1.0"
+  set $emissive "1.0  1.0  1.0  0.0"
+}
+
+//////////////////////////////////////////////////
+
+material CuboidSurface : GlowWith2TexturesAndSphereMap
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "0.5  0.5  0.5  1.0  128.0"
+  set $emissive        "0.01 0.01 0.01 0.0"
+  set $fallbackTexture "darkmetalsphere.png"
+  set $glowTexture     "darkmetalsphere.png"
+}
+
+//////////////////////////////////////////////////
+
+material CuboidGlyph : GlowWith2TexturesAndSphereMap
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "1.0  1.0  1.0  1.0  128.0"
+  set $emissive        "0.5  0.5  0.5  0.0"
+  set $fallbackTexture "whitemetalsphere.png"
+  set $glowTexture     "whitemetalsphere.png"
+}
+
+//////////////////////////////////////////////////
+
+material CuboidGlyphGolden : GlowWith2TexturesAndSphereMap
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "1.0  1.0  1.0  1.0  128.0"
+  set $emissive        "0.5  0.5  0.5  0.0"
+  set $fallbackTexture "metalsphere.png"
+  set $glowTexture     "metalsphere.png"
+}  
+
+//////////////////////////////////////////////////
+
+material CuboidGlyphSolar : Altar
+{
+  set $ambient  "0.05 0.05 0.05 1.0"
+  set $diffuse  "0.0  0.0  0.0  1.0"
+}
+
+//////////////////////////////////////////////////
+
+material LightColumn : ParticleGlowTextured
+{
+  set $particleTexture "lightcolumn.png"
+}
+
+//////////////////////////////////////////////////

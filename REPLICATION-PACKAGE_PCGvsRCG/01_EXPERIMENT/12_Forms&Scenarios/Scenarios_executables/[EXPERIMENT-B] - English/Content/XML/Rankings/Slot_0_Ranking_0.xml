@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<RANKING>
+  <RankingData Date="2021-03-04" Time="01:40:44" Cod="225682" />
+  <SCOREENTRIES Number="10">
+    <ScoreEntry Value="50000" Date="2021-03-04" Name="MAIA" ColourR="0.5" ColourG="0.25" ColourB="0.1" />
+    <ScoreEntry Value="45000" Date="2021-03-04" Name="DBL" ColourR="0.14" ColourG="0.29" ColourB="0.17" />
+    <ScoreEntry Value="40000" Date="2021-03-04" Name="ANT" ColourR="1" ColourG="0.22" ColourB="0.19" />
+    <ScoreEntry Value="35000" Date="2021-03-04" Name="ESBARI" ColourR="0.15" ColourG="0.22" ColourB="0.43" />
+    <ScoreEntry Value="30000" Date="2021-03-04" Name="YOSHI" ColourR="0.5" ColourG="0.25" ColourB="0.1" />
+    <ScoreEntry Value="25000" Date="2021-03-04" Name="LIANTE" ColourR="0.5" ColourG="0.25" ColourB="0.1" />
+    <ScoreEntry Value="20000" Date="2021-03-04" Name="FOX" ColourR="0.15" ColourG="0.22" ColourB="0.43" />
+    <ScoreEntry Value="15000" Date="2021-03-04" Name="DIMIN" ColourR="0.5" ColourG="0.25" ColourB="0.1" />
+    <ScoreEntry Value="10000" Date="2021-03-04" Name="ARN" ColourR="0.14" ColourG="0.29" ColourB="0.17" />
+    <ScoreEntry Value="8300" Date="2021-03-04" Name="AAAAAA" ColourR="0.19439" ColourG="0.402664" ColourB="0.236045" />
+  </SCOREENTRIES>
+</RANKING>

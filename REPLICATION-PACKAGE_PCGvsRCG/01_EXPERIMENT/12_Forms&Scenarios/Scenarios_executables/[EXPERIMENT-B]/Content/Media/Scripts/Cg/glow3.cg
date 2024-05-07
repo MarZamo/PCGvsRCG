@@ -1,0 +1,123 @@
+// Pixel size will be considered 1/1000th of the screen, just to make the effect similar on every resolution
+#define PIXEL_SIZE_BASE   0.00075f
+#define GLOW_MULTIPLIER   2.0f
+
+#define C1   0.30f / 6.0f    //0.05797101f   // 4.0f * 1.0f / 69.0f
+#define C2   0.40f / 6.0f    //0.07246376f   // 5.0f * 1.0f / 69.0f
+#define C3   0.50f / 6.0f    //0.08695652f   // 6.0f * 1.0f / 69.0f
+#define C4   0.60f / 6.0f    //0.10144927f   // 7.0f * 1.0f / 69.0f
+#define C5   0.70f / 6.0f    //0.11594202f   // 8.0f * 1.0f / 69.0f
+#define C6   1.00f / 6.0f    //0.13043478f   // 9.0f * 1.0f / 69.0f
+
+#define AA          10.00f   // Shoulder strength         Original value:   0.22  
+#define BB           0.50f   // Linear strength           Original value:   0.30  
+#define CC           2.00f   // Linear angle              Original value:   0.10  
+#define DD           1.00f   // Toe strength              Original value:   0.20  
+#define EE           0.00f   // Toe numerator             Original value:   0.01  
+#define FF           1.00f   // Toe denominator           Original value:   0.30
+
+
+//#define AA           1.50f   // Shoulder strength         Original value:   0.22  
+//#define BB          -0.25f   // Linear strength           Original value:   0.30  
+//#define CC           0.20f   // Linear angle              Original value:   0.10  
+//#define DD           0.50f   // Toe strength              Original value:   0.20  
+//#define EE           0.00f   // Toe numerator             Original value:   0.01  
+//#define FF           0.30f   // Toe denominator           Original value:   0.30  
+
+// Tone mapping function
+float4 Tonemap( float4 x )
+{
+  return ( ( x * ( AA * x + CC * BB ) + DD * EE ) / ( x * ( AA * x + BB ) + DD * FF ) ) - EE / FF;
+}
+
+// Tone mapping white
+#define LINEAR_WHITE        11.2f   // Linear white point value  Original value:  11.20 
+#define LINEAR_WHITE_VECTOR Tonemap( float4( LINEAR_WHITE, LINEAR_WHITE, LINEAR_WHITE, LINEAR_WHITE ) )
+
+
+
+
+//A.
+float4 Glow3A_fp
+	(
+		float2 uv: TEXCOORD0,
+
+		uniform sampler2D scene: register(s0)
+	) : COLOR
+{
+  // Use a constant pixel size to make the effect similar on every resolution
+  const float pixelSize1 = PIXEL_SIZE_BASE;
+
+  // Pixel size precalculations
+  const float pixelSize2 = 2.0f * pixelSize1;
+  const float pixelSize3 = 3.0f * pixelSize1;
+  const float pixelSize4 = 4.0f * pixelSize1;
+  const float pixelSize6 = 6.0f * pixelSize1;
+
+	// X-blur
+	return
+    tex2D( scene, float2( uv.x - pixelSize6, uv.y ) ) * C1 +
+    tex2D( scene, float2( uv.x - pixelSize4, uv.y ) ) * C2 +
+	  tex2D( scene, float2( uv.x - pixelSize3, uv.y ) ) * C3 +
+	  tex2D( scene, float2( uv.x - pixelSize2, uv.y ) ) * C4 +
+	  tex2D( scene, float2( uv.x - pixelSize1, uv.y ) ) * C5 +
+	  tex2D( scene, float2( uv.x,              uv.y ) ) * C6 +
+	  tex2D( scene, float2( uv.x + pixelSize1, uv.y ) ) * C5 +
+	  tex2D( scene, float2( uv.x + pixelSize2, uv.y ) ) * C4 +
+	  tex2D( scene, float2( uv.x + pixelSize3, uv.y ) ) * C3 +
+    tex2D( scene, float2( uv.x + pixelSize4, uv.y ) ) * C2 +
+	  tex2D( scene, float2( uv.x + pixelSize6, uv.y ) ) * C1;
+}
+
+//B.
+float4 Glow3B_fp
+	(
+		float2 uv: TEXCOORD0,
+
+		uniform sampler2D scene: register(s0),
+		uniform sampler2D blurX: register(s1),
+		uniform float4 invTexSize
+	) : COLOR
+{
+  // Use a constant pixel size to make the effect similar on every resolution
+  // For Y blur use aspect ratio to make the same blur in horizontal and vertical directions
+  const float pixelSize1 = PIXEL_SIZE_BASE * invTexSize.y / invTexSize.x;
+
+  // Pixel size precalculations
+  const float pixelSize2 = 2.0f * pixelSize1;
+  const float pixelSize3 = 3.0f * pixelSize1;
+  const float pixelSize4 = 4.0f * pixelSize1;
+  const float pixelSize6 = 6.0f * pixelSize1;
+
+	// Y-blur
+	float4 colour =
+    tex2D( blurX, float2( uv.x, uv.y - pixelSize6 ) ) * C1 +
+	  tex2D( blurX, float2( uv.x, uv.y - pixelSize4 ) ) * C2 +
+	  tex2D( blurX, float2( uv.x, uv.y - pixelSize3 ) ) * C3 +
+	  tex2D( blurX, float2( uv.x, uv.y - pixelSize2 ) ) * C4 +
+	  tex2D( blurX, float2( uv.x, uv.y - pixelSize1 ) ) * C5 +
+	  tex2D( blurX, float2( uv.x, uv.y              ) ) * C6 +
+	  tex2D( blurX, float2( uv.x, uv.y + pixelSize1 ) ) * C5 +
+	  tex2D( blurX, float2( uv.x, uv.y + pixelSize2 ) ) * C4 +
+	  tex2D( blurX, float2( uv.x, uv.y + pixelSize3 ) ) * C3 +
+	  tex2D( blurX, float2( uv.x, uv.y + pixelSize4 ) ) * C2 +
+	  tex2D( blurX, float2( uv.x, uv.y + pixelSize6 ) ) * C1;
+
+
+  // Apply a filter colour as looking through a coloured glass
+  //float4 colourFilter = float4( 0.25f, 0.0f, 0.0f, 1.0f );
+
+  // Use dither to reduce colour banding (vector should be random and value small, try different approaches)
+  float4 dither = float4( 0.1f *( colour.g + colour.b ), 0.1f *( colour.r + colour.b ), 0.1f *( colour.r + colour.g ), 1.0f );
+
+	// Add calculated glow to original colour and use filmic tone mapping and add dither
+	return dither + Tonemap( 1.0f * ( tex2D( scene, uv ) + Tonemap( GLOW_MULTIPLIER * colour ) / LINEAR_WHITE_VECTOR ) ) / LINEAR_WHITE_VECTOR;
+
+
+
+  // Add calculated glow to original colour
+	// return tex2D( scene, uv ) + GLOW_MULTIPLIER * colour;
+	
+	// Not rendering scene
+	// return colour * GLOW_MULTIPLIER;
+}

@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><COMPOUND>
+  <!--***************************************************************************************************************-->
+  <GENERAL AngularVelocityLossPerSecond="0" DestructionDelay="-1" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" InitialScaleX="50" InitialScaleY="50" InitialScaleZ="50" LinearVelocityLossPerSecond="0"/>
+  <!--***************************************************************************************************************-->
+  <HULL Number="58">
+
+
+    <!-- 0 - Main ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion0.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion0.bcs" ObjectMass="1000.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="1000"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="1"/>
+    </Hull>
+
+    <!-- 1 - Helmet ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion1.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0.812" PositionZ="-0.275" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion1.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 2 - Top Right Stick ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion2.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="-0.7071" OrientationZ="0" PositionX="-0.429" PositionY="0.44" PositionZ="-0.36" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion2.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 3 - Top Right Barrel ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="-0.7071" OrientationZ="0" PositionX="-0.647" PositionY="0.44" PositionZ="-0.36" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion3.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 4 - Top Left Stick ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion2.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="0.7071" OrientationZ="0" PositionX="0.429" PositionY="0.44" PositionZ="-0.36" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion2.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 5 - Top Left Barrel ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="0.7071" OrientationZ="0" PositionX="0.647" PositionY="0.44" PositionZ="-0.36" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion3.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 6 - Bottom Right Stick ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion2.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="-0.7071" OrientationZ="0" PositionX="-0.569" PositionY="-0.149" PositionZ="0.285" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion2.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 7 - Bottom Right Barrel ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="-0.7071" OrientationZ="0" PositionX="-0.786" PositionY="-0.149" PositionZ="0.285" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion3.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 8 - Bottom Left Stick ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion2.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="0.7071" OrientationZ="0" PositionX="0.569" PositionY="-0.149" PositionZ="0.285" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion2.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 9 - Bottom Left Barrel ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="0.7071" OrientationZ="0" PositionX="0.786" PositionY="-0.149" PositionZ="0.285" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion3.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 10 - Center Stick ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion2.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="-0.334" PositionZ="0.743" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion2.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 11 - center Barrel ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="-0.334" PositionZ="0.986" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion3.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 12 - Cross Stick ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion2.mesh" OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="-0.878" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion2.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 13 - Cross Top ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion4.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="0" OrientationZ="0.7071" PositionX="0" PositionY="1" PositionZ="-1.15" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion4.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 14 - Cross Bottom ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion4.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="0" OrientationZ="0.7071" PositionX="0" PositionY="-1" PositionZ="-1.15" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion4.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 15 - Top Cross Cannon ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="1.5" PositionZ="-0.976" ScaleX="0.22" ScaleY="0.22" ScaleZ="0.22"/>
+      <PhysicalObjectData CollisionModelFileName="orion6.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 16 - Bottom Cross Cannon ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="-1.5" PositionZ="-0.976" ScaleX="0.22" ScaleY="0.22" ScaleZ="0.22"/>
+      <PhysicalObjectData CollisionModelFileName="orion6.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 17 - Top Panel ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion7.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="1.8" PositionZ="-0.544" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion7.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 18 - Bottom Panel ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion7.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="-1.8" PositionZ="-0.544" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion7.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    
+    
+    
+    
+    
+    <!-- 19 - Ring #1 Part #1 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="2"/>
+    </Hull>
+
+    <!-- 20 - Ring #1 Part #2 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="0" OrientationX="0" OrientationY="0" OrientationZ="1" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="2"/>
+    </Hull>
+
+    <!-- 21 - Ring #1 Part #3 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="0" OrientationX="1" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="2"/>
+    </Hull>
+
+    <!-- 22 - Ring #1 Part #4 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="2"/>
+    </Hull>
+
+
+
+
+
+
+
+    <!-- 23 - Ring #2 Part #1 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1.666" ScaleY="1" ScaleZ="1.666"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="3"/>
+    </Hull>
+
+    <!-- 24 - Ring #2 Part #2 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="0" OrientationX="0" OrientationY="0" OrientationZ="1" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1.666" ScaleY="1" ScaleZ="1.666"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="3"/>
+    </Hull>
+
+    <!-- 25 - Ring #2 Part #3 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="0" OrientationX="1" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1.666" ScaleY="1" ScaleZ="1.666"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="3"/>
+    </Hull>
+
+    <!-- 26 - Ring #2 Part #4 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1.666" ScaleY="1" ScaleZ="1.666"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="3"/>
+    </Hull>
+
+
+
+
+
+
+
+
+
+    <!-- 27 - Ring #3 Part #1 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="2.5" ScaleY="1" ScaleZ="2.5"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="4"/>
+    </Hull>
+
+    <!-- 28 - Ring #3 Part #2 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="0" OrientationX="0" OrientationY="0" OrientationZ="1" PositionX="0" PositionY="0" PositionZ="0" ScaleX="2.5" ScaleY="1" ScaleZ="2.5"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="4"/>
+    </Hull>
+
+    <!-- 29 - Ring #3 Part #3 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="0" OrientationX="1" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="2.5" ScaleY="1" ScaleZ="2.5"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="4"/>
+    </Hull>
+
+    <!-- 30 - Ring #3 Part #4 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion9.mesh" OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="2.5" ScaleY="1" ScaleZ="2.5"/>
+      <PhysicalObjectData CollisionModelFileName="orion9.bcs" ObjectMass="1" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010100" ObjectArmor="0" ObjectMaximumLife="-1"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="4"/>
+    </Hull>
+
+
+
+
+
+
+    <!-- 31 - Ring #1 Sphere Turret #1 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="3.5" ScaleX="0.75" ScaleY="0.75" ScaleZ="0.75"/>
+      <PhysicalObjectData CollisionModelFileName="orion16.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="2"/>
+    </Hull>
+
+    <!-- 32 - Ring #1 Sphere Turret #2 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="-3.5" ScaleX="0.75" ScaleY="0.75" ScaleZ="0.75"/>
+      <PhysicalObjectData CollisionModelFileName="orion16.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="2"/>
+    </Hull>
+
+
+
+
+
+
+    <!-- 33 - Ring #2 Sphere with bar Turret #1 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="-0.7071" OrientationZ="0" PositionX="-5.2" PositionY="0" PositionZ="0" ScaleX="1.4" ScaleY="1.4" ScaleZ="1.4"/>
+      <PhysicalObjectData CollisionModelFileName="orion16.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="3"/>
+    </Hull>
+
+    <!-- 34 - Ring #2 Sphere with bar Turret #2 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="0.7071" OrientationX="0" OrientationY="0.7071" OrientationZ="0" PositionX="5.2" PositionY="0" PositionZ="0" ScaleX="1.4" ScaleY="1.4" ScaleZ="1.4"/>
+      <PhysicalObjectData CollisionModelFileName="orion16.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="3"/>
+    </Hull>
+
+
+
+
+
+
+
+    <!-- 35 - Ring #3 Shotgun #1 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="7.65" ScaleX="2" ScaleY="2" ScaleZ="2"/>
+      <PhysicalObjectData CollisionModelFileName="orion16.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="4"/>
+    </Hull>
+
+    <!-- 36 - Ring #3 Shotgun #2 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="dummy0.mesh" OrientationW="0" OrientationX="0" OrientationY="1" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="-7.65" ScaleX="2" ScaleY="2" ScaleZ="2"/>
+      <PhysicalObjectData CollisionModelFileName="orion16.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="4"/>
+    </Hull>
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- 37 - Ring #2 Block #1 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="-1" PositionY="0.586" PositionZ="4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 38 - Ring #2 Block #2 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0.586" PositionZ="4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 39 - Ring #2 Block #3 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="1" PositionY="0.586" PositionZ="4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 40 - Ring #2 Block #4 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="-1" PositionY="-0.586" PositionZ="4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 41 - Ring #2 Block #5 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="-0.586" PositionZ="4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 42 - Ring #2 Block #6 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="1" PositionY="-0.586" PositionZ="4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+
+
+
+
+
+
+
+
+
+    <!-- 43 - Ring #2 Block #7 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="-1" PositionY="0.586" PositionZ="-4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 44 - Ring #2 Block #8 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0.586" PositionZ="-4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 45 - Ring #2 Block #9 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="1" PositionY="0.586" PositionZ="-4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 46 - Ring #2 Block #10 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="-1" PositionY="-0.586" PositionZ="-4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 47 - Ring #2 Block #11 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="-0.586" PositionZ="-4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 48 - Ring #2 Block #12 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="1" PositionY="-0.586" PositionZ="-4.75" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 49 - Ring #3 Block #1 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="-7.125" PositionY="0.586" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 50 - Ring #3 Block #2 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="-7.125" PositionY="-0.586" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 51 - Ring #3 Block #3 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="7.125" PositionY="0.586" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 52 - Ring #3 Block #4 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="7.125" PositionY="-0.586" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+    <!-- 53 - Ring #3 Block #1 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="-7.125" PositionY="1.586" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 54 - Ring #3 Block #2 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="-7.125" PositionY="-1.586" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 55 - Ring #3 Block #3 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="7.125" PositionY="1.586" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>
+
+    <!-- 56 - Ring #3 Block #4 ********************************************************************************************************-->
+
+    <Hull HullType="1">
+      <ObjectData ModelFileName="orion8.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="7.125" PositionY="-1.586" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="orion8.bcs" ObjectMass="1.0" ObjectMaterial="5"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+      <HullVitalData VitalCoreModelFileName="" VitalHullLayer="0"/>
+    </Hull>    
+    
+    
+    
+    
+    
+
+
+    <!--***************************************************************************************************************-->
+    <LINKS Number="57">
+
+      <!--Main - Helmet ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="1"/>
+      </Link>
+
+      <!--Main - Top Right Stick ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="2"/>
+      </Link>
+
+      <!--Top Right Stick - Top Right Barrel ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="2" HullIndexSecond="3"/>
+      </Link>
+
+      <!--Main - Top Left Stick ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="4"/>
+      </Link>
+
+      <!--Top Left Stick - Top Left Barrel ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="4" HullIndexSecond="5"/>
+      </Link>
+
+      <!--Main - Bottom Right Stick ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="6"/>
+      </Link>
+
+      <!--Bottom Right Stick - Bottom Right Barrel ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="6" HullIndexSecond="7"/>
+      </Link>
+
+      <!--Main - Bottom Left Stick ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="8"/>
+      </Link>
+
+      <!--Bottom Left Stick - Bottom Left Barrel ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="8" HullIndexSecond="9"/>
+      </Link>
+
+      <!--Main - Center Stick ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="10"/>
+      </Link>
+
+      <!--Center Stick - Center Barrel ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="10" HullIndexSecond="11"/>
+      </Link>
+
+      <!--Main - Cross Stick ********************************************************************************************************-->
+
+      <Link LinkType="3"><!--<Link LinkType="3">-->
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="12"/>
+        <LinkMovableData InitialOffsetPercentage="0" LinkMovementControlState="0" LinkMovementFunctionType="0" LinkMovementType="0" MovementAxisX="0" MovementAxisY="0" MovementAxisZ="1" MovementDistanceNegative="0" MovementDistancePositive="-1" MovementSpeed="10"/>
+      </Link>
+
+      <!--Cross Stick - Top Cross ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="12" HullIndexSecond="13"/>
+      </Link>
+
+      <!--Cross Stick - Bottom Cross ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="12" HullIndexSecond="14"/>
+      </Link>
+
+      <!--Top Cross - Top Cross Cannon ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="13" HullIndexSecond="15"/>
+      </Link>
+
+      <!--Bottom Cross - Bottom Cross Cannon ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="14" HullIndexSecond="16"/>
+      </Link>
+
+      <!--Top Cross Cannon - Top Panel ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="15" HullIndexSecond="17"/>
+      </Link>
+
+      <!--Bottom Cross Cannon - Top Panel ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="16" HullIndexSecond="18"/>
+      </Link>
+
+
+
+
+
+      <!--Main - Ring #1 Part #1 ********************************************************************************************************-->
+
+      <Link LinkType="3"><!--<Link LinkType="3">-->
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="19"/>
+        <LinkMovableData InitialOffsetPercentage="0" LinkMovementControlState="0" LinkMovementFunctionType="0" LinkMovementType="0" MovementAxisX="0" MovementAxisY="0" MovementAxisZ="-1" MovementDistanceNegative="0" MovementDistancePositive="-1" MovementSpeed="10"/>
+      </Link>
+
+      <!--Ring #1 Part #1 - Ring #1 Part #2 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000100" HullIndexFirst="19" HullIndexSecond="20"/>
+      </Link>
+
+      <!--Ring #1 Part #2 - Ring #1 Part #3 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000100" HullIndexFirst="20" HullIndexSecond="21"/>
+      </Link>
+
+      <!--Ring #1 Part #3 - Ring #1 Part #4 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000100" HullIndexFirst="21" HullIndexSecond="22"/>
+      </Link>
+
+
+
+
+
+
+      <!--Main - Ring #2 Part #1 ********************************************************************************************************-->
+
+      <Link LinkType="3"><!--<Link LinkType="3">-->
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="23"/>
+        <LinkMovableData InitialOffsetPercentage="0" LinkMovementControlState="0" LinkMovementFunctionType="0" LinkMovementType="0" MovementAxisX="1" MovementAxisY="0" MovementAxisZ="0" MovementDistanceNegative="0" MovementDistancePositive="-1" MovementSpeed="10"/>
+      </Link>
+
+      <!--Ring #2 Part #1 - Ring #2 Part #2 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000100" HullIndexFirst="23" HullIndexSecond="24"/>
+      </Link>
+
+      <!--Ring #2 Part #2 - Ring #2 Part #3 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000100" HullIndexFirst="24" HullIndexSecond="25"/>
+      </Link>
+
+      <!--Ring #2 Part #3 - Ring #2 Part #4 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000100" HullIndexFirst="25" HullIndexSecond="26"/>
+      </Link>      
+      
+
+      
+      
+      
+      
+      
+      
+      <!--Main - Ring #3 Part #1 ********************************************************************************************************-->
+
+      <Link LinkType="3"><!--<Link LinkType="3">-->
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="0" HullIndexSecond="27"/>
+        <LinkMovableData InitialOffsetPercentage="0" LinkMovementControlState="0" LinkMovementFunctionType="0" LinkMovementType="0" MovementAxisX="0" MovementAxisY="0" MovementAxisZ="1" MovementDistanceNegative="0" MovementDistancePositive="-1" MovementSpeed="10"/>
+      </Link>
+
+      <!--Ring #3 Part #1 - Ring #3 Part #2 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000100" HullIndexFirst="27" HullIndexSecond="28"/>
+      </Link>
+
+      <!--Ring #3 Part #2 - Ring #3 Part #3 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000100" HullIndexFirst="28" HullIndexSecond="29"/>
+      </Link>
+
+      <!--Ring #3 Part #3 - Ring #3 Part #4 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000100" HullIndexFirst="29" HullIndexSecond="30"/>
+      </Link>        
+   
+        
+        
+        
+      <!--Ring #1 Part #1 - Turret #1 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="19" HullIndexSecond="31"/>
+      </Link>
+        
+      <!--Ring #1 Part #3 - Turret #2 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="21" HullIndexSecond="32"/>
+      </Link>
+
+
+
+      <!--Ring #2 Part #1 - Turret #1 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="23" HullIndexSecond="33"/>
+      </Link>
+
+      <!--Ring #2 Part #3 - Turret #2 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="25" HullIndexSecond="34"/>
+      </Link>
+
+
+
+      <!--Ring #3 Part #1 - Shotgun #1 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="27" HullIndexSecond="35"/>
+      </Link>
+
+      <!--Ring #3 Part #3 - Shotgun #2 ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="29" HullIndexSecond="36"/>
+      </Link>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--Ring #2 Blocks ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="23" HullIndexSecond="37"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="23" HullIndexSecond="38"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="23" HullIndexSecond="39"/>
+      </Link>      
+      
+       <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="23" HullIndexSecond="40"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="23" HullIndexSecond="41"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="23" HullIndexSecond="42"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="25" HullIndexSecond="43"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="25" HullIndexSecond="44"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="25" HullIndexSecond="45"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="25" HullIndexSecond="46"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="25" HullIndexSecond="47"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="25" HullIndexSecond="48"/>
+      </Link>
+
+
+
+
+
+
+
+
+      <!--Ring #3 Blocks ********************************************************************************************************-->
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="27" HullIndexSecond="49"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="27" HullIndexSecond="50"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="28" HullIndexSecond="51"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="28" HullIndexSecond="52"/>
+      </Link>
+
+
+
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="49" HullIndexSecond="53"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="50" HullIndexSecond="54"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="51" HullIndexSecond="55"/>
+      </Link>
+
+      <Link LinkType="0">
+        <LinkData Destructible="1" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000000" HullIndexFirst="52" HullIndexSecond="56"/>
+      </Link>
+
+    <Link LinkType="0"><LinkData Destructible="0" DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000000000000000000000000000" EffectsMaskKill="00000000000000000000000000000101" HullIndexFirst="46" HullIndexSecond="57"/></Link></LINKS>
+    <!--***************************************************************************************************************-->
+
+
+
+
+
+  <Hull HullType="0">
+      <ObjectData ModelFileName="atrium_III_0.mesh" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="0.5" ScaleY="0.5" ScaleZ="0.5"/>
+      <PhysicalObjectData CollisionModelFileName="atrium_III_0.bcs" ObjectMass="0.1" ObjectMaterial="1"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000000011000000000000000010110" EffectsMaskKill="00000000001000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="-1" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0"/>
+    </Hull></HULL>
+
+
+
+
+
+
+
+
+
+
+  <!--***************************************************************************************************************-->
+  <WEAPONRYWEAPONSAI Number="13">
+
+    <!--Cannon (15) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="0.22" ScaleY="0.22" ScaleZ="0.22"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="15" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion6.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="0"/>
+      <WeaponWithCannonsData AccelerationAngular="5" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="10" MaximumTurretAngle="90" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.01" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="17" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="0.3" FiringTurnEnd="17" FiringTurnStart="15" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+    <!--Cannon (16) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="0.22" ScaleY="0.22" ScaleZ="0.22"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="16" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion6.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="0"/>
+      <WeaponWithCannonsData AccelerationAngular="5" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="10" MaximumTurretAngle="90" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.01" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="17" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="0.3" FiringTurnEnd="17" FiringTurnStart="15" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+
+
+
+
+
+
+    <!--Barrel (3) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="3" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion3.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="0"/>
+      <WeaponWithCannonsData AccelerationAngular="5" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="10" MaximumTurretAngle="90" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.01" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="17" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="0.3" FiringTurnEnd="17" FiringTurnStart="15" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+    <!--Barrel (5) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="5" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion3.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="0"/>
+      <WeaponWithCannonsData AccelerationAngular="5" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="10" MaximumTurretAngle="90" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.01" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="17" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="0.3" FiringTurnEnd="17" FiringTurnStart="15" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+    <!--Barrel (7) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="7" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion3.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="0"/>
+      <WeaponWithCannonsData AccelerationAngular="5" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="10" MaximumTurretAngle="90" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.01" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="17" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="0.3" FiringTurnEnd="17" FiringTurnStart="15" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+    <!--Barrel (9) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="9" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion3.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="0"/>
+      <WeaponWithCannonsData AccelerationAngular="5" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="10" MaximumTurretAngle="90" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.01" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="17" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="0.3" FiringTurnEnd="17" FiringTurnStart="15" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+    <!--Barrel (11) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="11" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion3.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="0"/>
+      <WeaponWithCannonsData AccelerationAngular="5" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="10" MaximumTurretAngle="90" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.01" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="17" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="0.3" FiringTurnEnd="17" FiringTurnStart="15" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+
+
+
+
+
+
+
+
+    <!--Sphere turret (31) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="0.75" ScaleY="0.75" ScaleZ="0.75"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="31" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion16.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="2"/>
+      <WeaponWithCannonsData AccelerationAngular="1" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="1" MaximumTurretAngle="160" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.1" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="40" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="1.25" FiringTurnEnd="10" FiringTurnStart="0" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+    <!--Sphere turret (32) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="0.75" ScaleY="0.75" ScaleZ="0.75"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="32" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion16.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="2"/>
+      <WeaponWithCannonsData AccelerationAngular="1" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="1" MaximumTurretAngle="160" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.1" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="40" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="1.25" FiringTurnEnd="10" FiringTurnStart="0" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+
+
+
+
+
+    <!--Sphere with bar turret (33) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1.4" ScaleY="1.4" ScaleZ="1.4"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="33" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion16.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="3"/>
+      <WeaponWithCannonsData AccelerationAngular="1" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="1" MaximumTurretAngle="160" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.1" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="50" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="1.25" FiringTurnEnd="10" FiringTurnStart="0" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+    <!--Sphere with bar turret (34) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="1.4" ScaleY="1.4" ScaleZ="1.4"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="34" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion16.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="3"/>
+      <WeaponWithCannonsData AccelerationAngular="1" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="1" MaximumTurretAngle="160" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.1" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="50" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="1.25" FiringTurnEnd="10" FiringTurnStart="0" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+
+
+
+
+
+    <!--Shotgun (35) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="2" ScaleY="2" ScaleZ="2"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="35" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion16.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="4"/>
+      <WeaponWithCannonsData AccelerationAngular="1" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="1" MaximumTurretAngle="160" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.1" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="60" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="2.25" FiringTurnEnd="20" FiringTurnStart="0" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+    <!--Shotgun (36) ********************************************************************************************************-->
+
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" PositionX="0" PositionY="0" PositionZ="0" ScaleX="2" ScaleY="2" ScaleZ="2"/>
+      <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0"/>
+      <AliveObjectData DestructionDelay="0" EffectMultiplierDestroy="1" EffectMultiplierKill="1" EffectsMaskDestroy="00000001010000000000000000010110" EffectsMaskKill="00000001010000000000000000010110" ObjectArmor="0" ObjectMaximumLife="100"/>
+      <ComponentData HullIndexParent="36" LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1"/>
+      <MobileObjects MobilityType="3" Number="1">
+        <MobileObject LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" ModelFileName="orion16.mesh"/>
+      </MobileObjects>
+      <WeaponData AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" AffectorPowerFactor="1" AffectorScaleFactor="1" AffectorType="-1" HasLock="0" ReloadTime="0.2" WeaponBehaviour="2" WeaponPriority="4"/>
+      <WeaponWithCannonsData AccelerationAngular="1" AimApplyingForceToParentHull="0" FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0" MaximumSpeedAngular="1" MaximumTurretAngle="160" ReachDestinationAtFullAngularSpeed="0"/>
+      <WeaponCompoundObjectData Dispersion="0.1" MaximumAmmo="-1" ProjectileFinalScaleX="0.3" ProjectileFinalScaleY="0.3" ProjectileFinalScaleZ="0.3" ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="150" ProjectileInitialScaleX="0.1" ProjectileInitialScaleY="0.1" ProjectileInitialScaleZ="0.1" ProjectileScaleTime="0.1" ProjectileTimeToLive="0"/>
+      <WeaponProjectileData ProjectilePower="100" ProjectileType="15"/>
+      <Cannons FiringTurnMaximum="60" Number="1">
+        <WeaponCannon>
+          <WeaponCannonData FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" FiringPositionX="0" FiringPositionY="0" FiringPositionZ="2.25" FiringTurnEnd="20" FiringTurnStart="0" Roll="0"/>
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+
+
+
+
+  </WEAPONRYWEAPONSAI>
+
+
+
+
+
+
+
+
+  <!--***************************************************************************************************************-->
+  <MOVEMENTAI AIModuleMovementType="6">
+    <AIModuleMovementDirectData Acceleration="30" MaximumSpeed="1000" MinimumSpeed="0" ReachDestinationAtFullLinearSpeed="0"/>
+    <AIModuleMovementDirectWithOrientationData AccelerationAngular="3" MaximumSpeedAngular="3" ReachDestinationAtFullAngularSpeed="0"/>
+  </MOVEMENTAI>
+  
+  <!--***************************************************************************************************************-->
+  <AIUNIT Number="5" UnitValue="-1">
+    <BehaviourUnitAIData AIAttackBehaviourType="0" AIAttackSpeed="100" AIBehaviourDistance="300" AIBehaviourType="4" AIFormationSeparationMultiplier="0" AIFormationType="-1" AIGroupAttackBehaviourType="-1" AIGroupAttackSpeed="0" AIGroupBehaviourDistance="0" AIGroupBehaviourType="-1"/>
+    <BehaviourUnitAIData AIAttackBehaviourType="0" AIAttackSpeed="100" AIBehaviourDistance="200" AIBehaviourType="4" AIFormationSeparationMultiplier="0" AIFormationType="-1" AIGroupAttackBehaviourType="-1" AIGroupAttackSpeed="0" AIGroupBehaviourDistance="0" AIGroupBehaviourType="-1"/>
+    <BehaviourUnitAIData AIAttackBehaviourType="0" AIAttackSpeed="1000" AIBehaviourDistance="100000" AIBehaviourType="9" AIFormationSeparationMultiplier="0" AIFormationType="-1" AIGroupAttackBehaviourType="-1" AIGroupAttackSpeed="0" AIGroupBehaviourDistance="0" AIGroupBehaviourType="-1"/>
+    <BehaviourUnitAIData AIAttackBehaviourType="0" AIAttackSpeed="1000" AIBehaviourDistance="100000" AIBehaviourType="9" AIFormationSeparationMultiplier="0" AIFormationType="-1" AIGroupAttackBehaviourType="-1" AIGroupAttackSpeed="0" AIGroupBehaviourDistance="0" AIGroupBehaviourType="-1"/>
+    <BehaviourUnitAIData AIAttackBehaviourType="0" AIAttackSpeed="1000" AIBehaviourDistance="100000" AIBehaviourType="9" AIFormationSeparationMultiplier="0" AIFormationType="-1" AIGroupAttackBehaviourType="-1" AIGroupAttackSpeed="0" AIGroupBehaviourDistance="0" AIGroupBehaviourType="-1"/>
+  </AIUNIT>
+  <!--***************************************************************************************************************-->
+</COMPOUND>

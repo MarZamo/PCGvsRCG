@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+
+<MISSIONS Number="2">
+
+  <GLOBAL GlobalTranslationX="-1000000" GlobalTranslationY="0" GlobalTranslationZ="0" />
+
+  <MISSION>
+    <MissionData ReferenceType="0" ReferencePositionX="0" ReferencePositionY="0" ReferencePositionZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="9000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--GATE ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="0" ReferencePositionY="0" ReferencePositionZ="750"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GATES Number ="1" >
+      <GateData GateType="1" SealDisabled="1"
+                AreaIndex="0" LevelIndex="0"
+                LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+    </GATES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="9000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+</MISSIONS>

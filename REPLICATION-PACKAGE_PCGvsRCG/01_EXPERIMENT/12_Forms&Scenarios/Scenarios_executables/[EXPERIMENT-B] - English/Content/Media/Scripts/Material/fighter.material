@@ -1,0 +1,170 @@
+// Fighter related materials
+
+import Base                           from "default.material"
+import PolishedWithTranslucentTexture from "default.material"
+import GlowWithTranslucentTexture     from "default.material"
+import GlowPlain                      from "default.material"
+import GlowWith2TexturesAndSphereMap  from "default.material"
+
+//////////////////////////////////////////////////
+
+material Chrome : GlowWith2TexturesAndSphereMap
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "1.0  1.0  1.0  1.0  128.0"
+  set $emissive        "0.3  0.3  0.3  0.0"
+  set $fallbackTexture "metalsphere.png"
+  set $glowTexture     "metalsphere.png"
+}
+
+//////////////////////////////////////////////////
+
+material WhiteChrome : GlowWith2TexturesAndSphereMap
+{
+  set $ambient         "0.0  0.0  0.0  1.0"
+  set $diffuse         "0.0  0.0  0.0  1.0"
+  set $specular        "1.0  1.0  1.0  1.0  128.0"
+  set $emissive        "0.3  0.3  0.3  0.0"
+  set $fallbackTexture "whitemetalsphere.png"
+  set $glowTexture     "whitemetalsphere.png"
+}
+
+//////////////////////////////////////////////////
+
+material vitrowhite : GlowPlain
+{
+  set $diffuse  "0.2  0.2  0.2  1.0"
+  set $emissive "0.02 0.02 0.02 0.0"
+  set $specular "0.8  0.8  0.8  1.0  10.0"
+}
+
+//////////////////////////////////////////////////
+
+material vitroblack : GlowPlain
+{
+  set $diffuse  "0.01 0.01 0.01 1.0"
+  set $emissive "0.01 0.01 0.01 0.0"
+  set $specular "0.04 0.04 0.04 1.0 10.0"
+}
+
+//////////////////////////////////////////////////
+
+material vitrogrey : GlowPlain
+{
+  set $diffuse "0.3 0.3 0.3 1.0"
+  set $emissive "0.01 0.01 0.01 0.0"
+}
+
+//////////////////////////////////////////////////
+
+material metal : GlowPlain
+{
+  set $diffuse "0.1 0.1 0.1 1.0"
+}
+
+//////////////////////////////////////////////////
+
+material darkedge : GlowPlain
+{
+  set $diffuse "0.05 0.05 0.05 1.0"
+}
+
+
+//////////////////////////////////////////////////
+
+material ruby : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material ignition : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material Propeller : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material BoostCharge: GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material Compass : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material DarkCompass : GlowPlain
+{
+  set $diffuse "0.05  0.05  0.05  1.0"
+}
+
+//////////////////////////////////////////////////
+
+material Crystal : GlowPlain
+{
+  set $diffuse "0.0  0.0  0.0  0.35"
+}
+
+//////////////////////////////////////////////////
+
+material DarkCrystal : GlowPlain
+{
+  set $diffuse "0.0  0.0  0.0  0.35"
+}
+
+//////////////////////////////////////////////////
+
+material SolarFilter : GlowPlain
+{
+  set $diffuse "0.0  0.0  0.0  0.5"
+}
+
+//////////////////////////////////////////////////
+
+material FoePointer : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material Projectile : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material ProjectileTranslucent : GlowPlain
+{
+  set $diffuse "0.0  0.0  0.0  0.35"
+}
+
+//////////////////////////////////////////////////
+
+material DarkProjectile : GlowPlain
+{
+  set $diffuse "0.05 0.05 0.05 1.0"
+}
+
+//////////////////////////////////////////////////
+
+material FrameMain : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////
+
+material FrameAntagonist : GlowPlain
+{
+}
+
+//////////////////////////////////////////////////

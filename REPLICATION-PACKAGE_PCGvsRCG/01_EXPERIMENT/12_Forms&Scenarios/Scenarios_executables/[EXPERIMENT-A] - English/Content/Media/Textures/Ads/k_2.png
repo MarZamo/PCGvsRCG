@@ -1,0 +1,654 @@
+﻿SYSTEM TEXTS
+
+
+//Device
+Appareil
+
+//Mouse + Keyboard
+Souris + Clavier
+
+//Joystick (EXPERTS ONLY)
+Joystick (EXPERTS UNIQUEMENT)
+
+
+//Mouse Motion
+Mouvement de la souris
+
+
+// Keyboard Labels
+// Unassigned key
+Non attribuée
+
+// Escape
+Échap
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+// Minus: - on main keyboard
+-
+// Equals
+=
+// Backspace
+Retour arrière
+
+// Tabulator
+Tab
+Q
+W
+E
+R
+T
+Y
+U
+I
+O
+P
+// Left bracket
+[
+// Right bracket
+]
+// Return: Enter on main keyboard
+Entrée
+//Left Control
+
+Ctrl gauche
+A
+S
+D
+F
+G
+H
+J
+K
+L
+// Semicolon
+;
+// Apostrophe
+'
+// Grave: Accent
+`
+//Left Shift
+
+Maj. gauche
+\
+Z
+X
+C
+V
+B
+N
+M
+,
+// Period: . on main keyboard
+.
+// Slash: / on main keyboard
+/
+//Right shift
+
+Maj. droite
+// Multiply: * on numeric keypad
+* (PAVÉ NUM.)
+
+//Left Alt
+Alt gauche
+
+//Space
+
+Espace
+//Caps Lock
+
+Verr. Maj
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+//Num Lock
+
+Verr. Num
+//Scroll Lock
+
+Arrêt Défil
+
+7 (PAVÉ NUM.)
+8 (PAVÉ NUM.)
+9 (PAVÉ NUM.)
+// Subtract: - on numeric keypad
+- (PAVÉ NUM.)
+4 (PAVÉ NUM.)
+5 (PAVÉ NUM.)
+6 (PAVÉ NUM.)
+// Add: + on numeric keypad
++ (PAVÉ NUM.)
+1 (PAVÉ NUM.)
+2 (PAVÉ NUM.)
+3 (PAVÉ NUM.)
+0 (PAVÉ NUM.)
+// Decimal: . on numeric keypad
+. (PAVÉ NUM.)
+// OEM 102: < > | on UK/Germany keyboards
+<>|
+F11
+F12
+// F13: NEC PC98
+F13
+// F14: NEC PC98
+F14
+// F15: NEC PC98
+F15
+// Kana: Japanese keyboard
+Kana
+// ABNT C1: / ? on Portugese/Brazilian keyboards
+/?
+// Convert: Japanese keyboard
+Convert
+// No Convert: Japanese keyboard
+No Convert
+// Yen: Japanese keyboard
+¥
+// ABNT C2: Numpad . on Portugese/Brazilian keyboards
+.
+// = on numeric keypad (NEC PC98)
+=
+// Previous track (circumflex on Japanese keyboard)
+Précédent
+
+// At: NEC PC98
+@
+// Colon: NEC PC98
+:
+// Underline: NEC PC98
+_
+// Kanji: Japanese keyboard
+Kanji
+// Stop: NEC PC98
+Arrêt
+// AX: Japan AX
+AX
+// Unlabeled: J3100
+Non marqué
+// Next track
+Suivant
+// Enter: Enter on numeric keypad
+Entrée (PAVÉ NUM.)
+
+//Right Control
+Ctrl droit
+
+//Mute
+Muet
+
+//Calculator
+
+Calculatrice
+//Play/Pause
+Lecture/Pause
+
+//Media Stop
+Arrêt Média
+
+//Volume Down
+Volume Bas
+
+//Volume Up
+Volume Haut
+
+Web Home
+// , on numeric keypad (NEC PC98)
+, (PAVÉ NUM.)
+
+// Divide: / on numeric keypad
+/ (PAVÉ NUM.)
+
+//SysRq
+
+Syst
+//Right Alt
+Alt droit
+
+Pause
+//Home
+
+Début
+//Up
+
+Haut
+//Page Up
+
+Page précédente
+
+//Left
+Gauche
+
+//Right
+Droite
+
+//End
+Fin
+
+//Down
+Bas
+
+//Page Down
+Page suivante
+
+//Insert
+Inser
+
+//Delete
+Suppr
+
+//Left Windows
+
+Windows gauche
+//Right Windows
+Windows droit
+
+// Menu key / Application key (Windows)
+Menu App
+
+//Power
+
+Marche
+
+//Sleep
+Veille
+
+//Wake
+
+Réveil
+//Web Search
+Recherche Web
+
+//Web Favorites
+Favoris Web
+
+//Web Refresh
+Actualiser Web
+
+//Web Stop
+
+Arrêt Web
+//Web Forward
+
+Avance Web
+
+//Web Back
+Retour Web
+
+//My Computer
+Mon ordinateur
+
+//Mail
+
+Courrier
+//Media Select
+Sélection média
+
+
+// Buttons
+//Mouse Left Button
+Bouton gauche de la souris
+
+//Mouse Right Button
+Bouton droit de la souris
+
+//Mouse Middle Button
+Bouton central de la souris
+
+//Mouse Button 3
+Bouton de la souris 3
+
+//Mouse Button 4
+
+Bouton de la souris 4
+//Mouse Button 5
+
+Bouton de la souris 5
+//Mouse Button 6
+
+Bouton de la souris 6
+//Mouse Button 7
+
+Bouton de la souris 7
+//Joystick Button 0
+
+Bouton du joystick 0
+//Joystick Button 1
+
+Bouton du joystick 1
+//Joystick Button 2
+
+Bouton du joystick 2
+//Joystick Button 3
+
+Bouton du joystick 3
+//Joystick Button 4
+
+Bouton du joystick 4
+//Joystick Button 5
+
+Bouton du joystick 5
+//Joystick Button 6
+
+Bouton du joystick 6
+//Joystick Button 7
+
+Bouton du joystick 7
+//Joystick Button 8
+
+Bouton du joystick 8
+//Joystick Button 9
+
+Bouton du joystick 9
+//Joystick Button 10
+
+Bouton du joystick 10
+//Joystick Button 11
+
+Bouton du joystick 11
+//Joystick Button 12
+
+Bouton du joystick 12
+//Joystick Button 13
+
+Bouton du joystick 13
+//Joystick Button 14
+
+Bouton du joystick 14
+//Joystick Button 15
+
+Bouton du joystick 15
+//Joystick Button 16
+
+Bouton du joystick 16
+//Joystick Button 17
+
+Bouton du joystick 17
+//Joystick Button 18
+
+Bouton du joystick 18
+//Joystick Button 19
+
+Bouton du joystick 19
+//Joystick Button 20
+
+Bouton du joystick 20
+//Joystick Button 21
+
+Bouton du joystick 21
+//Joystick Button 22
+
+Bouton du joystick 22
+//Joystick Button 23
+
+Bouton du joystick 23
+//Joystick Button 24
+
+Bouton du joystick 24
+//Joystick Button 25
+
+Bouton du joystick 25
+
+
+// Axis
+//Mouse X Axis
+
+Axe X de la souris
+//Mouse Y Axis
+
+Axe Y de la souris
+//Mouse Z Axis (Wheel)
+Axe Z de la souris (molette)
+
+//Mouse Axis 3
+
+Axe de la souris 3
+//Mouse Axis 4
+
+Axe de la souris 4
+//Mouse Axis 5
+
+Axe de la souris 5
+//Mouse Axis 6
+
+Axe de la souris 6
+//Mouse Axis 7
+
+Axe de la souris 7
+//Mouse Axis 8
+
+Axe de la souris 8
+//Mouse Axis 9
+
+Axe de la souris 9
+//Joystick Axis 0
+
+Axe du joystick 0
+//Joystick Axis 1
+
+Axe du joystick 1
+//Joystick Axis 2
+
+Axe du joystick 2
+//Joystick Axis 3
+
+Axe du joystick 3
+//Joystick Axis 4
+
+Axe du joystick 4
+//Joystick Axis 5
+
+Axe du joystick 5
+//Joystick Axis 6
+
+Axe du joystick 6
+//Joystick Axis 7
+
+Axe du joystick 7
+//Joystick Axis 8
+
+Axe du joystick 8
+//Joystick Axis 9
+
+Axe du joystick 9
+//Joystick POV 0
+
+Joystick PDV 0
+//Joystick POV 1
+
+Joystick PDV 1
+//Joystick POV 2
+
+Joystick PDV 2
+//Joystick POV 3
+
+Joystick PDV 3
+
+
+// Sliders
+//Joystick Slider 0
+
+Curseur du joystick 0
+//Joystick Slider 1
+
+Curseur du joystick 1
+//Joystick Slider 2
+
+Curseur du joystick 2
+//Joystick Slider 3
+
+Curseur du joystick 3
+
+
+// Axis modes
+(+)
+(-)
+//(COMPLETE)
+(TERMINÉ)
+
+//(COMPLETE AND INVERTED)
+
+(TERMINÉ ET INVERSÉ)
+
+
+// Slider modes
+(+ X)
+(- X)
+//(COMPLETE X)
+(AXE X TERMINÉ)
+
+//(COMPLETE AND INVERTED X)
+(AXE X TERMINÉ ET INVERSÉ)
+(+ Y)
+(- Y)
+//(COMPLETE Y)
+(AXE Y TERMINÉ)
+
+//(COMPLETE AND INVERTED Y)
+
+(AXE Y TERMINÉ ET INVERSÉ)
+
+
+// POV directions
+//(CENTERED)
+
+(CENTRÉ)
+//(NORTH)
+
+(NORD)
+//(SOUTH)
+
+(SUD)
+//(EAST)
+
+(EST)
+//(WEST)
+
+(OUEST)
+//(NORTH EAST)
+
+(NORD-EST)
+//(SOUTH EAST)
+
+(SUD-EST)
+//(NORTH WEST)
+
+(NORD-OUEST)
+//(SOUTH WEST)
+
+(SUD-OUEST)
+
+
+// Screen mode
+//Full Screen
+
+Plein écran
+
+//Window
+
+Fenêtre
+
+
+// Months (ONLY three letters)
+//JAN
+
+JAN
+//FEB
+FÉV
+
+//MAR
+MAR
+
+//APR
+AVR
+
+//MAY
+MAI
+
+//JUN
+
+JUN
+//JUL
+
+JUL
+//AUG
+
+AOÛ
+//SEP
+
+SEP
+//OCT
+
+OCT
+//NOV
+
+NOV
+//DEC
+
+DÉC
+
+
+// Days of week
+//Sunday
+
+Dimanche
+//Monday
+
+Lundi
+//Tuesday
+
+Mardi
+//Wednesday
+
+Mercredi
+//Thursday
+
+Jeudi
+//Friday
+
+Vendredi
+//Saturday
+
+Samedi
+
+
+// Terms
+//On
+Oui
+//Off
+Non
+//Music
+Musique
+//Glow
+Glow
+//Depth of Field
+Depth of Field
+//Indie
+Indie
+//Classic Arcade
+Arcade Classique
+
+
+// Visual styles
+//Simple
+
+Simple
+//Normal
+
+Normal
+//Retro
+
+Rétro

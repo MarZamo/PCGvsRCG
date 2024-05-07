@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<ITEM>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="1" InitialScaleY="1" InitialScaleZ="1"
+           DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="2">
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="dummy0.mesh" ScaleX="1" ScaleY="1" ScaleZ="1"
+                  PositionX="0" PositionY="0" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0.001" ObjectMaterial="1" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"  
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000010" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+    <Hull HullType="0">
+      <ObjectData ModelFileName="item16.mesh" ScaleX="1" ScaleY="1" ScaleZ="1" 
+                  PositionX="0" PositionY="0" PositionZ="0" 
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="COMPOUND" ObjectMass="0.01" ObjectMaterial="1">
+        <CollisionComponents Number="1">
+          <!--First row ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="1" ComponentScaleY="0.316" ComponentScaleZ="1"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+        </CollisionComponents>
+      </PhysicalObjectData>
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"  
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000010" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+
+
+    <!--***************************************************************************************************************-->
+    <LINKS Number="1">
+      <Link LinkType="3">
+        <LinkData HullIndexFirst="0" HullIndexSecond="1"
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkMovableData LinkMovementType="0" LinkMovementFunctionType="1" LinkMovementControlState="0"
+                         MovementDistancePositive="-1" MovementDistanceNegative="-1" MovementSpeed="360" InitialOffsetPercentage="0"
+                         MovementAxisX="0" MovementAxisY="0" MovementAxisZ="-1" />
+      </Link>
+    </LINKS>
+
+
+
+
+  </HULL>
+
+
+
+
+  <!--***************************************************************************************************************-->
+  <WEAPONRYWEAPONSHUMAN Number="1">
+    <Weapon WeaponType="0">
+      <ObjectData ModelFileName="" ScaleX="1.0" ScaleY="1.0" ScaleZ="1.0"
+                  PositionX="0" PositionY="0" PositionZ="1.6"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="" ObjectMaterial="0" ObjectMass="0" />
+      <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0"  
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000010" EffectsMaskDestroy="00000000000000000000000000000010" />
+      <ComponentData HullIndexParent="0"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="1" />
+      <WeaponData WeaponPriority="0" WeaponBehaviour="2" ReloadTime="0.1" HasLock="0"
+                  AffectorType="-1"
+                  AffectorScaleFactor="1" AffectorPowerFactor="1"
+                  AffectorPositionX="0" AffectorPositionY="0" AffectorPositionZ="0" />
+      <WeaponWithCannonsData MaximumTurretAngle="0" AccelerationAngular="0" MaximumSpeedAngular="0"
+                             FiringOffsetLocalMultiplier="0" FiringOffsetToAddX="0" FiringOffsetToAddY="0" FiringOffsetToAddZ="0"
+                             ReachDestinationAtFullAngularSpeed="0" AimApplyingForceToParentHull="0" />
+      <WeaponCompoundObjectData MaximumAmmo="-1" Dispersion="0.01" ProjectileTimeToLive="0" 
+                                ProjectileScaleTime="0.01"
+                                ProjectileInitialScaleX="0.5" ProjectileInitialScaleY="0.5" ProjectileInitialScaleZ="0.1"
+                                ProjectileFinalScaleX="0.5" ProjectileFinalScaleY="0.5" ProjectileFinalScaleZ="2"
+                                ProjectileInitialLinearVelocityX="0" ProjectileInitialLinearVelocityY="0" ProjectileInitialLinearVelocityZ="400"
+                                ProjectileInitialAngularVelocityX="0" ProjectileInitialAngularVelocityY="0" ProjectileInitialAngularVelocityZ="10" />
+      <WeaponProjectileData ProjectileType="1" ProjectilePower="100" />
+      <Cannons Number="1" FiringTurnMaximum="0" >
+        <WeaponCannon>
+          <WeaponCannonData FiringTurnStart="0" FiringTurnEnd="0" Roll="0"
+                            FiringPositionX="0" FiringPositionY="0" FiringPositionZ="1.15"
+                            FiringDirectionX="0" FiringDirectionY="0" FiringDirectionZ="1" />
+        </WeaponCannon>
+      </Cannons>
+    </Weapon>
+  </WEAPONRYWEAPONSHUMAN>
+
+
+
+  <!--***************************************************************************************************************-->
+  <ItemData MarkerFileName=""
+            AttachPositionX="-2" AttachPositionY="0" AttachPositionZ="0" />
+  <!--***************************************************************************************************************-->
+</ITEM>

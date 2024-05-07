@@ -1,0 +1,1 @@
+for /R .\ %%G in (*.mesh) do ( OgreMeshUpgrader.exe %%G )

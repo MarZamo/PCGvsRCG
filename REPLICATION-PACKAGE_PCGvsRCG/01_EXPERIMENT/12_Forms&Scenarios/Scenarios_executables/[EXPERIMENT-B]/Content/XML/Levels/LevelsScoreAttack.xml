@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<PRIMECOLOUR PrimeAlpha="1.0" PrimeRGBX="0.6" PrimeRGBY="0.6" PrimeRGBZ="1.0"/>
+<FINALCOLOUR FinalAlpha="1.0" FinalRGBX="0.24" FinalRGBY="0.2" FinalRGBZ="0.7"/>
+<AREAS Number="4">
+
+
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 1"
+              IconFileName="iconvermis.mesh"
+              AvatarFileName="alpha3.mesh"
+              UnitFileName="MobulaAlpha.xml"
+              MainAlpha="1.0" MainRGBX="0.5" MainRGBY="0.25" MainRGBZ="0.1"
+              AntiAlpha="1.0" AntiRGBX="0.14" AntiRGBY="0.29" AntiRGBZ="0.17"/>
+    <LEVELS Number="1">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsScoreAttack.xml"
+                   FirstMusicTrack="3"
+                   SecondMusicTrack="3"
+                   MusicCrossfadeDuration="2" />
+        <AsteroidsData MaximumNumberOfAsteroids="300"
+                       MaximumDistance="2000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 2"
+              IconFileName="iconteuthus.mesh"
+              AvatarFileName="tau3.mesh"
+              UnitFileName="MobulaTau.xml"
+              MainAlpha="1.0" MainRGBX="0.14" MainRGBY="0.29" MainRGBZ="0.17"
+              AntiAlpha="1.0" AntiRGBX="1.0" AntiRGBY="0.22" AntiRGBZ="0.19"/>
+    <LEVELS Number="1">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L2"
+                   IconFileName="iconteuthus.mesh"
+                   GoalsFileName="GoalsScoreAttack.xml"
+                   FirstMusicTrack="5"
+                   SecondMusicTrack="5"
+                   MusicCrossfadeDuration="2" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 3"
+              IconFileName="iconargos.mesh"
+              AvatarFileName="mu3.mesh"
+              UnitFileName="MobulaMu.xml"
+              MainAlpha="1.0" MainRGBX="1.0" MainRGBY="0.22" MainRGBZ="0.19"
+              AntiAlpha="1.0" AntiRGBX="0.15" AntiRGBY="0.22" AntiRGBZ="0.43"/>
+    <LEVELS Number="1">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L3"
+                   IconFileName="iconargos.mesh"
+                   GoalsFileName="GoalsScoreAttack.xml"
+                   FirstMusicTrack="7"
+                   SecondMusicTrack="7"
+                   MusicCrossfadeDuration="2" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 4"
+              IconFileName="iconorion.mesh"
+              AvatarFileName="psi3.mesh"
+              UnitFileName="MobulaPsi.xml"
+              MainAlpha="1.0" MainRGBX="0.15" MainRGBY="0.22" MainRGBZ="0.43"
+              AntiAlpha="1.0" AntiRGBX="0.5" AntiRGBY="0.25" AntiRGBZ="0.1"/>
+    <LEVELS Number="1">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L4"
+                   IconFileName="iconorion.mesh"
+                   GoalsFileName="GoalsScoreAttack.xml"
+                   FirstMusicTrack="9"
+                   SecondMusicTrack="9"
+                   MusicCrossfadeDuration="2" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+
+</AREAS>

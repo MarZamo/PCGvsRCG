@@ -1,0 +1,1042 @@
+﻿GAME TEXTS
+
+
+//Language original names
+English
+Español
+Français
+Deutsch
+Italiano
+日本語
+Русский
+Português
+
+
+//Language translated names
+английский язык
+Испанский
+Французский
+Немецкий
+итальянский
+Японский
+Русский
+Португальский
+
+
+
+//DEVICE
+УСТРОЙСТВО
+//Sensitivity
+Чувствительность
+//Pitch Up
+Наклонить вверх
+//Pitch Down
+Наклонить вниз
+//Yaw Left
+Повернуть влево
+//Yaw Right
+Повернуть вправо
+//Roll Left
+Вращать влево
+//Roll Right
+Вращать вправо
+//Accelerate
+Ускориться
+//Decelerate
+Замедлиться
+//Boost
+Повысить
+//Strafe Up
+Двигаться боком вверх
+//Strafe Down
+Двигаться боком вниз
+//Strafe Left
+Двигаться боком влево
+//Strafe Right
+Двигаться боком вправо
+//Primary Fire
+Основной огонь
+//Secondary Fire
+Дополнительный огонь
+//Next Armor
+Следующая броня
+//Previous Armor
+Предыдущая броня
+//Spinner Left Grappling Hook
+Spinner с левым захватывающим крюком
+//Spinner Center Grappling Hook
+Spinner с центральным захватывающим крюком
+//Spinner Right Grappling Hook
+Spinner с правым захватывающим крюком
+//Change Special Weapon
+Поменять специальное оружие
+//Change Armor
+Поменять броню
+//Invert Pitch inputs
+Обратить отклонение руля
+//Stats
+Статистика
+//Options
+Параметры
+//(NOT CUSTOMIZABLE)
+(НЕ НАСТРАИВАЕТСЯ)
+//KEY IN\nUSE
+КЛЮЧ\nИСПОЛЬЗУЕТСЯ
+
+
+//DEVICE TO BE CONFIGURED
+УСТРОЙСТВО, КОТОРОЕ НАДО НАСТРОИТЬ
+//SENSITIVITY\nPERCENTAGE
+ПРОЦЕНТ\nЧУВСТВИТЕЛЬНОСТИ
+//PITCH UP PROPELLERS
+НАКЛОНИТЬ ПРОПЕЛЛЕРЫ ВВЕРХ
+//PITCH DOWN PROPELLERS
+НАКЛОНИТЬ ПРОПЕЛЛЕРЫ ВНИЗ
+//YAW LEFT PROPELLERS
+ПОВЕРНУТЬ ПРОПЕЛЛЕРЫ ВЛЕВО
+//YAW RIGHT PROPELLERS
+ПОВЕРНУТЬ ПРОПЕЛЛЕРЫ ВПРАВО
+//ANTI-CLOCKWISE ROLL\nPROPELLERS
+ВРАЩАТЬ ПРОПЕЛЛЕРЫ\nПРОТИВ ЧАСОВОЙ СТРЕЛКИ
+//CLOCKWISE ROLL\nPROPELLERS
+ВРАЩАТЬ ПРОПЕЛЛЕРЫ\nПО ЧАСОВОЙ СТРЕЛКЕ
+//ACCELERATION MAIN\nPROPELLERS
+УСКОРЕНИЕ ГЛАВНЫХ\nПРОПЕЛЛЕРОВ
+//DECELERATION MAIN\nPROPELLERS
+ЗАМЕДЛЕНИЕ ГЛАВНЫХ\nПРОПЕЛЛЕРОВ
+//PROPELLERS BOOST
+ПОВЫШЕНИЕ ОБОРОТОВ ПРОПЕЛЛЕРОВ
+//STRAFING UP PROPELLERS
+ДВИЖЕНИЕ ПРОПЕЛЛЕРОВ ВБОК ВВЕРХ
+//STRAFING DOWN PROPELLERS
+ДВИЖЕНИЕ ПРОПЕЛЛЕРОВ ВБОК ВНИЗ
+//STRAFING LEFT PROPELLERS
+ДВИЖЕНИЕ ПРОПЕЛЛЕРОВ ВБОК ВЛЕВО
+//STRAFING RIGHT PROPELLERS
+ДВИЖЕНИЕ ПРОПЕЛЛЕРОВ ВБОК ВПРАВО
+//MAIN FIRE
+ОСНОВНОЙ ОГОНЬ
+//SECONDARY FIRE
+ДОПОЛНИТЕЛЬНОЙ ОГОНЬ
+//CHANGE TO NEXT ARMOR
+ПОМЕНЯТЬ НА СЛЕДУЮЩУЮ БРОНЮ
+//CHANGE TO PREVIOUS ARMOR
+ПОМЕНЯТЬ НА ПРЕДЫДУЩУЮ БРОНЮ
+//LEFT GRAPPLING HOOK FIRE
+ОГОНЬ ЛЕВЫМ ЗАХВАТЫВАЮЩИМ КРЮКОМ
+//CENTER GRAPPLING HOOK FIRE
+ОГОНЬ ЦЕНТРАЛЬНЫМ ЗАХВАТЫВАЮЩИМ КРЮКОМ
+//RIGHT GRAPPLING HOOK FIRE
+ОГОНЬ ПРАВЫМ ЗАХВАТЫВАЮЩИМ КРЮКОМ
+//SPECIAL WEAPON CHANGE
+ИЗМЕНЕНИЕ СПЕЦИАЛЬНОГО ОРУЖИЯ
+//ARMOR CHANGE
+ИЗМЕНЕНИЕ БРОНИ
+//PITCH INPUTS REVERSAL
+ОБРАТНОЕ ОТКЛОНЕНИЕ РУЛЯ
+//CURRENT STATS
+ТЕКУЩАЯ СТАТИСТИКА
+//OPTIONS MENU
+МЕНЮ ПАРАМЕТРОВ
+
+
+//Wake up, son...
+Проснись, сынок...
+//The prize is fair...
+Награда будет достойной...
+//...And the way is long.
+... а путь далеким.
+
+
+//START
+НАЧАТЬ
+//CONFIRM
+ПОДТВЕРДИТЬ
+//OK
+ХОРОШО
+//CANCEL
+ОТМЕНИТЬ
+//LOCKED
+ЗАБЛОКИРОВАНО
+//CONTINUE
+ПРОДОЛЖИТЬ
+//YES
+ДА
+//NO
+НЕТ
+
+
+//KROMAIA
+KROMAIA (КРОМАЯ)
+//STORY MODE
+РЕЖИМ ИСТОРИИ
+//SCORE ATTACK
+ЗАХВАТ ОЧКОВ
+//BOSS TRIAL
+ИСПЫТАНИЕ С БОССОМ
+//VERSUS MODE
+РЕЖИМ "ИГРОК ПРОТИВ ИГРОКА"
+//STORY MODE DEMO
+ДЕМОНСТРАЦИЯ РЕЖИМА ИСТОРИИ
+//LOAD
+ЗАГРУЗИТЬ
+//CONFIGURATION
+КОНФИГУРАЦИЯ
+//CLEAR DATA
+ОЧИСТИТЬ ДАННЫЕ
+//EXIT
+ВЫХОД
+
+
+//START\nSCORE ATTACK
+НАЧАТЬ\nЗАХВАТ ОЧКОВ
+//ELYSIUM
+ЭЛИЗИЙ
+//REBOOT
+ПЕРЕЗАПУСТИТЬ
+//ARMOR SELECTION MENU
+МЕНЮ ВЫБОРА БРОНИ
+//EXIT
+ВЫХОД
+//SCORE
+СЧЕТ
+
+
+//Enter Your Name
+Введи свое имя
+//ELYSIUM
+ЭЛИЗИЙ
+
+
+//RESOLUTION
+РАЗРЕШЕНИЕ
+//VISUAL STYLE (F6)
+СТИЛЬ ОФОРМЛЕНИЯ (F6)
+//VOLUME
+ГРОМКОСТЬ
+//MUSIC
+МУЗЫКА
+//FX
+ЗВУК. ЭФФЕКТЫ
+//MUSIC VOLUME
+ГРОМКОСТЬ МУЗЫКИ
+//FX VOLUME
+ГРОМКОСТЬ ЗВ. ЭФФЕКТОВ
+//ON
+ВКЛ
+//OFF
+ВЫКЛ
+//LANGUAGE
+ЯЗЫК
+//SCREEN MODE
+РЕЖИМ ЭКРАНА
+//CONTROLS
+ЭЛЕМЕНТЫ УПРАВЛЕНИЯ
+//APPLY & SAVE
+ПРИМЕНИТЬ И СОХРАНИТЬ
+//BACK
+НАЗАД
+//SAVE
+СОХРАНИТЬ
+//SAVE & CONTINUE
+СОХРАНИТЬ И ПРОДОЛЖИТЬ
+//EXIT WITHOUT SAVING
+ВЫЙТИ БЕЗ СОХРАНЕНИЯ
+//APPLY DEFAULT\nSETTINGS
+ПРИМЕНИТЬ НАСТРОЙКИ\nПО УМОЛЧАНИЮ
+
+
+//LOAD SLOT-
+ЗАГРУЗИТЬ ЯЧЕЙКУ -
+//CLEAR SLOT-
+ОЧИСТИТЬ ЯЧЕЙКУ -
+//EMPTY
+ПУСТО
+//NEW FILE
+НОВЫЙ ФАЙЛ
+//AREA
+ЗОНА
+//TIME
+ВРЕМЯ
+
+
+//RESUME
+ВОЗОБНОВИТЬ
+//EXIT
+ВЫХОД
+
+
+//Xbox 360 controller supported
+Поддерживается контроллер Xbox 360.
+
+
+//Ending Demo
+Окончание демонстрации
+//Demo Time Left
+Время до окончания демонстрации
+
+
+//Wake up...
+Проснись...
+
+
+//At last...
+Наконец-то...
+//My thoughts have\nreached you, son.
+Мои мысли достигли\nтебя, сынок.
+//They are the only things\nwhich I am allowed to keep...
+Мысли — единственное,\nчто мне позволено хранить...
+//So listen to them...
+Поэтому слушай их...
+//...and grant me revenge.
+... и помоги мне отомстить.
+
+
+//Collect every gate component\nto unlock jumpgates.
+Собери все элементы ворот,\nчтобы открыть врата телепортации.
+//The icons in a door indicate\nhow many keys are needed.
+Значки на двери подскажут,\nсколько еще нужно ключей.
+
+
+//There is a solid ring with a\npointer surrounding your armor...
+Твою броню окружает плотное\nкольцо с указателем...
+//This compass will lead\nyou to the truth...
+Этот компас покажет тебе\nдорогу к истине...
+//The arrow in the ring surrounding\nyou points to the next target.
+Стрелка в окружающем тебя кольце\nуказывает на следующую цель.
+
+
+//Shoot at buttons to activate\ndevices or open doors.
+Стреляй по кнопкам, чтобы включать\nустройства или открывать двери.
+
+
+//Don't be afraid of entering the portal
+Не бойся заходить внутрь портала.
+//Those gates will let you travel\nto different nodes in time and space.
+Эти ворота позволят тебе перенестись\nв разные точки во времени и пространстве.
+
+
+//A node can be entered only with its\ndefault armor until it is cleared\nfor the first time.
+До тех пор, пока точка не будет в первый раз\nочищена, войти в нее можно только\nв подходящей по умолчанию броне.
+//Once a node is cleared\nit can be entered with different armors.
+В очищенную точку можно\nзаходить в других видах брони.
+//New armor available at Kyllene.\nCollect a mask to summon an armor.
+Новую броню можно найти в Киллене.\nНайди маску, чтобы вызвать броню.
+//You must defeat each of those traitors\nwith every armor to light the\nKyllene Wheel at full power.
+Тебе нужно победить каждого из этих предателей\nпри помощи каждого вида брони, чтобы\nзажечь Колесо Киллены на полную мощность.
+
+
+//Tap the boost key to multiply\nthe active thrusters power
+Прикоснись к клавише "Повышение", чтобы\nусилить мощность включенных двигателей.
+//Advanced Boost does not work tapping\nthe boost key, but holding it.
+Совершенное повышение активируется не касанием\nклавиши "Повышение", а ее удерживанием.
+
+
+//Heavy impacts at great speeds may destroy\nyour armor despite having shields left.
+Крупные столкновения на огромной скорости могут\nразрушить твою броню, несмотря на установленные щиты.
+
+
+//Look, son...
+Смотри, сынок...
+//This is the key to\nruling time and space...
+Этот ключ управляет\nвременем и пространством...
+//Take it and\nopen the gates...
+Возьми его и\nоткрой им врата...
+//...to our fate.
+... к нашей судьбе.
+
+
+//Even if You don't remember who you are...
+Даже если ты не помнишь, кто ты...
+//I know well what i owe you, son.
+Я хорошо помню, что я тебе должен, сынок.
+//Accept your reward...
+Прими награду...
+//...and let all knowledge be one.
+... и объедини все знание в единое целое.
+
+
+//Yes, four gods...
+Да, четыре бога...
+//They are the ones to\nblame for all.
+Именно они виноваты\nво всем.
+//Vermis, the first of them\nbut not the oldest...
+Vermis — первый из них,\nхоть и не самый старший...
+//The worm god will rise when\ndisturbance reaches the pillared shrine.
+Бог-червь появится, когда\nволнение достигнет алтаря с колоннами.
+
+
+//we are closer to freedom...
+Мы теперь ближе к свободы...
+//They will pay for their crime.\nRepentance will not erase the guilt.
+Они еще поплатятся за свои преступления.\nДаже раскаяние не искупит их вину.
+//Far beyond the metal forest, Teuthus sleeps peacefully...
+Где-то далеко за металлическим лесом тихо дремлет Teuthus...
+//Don't be reckless, He has always\nknown that we would search for him.
+Будь осторожнее! Он никогда не сомневался,\nчто мы будем его искать.
+
+
+//Time and space are on our side...
+Время и пространство на нашей стороне...
+//There is no way they\ncan warn each other.
+Они никак не смогут\nпредупредить друг друга.
+//Every device ruled by Argos works\nto gather raw energy for their master...
+Каждое устройство, которым управляет Argos,\nнакапливает для него чистую энергию...
+//A greed which is only second\nto his brute force.
+Его жадность уступает только\nего звериной силе.
+
+
+//There is only a way to\nfuse these branches and reign:
+Есть всего один способ,\nчтобы соединить эти ветви и встать во главе:
+//Bring the same fate\nto all of them.
+подвергнуть их всех\nодной участи.
+//Orion chose a world filled\nwith life and taught its offspring.
+Orion выбрал мир, полный\nжизни, и воспитал своих потомков.
+//The hunter and his tribe will use\ntheir science to destroy you at any cost.
+Охотник вместе со своим племенем пустит в ход\nвсе знания науки, чтобы уничтожить тебя любой ценой.
+
+
+//The big one is a menace...
+В большом таится угроза...
+//Take its life...
+Лиши его жизни...
+
+
+//Vermis is an elderly god...
+Vermis — старый бог...
+//But not totally weak...
+Но отнюдь не слабый...
+
+
+//His strength goes beyond his arms...
+Его сила не ограничивается руками...
+//Don't hesitate...
+Не медли...
+
+
+//Argos has the upper\nhand in close combat...
+Argos имеет превосходство\nв рукопашном бою...
+//It is time to test your agility...
+Пришло время проверить тебя на гибкость...
+
+
+//Orion knows the principles\nbehind your armors...
+Orion знает, как\nработает твоя броня...
+//Show him what you have learnt.
+Покажи ему, чему ты научился.
+
+
+//...
+...
+//There is a long way to go...
+Тебе предстоит долгая дорога...
+//Now sleep, son...
+А пока спи, сынок...
+
+
+//Thank you, son.
+Спасибо, сын.
+//Those remaining realities in which I was defeated...
+Те другие реальности, в которых я терпел поражения...
+//... Now they are just bad dreams.
+... теперь остались лишь в моих кошмарах.
+//...
+...
+//These brothers did well,\nmy soul was nearly sealed.
+Эти братья хорошо поработали,\nмоя душа была почти запечатана.
+//But I was still able to reach\nto the strongest of them...
+Но я смог добраться до\nсамого сильного из них...
+//...and erase his mind. Your mind.
+... и стереть его память. Твою память.
+
+
+//My gift to you...
+Это мой тебе подарок...
+//I will take you to the same place...
+Я приведу тебя в то самое место...
+//...where your memories rest.
+... где хранятся твои воспоминания.
+
+
+//Don't you understand?
+Неужели ты не понимаешь?
+//If I return to Chaos,\nthe world we have built\nwill be lost only to start again...
+Если я вернусь в Хаос,\nмир, который мы построили,\nбудет утерян, и придется начинать сначала...
+//I just wanted to bring this\nendless circle to an end.
+Я просто хочу, чтобы этот\nнескончаемый цикл наконец закончился.
+//But I guess you can't\nescape your nature...
+Но, видимо, нельзя\nубежать от своей натуры...
+//...And your nature is to survive.
+... а выживание у тебя в крови.
+
+
+//It is time to\nmake your choice.
+Пора тебе\nсделать выбор.
+//End your existence here in the void...
+Прекратить свое существование в этой пустоте...
+//Or enter the gate and give back\nthe time I granted you.
+Или войти в ворота и вернуть\nто время, что я подарил тебе.
+
+
+//Wake up, son...
+Проснись, сынок...
+//Let's play this hopeless\ngame one more time.
+Давай сыграем в эту\nбезнадежную игру еще раз.
+
+
+//Piloting Basics
+Основы пилотирования
+//Yawing And Pitching
+Повороты и наклоны
+//Main orientation mechanics.
+Главные ориентационные механизмы.
+//Forward acceleration
+Продольное ускорение
+//Keep pressed to increase linear velocity.
+Продолжай удерживать, чтобы увеличить линейную скорость.
+//Strafing
+Движение вбок
+//Strafing thrusters are used for dodging\nand complex maneuvering.
+Двигатели для перемещения вбок используются для\nуклонения и выполнения сложных маневров.
+//Rolling
+Вращение
+//Advanced orientation thrusters.
+Усовершенствованные ориентационные двигатели.
+//Boost
+Повышение
+//Multiplies the power of active thrusters.\nIneffective on inactive thrusters.
+Увеличивает мощность включенных двигателей.\nНе действует на выключенные двигатели.
+//Primary Fire
+Основной огонь
+//Main weapon. Low reloading time.
+Главное оружие. Небольшое время перезарядки.
+//Secondary Fire
+Дополнительный огонь
+//Auxiliary weapon.\nHigh firepower and slow reloading.
+Вспомогательное оружие.\nВысокая огневая мощь и медленная перезарядка.
+
+
+//+1 SHIELD LAYER
+ЕЩЕ 1 ЗАЩИТНЫЙ СЛОЙ
+//SHIELDS RESTORED
+ЩИТЫ ВОССТАНОВЛЕНЫ
+//SHIELD LAYER LOST
+ЗАЩИТНЫЙ СЛОЙ УТЕРЯН
+//SHIELDS DOWN
+ЩИТЫ ОПУЩЕНЫ
+//ADVANCED BOOST
+СОВЕРШЕННОЕ ПОВЫШЕНИЕ
+//ADD-ON
+ДОПОЛНИТЕЛЬНОЕ УСТРОЙСТВО
+//NEW UPGRADE
+НОВОЕ УЛУЧШЕНИЕ
+
+
+//ALPHA
+АЛЬФА
+//TAU
+ТАУ
+//MU
+МЮ
+//PSI
+ПСИ
+//OMEGA
+ОМЕГА
+
+
+//Alpha Armor
+Броня "Альфа"
+//Tau Armor
+Броня "Тау"
+//Mu Armor
+Броня "Мю"
+//Psi Armor
+Броня "Пси"
+//Omega Armor
+Броня "Омега"
+
+
+//Artillery Type
+Вид огнестрельного орудия
+//Assisted Aiming Unit
+Вспомогательный прицел
+//Precision Shooter
+Оружие с прицелом
+//Close Combat Oriented
+Рассчитано на рукопашный бой
+//No Data Available
+Данные недоступны
+
+
+//STANDARD
+СТАНДАРТНЫЙ
+//ASSISTED
+ВСПОМОГАТЕЛЬНЫЙ
+//DIFFICULT
+ТРУДНЫЙ
+//ELITE
+ЭЛИТНЫЙ
+//NO DATA AVAILABLE
+ДАННЫЕ НЕДОСТУПН
+
+
+//Select Armor
+Выбрать броню
+//Firepower
+Огневая мощь
+//Ease Of Hitting
+Легкость попадания
+//Rate Of Fire
+Темп стрельбы
+
+
+//BOOST
+ПОВЫШЕНИЕ
+//SCATTER DRIVE
+SCATTER DRIVE
+//SEEKER
+SEEKER
+//LIGHT NEEDLE
+LIGHT NEEDLE
+//FIELD BREAKER
+FIELD BREAKER
+//OMEGA DEVICE
+OMEGA DEVICE
+
+
+//SMART TURRETS
+УМНЫЕ БАШНИ
+
+
+//The Scatter Drive shot spread is\nan optimal short range defense\nagainst fast targets getting too close.
+"Scatter Drive" рассеивает выстрелы\nи оптимально защищает на малой дальности\nот быстрых, слишком близко приближающихся мишеней.
+//Hold Secondary Fire to lock\nmultiple missile targets to be searched.\nRelease when targets are locked.
+Удерживай "Дополнительный огонь", чтобы захватить\nмножественные мишени для ракет, которые надо найти.\nОтпусти при захвате мишеней.
+//Holding Secondary Fire adds nextra\nduration for the Light Needle beam.
+Удерживание "Дополнительного огня" увеличивает\nпродолжительность луча "Light Needle".
+//Hold Secondary Fire until the Field Breaker\nstar blade is ready to be launched.
+Удерживай "Дополнительный огонь", пока лезвие-звезда\n"Field Breaker" не будет готово к запуску.
+
+
+//Hold Secondary Fire until loading is complete.
+Удерживай "Дополнительный огонь", пока загрузка не закончится.
+//Hold Secondary Fire to lock multiple targets.\nRelease when targets are locked.
+Удерживай "Дополнительный огонь", чтобы захватить множественные мишени.\nОтпусти при захвате мишеней.
+
+
+//Smart Turrets are A.I. devices\nwhich aim and fire automatically
+"Умные башни" — устройства с ИИ,\nприцеливающиеся и стреляющие автоматически.
+
+
+//WAITING
+ОЖИДАНИЕ
+//RELOADING
+ПЕРЕЗАГРУЗКА
+//READY
+ГОТОВО
+
+
+//SPINNER
+SPINNER
+//MINE-PROBE
+MINE-PROBE
+//RADIAL BOLT
+RADIAL BOLT
+//GRAVITY SHELL
+GRAVITY SHELL
+//FUSION THRUSTER
+FUSION THRUSTER
+//DRONES
+БЕСПИЛОТНИКИ
+//OFFENSIVE DRONES
+УДАРНЫЕ БЕСПИЛОТНИКИ
+//DEFENSIVE DRONES
+ЗАЩИТНЫЕ БЕСПИЛОТНИКИ
+
+
+//The Spinner is a grappling hook device\nallowing extreme manoeuvrability\nand fast displacements.\nUse it to cling to structures, asteroids or enemies.
+Spinner — устройство с крюком, позволяющее\nвыполнять экстремальные маневры\nи быстрые перемещения.\nИспользуй его, чтобы цепляться за здания, астероиды или врагов.
+//Tap the Spinner fire\nto launch grappling hooks.
+Прикоснись к "Огню",\nчтобы выстрелить крюками.
+//A second Spinner fire tap\ncuts a fixed cable.
+Прикоснувшись к "Огню" второй раз,\nможно отрезать фиксированный кабель.
+//Hold Spinner fire\nto reel a fixed cable.
+Удерживай "Огонь" Spinner,\nчтобы размотать фиксированный кабель.
+//Releasing Spinner fire while reeling\ncuts the cable.
+Отпусти "Огонь" Spinner во время отматывания,\nчтобы отрезать кабель.
+//The Mine-Probe is a two-stage bomb device.\nTap fire to launch the projectile and rush\nthe delayed detonation with a second tap.
+Mine-Probe — двухступенчатое взрывное устройство.\nНажми "Огонь", чтобы запустить снаряд, и еще раз,\nчтобы ускорить замедленную детонацию.
+//The Radial Bolt is a close combat weapon\nwhich detects alive entities within range,\nfiring energy streams at their bodies.
+Radial Bolt — оружие для ближнего боя,\nкоторое находит живые существа в пределах досягаемости\nи выстреливает в них энергетическими лучами.
+//The Gravity Shell is a device casting a gravity bomb\nwhich attracts and assimilates low to medium mass entities before collapsing.
+Gravity Shell — устройство, выпускающее гравитационную бомбу,\nкоторая перед взрывом притягивает и поглощает существа с малой и средней массой тела.
+//The Fusion Thruster works as a continuous\nAdvanced Boost, with unlimited power supply.
+Fusion Thruster предоставляет непрерывное\nСовершенное повышение и неограниченную подачу энергии.
+//Drones are smart units which operate and\nselect their own targets independently.
+Беспилотники — разумные устройства, способные независимо\nработать и находить мишени.
+
+
+//JUMPGATE COMPONENT
+ЭЛЕМЕНТ ВРАТ ТЕЛЕПОРТАЦИИ
+//ALTERNATIVE MARKER ITEM
+АЛЬТЕРНАТИВНЫЙ ЭЛЕМЕНТ МАРКИРОВКИ
+//WEAPON UP ITEM
+ЭЛЕМЕНТ УЛУЧШЕНИЯ ОРУЖИЯ
+//THISAUROS
+ТЕЗАУРУС
+//SOUL VIAL
+ФИАЛ ЖИЗНИ
+//SHIELD ITEM
+ЭЛЕМЕНТ ЗАЩИТЫ
+//BONUS
+БОНУС
+//ADVANCED BOOST
+СОВЕРШЕННОЕ ПОВЫШЕНИЕ
+//ADVANCED BOOST LEFT PACK
+ЛЕВЫЙ НАБОР СОВЕРШЕННОГО ПОВЫШЕНИЯ
+//ADVANCED BOOST RIGHT PACK
+ПРАВЫЙ НАБОР СОВЕРШЕННОГО ПОВЫШЕНИЯ
+//EXTRA BONUS
+ДОПОЛНИТЕЛЬНЫЙ БОНУС
+//MACRO BONUS
+МАКРО-БОНУС
+//KEY
+КЛЮЧ
+//MESSAGE
+СООБЩЕНИЕ
+//ADD-ON
+ДОПОЛНИТЕЛЬНОЕ УСТРОЙСТВО
+//ADD-ON FIRST PACK
+ПЕРВЫЙ НАБОР ДОПОЛНИТЕЛЬНОГО УСТРОЙСТВА
+//ADD-ON SECOND PACK
+ВТОРОЙ НАБОР ДОПОЛНИТЕЛЬНОГО УСТРОЙСТВА
+
+
+//WARNING
+ПРЕДУПРЕЖДЕНИЕ
+//NEXT BONUS\nAVAILABLE
+СЛЕДУЮЩИЙ БОНУС\nДОСТУПЕН
+//DOOR UNLOCKED
+ДВЕРЬ ОТКРЫТА
+
+
+//GAME OVER
+КОНЕЦ ИГРЫ
+
+
+//Code Accepted
+Код принят
+//Sequence Error
+Ошибка последовательности
+
+
+//SC
+СЧ
+//LV
+УР
+//Level
+Уровень
+//Level Up
+Следующий уровень
+//Power Increased
+Увеличенная мощность
+//Top Speed Raised
+Повышенная предельная скорость
+//Reloading Time Improved
+Улучшенное время перезарядки
+//Advanced Boost Capacity Increased
+Увеличенная мощность Совершенного повышения
+//Shield Capacity Increased
+Увеличенная мощность щита
+//Your score will be use to level up
+Твой счет будет использован для перехода на следующий уровень.
+//Level up to improve your skills
+Перейди на следующий уровень, чтобы улучшить свои навыки.
+//Super-Frame Mode
+Режим Super-Frame
+//New Super-Frame Mode Unlocked
+Открыт новый режим Super-Frame.
+//After completing a game cycle\nA new Super-Frame Mode is unlocked
+По завершении одного цикла игры\nоткрывается новый режим Super-Frame.
+//Super-Frame Modes increase difficulty level
+Режимы Super-Frame повышают уровень сложности.
+
+
+//EXTRA
+ДОПОЛНИТЕЛЬНО
+
+
+//Racer
+Гонщик
+
+
+//Games
+Игры
+
+
+//Credits
+Создатели
+
+
+//Time left
+Осталось времени
+
+
+//Round -
+Раунд –
+
+
+//Player -
+Игрок –
+//Wins
+Победы
+
+
+//DIFFICULTY LEVEL
+УРОВЕНЬ СЛОЖНОСТИ
+//EASY
+ЛЕГКИЙ
+//MEDIUM
+СРЕДНИЙ
+//HARD
+ТЯЖЕЛЫЙ
+//ULTIMATE
+РЕШАЮЩИЙ
+
+
+//Score Attack
+Захват очков
+//Racer
+Гонщик
+//Asteroids Mode
+Режим "Астероиды"
+//Survival Mode
+Режим выживания
+//Endless Runner
+Нескончаемый бег
+//Time Attack
+Игра на время
+//Kromaia: Rogue
+Kromaia (Кромая): Rogue
+
+
+//Collect items and destroy enemies\nto reach the highest score
+Собирай предметы и уничтожай врагов,\nчтобы достигнуть самых высоких результатов.
+//Retrieve all the items as fast as you can
+Достань все предметы как можно быстрее.
+//Destroy every asteroid in your way
+Уничтожь все астероиды на своем пути.
+//Survive as long as you can
+Пройди как можно дальше, не умерев.
+//Avoid every obstacle to survive
+Обойди все препятствия, чтобы выжить.
+//Reach the next check point before\nrunning out of time
+Достигни следующей контрольной точки,\nпрежде чем закончится время.
+//Explore beyond your homebase domains\nand upgrade your equipment
+Исследуй местности за пределами своей базы\nи улучши свое снаряжение.
+
+
+// Achievement Titles (Don't translate)
+Give Me My Bullets
+Rider On The Worm
+Space Bound Ricochet
+Squid Row
+Playing With Fire
+Breaking The Claw
+Ace Of Lightspades
+Cosmic Dance End
+One
+Sad Strings Of Destiny
+Bomb Rules
+Try The Lightning
+And Physics For All
+Master Of Realities
+Fade To White
+Keeper of the 12 Keys
+I'm In For The Kill
+Staying Hungry
+Third Evening In Scoreland
+Appetite For Insolation
+Who's Next?
+Chaining Is My Business
+So Far, So Good
+Star Way To Hell
+Beyond Strength
+Four Kicks
+
+
+// Achievement Descriptions
+//Unlock the Alpha Armor
+Открыть броню "Альфа"
+//Defeat Vermis
+Победить Vermis
+//Unlock the Tau Armor
+Открыть броню "Тау"
+//Defeat Teuthus
+Победить Teuthus
+//Unlock the Mu Armor
+Открыть броню "Мю"
+//Defeat Argos
+Победить Argos
+//Unlock the Psi Armor
+Открыть броню "Пси"
+//Defeat Orion
+Победить Orion
+//Unlock the Omega Armor
+Открыть броню "Омега"
+//Obtain the Spinner
+Получить Spinner
+//Obtain the Mine-Probe
+Получить Mine-Probe
+//Obtain the Radial Bolt
+Получить Radial Bolt
+//Obtain the Gravity shell
+Получить Gravity Shell
+//Clear every dimension
+Очистить все измерения
+//Complete the game
+Пройти игру до конца
+//Obtain every treasure
+Получить все сокровища
+//Score 25,000 In Score Attack Mode
+Заработать 25 000 очков в режиме "Захват очков"
+//Score 50,000 In Score Attack Mode
+Заработать 50 000 очков в режиме "Захват очков"
+//Score 100,000 In Score Attack Mode
+Заработать 100 000 очков в режиме "Захват очков"
+//Reach the Sun
+Достигнуть солнца
+//Beat a boss without getting any damage
+Победить босса, не получив никакого урона
+//Achieve a x100 hit combo
+Достигнуть комбо в x100 ударов
+//Reach the end and unlock Super-Frame Mode 1
+Дойти до конца и открыть режим Super-Frame 1
+//Reach the end for a second time and unlock Super-Frame Mode 2
+Дойти до конца второй раз и открыть режим Super-Frame 2
+//Unlock Super-Frame Mode 3
+Открыть режим Super-Frame 3
+//Unlock Super-Frame Mode 4
+Открыть режим Super-Frame 4
+
+
+//DIFFICULTY:\nCHOOSE SAVE POINT\nFREQUENCY
+СЛОЖНОСТЬ:\nВЫБЕРИ ЧАСТОТУ\nСОХРАНЕНИЯ ИГРЫ
+//EXPLORER MODE:\nPLAY IN A NON\nHOSTILE ENVIRONMENT
+РЕЖИМ ИССЛЕДОВАНИЯ:\nИГРАЙ В НЕВРАЖДЕБНОЙ\nОБСТАНОВКЕ
+//SAVE POINT
+ТОЧКА СОХРАНЕНИЯ
+//SAVING...
+ИДЕТ СОХРАНЕНИЕ...
+//DELETE
+УДАЛИТЬ
+
+
+//GLOW (F5)
+GLOW (F5)
+//SHADER QUALITY (F7)
+КАЧЕСТВО ШЕЙДЕРОВ (F7)
+
+
+// Omega-II Gemini armor texts
+//OMEGA-II GEMINI
+ОМЕГА-II. БЛИЗНЕЦЫ
+//Omega-II Gemini Armor
+Броня "Омега-II. Близнецы"
+//DRONE CASTER
+УСТАНОВКА БЕСПИЛОТНИКОВ
+//The Drone Caster fires smart\nunits which operate and select\ntheir own targets independently
+Установка беспилотников выстреливает\nразумные устройства, независимо\nработающих и находящих мишени.
+//Assault Unit
+Штурмовая часть
+//TANK
+ТАНК
+
+// Configuration texts
+//CO-OP MODE
+РЕЖИМ СОТРУДНИЧЕСТВА
+//Enables/Disables Co-op Mode
+Включает и выключает режим сотрудничества
+//CAMERA CHANGE
+СМЕНА КАМЕРЫ
+//Switches To Next Camera
+Переключается на следующую камеру
+//LINEAR FRICTION DEACTIVATOR
+ДЕАКТИВАТОР ЛИНЕЙНОГО ТРЕНИЯ
+//Disables Linear Friction Simulation
+Отключает симуляцию линейного трения
+
+// Modes text
+//PURE MODE
+БЕЗУПРЕЧНЫЙ РЕЖИМ
+//Conquer Kromaia Ω in one life!
+Захвати Kromaia Ω за одну жизнь!
+
+// Leaderboard menu texts
+//LEADERBOARDS
+ТАБЛИЦЫ ЛИДЕРОВ
+//Previous/Next Page
+Предыдущая / Следующая страница
+//All Users
+Все пользователи
+//My Friends
+Мои друзья
+//Search Myself
+Найти себя
+
+// Power-ups
+//LIFE WIPER
+ОЧИСТИТЕЛЬ ЖИЗНИ
+
+// Treasure power-up
+//LINEAR FRICTION DEACTIVATOR
+ДЕАКТИВАТОР ЛИНЕЙНОГО ТРЕНИЯ
+//The Linear Friction Deactivator\nallows to disable\nlinear friction simulation\nfor your armor.
+Деактиватор линейного трения\nотключает симуляцию\nлинейного трения\nтвоей брони.
+
+// Weapons
+//Stunning Bolt
+Оглушающая молния
+//Explosive Bullet
+Разрывная пуля
+//Limpet Grenade
+Диверсионная граната
+//Chain Reaction Explosive
+Взрывчатое вещество цепной реакции
+//Turret Armed Drone
+Беспилотник с башней
+//Bolt Casting Drone
+Беспилотник, разбрасывающий молнии
+//Flamethrower
+Огнемет
+//Incendiary Bomb
+Зажигательная бомба
+
+// Messages
+//Current Leaderboard Position:
+Текущее место в таблице лидеров:
+//LOADING...
+ЗАГРУЗКА...
+//THANK YOU FOR PLAYING
+БЛАГОДАРИМ ЗА ИГРУ
+
+// Co-operative mode
+//The Co-operative Ad Hoc Mode\nallows to split the armor\ncontrols between two players.
+Ситуативный режим сотрудничества\nразделяет управление броней\nмежду двумя игроками.
+//The player enabling it controls\nthe weaponry turret while\nthe other one pilots the armor.
+Игрок, активирующий режим,\nуправляет оружейной башней,\nвторой игрок управляет броней.
+//Use the defined button to\nenable/disable this special mode.
+Включить или отключить режим\nможно с помощью специальной кнопки.
+
+// Special unit
+//The Omega-II Gemini armor\nis equipped with a Plasma\nCannon and a Drone Caster.
+Броня "Омега-II. Близнецы"\nоснащена плазменной пушкой\nи установкой беспилотников.
+//You will lose it when it is\ndamaged or after teleporting\nthrough gates.
+Она снимается при повреждении\nили при телепортации\nчерез ворота.
+
+// Symbols
+Ω
+
+// Options
+//Use Motion Sensor
+Использовать датчик движения

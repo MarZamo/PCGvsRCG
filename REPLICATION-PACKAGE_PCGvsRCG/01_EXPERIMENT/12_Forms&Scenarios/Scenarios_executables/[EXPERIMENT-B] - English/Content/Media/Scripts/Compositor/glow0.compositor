@@ -1,0 +1,62 @@
+compositor Glow0
+{
+  technique
+  {
+    texture rt0 target_width target_height PF_A8R8G8B8
+    texture glowMap target_width target_height PF_A8R8G8B8
+    texture AtoB target_width target_height PF_A8R8G8B8
+
+    //Fetch scene contents.
+    target rt0
+    {
+      input previous
+      shadows off
+    }
+
+    //Get scene rendered with 'Glow' scheme
+    target glowMap
+    {
+      input none
+      shadows off
+      material_scheme Glow
+
+      pass clear
+      {
+      }
+
+      pass render_scene
+      {
+      }
+    }
+
+    //Blur it along X.
+    target AtoB
+    {
+      input none
+      shadows off
+      // Not needed, since glowMap has a clearing pass
+      //pass clear
+      //{
+      //}
+
+      pass render_quad
+      {
+        material GlowCompositorMat/Glow0A
+        input 0 glowMap
+      }
+    }
+
+    //Blur along Y, add to original, and output.
+    target_output
+    {
+      input none
+      shadows off
+      pass render_quad
+      {
+        material GlowCompositorMat/Glow0B
+        input 0 rt0
+        input 1 AtoB
+      }
+    }
+  }
+}

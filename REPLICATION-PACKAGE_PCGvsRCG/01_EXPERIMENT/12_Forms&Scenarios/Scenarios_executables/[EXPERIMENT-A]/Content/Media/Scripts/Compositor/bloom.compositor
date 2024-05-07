@@ -1,0 +1,83 @@
+//---------------------------------------------------
+//Bloom2: Dark Sylinc's Bloom implementation
+//     Ogre/Compositor/BloomBlend is the final material applied.
+//     it has 2 parameters:
+//             OriginalImageWeight float
+//             BlurWeight float
+//  Usually they range from 0.0 to 1.0; but it can be any number
+//  higher numbers will result in a brighter scene. Increment BlurWeight
+//  to obtain increase Bloom effect.
+//  Works faster on my GeForce 6200 256 MB AGP 8x (Chip NV 43 Rev a1)
+//  than Manuel's bloom. (And at my opinion, looks nicer ;)
+//  Unlike Manuel's bloom, we apply a bright high-filter pass
+//Copyright (C) Dark Sylinc 2007-2008
+//---------------------------------------------------
+compositor Bloom
+{
+    technique
+    {
+        // Temporary textures
+        texture rt_output target_width target_height PF_R8G8B8
+        texture rt0 target_width_scaled 0.25 target_height_scaled 0.25 PF_R8G8B8
+        texture rt1 target_width_scaled 0.25 target_height_scaled 0.25 PF_R8G8B8
+
+        target rt_output
+        {
+            // Render output from previous compositor (or original scene)
+            input previous
+        }
+
+        target rt0
+        {
+            // Start with clear texture
+            input none
+            // Horizontal blur pass
+            pass render_quad
+            {
+                // Renders a fullscreen quad with a material
+                material Ogre/Compositor/BrightPass2
+                input 0 rt_output
+            }
+        }
+
+        target rt1
+        {
+            // Start with clear texture
+            input none
+            // Horizontal blur pass
+            pass render_quad
+            {
+                // Renders a fullscreen quad with a material
+                material Ogre/Compositor/BlurV
+                input 0 rt0
+            }
+        }
+
+        target rt0
+        {
+            // Start with clear texture
+            input none
+            // Horizontal blur pass
+            pass render_quad
+            {
+                // Renders a fullscreen quad with a material
+                material Ogre/Compositor/BlurH
+                input 0 rt1
+            }
+        }
+
+        target_output
+        {
+            // Start with clear output
+            input none
+            // Draw a fullscreen quad
+            pass render_quad
+            {
+                // Renders a fullscreen quad with a material
+                material Ogre/Compositor/BloomBlend2
+                input 0 rt_output
+                input 1 rt0
+            }
+        }
+    }
+}

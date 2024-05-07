@@ -1,0 +1,174 @@
+// Please read and edit this document using WordPad.
+// ================================================================================================================================
+// COMMANDLINE USAGE PARAMS TO DECOMPOSE MESHES WITH HACD ("Hierarchical approximate convex decomposition" library by Khaled Mamou)
+// ================================================================================================================================
+// Please read "Khaled Mamou's Blog" at http://kmamou.blogspot.com/  for further info.
+//
+// Usage: Drag an .obj or an .off model onto the file addHACDDemo.exe.
+// It will be decomposed using these params, and can be optionally saved
+// as a ".bcs" (Bullet Collision Shape) file (*).
+//
+// This is pseudo C++ (not 100% C++ compatible).
+// Only one parameter is allowed per line.
+// Only one equality character ('=') is allowed per line.
+// Only one semicolon is allowed per line.
+// Multiline comments are allowed only if '/*' or '*/' own a whole line.
+//
+//
+// My personal tip: 	what you get is a collision shape, not a mesh for rendering. It's very important to gain a low number of convex hulls for performance.
+//				Don't try to be too precise, and whenever possible don't try to reproduce holes in your mesh that are too small for other objects to pass through.
+//				The point here is to get a good result with as few convex hull as possible (how many may depend on how many bodies with this shape are supposed to be present together in your scene).
+//
+// For this reason, compared to the HACD library, I've chosen five different default parameters here:
+// maxHullVertices 		= 16		(it was 100.0, as far as I remember, too expensive for us, but improves the appearence of the decomposed shape dramatically!)
+// concavity	 		= 200.0	(it was set to 100.0)	
+// compacityWeight 		= 0.1		(it was set to 0.0001)
+// params.addFacesPoints     	= false	(it was true)	
+// params.addExtraDistPoints 	= false	(it was true)
+//
+//
+// MY HACD FAQS:
+//
+// Q) How can I increase the number of child shapes? It's too low. 
+// A) Very simple: params.nClusters	= wanted number of child shapes;
+//	Optional: params.targetNTrianglesDecimatedMesh = 0	(0 is very slow; you can set it to a big number instead e.g. 5000)	
+//
+// Q) I just want "holes" in my mesh to appear in the collision shape.
+// A) You may try:
+//    params.addFacesPoints			=		true;	
+//	params.addExtraDistPoints		=		true;			
+//
+// Q) How can I decrease the number of sub shapes? It's too big.
+// A) Follow these steps incrementally, trying one step after another until you're satisfied:
+// 	1) params.nClusters = 1;
+//	2) params.concavity = very high number;
+//	3) params.connectionDistance = very high number;
+//	4) params.targetNTrianglesDecimatedMesh = low number (500, 1000 or so, but NOT zero).
+//	But please, if params.keepSubmeshesSeparated == true, you can't have less of 'numSubmeshes' child shapes!
+//	In that case you may want to set it to false.
+//	Remember that you can choose the submeshes you want to decompose (regardless of the value of params.keepSubmeshesSeparated)
+//	using the params.decomposeOnlySelectedSubmeshes property.
+//
+// Q) I want to increase the visual quality of the shape, without adding more child shape.
+// A) increase params.maxHullVertices.
+//
+// Q) The decomposition takes too much time for big meshes!
+// A) You can try to decimate (params.targetNTrianglesDecimatedMesh = low number (500, 1000, 5000, 10000 or so, but NOT zero)) the mesh and see if this speeds up the decomposition time, but you will lose some detail, expecially if the value is low (if you need just a few child shapes you may try it).
+//    Additionally you might set these:
+//    params.addFacesPoints			=		false;	
+//	params.addExtraDistPoints		=		false;	// Only if the mesh doesn't have some kind of 'holes' in it	
+//	params.decomposeACleanCopyOfTheMesh	=		false;	// Only if duplicated vertices are not present
+//
+// Q) I'm tired of editing this file each time I need to decompose a mesh!
+//	I want a set of params that produce good (although sub-optimal) results with ANY input mesh.
+// A) Try these:	
+//    params.targetNTrianglesDecimatedMesh = 1000;
+//    params.addFacesPoints = addExtraDistPoints = true;
+//    params.connectionDistance = 30;
+//    params.nClusters = 6;	// If params.keepSubmeshesSeparated is needed, please set it to 1 or 2
+//    params.concavity = 150;
+//    params.maxHullVertices = 16;	
+//    params.decomposeACleanCopyOfTheMesh = true;
+//
+// TODO: order the params in each section in order of importance and correct/improve comments... (already done, but needs further testing info...)
+//
+// Happy decomposing.
+// Flix
+//
+// P.S.: In the comments I speak about "clusters", "child shapes" and "convex hulls": they're all the same thing!
+//
+// ==============================================================
+btHACDCompoundShape::Params params;						// the variable name 'params' can't be modified
+//----------------------------
+// ORIGINAL PARAMS (HACD.lib):
+// ---------------------------
+params.nClusters						=		1;			// (1) Min number of resulting sub shapes. Can be used to increase the minimum number of sub shapes (it refers to every single submesh if params.keepSubmeshesSepareted = true)..
+params.maxHullVertices					=		0;			// (16) Max number of vertices in each convex hull sub shape. This can be used to improve the resulting shape and its normals, leaving the number of child shapes untouched. Low number = better runtime performance. Set to 0 = max value possible for this decomposition.
+params.addExtraDistPoints				=		true;		// (false) Specifies whether extra points should be added when computing the concavity. Meshes with holes may need this param to be true.
+params.addFacesPoints					=		true;		// (false) Specifies whether faces points should be added when computing the concavity. Meshes with a low number of vertices or with holes may need this param to be true.   	
+params.concavity						=	   10.0;		// (200.0) Higher seems to reduce the number of sub shapes and viceversa. Can be used to increase or decrease the number of sub shapes.
+params.connectionDistance;				=	  200.0;		// (30.0) maximum distance to get CCs connected. Can be increased to decrease the number of convex hulls when increasing "concavity" has no effect, and params.nClusters is already small enough (1 or so). Very slow.	
+params.targetNTrianglesDecimatedMesh	=		0;			// (0) this options should speed up the decomposition of big meshes by performing mesh simplification before decomposition (good values are 500, 1000, 2000, 5000, 10000 and o on).
+
+// Tip. don't touch these:	
+params.smallClusterThreshold			=		0.01;		// (0.25) Threshold on the clusters area (expressed as a percentage of the entire mesh area) under which the cluster is considered small and it is forced to be merged with other clusters at the price of a high concavity.
+params.compacityWeight					=		0.001;		// (0.1) Sets the compacity weight (i.e. parameter alpha in ftp://ftp.elet.polimi.it/users/Stefano.Tubaro/ICIP_USB_Proceedings_v2/pdfs/0003501.pdf). = 0.1;
+params.volumeWeight						=		0.001;		// (0.0) Sets the volume weight (i.e. parameter beta). = 0.0;
+params.optionalVRMLSaveFilePath;		=		"";			// (""). when set, it's supposed to save the decomposed mesh in VRML 2.0 format. Ignored if "keepSubmeshesSeparated" is true. ONLY PATHS RELATIVE TO THE FILE appHACDDemo.exe ARE SUPPORTED.
+
+params.displayDebugInfo					=		true;		// (false) With printf. It make sense to leave it to true in cmdline mode.
+params.scaleFactor						=		1000.0;		// (1000.0) DO NOT USE IT TO SCALE YOUR MESH! Normalization factor used to ensure that the other parameters (e.g. concavity) are expressed w.r.t. a fixed size. 
+//------------------------------------------------------
+// W.I.P.: ADDITIONAL PARAMS ADDED BY ME (TO BE TESTED):
+//------------------------------------------------------
+params.optionalBCSSaveFilePath			=	"mySavedBulletCollisionShape.bcs";		// (""). when set, the Bullet Collision Shape is saved as btCompoundShape to disk (*). ONLY PATHS RELATIVE TO THE FILE appHACDDemo.exe ARE SUPPORTED, but you can use extraParams.useAutoGeneratedSaveNameToSaveShape to gain more flexibility.
+params.keepSubmeshesSeparated				=	false;	// (false). True is slower (not true in many cases! Try yourself), and must be used when submesh index is needed. Currently only .obj file loading supports multiple submeshes.
+											// A btAlignedObjectArray< int > submeshIndexOfChildShapes to map the child shape index vs the submesh index is displayed in the console window.
+											// It's worth trying it even if you don't need submesh indices. The decomposition is called one time for every submesh. Good if you want good precision at the cost of more convex hull (params.nClusters * numSubmeshes is the minimum you can get)
+params.keepSubmeshesSeparatedNClusters		=	{};		// ({}) Optional (used if size()>0 and keepSubmeshesSeparated==true). If any value is missing or <= 0, the global nClusters is used instead.
+											// 	  Ordering refers to the whole set of submeshes (so that it's independent on decomposeOnlySelectedSubmeshes).
+params.keepSubmeshesSeparatedMaxHullVertices	=	{};		// ({}) Optional (used if size()>0 and keepSubmeshesSeparated==true). If any value is missing or < 0, the global maxHullVertices is used instead.
+											// 	  Ordering refers to the whole set of submeshes (so that it's independent on decomposeOnlySelectedSubmeshes).														
+params.decomposeACleanCopyOfTheMesh			=	true;		// (true). Removes duplicated vertices and degenerate triangle. Not too slow, and can speed up decomposition (slightly) and reduce the number of (useless) resulting hulls..
+params.decomposeACenteredCopyOfTheMesh		=	false;	// (false). The mesh center is always calculated keeping into account all the subparts of the whole btStridingMeshInterface.
+params.decomposeATranslatedCopyOfTheMesh	=btVector3(0,0,0);// (btVector3(0,0,0)). In unscaled units. The center of mass will be shifted in the opposite way.
+params.decomposeAScaledCopyOfTheMesh		=btVector3(1,1,1);// (btVector3(1,1,1)). The order of transformations is: center -> translate -> scale; thus the scaling here multiplies the translation effect.
+params.decomposeOnlySelectedSubmeshes		=	{};		// ({}) If size()==0, decompose all submeshes. (e.g. = {0,1,2};) . Currently only .obj file loading supports multiple submeshes.
+params.decomposeADecimatedCopyOfTheMesh		=	false;	// (false). (DEPRECATED: Use params.targetNTrianglesDecimatedMesh instead.) True can be used to reduce the number of child shapes when increasing "concavity" and "connectionDistance" does not help (but some detail gets lost). Slow? Maybe, but can speed up the decomposition process.
+params.decimationDistanceInAabbHalfExtentsUnits	=	0.1;		// (0.1). In (0,1]. Bigger results in bigger decimation (= possibly less child shapes)
+params.decimationDistanceUniformInXYZ		=	true;		// (true).	When true: 		DDx = DDy = DDz = decimationDistanceInHalfAabbExtentsUnits * min(AabbHalfExtents)xyz;
+											//		When false:  	DDx = decimationDistanceInHalfAabbExtentsUnits * AabbHalfExtents.x;	
+											//					DDy = decimationDistanceInHalfAabbExtentsUnits * AabbHalfExtents.y;	
+											//					DDz = decimationDistanceInHalfAabbExtentsUnits * AabbHalfExtents.z;	
+params.reduceHullVerticesUsingBtShapeHull		=	false;	// (false)  when set, uses btShapeHull (implemented by John McCutchan) to simplify the original btConvexHullShapes (from HACD decomposition), so that the number of hull vertices in each child shape is less than 42. It should result in a lower number of vertices per hull (when this does not happen, the original btConvexHullShape is used).
+params.shrinkObjectInwardsToCompensateCollisionMargin=false;	// (false)	// Based on the code in appConvexDecompositionDemo. Slow. And seems to produce artifacts in some meshes...
+
+// Child btConvexHullShapes properties:
+params.convexHullsCollisionMargin			=	0.01f;	// (0.01f) The collision margin assigned to all the child shapes
+params.convexHullsEnablePolyhedralContactClipping=	false;	// (false) This just calls initializePolyhedralFeatures() on each child shape (see Bullet appInternalEdgeDemo). (I don't think it gets serialized, so please ignore it)
+//--------------------------------------------
+// W.I.P: EXTRA PARAMS FOR CMDLINE USAGE ONLY:
+//--------------------------------------------
+ExtraParams extraParams;							// the variable name 'extraParams' can't be modified
+
+extraParams.useAutoGeneratedSaveNameToSaveShape	=	true;	// (false). True + params.optionalBCSSaveFilePath.size()>0 => Bullet Collision Shape is saved as "inputMeshFileFullPathWithExtension.bcs" (*)
+extraParams.invertYZ					=	false;	// (false). When loading the mesh file, newY = Z and newZ = -Y.
+extraParams.ignoreAllParamsAndCreateBvhTriangleMeshShape=false;	// (false). Ignores all the values set by "params" and Just creates the mesh as btBvhTriangleMeshShape (**)
+extraParams.ignoreAllParamsAndCreateGImpaceMeshShape=	false;	// (false). Ignores all the values set by "params" and Just creates the mesh as btGImpaceMeshShape (**)
+extraParams.decomposeBCSInputFileIfShapeIsCompatible=	false;	// (false). When a .bcs file (or a .bullet file with only one shape inside it) is passed as input and the shape inside the file is one of the following:
+											//		btBvhTriangleMeshShape, btGImpactMeshShape, btScaledBvhTriangleMeshShape, (experimental) btCompoundShape with 1st child one of the previous 3,
+											//		decompose the input btCollisionShape instead of simply displaying it as it is (which is the default behavior).
+
+/*
+NOTES:
+(*)	Files with extension ".bcs" can be viewed by dragging them onto the file addHACDDemo.exe.
+	In C++ applications they can be loaded with the following code:
+	// ---------------------------------------------------------------------------------------------------------------------------
+	#include <BulletWorldImporter/btBulletWorldImporter.h>	// In "Bullet/Extra/Serialize". Needs link to: BulletWorldImporter.lib
+	btCollisionShape* btUtils::Load(const char* filename,bool verbose)	{
+		btBulletWorldImporter loader(0);//don't store info into the world
+		loader.setVerboseMode(verbose);
+		if (!loader.loadFile(filename)) return NULL;
+		btCollisionShape* shape = NULL;
+		if (loader.getNumCollisionShapes()>0) shape = loader.getCollisionShapeByIndex(0);
+		
+		//TODO: Cleaner way:
+		// 1) Deep clone Collision Shape	
+		// 2) loader.deleteAllData(); // deletes all (collision shapes included)
+		// 3) return Deep cloned Collision Shape
+	
+		// Here we don't delete all data from the loader. (leaks?)
+		return shape;
+	}
+	//----------------------------------------------------------------------------------------------------------------------------
+
+(**) Actually a few of the values in params are not ignored:
+	params.decomposeAScaledCopyOfTheMesh
+	params.decomposeATranslatedCopyOfTheMesh
+	params.decomposeACenteredCopyOfTheMesh
+	params.convexHullsCollisionMargin (applied to the whole shape)
+	params.optionalBCSSaveFilePath
+	and of course all extraParams	
+	but duplicated vertices and degenerate triangles are not handled.
+*/
+

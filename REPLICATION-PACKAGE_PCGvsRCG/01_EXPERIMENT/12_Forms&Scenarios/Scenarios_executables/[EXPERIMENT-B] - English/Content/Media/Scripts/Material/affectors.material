@@ -1,0 +1,29 @@
+// Affectors related materials
+
+import GlowPlain from "default.material"
+
+//////////////////////////////////////////////////
+
+material Shockwave : GlowPlain
+{
+  technique Glow
+  {
+    scheme Glow
+    pass
+    {
+      cull_hardware none
+      cull_software none
+    }
+  }
+
+  technique Default
+  {
+    pass
+    {
+      cull_hardware none
+      cull_software none
+    }
+  }
+}
+
+//////////////////////////////////////////////////

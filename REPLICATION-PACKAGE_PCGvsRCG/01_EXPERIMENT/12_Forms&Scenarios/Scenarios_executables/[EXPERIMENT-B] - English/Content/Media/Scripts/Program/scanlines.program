@@ -1,0 +1,45 @@
+
+// Scan lines programs
+
+//////////////////////////////////////////////////
+
+fragment_program ScanLines_fp cg
+{
+  source scanlines.cg
+  entry_point ScanLines_fp
+
+  default_params
+  {
+    param_named_auto invTexSize inverse_texture_size 0
+  }
+
+  profiles ps_2_0 arbfp1
+}
+
+//////////////////////////////////////////////////
+
+material ScanLinesCompositorMat/ScanLines
+{
+  technique
+  {
+    pass
+    {
+      cull_hardware none
+      cull_software none
+      depth_func always_pass
+
+      fragment_program_ref ScanLines_fp
+      {
+      }
+
+      texture_unit map
+      {
+        tex_coord_set 0
+        tex_address_mode clamp
+        filtering bilinear
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////////

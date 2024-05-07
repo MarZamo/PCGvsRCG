@@ -1,0 +1,757 @@
+﻿SYSTEM TEXTS
+
+
+//Device
+Dispositivo
+
+//Mouse + Keyboard
+Mouse + Tastiera
+
+//Joystick (EXPERTS ONLY)
+Joystick (PER ESPERTI)
+
+
+//Mouse Motion
+Movimento mouse
+
+
+// Keyboard Labels
+// Unassigned key
+Non assegnato
+
+// Escape
+Esc
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+// Minus: - on main keyboard
+-
+// Equals
+=
+// Backspace
+Indietro
+
+// Tabulator
+Tab
+Q
+W
+E
+R
+T
+Y
+U
+I
+O
+P
+// Left bracket
+[
+// Right bracket
+]
+// Return: Enter on main keyboard
+Invio
+
+//Left Control
+
+Ctrl sinistro
+
+A
+S
+D
+F
+G
+H
+J
+K
+L
+// Semicolon
+;
+// Apostrophe
+'
+// Grave: Accent
+`
+//Left Shift
+
+Shift sinistro
+
+\
+Z
+X
+C
+V
+B
+N
+M
+,
+// Period: . on main keyboard
+.
+// Slash: / on main keyboard
+/
+//Right shift
+
+Shift destro
+
+// Multiply: * on numeric keypad
+* (TASTIERINO NUMERICO)
+
+//Left Alt
+Alt sinistro
+
+//Space
+
+Spazio
+
+//Caps Lock
+
+Bloc Maiusc
+
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+//Num Lock
+
+Bloc Num
+
+//Scroll Lock
+
+Bloc Scor
+
+7 (TASTIERINO NUMERICO)
+
+8 (TASTIERINO NUMERICO)
+
+9 (TASTIERINO NUMERICO)
+
+// Subtract: - on numeric keypad
+- (TASTIERINO NUMERICO)
+
+4 (TASTIERINO NUMERICO)
+
+5 (TASTIERINO NUMERICO)
+
+6 (TASTIERINO NUMERICO)
+
+// Add: + on numeric keypad
++ (TASTIERINO NUMERICO)
+
+1 (TASTIERINO NUMERICO)
+
+2 (TASTIERINO NUMERICO)
+
+3 (TASTIERINO NUMERICO)
+
+0 (TASTIERINO NUMERICO)
+
+// Decimal: . on numeric keypad
+. (TASTIERINO NUMERICO)
+
+// OEM 102: < > | on UK/Germany keyboards
+<>|
+F11
+F12
+// F13: NEC PC98
+F13
+// F14: NEC PC98
+F14
+// F15: NEC PC98
+F15
+// Kana: Japanese keyboard
+Kana
+// ABNT C1: / ? on Portugese/Brazilian keyboards
+/?
+// Convert: Japanese keyboard
+Convert
+// No Convert: Japanese keyboard
+No Convert
+// Yen: Japanese keyboard
+¥
+// ABNT C2: Numpad . on Portugese/Brazilian keyboards
+.
+// = on numeric keypad (NEC PC98)
+=
+// Previous track (circumflex on Japanese keyboard)
+Traccia precedente
+
+// At: NEC PC98
+@
+// Colon: NEC PC98
+:
+// Underline: NEC PC98
+_
+// Kanji: Japanese keyboard
+Kanji
+// Stop: NEC PC98
+Stop
+
+// AX: Japan AX
+AX
+// Unlabeled: J3100
+Non assegnato
+
+// Next track
+Traccia successiva
+
+// Enter: Enter on numeric keypad
+Invio (TASTIERINO NUMERICO)
+
+//Right Control
+Ctrl destro
+
+//Mute
+Silenzioso
+
+//Calculator
+
+Calcolatrice
+
+//Play/Pause
+Gioca/Pausa
+
+//Media Stop
+Stop media
+
+//Volume Down
+Abbassa volume
+
+//Volume Up
+Alza volume
+
+//Web Home
+Home Web
+
+// , on numeric keypad (NEC PC98)
+, (TASTIERINO NUMERICO)
+
+// Divide: / on numeric keypad
+/ (TASTIERINO NUMERICO)
+
+//SysRq
+
+R Sist
+
+//Right Alt
+Alt destro
+
+//Pause
+Pausa
+Home
+
+//Up
+
+Su
+
+//Page Up
+
+Pag su
+
+//Left
+Sinistra
+
+//Right
+Destra
+
+//End
+Fine
+
+//Down
+Giù
+
+//Page Down
+Pag giù
+
+//Insert
+
+Ins
+
+//Delete
+Canc
+
+//Left Windows
+
+Windows sinistro
+
+//Right Windows
+Windows destro
+
+// Menu key / Application key (Windows)
+Tasto Menu
+
+//Power
+
+Accensione
+
+//Sleep
+Standby
+
+//Wake
+
+Attivo
+
+//Web Search
+Ricerca Web
+
+//Web Favorites
+Preferiti Web
+
+//Web Refresh
+Aggiorna Web
+
+//Web Stop
+
+Stop Web
+
+//Web Forward
+
+Avanti Web
+
+//Web Back
+Indietro Web
+
+//My Computer
+Il mio computer
+
+//Mail
+
+E-mail
+
+//Media Select
+Selezione media
+
+
+
+
+// Buttons
+//Mouse Left Button
+Tasto sinistro del mouse
+
+//Mouse Right Button
+Tasto destro del mouse
+
+//Mouse Middle Button
+Tasto centrale del mouse
+
+//Mouse Button 3
+Tasto mouse 3
+
+//Mouse Button 4
+
+Tasto mouse 4
+
+//Mouse Button 5
+
+Tasto mouse 5
+
+//Mouse Button 6
+
+Tasto mouse 6
+
+//Mouse Button 7
+
+Tasto mouse 7
+
+//Joystick Button 0
+
+Tasto joystick 0
+
+//Joystick Button 1
+
+Tasto joystick 1
+
+//Joystick Button 2
+
+Tasto joystick 2
+
+//Joystick Button 3
+
+Tasto joystick 3
+
+//Joystick Button 4
+
+Tasto joystick 4
+
+//Joystick Button 5
+
+Tasto joystick 5
+
+//Joystick Button 6
+
+Tasto joystick 6
+
+//Joystick Button 7
+
+Tasto joystick 7
+
+//Joystick Button 8
+
+Tasto joystick 8
+
+//Joystick Button 9
+
+Tasto joystick 9
+
+//Joystick Button 10
+
+Tasto joystick 10
+
+//Joystick Button 11
+
+Tasto joystick 11
+
+//Joystick Button 12
+
+Tasto joystick 12
+
+//Joystick Button 13
+
+Tasto joystick 13
+
+//Joystick Button 14
+
+Tasto joystick 14
+
+//Joystick Button 15
+
+Tasto joystick 15
+
+//Joystick Button 16
+
+Tasto joystick 16
+
+//Joystick Button 17
+
+Tasto joystick 17
+
+//Joystick Button 18
+
+Tasto joystick 18
+
+//Joystick Button 19
+
+Tasto joystick 19
+
+//Joystick Button 20
+
+Tasto joystick 20
+
+//Joystick Button 21
+
+Tasto joystick 21
+
+//Joystick Button 22
+
+Tasto joystick 22
+
+//Joystick Button 23
+
+Tasto joystick 23
+
+//Joystick Button 24
+
+Tasto joystick 24
+
+//Joystick Button 25
+
+Tasto joystick 25
+
+
+// Axis
+//Mouse X Axis
+
+Asse X mouse
+
+//Mouse Y Axis
+
+Asse Y mouse
+
+//Mouse Z Axis (Wheel)
+Asse Z mouse (rotellina)
+
+//Mouse Axis 3
+
+Asse mouse 3
+
+//Mouse Axis 4
+
+Asse mouse 4
+
+//Mouse Axis 5
+
+Asse mouse 5
+
+//Mouse Axis 6
+
+Asse mouse 6
+
+//Mouse Axis 7
+
+Asse mouse 7
+
+//Mouse Axis 8
+
+Asse mouse 8
+
+//Mouse Axis 9
+
+Asse mouse 9
+
+//Joystick Axis 0
+
+Asse joystick 0
+
+//Joystick Axis 1
+
+Asse joystick 1
+
+//Joystick Axis 2
+
+Asse joystick 2
+
+//Joystick Axis 3
+
+Asse joystick 3
+
+//Joystick Axis 4
+
+Asse joystick 4
+
+//Joystick Axis 5
+
+Asse joystick 5
+
+//Joystick Axis 6
+
+Asse joystick 6
+
+//Joystick Axis 7
+
+Asse joystick 7
+
+//Joystick Axis 8
+
+Asse joystick 8
+
+//Joystick Axis 9
+
+Asse joystick 9
+
+//Joystick POV 0
+
+PDV joystick 0
+
+//Joystick POV 1
+
+PDV joystick 1
+
+//Joystick POV 2
+
+PDV joystick 2
+
+//Joystick POV 3
+
+PDV joystick 3
+
+
+// Sliders
+//Joystick Slider 0
+
+Slider joystick 0
+
+//Joystick Slider 1
+
+Slider joystick 1
+
+//Joystick Slider 2
+
+Slider joystick 2
+
+//Joystick Slider 3
+
+Slider joystick 3
+
+
+// Axis modes
+(+)
+(-)
+//(COMPLETE)
+(COMPLETATO)
+
+//(COMPLETE AND INVERTED)
+
+(COMPLETATO E INVERTITO)
+
+
+// Slider modes
+(+ X)
+(- X)
+//(COMPLETE X)
+(COMPLETATO X)
+
+//(COMPLETE AND INVERTED X)
+(COMPLETATO E INVERTITO X)
+
+(+ Y)
+(- Y)
+//(COMPLETE Y)
+(COMPLETATO Y)
+
+//(COMPLETE AND INVERTED Y)
+
+(COMPLETATO E INVERTITO X)
+
+
+// POV directions
+//(CENTERED)
+
+(CENTRATO)
+
+//(NORTH)
+
+(NORD)
+//(SOUTH)
+
+(SUD)
+//(EAST)
+
+(EST)
+//(WEST)
+
+(OVEST)
+//(NORTH EAST)
+
+(NORD EST)
+//(SOUTH EAST)
+
+(SUD EST)
+//(NORTH WEST)
+
+(NORD OVEST)
+//(SOUTH WEST)
+
+(SUD OVEST)
+
+
+// Screen mode
+//Full Screen
+
+Schermo intero
+
+//Window
+
+In finestra
+
+
+// Months (ONLY three letters)
+//JAN
+
+GEN
+
+//FEB
+FEB
+
+//MAR
+MAR
+
+//APR
+APR
+
+//MAY
+MAG
+
+//JUN
+
+GIU
+
+//JUL
+
+LUG
+
+//AUG
+
+AGO
+
+//SEP
+
+SET
+//OCT
+
+OTT
+
+//NOV
+
+NOV
+//DEC
+DIC
+
+
+// Days of week
+//Sunday
+
+Domenica
+
+//Monday
+
+Lunedì
+
+//Tuesday
+
+Martedì
+
+//Wednesday
+
+Mercoledì
+
+//Thursday
+
+Giovedì
+
+//Friday
+
+Venerdì
+
+//Saturday
+
+Sabato
+
+
+// Terms
+//On
+Sì
+//Off
+No
+//Music
+Musica
+//Glow
+Glow
+//Depth of Field
+Depth of Field
+//Indie
+Indie
+//Classic Arcade
+Arcade Classico
+
+
+// Visual styles
+//Simple
+
+Semplice
+
+//Normal
+
+Normale
+
+//Retro
+
+Retrò

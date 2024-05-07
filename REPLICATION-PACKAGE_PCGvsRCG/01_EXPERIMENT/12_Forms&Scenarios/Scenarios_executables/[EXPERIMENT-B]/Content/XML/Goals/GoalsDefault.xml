@@ -1,0 +1,318 @@
+<?xml version="1.0" ?>
+<MISSIONS Number="17">
+
+  <!--FIRST TOTEM ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="157513" ReferencePositionY="-14796.1" ReferencePositionZ="318580"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GATES Number ="1" >
+      <GateData GateType="1" SealDisabled="1"
+                AreaIndex="0" LevelIndex="0"
+                LocalPositionX="-2.0" LocalPositionY="-0.5" LocalPositionZ="-1.0" />
+    </GATES>
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0.3" LocalPositionY="1" LocalPositionZ="0.3" />
+        <DimensionsData    DimensionX="1"     DimensionY="1"      DimensionZ="4" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2002" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="0" />
+        <EnemiesData FileName="Larva.xml" Number="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--SECOND TOTEM ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="157804" ReferencePositionY="-16188.3" ReferencePositionZ="317202"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <EnemiesData FileName="KromaChild.xml" Number="2" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--THIRD TOTEM ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="157243" ReferencePositionY="-17581.2" ReferencePositionZ="318493"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <EnemiesData FileName="KromaChild.xml" Number="2" />
+        <EnemiesData FileName="KromaElite.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--FOURTH TOTEM ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="156953" ReferencePositionY="-16189" ReferencePositionZ="319870"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <EnemiesData FileName="KromaChild.xml" Number="3" />
+        <EnemiesData FileName="KromaElite.xml" Number="1" />
+        <EnemiesData FileName="CubicKeeper.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--CAPSULES ARRAY ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="1001"
+                 ReferencePositionX="158087" ReferencePositionY="-12755.8" ReferencePositionZ="323871"
+                 BaseOrientationW="0" BaseOrientationX="1" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.666667" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <MissionData ReferenceType="1001"
+                 ReferencePositionX="158387" ReferencePositionY="-12755.8" ReferencePositionZ="323871"
+                 BaseOrientationW="0" BaseOrientationX="1" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.666667" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <MissionData ReferenceType="1001"
+                 ReferencePositionX="158687" ReferencePositionY="-12755.8" ReferencePositionZ="323871"
+                 BaseOrientationW="0" BaseOrientationX="1" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.666667" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <MissionData ReferenceType="1001"
+                 ReferencePositionX="158087" ReferencePositionY="-13055.8" ReferencePositionZ="323871"
+                 BaseOrientationW="0" BaseOrientationX="1" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.666667" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <MissionData ReferenceType="1002"
+                 ReferencePositionX="158387" ReferencePositionY="-13055.8" ReferencePositionZ="323871"
+                 BaseOrientationW="0" BaseOrientationX="1" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <EnemiesData FileName="KromaChild.xml" Number="5" />
+        <EnemiesData FileName="KromaElite.xml" Number="2" />
+        <EnemiesData FileName="CubicKeeper.xml" Number="6" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <MissionData ReferenceType="1001"
+                 ReferencePositionX="158687" ReferencePositionY="-13055.8" ReferencePositionZ="323871"
+                 BaseOrientationW="0" BaseOrientationX="1" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.666667" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <MissionData ReferenceType="1001"
+                 ReferencePositionX="158087" ReferencePositionY="-13355.8" ReferencePositionZ="323871"
+                 BaseOrientationW="0" BaseOrientationX="1" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.666667" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <MissionData ReferenceType="1001"
+                 ReferencePositionX="158387" ReferencePositionY="-13355.8" ReferencePositionZ="323871"
+                 BaseOrientationW="0" BaseOrientationX="1" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.666667" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <MissionData ReferenceType="1001"
+                 ReferencePositionX="158687" ReferencePositionY="-13355.8" ReferencePositionZ="323871"
+                 BaseOrientationW="0" BaseOrientationX="1" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.666667" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+  <!--BLACK HOLE ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="3000"
+                 ReferencePositionX="161029" ReferencePositionY="-16561.4" ReferencePositionZ="322315" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--LATTICE ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="2001"
+                 ReferencePositionX="163672" ReferencePositionY="-18066.9" ReferencePositionZ="320760" />
+    <GOALS Number="4">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="-1" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <EnemiesData FileName="KromaChild.xml" Number="6" />
+        <EnemiesData FileName="KromaElite.xml" Number="2" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <EnemiesData FileName="KromaChild.xml" Number="7" />
+        <EnemiesData FileName="KromaElite.xml" Number="2" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="1" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <EnemiesData FileName="KromaChild.xml" Number="7" />
+        <EnemiesData FileName="KromaElite.xml" Number="2" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="1000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <EnemiesData FileName="KromaChild.xml" Number="8" />
+        <EnemiesData FileName="KromaElite.xml" Number="3" />
+        <EnemiesData FileName="Kroma.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--SHRINE ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="2000"
+                 ReferencePositionX="172444" ReferencePositionY="-22093.9" ReferencePositionZ="327685" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="15" />
+        <EnemiesData FileName="KromaChild.xml" Number="8" />
+        <EnemiesData FileName="KromaElite.xml" Number="3" />
+        <EnemiesData FileName="CubicKeeper.xml" Number="9" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--FINAL BOSSES ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="172444" ReferencePositionY="-22093.9" ReferencePositionZ="327085" />
+    <GATES Number ="1" >
+      <GateData GateType="1" SealDisabled="0"
+                AreaIndex="0" LevelIndex="0"
+                LocalPositionX="1.2" LocalPositionY="1.2" LocalPositionZ="0" />
+    </GATES>
+    <GOALS Number="2">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="1001" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="KromaChild.xml" Number="10" />
+        <EnemiesData FileName="KromaElite.xml" Number="3" />
+        <EnemiesData FileName="Vermis.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="1002" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="10" />
+        <EnemiesData FileName="KromaElite.xml" Number="3" />
+        <EnemiesData FileName="Squid.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+</MISSIONS>

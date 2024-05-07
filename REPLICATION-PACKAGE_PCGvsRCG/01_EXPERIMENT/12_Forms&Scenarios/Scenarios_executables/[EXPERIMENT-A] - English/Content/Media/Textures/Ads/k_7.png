@@ -1,0 +1,501 @@
+﻿//SYSTEM TEXTS
+SYSTEM TEXTS
+
+
+//Device
+Dispositivo
+//Mouse + Keyboard
+Mouse + Teclado
+//Joystick (EXPERTS ONLY)
+Joystick (SOMENTE PARA EXPERTS)
+
+
+//Mouse Motion
+Movimento de Mouse
+
+
+// Keyboard Labels
+// Unassigned key
+Sem atribuição
+// Escape
+Esc
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+// Minus: - on main keyboard
+-
+// Equals
+=
+// Backspace
+Backspace
+// Tabulator
+Tab
+Q
+W
+E
+R
+T
+Y
+U
+I
+O
+P
+// Left bracket
+[
+// Right bracket
+]
+// Return: Enter on main keyboard
+Enter
+//Left Control
+Control esquerda
+A
+S
+D
+F
+G
+H
+J
+K
+L
+// Semicolon
+;
+// Apostrophe
+'
+// Grave: Accent
+`
+//Left Shift
+Shift esquerda
+\
+Z
+X
+C
+V
+B
+N
+M
+,
+// Period: . on main keyboard
+.
+// Slash: / on main keyboard
+/
+//Right shift
+Shift direita
+// Multiply: * on numeric keypad
+* (teclado numérico)
+//Left Alt
+Alt esquerda
+//Space
+Espaço
+//Caps Lock
+Caps Lock
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+//Num Lock
+Num Lock
+//Scroll Lock
+Scroll Lock
+7 (teclado numérico)
+8 (teclado numérico)
+9 (teclado numérico)
+// Subtract: - on numeric keypad
+- (teclado numérico)
+4 (teclado numérico)
+5 (teclado numérico)
+6 (teclado numérico)
+// Add: + on numeric keypad
++ (teclado numérico)
+1 (teclado numérico)
+2 (teclado numérico)
+3 (teclado numérico)
+0 (teclado numérico)
+// Decimal: . on numeric keypad
+. (teclado numérico)
+// OEM 102: < > | on UK/Germany keyboards
+<>|
+F11
+F12
+// F13: NEC PC98
+F13
+// F14: NEC PC98
+F14
+// F15: NEC PC98
+F15
+// Kana: Japanese keyboard
+Kana
+// ABNT C1: / ? on Portugese/Brazilian keyboards
+/?
+// Convert: Japanese keyboard
+Convert
+// No Convert: Japanese keyboard
+No Convert
+// Yen: Japanese keyboard
+¥
+// ABNT C2: Numpad . on Portugese/Brazilian keyboards
+.
+// = on numeric keypad (NEC PC98)
+=
+// Previous track (circumflex on Japanese keyboard)
+Previous Track
+// At: NEC PC98
+@
+// Colon: NEC PC98
+:
+// Underline: NEC PC98
+_
+// Kanji: Japanese keyboard
+Kanji
+// Stop: NEC PC98
+Parar
+// AX: Japan AX
+AX
+// Unlabeled: J3100
+Sem classificação
+// Next track
+Avançar faixa
+// Enter: Enter on numeric keypad
+Enter (teclado numérico)
+//Right Control
+Control direita
+//Mute
+Silenciar
+//Calculator
+Calculadora
+//Play/Pause
+Reproduzir/Pausar
+//Media Stop
+Parar mídia
+//Volume Down
+Reduzir volume
+//Volume Up
+Aumentar volume
+//Web Home
+Início Web
+// , on numeric keypad (NEC PC98)
+, (teclado numérico)
+// Divide: / on numeric keypad
+/ (teclado numérico)
+//SysRq
+SysRq
+//Right Alt
+Alt direita
+//Pause
+Pause
+Home
+//Up
+Cima
+//Page Up
+Page Up
+//Left
+Esquerda
+//Right
+Direita
+//End
+End
+//Down
+Baixo
+//Page Down
+Page Down
+//Insert
+Insert
+//Delete
+Delete
+//Left Windows
+Windows esquerda
+//Right Windows
+Windows direita
+// Menu key / Application key (Windows)
+Tecla de menu
+//Power
+Power
+//Sleep
+Sleep
+//Wake
+Wake
+//Web Search
+Pesquisa na Web
+//Web Favorites
+Web - Favoritos
+//Web Refresh
+Web - Atualizar
+//Web Stop
+Parar a Web
+//Web Forward
+Web - Avançar
+//Web Back
+Web - Voltar
+//My Computer
+Meu Computador
+//Mail
+Correio
+//Media Select
+Selecionar Mídia
+
+
+// Buttons
+//Mouse Left Button
+Botão esquerdo do mouse
+//Mouse Right Button
+Botão direito do mouse
+//Mouse Middle Button
+Botão central do mouse
+//Mouse Button 3
+Botão do mouse 3
+//Mouse Button 4
+Botão do mouse 4
+//Mouse Button 5
+Botão do mouse 5
+//Mouse Button 6
+Botão do mouse 6
+//Mouse Button 7
+Botão do mouse 7
+//Joystick Button 0
+Botão do joystick 0
+//Joystick Button 1
+Botão do joystick 1
+//Joystick Button 2
+Botão do joystick 2
+//Joystick Button 3
+Botão do joystick 3
+//Joystick Button 4
+Botão do joystick 4
+//Joystick Button 5
+Botão do joystick 5
+//Joystick Button 6
+Botão do joystick 6
+//Joystick Button 7
+Botão do joystick 7
+//Joystick Button 8
+Botão do joystick 8
+//Joystick Button 9
+Botão do joystick 9
+//Joystick Button 10
+Botão do joystick 10
+//Joystick Button 11
+Botão do joystick 11
+//Joystick Button 12
+Botão do joystick 12
+//Joystick Button 13
+Botão do joystick 13
+//Joystick Button 14
+Botão do joystick 14
+//Joystick Button 15
+Botão do joystick 15
+//Joystick Button 16
+Botão do joystick 16
+//Joystick Button 17
+Botão do joystick 17
+//Joystick Button 18
+Botão do joystick 18
+//Joystick Button 19
+Botão do joystick 19
+//Joystick Button 20
+Botão do joystick 20
+//Joystick Button 21
+Botão do joystick 21
+//Joystick Button 22
+Botão do joystick 22
+//Joystick Button 23
+Botão do joystick 23
+//Joystick Button 24
+Botão do joystick 24
+//Joystick Button 25
+Botão do joystick 25
+
+
+// Axis
+//Mouse X Axis
+Eixo X do mouse
+//Mouse Y Axis
+Eixo Y do mouse
+//Mouse Z Axis (Wheel)
+Eixo Z do mouse (Roda)
+//Mouse Axis 3
+Eixo do mouse 3
+//Mouse Axis 4
+Eixo do mouse 4
+//Mouse Axis 5
+Eixo do mouse 5
+//Mouse Axis 6
+Eixo do mouse 6
+//Mouse Axis 7
+Eixo do mouse 7
+//Mouse Axis 8
+Eixo do mouse 8
+//Mouse Axis 9
+Eixo do mouse 9
+//Joystick Axis 0
+Eixo do joystick 0
+//Joystick Axis 1
+Eixo do joystick 1
+//Joystick Axis 2
+Eixo do joystick 2
+//Joystick Axis 3
+Eixo do joystick 3
+//Joystick Axis 4
+Eixo do joystick 4
+//Joystick Axis 5
+Eixo do joystick 5
+//Joystick Axis 6
+Eixo do joystick 6
+//Joystick Axis 7
+Eixo do joystick 7
+//Joystick Axis 8
+Eixo do joystick 8
+//Joystick Axis 9
+Eixo do joystick 9
+//Joystick POV 0
+Joystick POV 0
+//Joystick POV 1
+Joystick POV 1
+//Joystick POV 2
+Joystick POV 2
+//Joystick POV 3
+Joystick POV 3
+
+
+// Sliders
+//Joystick Slider 0
+Controle deslizante do joystick 0
+//Joystick Slider 1
+Controle deslizante do joystick 1
+//Joystick Slider 2
+Controle deslizante do joystick 2
+//Joystick Slider 3
+Controle deslizante do joystick 3
+
+
+// Axis modes
+(+)
+(-)
+//(COMPLETE)
+(COMPLETO)
+//(COMPLETE AND INVERTED)
+(COMPLETO E INVERTIDO)
+
+
+// Slider modes
+(+ X)
+(- X)
+//(COMPLETE X)
+(X COMPLETO)
+//(COMPLETE AND INVERTED X)
+(X COMPLETO E INVERTIDO)
+(+ Y)
+(- Y)
+//(COMPLETE Y)
+(Y COMPLETO)
+//(COMPLETE AND INVERTED Y)
+(Y COMPLETO E INVERTIDO)
+
+
+// POV directions
+//(CENTERED)
+(CENTRALIZADO)
+//(NORTH)
+(NORTE)
+//(SOUTH)
+(SUL)
+//(EAST)
+(LESTE)
+//(WEST)
+(OESTE)
+//(NORTH EAST)
+(NORDESTE)
+//(SOUTH EAST)
+(SUDESTE)
+//(NORTH WEST)
+(NOROESTE)
+//(SOUTH WEST)
+(SUDOESTE)
+
+
+// Screen mode
+//Full Screen
+Tela cheia
+//Window
+Janela
+
+
+// Months (ONLY three letters)
+//JAN
+JAN
+//FEB
+FEV
+//MAR
+MAR
+//APR
+ABR
+//MAY
+MAI
+//JUN
+JUN
+//JUL
+JUL
+//AUG
+AGO
+//SEP
+SET
+//OCT
+OUT
+//NOV
+NOV
+//DEC
+DEZ
+
+
+// Days of week
+//Sunday
+Domingo
+//Monday
+Segunda-feira
+//Tuesday
+Terça-feira
+//Wednesday
+Quarta-feira
+//Thursday
+Quinta-feira
+//Friday
+Sexta-feira
+//Saturday
+Sábado
+
+
+// Terms
+//On
+Sim
+//Off
+Não
+//Music
+Música
+//Glow
+Glow
+//Depth of Field
+Depth of Field
+//Indie
+Indie
+//Classic Arcade
+Arcade Clássico
+
+
+// Visual styles
+//Simple
+Simples
+//Normal
+Normal
+//Retro
+Retrô

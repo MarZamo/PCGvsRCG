@@ -1,0 +1,630 @@
+﻿GAME TEXTS
+
+
+//Language original names
+English
+Español
+Français
+Deutsch
+Italiano
+日本語
+Русский
+Português
+
+
+//Language translated names
+English
+Spanish
+French
+German
+Italian
+Japanese
+Russian
+Portuguese
+
+
+DEVICE
+Sensitivity
+Pitch Up
+Pitch Down
+Yaw Left
+Yaw Right
+Roll Left
+Roll Right
+Accelerate
+Decelerate
+Boost
+Strafe Up
+Strafe Down
+Strafe Left
+Strafe Right
+Primary Fire
+Secondary Fire
+Next Armor
+Previous Armor
+Spinner Left Grappling Hook
+Spinner Center Grappling Hook
+Spinner Right Grappling Hook
+Change Special Weapon
+Change Armor
+Invert Pitch inputs
+Stats
+Options
+(NOT CUSTOMIZABLE)
+KEY IN\nUSE
+
+
+DEVICE TO BE CONFIGURED
+SENSITIVITY\nPERCENTAGE
+PITCH UP PROPELLERS
+PITCH DOWN PROPELLERS
+YAW LEFT PROPELLERS
+YAW RIGHT PROPELLERS
+ANTI-CLOCKWISE ROLL\nPROPELLERS
+CLOCKWISE ROLL\nPROPELLERS
+ACCELERATION MAIN\nPROPELLERS
+DECELERATION MAIN\nPROPELLERS
+PROPELLERS BOOST
+STRAFING UP PROPELLERS
+STRAFING DOWN PROPELLERS
+STRAFING LEFT PROPELLERS
+STRAFING RIGHT PROPELLERS
+MAIN FIRE
+SECONDARY FIRE
+CHANGE TO NEXT ARMOR
+CHANGE TO PREVIOUS ARMOR
+LEFT GRAPPLING HOOK FIRE
+CENTER GRAPPLING HOOK FIRE
+RIGHT GRAPPLING HOOK FIRE
+SPECIAL WEAPON CHANGE
+ARMOR CHANGE
+PITCH INPUTS REVERSAL
+CURRENT STATS
+OPTIONS MENU
+
+
+Wake up, son...
+The prize is fair...
+... and the way is long.
+
+
+START
+CONFIRM
+OK
+CANCEL
+LOCKED
+CONTINUE
+YES
+NO
+
+
+KROMAIA
+STORY MODE
+SCORE ATTACK
+BOSS TRIAL
+VERSUS MODE
+STORY MODE DEMO
+LOAD
+CONFIGURATION
+CLEAR DATA
+EXIT
+
+
+START\nSCORE ATTACK
+ELYSIUM
+REBOOT
+ARMOR SELECTION MENU
+EXIT
+SCORE
+
+
+Enter Your Name
+ELYSIUM
+
+
+RESOLUTION
+VISUAL STYLE (F6)
+VOLUME
+MUSIC
+FX
+MUSIC VOLUME
+FX VOLUME
+ON
+OFF
+LANGUAGE
+SCREEN MODE
+CONTROLS
+APPLY & SAVE
+BACK
+SAVE
+SAVE & CONTINUE
+EXIT WITHOUT SAVING
+APPLY DEFAULT\nSETTINGS
+
+
+LOAD SLOT-
+CLEAR SLOT-
+EMPTY
+NEW FILE
+AREA
+TIME
+
+
+RESUME
+EXIT
+
+
+Xbox 360 controller supported
+
+
+Ending Demo
+Demo Time Left
+
+
+Wake up...
+
+
+At last...
+My thoughts have\nreached you, son.
+They are the only things\nwhich I am allowed to keep...
+So listen to them...
+... and grant me revenge.
+
+
+Collect every gate component\nto unlock jumpgates.
+The icons on a door indicate\nhow many keys are needed.
+
+
+There is a solid ring with a\npointer surrounding your armor...
+This compass will lead\nyou to the truth...
+The arrow on the ring surrounding\nyou points to the next target.
+
+
+Shoot at buttons to activate\ndevices or open doors.
+
+
+Don't be afraid of entering the portal.
+Such gates will let you travel\nto different nodes in time and space.
+
+
+A node can be entered only with its\ndefault armor until it is cleared\nfor the first time.
+Once a node is cleared,\nit can be entered with\ndifferent armors.
+New armor available at Kyllene.\nCollect a mask to summon an armor.
+You must defeat each of those\ntraitors with every armor to\nlight the Kyllene Wheel\nat full power.
+
+
+Tap the boost key to multiply\nthe active thrusters power
+Advanced Boost does not work by tapping\nthe boost key, but holding it.
+
+
+Heavy impacts at great speeds may destroy\nyour armor, even if you have shields left.
+
+
+Look, son...
+This is the key to\nruling time and space...
+Take it and\nopen the gates...
+... to our fate.
+
+
+Even if you don't remember who you are...
+I know well what I owe you, son.
+Accept your reward...
+... and let all knowledge become one.
+
+
+Yes, four gods...
+They are the ones to\nblame for all.
+Vermis, the first of them\nbut not the oldest...
+The worm god will rise when\nthe disturbance reaches the\npillared shrine.
+
+
+We are closer to freedom...
+They will pay for their crime.\nRepentance will not erase the guilt.
+Far beyond the metal forest, Teuthus sleeps peacefully...
+Don't be reckless, he has always\nknown that we would search for him.
+
+
+Time and space are on our side...
+There is no way they\ncan warn each other.
+Every device ruled by Argos works\nto gather raw energy for their master...
+A greed which is second only\nto his brute force.
+
+
+There is only one way to\nfuse these branches and reign:
+bring the same fate\nto all of them.
+Orion chose a world filled\nwith life and taught its offspring.
+The hunter and his tribe will use\ntheir science to destroy you at any cost.
+
+
+The big one is a menace...
+Take its life...
+
+
+Vermis is an elderly god...
+But not totally weak...
+
+
+His strength goes beyond his arms...
+Don't hesitate...
+
+
+Argos has the upper\nhand in close combat...
+It is time to test your agility...
+
+
+Orion knows the principles\nbehind your armors...
+Show him what you have learnt.
+
+
+...
+There is a long way to go...
+Now sleep, son...
+
+
+Thank you, son.
+Those remaining realities\nin which I was defeated...
+... now they are just bad dreams.
+...
+These brothers did well,\nmy soul was nearly sealed.
+But I was still able to reach\nto the strongest of them...
+... and erase his mind. Your mind.
+
+
+My gift to you...
+I will take you to the same place...
+... where your memories rest.
+
+
+Don't you understand?
+If I return to Chaos,\nthe world we have built\nwill be lost only to start again...
+I just wanted to bring this\nendless circle to a close.
+But I guess you can't\nescape your nature...
+... and your nature is to survive.
+
+
+It is time to\nmake your choice.
+End your existence here in the void...
+or enter the gate and give back\nthe time I granted you.
+
+
+Wake up, son...
+Let's play this hopeless\ngame one more time.
+
+
+Piloting Basics
+Yawing And Pitching
+Main orientation mechanics.
+Forward acceleration
+Keep pressed to increase linear velocity.
+Strafing
+Strafing thrusters are used for dodging\nand complex manoeuvring.
+Rolling
+Advanced orientation thrusters.
+Boost
+Multiplies the power of active thrusters.\nIneffective on inactive thrusters.
+Primary Fire
+Main weapon. Low reloading time.
+Secondary Fire
+Auxiliary weapon.\nHigh firepower and slow reloading.
+
+
++1 SHIELD LAYER
+SHIELDS RESTORED
+SHIELD LAYER LOST
+SHIELDS DOWN
+ADVANCED BOOST
+ADD-ON
+NEW UPGRADE
+
+
+ALPHA
+TAU
+MU
+PSI
+OMEGA
+
+
+Alpha Armor
+Tau Armor
+Mu Armor
+Psi Armor
+Omega Armor
+
+
+Artillery Type
+Assisted Aiming Unit
+Precision Shooter
+Close Combat Oriented
+No Data Available
+
+
+STANDARD
+ASSISTED
+DIFFICULT
+ELITE
+NO DATA AVAILABLE
+
+
+Select Armor
+Firepower
+Ease Of Use
+Rate Of Fire
+
+
+BOOST
+SCATTER DRIVE
+SEEKER
+LIGHT NEEDLE
+FIELD BREAKER
+OMEGA DEVICE
+
+
+SMART TURRETS
+
+
+The Scatter Drive shot spread is\nan optimal short range defense\nagainst fast targets getting too close.
+Hold Secondary Fire to lock\nmultiple missile targets.\nRelease when targets are locked to fire.
+Holding Secondary Fire adds extra\nduration for the Light Needle beam.
+Hold Secondary Fire until the Field Breaker\nstar blade is ready to be launched.
+
+
+Hold Secondary Fire until loading is complete.
+Hold Secondary Fire to lock multiple targets.\nRelease when targets are locked.
+
+
+Smart Turrets are A.I. devices\nthat aim and fire automatically
+
+
+WAITING
+RELOADING
+READY
+
+
+SPINNER
+MINE-PROBE
+RADIAL BOLT
+GRAVITY SHELL
+FUSION THRUSTER
+DRONES
+OFFENSIVE DRONES
+DEFENSIVE DRONES
+
+
+The Spinner is a grappling hook device\nallowing extreme manoeuvrability\nand fast displacements.\nUse it to cling to structures,\nasteroids or enemies.
+Tap the Spinner fire\nto launch grappling hooks.
+A second Spinner fire tap\ncuts a fixed cable.
+Hold Spinner fire\nto reel in a fixed cable.
+Releasing Spinner fire while reeling\ncuts the cable.
+The Mine-Probe is a two-stage bomb device.\nTap fire to launch the projectile and rush\nthe delayed detonation with a second tap.
+The Radial Bolt is a close combat weapon\nthat detects living entities within range,\nfiring energy streams at their bodies.
+The Gravity Shell is a device casting a gravity bomb\nthat attracts and assimilates low to\medium mass entities before collapsing.
+The Fusion Thruster works as a continuous\nAdvanced Boost, with unlimited power supply.
+Drones are smart units which operate and\nselect their own targets independently.
+
+
+JUMPGATE COMPONENT
+ALTERNATIVE MARKER ITEM
+WEAPON UP ITEM
+THISAUROS
+SOUL VIAL
+SHIELD ITEM
+BONUS
+ADVANCED BOOST
+ADVANCED BOOST LEFT PACK
+ADVANCED BOOST RIGHT PACK
+EXTRA BONUS
+MACRO BONUS
+KEY
+MESSAGE
+ADD-ON
+ADD-ON FIRST PACK
+ADD-ON SECOND PACK
+
+
+WARNING
+NEXT BONUS\nAVAILABLE
+DOOR UNLOCKED
+
+
+GAME OVER
+
+
+Code Accepted
+Sequence Error
+
+
+SC
+LV
+LEVEL
+LEVEL UP
+Power Increased
+Top Speed Raised
+Reloading Time Improved
+Advanced Boost Capacity Increased
+Shield Capacity Increased
+Your score will be\nused to level up
+Level up to improve your skills
+Super-Frame Mode
+New Super-Frame Mode Unlocked
+After completing a game cycle,\na new Super-Frame Mode is unlocked
+Super-Frame Modes increase difficulty level
+
+
+EXTRA
+
+
+RACER
+
+
+GAMES
+
+
+CREDITS
+
+
+TIME LEFT
+
+
+Round -
+
+
+Player -
+Wins
+
+
+DIFFICULTY LEVEL
+EASY
+MEDIUM
+HARD
+ULTIMATE
+
+
+SCORE ATTACK
+RACER
+ASTEROIDS MODE
+SURVIVAL MODE
+ENDLESS RUNNER
+TIME ATTACK
+KROMAIA: ROGUE
+
+
+Collect items and destroy enemies\nto earn the highest score
+Retrieve all the items as fast as you can
+Destroy every asteroid in your way
+Survive as long as you can
+Avoid every obstacle to survive
+Reach the next check point before\nrunning out of time
+Explore beyond your homebase domains\nand upgrade your equipment
+
+
+// Achievement Titles (Don't translate)
+Give Me My Bullets
+Rider On The Worm
+Space Bound Ricochet
+Squid Row
+Playing With Fire
+Breaking The Claw
+Ace Of Lightspades
+Cosmic Dance End
+One
+Sad Strings Of Destiny
+Bomb Rules
+Try The Lightning
+And Physics For All
+Master Of Realities
+Fade To White
+Keeper of the 12 Keys
+I'm In For The Kill
+Staying Hungry
+Third Evening In Scoreland
+Appetite For Insolation
+Who's Next?
+Chaining Is My Business
+So Far, So Good
+Star Way To Hell
+Beyond Strength
+Four Kicks
+
+
+// Achievement Descriptions
+Unlock the Alpha Armor
+Defeat Vermis
+Unlock the Tau Armor
+Defeat Teuthus
+Unlock the Mu Armor
+Defeat Argos
+Unlock the Psi Armor
+Defeat Orion
+Unlock the Omega Armor
+Obtain the Spinner
+Obtain the Mine-Probe
+Obtain the Radial Bolt
+Obtain the Gravity Shell
+Clear every dimension
+Complete the game
+Obtain every treasure
+Score 25,000 In Score Attack Mode
+Score 50,000 In Score Attack Mode
+Score 100,000 In Score Attack Mode
+Reach the Sun
+Beat a boss without taking any damage
+Achieve a x100 hit combo
+Reach the end and unlock Super-Frame Mode 1
+Reach the end for a second time and unlock Super-Frame Mode 2
+Unlock Super-Frame Mode 3
+Unlock Super-Frame Mode 4
+
+
+DIFFICULTY:\nCHOOSE SAVE POINT\nFREQUENCY
+EXPLORER MODE:\nPLAY IN A NON\nHOSTILE ENVIRONMENT
+SAVE POINT
+SAVING...
+DELETE
+
+
+GLOW (F5)
+SHADER QUALITY (F7)
+
+// Omega-II Gemini armor texts
+OMEGA-II GEMINI
+Omega-II Gemini Armor
+DRONE CASTER
+The Drone Caster fires smart\nunits which operate and select\ntheir own targets independently
+Assault Unit
+TANK
+
+// Configuration texts
+CO-OP MODE
+Enables/Disables Co-op Mode
+CAMERA CHANGE
+Switches To Next Camera
+LINEAR FRICTION DEACTIVATOR
+Disables Linear Friction Simulation
+
+// Modes text
+PURE MODE
+Conquer Kromaia § in one life!
+
+// Leaderboard menu texts
+LEADERBOARDS
+Previous/Next Page
+All Users
+My Friends
+Search Myself
+
+// Power-ups
+LIFE WIPER
+
+// Treasure power-up
+LINEAR FRICTION DEACTIVATOR
+The Linear Friction Deactivator\nallows to disable\nlinear friction simulation\nfor your armor.
+
+// Weapons
+Stunning Bolt
+Explosive Bullet
+Limpet Grenade
+Chain Reaction Explosive
+Turret Armed Drone
+Bolt Casting Drone
+Flamethrower
+Incendiary Bomb
+
+// Messages
+Current Leaderboard Position:
+LOADING...
+THANK YOU FOR PLAYING
+
+// Co-operative mode
+The Co-operative Ad Hoc Mode\nallows to split the armor\ncontrols between two players.
+The player enabling it controls\nthe weaponry turret while\nthe other one pilots the armor.
+Use the defined button to\nenable/disable this special mode.
+
+// Special unit
+The Omega-II Gemini armor\nis equipped with a Plasma\nCannon and a Drone Caster.
+You will lose it when it is\ndamaged or after teleporting\nthrough gates.
+
+// Symbols
+§
+
+// Options
+Use Motion Sensor

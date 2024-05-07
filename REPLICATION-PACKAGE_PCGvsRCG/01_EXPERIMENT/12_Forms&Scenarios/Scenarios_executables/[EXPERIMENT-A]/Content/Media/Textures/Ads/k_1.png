@@ -1,0 +1,353 @@
+﻿TEXTOS DE SISTEMA
+
+
+Dispositivo
+Ratón + Teclado
+Joystick (SÓLO EXPERTOS)
+
+
+Movimiento de Ratón
+
+
+// Keyboard Labels
+// Unassigned key
+Sin asignar
+// Escape
+Esc
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+// Minus: - on main keyboard
+-
+// Equals
+=
+// Backspace
+Retroceso
+// Tabulator
+Tab
+Q
+W
+E
+R
+T
+Y
+U
+I
+O
+P
+// Left bracket
+[
+// Right bracket
+]
+// Return: Enter on main keyboard
+Return
+Control Izquierda
+A
+S
+D
+F
+G
+H
+J
+K
+L
+// Semicolon
+;
+// Apostrophe
+'
+// Grave: Accent
+`
+Mayúsculas Izquierda
+\
+Z
+X
+C
+V
+B
+N
+M
+,
+// Period: . on main keyboard
+.
+// Slash: / on main keyboard
+/
+Mayúsculas Derecha
+// Multiply: * on numeric keypad
+* (TECLADO NUMÉRICO)
+Alt Izquierda
+Espacio
+Bloq Mayús
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+Bloq Num
+Bloq Despl
+7 (TECLADO NUMÉRICO)
+8 (TECLADO NUMÉRICO)
+9 (TECLADO NUMÉRICO)
+// Subtract: - on numeric keypad
+- (TECLADO NUMÉRICO)
+4 (TECLADO NUMÉRICO)
+5 (TECLADO NUMÉRICO)
+6 (TECLADO NUMÉRICO)
+// Add: + on numeric keypad
++ (TECLADO NUMÉRICO)
+1 (TECLADO NUMÉRICO)
+2 (TECLADO NUMÉRICO)
+3 (TECLADO NUMÉRICO)
+0 (TECLADO NUMÉRICO)
+// Decimal: . on numeric keypad
+. (TECLADO NUMÉRICO)
+// OEM 102: < > | on UK/Germany keyboards
+<>|
+F11
+F12
+// F13: NEC PC98
+F13
+// F14: NEC PC98
+F14
+// F15: NEC PC98
+F15
+// Kana: Japanese keyboard
+Kana
+// ABNT C1: / ? on Portugese/Brazilian keyboards
+/?
+// Convert: Japanese keyboard
+Convert
+// No Convert: Japanese keyboard
+No Convert
+// Yen: Japanese keyboard
+¥
+// ABNT C2: Numpad . on Portugese/Brazilian keyboards
+.
+// = on numeric keypad (NEC PC98)
+=
+// Previous track (circumflex on Japanese keyboard)
+Pista Anterior
+// At: NEC PC98
+@
+// Colon: NEC PC98
+:
+// Underline: NEC PC98
+_
+// Kanji: Japanese keyboard
+Kanji
+// Stop: NEC PC98
+Stop
+// AX: Japan AX
+AX
+// Unlabeled: J3100
+Sin etiquetar
+// Next track
+Pista Siguiente
+// Enter: Enter on numeric keypad
+Intro (TECLADO NUMÉRICO)
+Control Derecha
+Silencio
+Calculadora
+Reproducir/Pausa
+Detener
+Bajar Volumen
+Subir Volumen
+Página de Inicio
+// , on numeric keypad (NEC PC98)
+, (TECLADO NUMÉRICO)
+// Divide: / on numeric keypad
+/ (TECLADO NUMÉRICO)
+SysRq
+Alt Derecha
+Pausa
+Inicio
+Arriba
+Re Pág
+Izquierda
+Derecha
+Fin
+Abajo
+Av Pág
+Insert
+Supr
+Windows Izquierda
+Windows Derecha
+// Menu key / Application key (Windows)
+Menú de Aplicación
+Power
+Sleep
+Wake
+Búsqueda Web
+Favoritos
+Actualizar
+Detener Carga
+Adelante
+Atrás
+Mi PC
+Correo
+Selección Multimedia
+
+
+// Buttons
+Botón Izquierdo de Ratón
+Botón Derecho de Ratón
+Botón Central de Ratón
+Botón 3 de Ratón
+Botón 4 de Ratón
+Botón 5 de Ratón
+Botón 6 de Ratón
+Botón 7 de Ratón
+Botón 0 de Joystick
+Botón 1 de Joystick
+Botón 2 de Joystick
+Botón 3 de Joystick
+Botón 4 de Joystick
+Botón 5 de Joystick
+Botón 6 de Joystick
+Botón 7 de Joystick
+Botón 8 de Joystick
+Botón 9 de Joystick
+Botón 10 de Joystick
+Botón 11 de Joystick
+Botón 12 de Joystick
+Botón 13 de Joystick
+Botón 14 de Joystick
+Botón 15 de Joystick
+Botón 16 de Joystick
+Botón 17 de Joystick
+Botón 18 de Joystick
+Botón 19 de Joystick
+Botón 20 de Joystick
+Botón 21 de Joystick
+Botón 22 de Joystick
+Botón 23 de Joystick
+Botón 24 de Joystick
+Botón 25 de Joystick
+
+
+// Axis
+Eje X de Ratón
+Eje Y de Ratón
+Eje Z de Ratón (Rueda)
+Eje 3 de Ratón
+Eje 4 de Ratón
+Eje 5 de Ratón
+Eje 6 de Ratón
+Eje 7 de Ratón
+Eje 8 de Ratón
+Eje 9 de Ratón
+Eje 0 de Joystick
+Eje 1 de Joystick
+Eje 2 de Joystick
+Eje 3 de Joystick
+Eje 4 de Joystick
+Eje 5 de Joystick
+Eje 6 de Joystick
+Eje 7 de Joystick
+Eje 8 de Joystick
+Eje 9 de Joystick
+Botón Direccional 0 de Joystick
+Botón Direccional 1 de Joystick
+Botón Direccional 2 de Joystick
+Botón Direccional 3 de Joystick
+
+
+// Sliders
+Palanca 0 de Joystick
+Palanca 1 de Joystick
+Palanca 2 de Joystick
+Palanca 3 de Joystick
+
+
+// Axis modes
+(+)
+(-)
+(COMPLETO)
+(COMPLETO E INVERTIDO)
+
+
+// Slider modes
+(+ X)
+(- X)
+(X COMPLETO)
+(X COMPLETO E INVERTIDO)
+(+ Y)
+(- Y)
+(Y COMPLETO)
+(Y COMPLETO E INVERTIDO)
+
+
+// POV directions
+(CENTRADO)
+(NORTE)
+(SUR)
+(ESTE)
+(OESTE)
+(NORDESTE)
+(SUDESTE)
+(NOROEST)
+(SUDOESTE)
+
+
+// Screen mode
+Pantalla Completa
+Ventana
+
+
+// Months
+ENE
+FEB
+MAR
+ABR
+MAY
+JUN
+JUL
+AGO
+SEP
+OCT
+NOV
+DIC
+
+
+// Days of week
+Domingo
+Lunes
+Martes
+Miércoles
+Jueves
+Viernes
+Sábado
+
+
+// Terms
+//On
+Sí
+//Off
+No
+//Music
+Música
+//Glow
+Glow
+//Depth of Field
+Depth of Field
+//Indie
+Indie
+//Classic Arcade
+Arcade Clásico
+
+
+// Visual styles
+Simple
+Normal
+Retro

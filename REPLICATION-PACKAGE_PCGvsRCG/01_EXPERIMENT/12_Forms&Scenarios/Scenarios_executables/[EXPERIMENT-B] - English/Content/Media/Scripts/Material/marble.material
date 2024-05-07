@@ -1,0 +1,33 @@
+// Marble related materials
+
+import GlowPlain from "default.material"
+
+//////////////////////////////////////////////////
+
+material MarbleSurface : GlowPlain
+{
+  set $ambient  "0.0   0.0   0.0   1.0"
+  set $diffuse  "0.3   0.3   0.3   1.0"
+  set $emissive "0.025 0.025 0.025 0.0"
+}
+
+//////////////////////////////////////////////////
+
+material MarbleEdge : GlowPlain
+{
+  set $ambient  "0.0   0.0   0.0   1.0"
+  set $diffuse  "0.1   0.1   0.1   1.0"
+  set $emissive "0.025 0.025 0.025 0.0"
+}
+
+
+//////////////////////////////////////////////////
+
+material MarbleEye : GlowPlain
+{
+  set $ambient  "0.05 0.05 0.05 1.0"
+  set $diffuse  "0.4  0.4  0.9  1.0"
+  set $emissive "0.0  0.0  1.0  0.0"
+}
+
+//////////////////////////////////////////////////

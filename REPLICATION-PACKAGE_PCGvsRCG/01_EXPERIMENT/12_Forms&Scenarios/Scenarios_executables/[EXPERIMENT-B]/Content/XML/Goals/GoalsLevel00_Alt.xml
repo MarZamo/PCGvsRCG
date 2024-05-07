@@ -1,0 +1,296 @@
+<?xml version="1.0" ?>
+<MISSIONS Number="11">
+
+  <GLOBAL GlobalTranslationX="-1000000" GlobalTranslationY="0" GlobalTranslationZ="0" />
+
+  <!--ATRIUM *******************************************************************************************************-->
+  <!-- Z FLIPPED!!! --->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1011"
+                 ReferencePositionX="0" ReferencePositionY="-500" ReferencePositionZ="-2700"
+                 BaseOrientationW="0" BaseOrientationX="0" BaseOrientationY="1" BaseOrientationZ="0" />
+    <GATES Number ="2" >
+      <GateData GateType="2" SealDisabled="1"
+                AreaIndex="-1" LevelIndex="-1"
+                LocalPositionX="0" LocalPositionY="0" LocalPositionZ="5.12" />
+      <GateData GateType="2" SealDisabled="1"
+                AreaIndex="-1" LevelIndex="-1"
+                LocalPositionX="0" LocalPositionY="0" LocalPositionZ="9.5" />
+    </GATES>
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="3"     DimensionY="3"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0.4" LocalPositionY="0" LocalPositionZ="-0.4" />
+        <DimensionsData    DimensionX="1"     DimensionY="3"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--FORMER BOX *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="0" ReferencePositionY="-490" ReferencePositionZ="-2700"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Marble.xml" Number="4" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--COLUMNATA *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1013"
+                 ReferencePositionX="0" ReferencePositionY="-500" ReferencePositionZ="-3100"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--COLUMNATA *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1013"
+                 ReferencePositionX="0" ReferencePositionY="-500" ReferencePositionZ="-3500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--COLUMNATA *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1013"
+                 ReferencePositionX="0" ReferencePositionY="-500" ReferencePositionZ="-3900"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--COLUMNATA *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1013"
+                 ReferencePositionX="0" ReferencePositionY="-500" ReferencePositionZ="-3800"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+  <!--MESSAGES *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="1000" />
+    <MissionData ReferenceType="4000"
+                 ReferencePositionX="0" ReferencePositionY="-350" ReferencePositionZ="-5200"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="1000" />
+    <MissionData ReferenceType="4001"
+                 ReferencePositionX="-1650" ReferencePositionY="-750" ReferencePositionZ="-5150"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+  <!--ORACLE *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="1009"
+                 ReferencePositionX="-1500" ReferencePositionY="-500" ReferencePositionZ="-5500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <EXTRAS Number="1">
+      <Extra ExtraID="0" LocalPositionX="0" LocalPositionY="-0.3" LocalPositionZ="0">
+        <Keys Number="1">
+          <KeyData TotemType="48" GlobalPositionX="-1500" GlobalPositionY="-500" GlobalPositionZ="-5000" />
+        </Keys>
+      </Extra>
+    </EXTRAS>
+
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="2"     DimensionY="10"      DimensionZ="2" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--SHRINE ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="2002"
+                 ReferencePositionX="0" ReferencePositionY="1170.41" ReferencePositionZ="-5379.87"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GATES Number ="4" >
+      <GATESINFORMATION />
+      <GateData GateType="1" SealDisabled="0"
+                AreaIndex="1" LevelIndex="0"
+                LocalPositionX="-0.223" LocalPositionY="-0.570135" LocalPositionZ="0.064635" />
+      <GateData GateType="1" SealDisabled="0"
+                AreaIndex="2" LevelIndex="0"
+                LocalPositionX="-0.074" LocalPositionY="-0.570135" LocalPositionZ="0.064635" />
+      <GateData GateType="1" SealDisabled="0"
+                AreaIndex="3" LevelIndex="0"
+                LocalPositionX="0.074" LocalPositionY="-0.570135" LocalPositionZ="0.064635" />
+      <GateData GateType="1" SealDisabled="0"
+                AreaIndex="4" LevelIndex="0"
+                LocalPositionX="0.223" LocalPositionY="-0.570135" LocalPositionZ="0.064635" />
+    </GATES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="-0.570135" GoalLocalPositionZ="0.075" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+  <!--BLOCKS *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="0" ReferencePositionY="-500" ReferencePositionZ="-5000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+
+    <BLOCKSMATRICES Number ="4" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0" LocalPositionY="0" LocalPositionZ="-200" />
+        <DimensionsData    DimensionX="1"     DimensionY="10"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0" LocalPositionY="-200" LocalPositionZ="-100" />
+        <DimensionsData    DimensionX="10"     DimensionY="1"      DimensionZ="1" />
+        <Type1BlocksData  Number="0" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="-500" LocalPositionY="-100" LocalPositionZ="-100" />
+        <DimensionsData    DimensionX="4"     DimensionY="4"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <HollowMatrix />
+        <LocalPositionData LocalPositionX="500" LocalPositionY="-100" LocalPositionZ="-100" />
+        <DimensionsData    DimensionX="2"     DimensionY="1"      DimensionZ="10" />
+        <Type1BlocksData  Number="0" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+
+    </BLOCKSMATRICES>
+
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+</MISSIONS>

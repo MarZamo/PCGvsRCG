@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<BACKUP>
+  <BackupData CurrentDataSetIndex="2" 
+              AreaIndex="1" 
+              LevelIndex="0" 
+              ArmorIndex="1" 
+              AllTimeAIPwnagesCounter="0" 
+              CurrentWeaponUpsCollectedCounter="0" 
+              CurrentItemsCollectedCounter="0" 
+              CurrentSoulsCounter="0" 
+              AllTimeItemsCollectedCounter="34" 
+              AllTimeItemsSummonedCounter="22" 
+              AllTimeWeaponUpsSummonedCounter="0" 
+              AllTimeSoulsCounter="0" 
+              Shl="4" 
+              Dif="1" 
+              Ext="0" 
+              Lvl="6" 
+              Scr="30460" 
+              Cod="76670" 
+              Date="2023-11-06" 
+              Time="12:30:28" />
+  <DATASETS Number="10">
+    <DataSet Cycles="1" CurrentMarkersCollectedCounter="1" DungeonLevel="0" CurrentGoalIndex="1" GoalsFileName="..//XML//Goals//GoalsLevel00.xml" />
+    <DataSet Cycles="0" CurrentMarkersCollectedCounter="0" DungeonLevel="0" CurrentGoalIndex="2" GoalsFileName="..//XML//Goals//GoalsKhaos.xml" />
+    <DataSet Cycles="0" CurrentMarkersCollectedCounter="20" DungeonLevel="0" CurrentGoalIndex="20" GoalsFileName="..//XML//Goals//GoalsLevel01.xml" />
+    <DataSet Cycles="0" CurrentMarkersCollectedCounter="0" DungeonLevel="0" CurrentGoalIndex="2" GoalsFileName="..//XML//Goals//GoalsLevel01_D_01.xml" />
+    <DataSet Cycles="0" CurrentMarkersCollectedCounter="0" DungeonLevel="0" CurrentGoalIndex="0" GoalsFileName="..//XML//Goals//GoalsLevel02.xml" />
+    <DataSet Cycles="0" CurrentMarkersCollectedCounter="0" DungeonLevel="0" CurrentGoalIndex="2" GoalsFileName="..//XML//Goals//GoalsLevel02_D_01.xml" />
+    <DataSet Cycles="0" CurrentMarkersCollectedCounter="0" DungeonLevel="0" CurrentGoalIndex="0" GoalsFileName="..//XML//Goals//GoalsLevel03.xml" />
+    <DataSet Cycles="0" CurrentMarkersCollectedCounter="0" DungeonLevel="0" CurrentGoalIndex="2" GoalsFileName="..//XML//Goals//GoalsLevel03_D_01.xml" />
+    <DataSet Cycles="0" CurrentMarkersCollectedCounter="0" DungeonLevel="0" CurrentGoalIndex="0" GoalsFileName="..//XML//Goals//GoalsLevel04.xml" />
+    <DataSet Cycles="0" CurrentMarkersCollectedCounter="0" DungeonLevel="0" CurrentGoalIndex="2" GoalsFileName="..//XML//Goals//GoalsLevel04_D_01.xml" />
+  </DATASETS>
+  <THISAUROUS Number="1">
+    <Thisauros ThisaurosName="2Caj" />
+  </THISAUROUS>
+  <COMPLETIONS Number="6">
+    <Completion CompletionMask="X" />
+    <Completion CompletionMask="X0000X" />
+    <Completion CompletionMask="X0000X" />
+    <Completion CompletionMask="X0000X" />
+    <Completion CompletionMask="X0000X" />
+    <Completion CompletionMask="X" />
+  </COMPLETIONS>
+  <TELOS Value="0" />
+</BACKUP>

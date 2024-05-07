@@ -1,0 +1,811 @@
+21:27:21: Creating resource group General
+21:27:21: Creating resource group Internal
+21:27:21: Creating resource group Autodetect
+21:27:21: SceneManagerFactory for type 'DefaultSceneManager' registered.
+21:27:21: Registering ResourceManager for type Material
+21:27:21: Registering ResourceManager for type Mesh
+21:27:21: Registering ResourceManager for type Skeleton
+21:27:21: MovableObjectFactory for type 'ParticleSystem' registered.
+21:27:21: ArchiveFactory for archive type FileSystem registered.
+21:27:21: ArchiveFactory for archive type Zip registered.
+21:27:21: ArchiveFactory for archive type EmbeddedZip registered.
+21:27:21: DDS codec registering
+21:27:21: FreeImage version: 3.15.3
+21:27:21: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+21:27:21: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti
+21:27:21: Registering ResourceManager for type HighLevelGpuProgram
+21:27:21: Registering ResourceManager for type Compositor
+21:27:21: MovableObjectFactory for type 'Entity' registered.
+21:27:21: MovableObjectFactory for type 'Light' registered.
+21:27:21: MovableObjectFactory for type 'BillboardSet' registered.
+21:27:21: MovableObjectFactory for type 'ManualObject' registered.
+21:27:21: MovableObjectFactory for type 'BillboardChain' registered.
+21:27:21: MovableObjectFactory for type 'RibbonTrail' registered.
+21:27:21: *-*-* OGRE Initialising
+21:27:21: *-*-* Version 1.9.0 (Ghadamon)
+21:27:21: OverlayElementFactory for type Panel registered.
+21:27:21: OverlayElementFactory for type BorderPanel registered.
+21:27:21: OverlayElementFactory for type TextArea registered.
+21:27:21: Registering ResourceManager for type Font
+21:27:21: Installing plugin: D3D9 RenderSystem
+21:27:21: D3D9 : Direct3D9 Rendering Subsystem created.
+21:27:21: D3D9: Driver Detection Starts
+21:27:21: D3D9: Driver Detection Ends
+21:27:21: Plugin successfully installed
+21:27:21: Installing plugin: Cg Program Manager
+21:27:21: Plugin successfully installed
+21:27:21: Added resource location '../Media' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Fonts' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Blocks' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Debris' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Deitates' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Deitates/Argos' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Deitates/Orion' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Deitates/Squid' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Deitates/Vermis' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Fighters' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Foes' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Foes/Daimon' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Foes/Drone' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Foes/Ships' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Foes/Turret' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Gates' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Icons' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Items' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Knockers' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Main' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Opening' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Planets' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Progress' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Projectiles' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Psychedelia' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Selector' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Shrines' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Shrines/ShrineMaia' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Shrines/Shrine0' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Shrines/Shrine1' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Ticker' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Totems' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Meshes/Weapons' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Scripts' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Scripts/Cg' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Scripts/Compositor' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Scripts/Material' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Scripts/Program' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Textures' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Textures/Ads' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Textures/Backup' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Textures/Misc' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Textures/Planets' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Textures/SkyBoxes' of type 'FileSystem' to resource group 'General'
+21:27:21: Added resource location '../Media/Textures/Shaders' of type 'FileSystem' to resource group 'General'
+21:27:21: CPU Identifier & Features
+21:27:21: -------------------------
+21:27:21:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+21:27:21:  *      SSE: yes
+21:27:21:  *     SSE2: yes
+21:27:21:  *     SSE3: yes
+21:27:21:  *      MMX: yes
+21:27:21:  *   MMXEXT: yes
+21:27:21:  *    3DNOW: no
+21:27:21:  * 3DNOWEXT: no
+21:27:21:  *     CMOV: yes
+21:27:21:  *      TSC: yes
+21:27:21:  *      FPU: yes
+21:27:21:  *      PRO: yes
+21:27:21:  *       HT: no
+21:27:21: -------------------------
+21:27:21: D3D9 : Subsystem Initialising
+21:27:21: Registering ResourceManager for type Texture
+21:27:21: Registering ResourceManager for type GpuProgram
+21:27:21: ***************************************
+21:27:21: *** D3D9 : Subsystem Initialised OK ***
+21:27:21: ***************************************
+21:27:21: D3D9RenderSystem::_createRenderWindow "KROMAIA V.1.05b", 1024x768 fullscreen  miscParams: FSAA=0 colourDepth=32 depthBuffer=true left=0 monitorIndex=0 title=KROMAIA V.1.05b top=0 vsync=false 
+21:27:21: D3D9 : Created D3D9 Rendering Window 'KROMAIA V.1.05b' : 1024x768, 32bpp
+21:27:22: D3D9: Vertex texture format supported - PF_L8
+21:27:22: D3D9: Vertex texture format supported - PF_L16
+21:27:22: D3D9: Vertex texture format supported - PF_A8
+21:27:22: D3D9: Vertex texture format supported - PF_A4L4
+21:27:22: D3D9: Vertex texture format supported - PF_BYTE_LA
+21:27:22: D3D9: Vertex texture format supported - PF_R5G6B5
+21:27:22: D3D9: Vertex texture format supported - PF_B5G6R5
+21:27:22: D3D9: Vertex texture format supported - PF_A4R4G4B4
+21:27:22: D3D9: Vertex texture format supported - PF_A1R5G5B5
+21:27:22: D3D9: Vertex texture format supported - PF_A8R8G8B8
+21:27:22: D3D9: Vertex texture format supported - PF_A8B8G8R8
+21:27:22: D3D9: Vertex texture format supported - PF_B8G8R8A8
+21:27:22: D3D9: Vertex texture format supported - PF_A2R10G10B10
+21:27:22: D3D9: Vertex texture format supported - PF_A2B10G10R10
+21:27:22: D3D9: Vertex texture format supported - PF_DXT1
+21:27:22: D3D9: Vertex texture format supported - PF_DXT2
+21:27:22: D3D9: Vertex texture format supported - PF_DXT3
+21:27:22: D3D9: Vertex texture format supported - PF_DXT4
+21:27:22: D3D9: Vertex texture format supported - PF_DXT5
+21:27:22: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+21:27:22: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+21:27:22: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+21:27:22: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+21:27:22: D3D9: Vertex texture format supported - PF_X8R8G8B8
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8B8A8
+21:27:22: D3D9: Vertex texture format supported - PF_DEPTH
+21:27:22: D3D9: Vertex texture format supported - PF_SHORT_RGBA
+21:27:22: D3D9: Vertex texture format supported - PF_FLOAT16_R
+21:27:22: D3D9: Vertex texture format supported - PF_FLOAT32_R
+21:27:22: D3D9: Vertex texture format supported - PF_SHORT_GR
+21:27:22: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+21:27:22: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+21:27:22: D3D9: Vertex texture format supported - PF_SHORT_RGB
+21:27:22: D3D9: Vertex texture format supported - PF_PVRTC_RGB2
+21:27:22: D3D9: Vertex texture format supported - PF_PVRTC_RGBA2
+21:27:22: D3D9: Vertex texture format supported - PF_PVRTC_RGB4
+21:27:22: D3D9: Vertex texture format supported - PF_PVRTC_RGBA4
+21:27:22: D3D9: Vertex texture format supported - PF_PVRTC2_2BPP
+21:27:22: D3D9: Vertex texture format supported - PF_PVRTC2_4BPP
+21:27:22: D3D9: Vertex texture format supported - PF_R11G11B10_FLOAT
+21:27:22: D3D9: Vertex texture format supported - PF_R8_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8B8_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8B8A8_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R16_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R16G16_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R16G16B16_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R16G16B16A16_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R32_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R32G32_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R32G32B32_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R32G32B32A32_UINT
+21:27:22: D3D9: Vertex texture format supported - PF_R8_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8B8_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8B8A8_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R16_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R16G16_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R16G16B16_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R16G16B16A16_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R32_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R32G32_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R32G32B32_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R32G32B32A32_SINT
+21:27:22: D3D9: Vertex texture format supported - PF_R9G9B9E5_SHAREDEXP
+21:27:22: D3D9: Vertex texture format supported - PF_BC4_UNORM
+21:27:22: D3D9: Vertex texture format supported - PF_BC4_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_BC5_UNORM
+21:27:22: D3D9: Vertex texture format supported - PF_BC5_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_BC6H_UF16
+21:27:22: D3D9: Vertex texture format supported - PF_BC6H_SF16
+21:27:22: D3D9: Vertex texture format supported - PF_BC7_UNORM
+21:27:22: D3D9: Vertex texture format supported - PF_BC7_UNORM_SRGB
+21:27:22: D3D9: Vertex texture format supported - PF_R8
+21:27:22: D3D9: Vertex texture format supported - PF_RG8
+21:27:22: D3D9: Vertex texture format supported - PF_R8_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8B8_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_R8G8B8A8_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_R16_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_R16G16_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_R16G16B16_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_R16G16B16A16_SNORM
+21:27:22: D3D9: Vertex texture format supported - PF_ETC1_RGB8
+21:27:22: D3D9: Vertex texture format supported - PF_ETC2_RGB8
+21:27:22: D3D9: Vertex texture format supported - PF_ETC2_RGBA8
+21:27:22: D3D9: Vertex texture format supported - PF_ETC2_RGB8A1
+21:27:22: D3D9: Vertex texture format supported - PF_ATC_RGB
+21:27:22: D3D9: Vertex texture format supported - PF_ATC_RGBA_EXPLICIT_ALPHA
+21:27:22: D3D9: Vertex texture format supported - PF_ATC_RGBA_INTERPOLATED_ALPHA
+21:27:22: RenderSystem capabilities
+21:27:22: -------------------------
+21:27:22: RenderSystem Name: Direct3D9 Rendering Subsystem
+21:27:22: GPU Vendor: intel
+21:27:22: Device Name: Monitor-1-Intel(R) UHD Graphics
+21:27:22: Driver Version: 31.0.101.1999
+21:27:22:  * Fixed function pipeline: yes
+21:27:22:  * Hardware generation of mipmaps: yes
+21:27:22:  * Texture blending: yes
+21:27:22:  * Anisotropic texture filtering: yes
+21:27:22:  * Dot product texture operation: yes
+21:27:22:  * Cube mapping: yes
+21:27:22:  * Hardware stencil buffer: yes
+21:27:22:    - Stencil depth: 8
+21:27:22:    - Two sided stencil support: yes
+21:27:22:    - Wrap stencil values: yes
+21:27:22:  * Hardware vertex / index buffers: yes
+21:27:22:  * Vertex programs: yes
+21:27:22:  * Number of floating-point constants for vertex programs: 256
+21:27:22:  * Number of integer constants for vertex programs: 16
+21:27:22:  * Number of boolean constants for vertex programs: 16
+21:27:22:  * Fragment programs: yes
+21:27:22:  * Number of floating-point constants for fragment programs: 224
+21:27:22:  * Number of integer constants for fragment programs: 16
+21:27:22:  * Number of boolean constants for fragment programs: 16
+21:27:22:  * Geometry programs: no
+21:27:22:  * Number of floating-point constants for geometry programs: 0
+21:27:22:  * Number of integer constants for geometry programs: 0
+21:27:22:  * Number of boolean constants for geometry programs: 0
+21:27:22:  * Tesselation Hull programs: no
+21:27:22:  * Number of floating-point constants for tesselation hull programs: 0
+21:27:22:  * Number of integer constants for tesselation hull programs: 0
+21:27:22:  * Number of boolean constants for tesselation hull programs: 0
+21:27:22:  * Tesselation Domain programs: no
+21:27:22:  * Number of floating-point constants for tesselation domain programs: 0
+21:27:22:  * Number of integer constants for tesselation domain programs: 0
+21:27:22:  * Number of boolean constants for tesselation domain programs: 0
+21:27:22:  * Compute programs: no
+21:27:22:  * Number of floating-point constants for compute programs: 0
+21:27:22:  * Number of integer constants for compute programs: 0
+21:27:22:  * Number of boolean constants for compute programs: 0
+21:27:22:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+21:27:22:  * Texture Compression: yes
+21:27:22:    - DXT: yes
+21:27:22:    - VTC: no
+21:27:22:    - PVRTC: no
+21:27:22:    - ATC: no
+21:27:22:    - ETC1: no
+21:27:22:    - ETC2: no
+21:27:22:    - BC4/BC5: no
+21:27:22:    - BC6H/BC7: no
+21:27:22:  * Scissor Rectangle: yes
+21:27:22:  * Hardware Occlusion Query: yes
+21:27:22:  * User clip planes: yes
+21:27:22:  * VET_UBYTE4 vertex element type: yes
+21:27:22:  * Infinite far plane projection: yes
+21:27:22:  * Hardware render-to-texture: yes
+21:27:22:  * Floating point textures: yes
+21:27:22:  * Non-power-of-two textures: yes
+21:27:22:  * 1d textures: yes
+21:27:22:  * Volume textures: yes
+21:27:22:  * Multiple Render Targets: 4
+21:27:22:    - With different bit depths: yes
+21:27:22:  * Point Sprites: yes
+21:27:22:  * Extended point parameters: yes
+21:27:22:  * Max Point Size: 256
+21:27:22:  * Vertex texture fetch: yes
+21:27:22:  * Number of world matrices: 0
+21:27:22:  * Number of texture units: 8
+21:27:22:  * Stencil buffer depth: 8
+21:27:22:  * Number of vertex blend matrices: 0
+21:27:22:    - Max vertex textures: 4
+21:27:22:    - Vertex textures shared: no
+21:27:22:  * Render to Vertex Buffer : no
+21:27:22:  * Hardware Atomic Counters: no
+21:27:22:  * DirectX per stage constants: yes
+21:27:22: DefaultWorkQueue('Root') initialising on thread 588c.
+21:27:22: DefaultWorkQueue('Root')::WorkerFunc - thread 7f30 starting.
+21:27:22: Particle Renderer Type 'billboard' registered
+21:27:22: DefaultWorkQueue('Root')::WorkerFunc - thread 934 starting.
+21:27:22: DefaultWorkQueue('Root')::WorkerFunc - thread 34e8 starting.
+21:27:22: DefaultWorkQueue('Root')::WorkerFunc - thread 4490 starting.
+21:27:22: DefaultWorkQueue('Root')::WorkerFunc - thread 1440 starting.
+21:27:22: DefaultWorkQueue('Root')::WorkerFunc - thread 1740 starting.
+21:27:22: DefaultWorkQueue('Root')::WorkerFunc - thread 36fc starting.
+21:27:22: DefaultWorkQueue('Root')::WorkerFunc - thread 5534 starting.
+21:27:22: Parsing scripts for resource group Autodetect
+21:27:22: Finished parsing scripts for resource group Autodetect
+21:27:22: Creating resources for group Autodetect
+21:27:22: All done
+21:27:22: Parsing scripts for resource group General
+21:27:22: Parsing script bloom.program
+21:27:22: Parsing script celshading.program
+21:27:22: Parsing script glow0.program
+21:27:22: Parsing script glow1.program
+21:27:22: Parsing script glow2.program
+21:27:22: Parsing script glow3.program
+21:27:22: Parsing script motionblur.program
+21:27:22: Parsing script radialblur.program
+21:27:22: Parsing script redeye.program
+21:27:22: Parsing script ribbonturbulence.program
+21:27:22: Parsing script scanlines.program
+21:27:22: Parsing script stdquad_vp.program
+21:27:22: Parsing script tiling.program
+21:27:22: Parsing script affectors.material
+21:27:22: Parsing script asteroids.material
+21:27:22: Parsing script bloom2.material
+21:27:22: Parsing script default.material
+21:27:22: Parsing script fighter.material
+21:27:22: Parsing script interface.material
+21:27:22: Parsing script kroma.material
+21:27:22: Parsing script marble.material
+21:27:22: Parsing script motionblur.material
+21:27:22: Parsing script oldtv.material
+21:27:22: Parsing script particles.material
+21:27:22: Parsing script planets.material
+21:27:22: Parsing script radialblur.material
+21:27:22: Parsing script redeye.material
+21:27:22: Parsing script soul.material
+21:27:22: Parsing script structures.material
+21:27:22: Parsing script tiling.material
+21:27:22: Parsing script vital.material
+21:27:22: Parsing script bloom.compositor
+21:27:22: Parsing script glow0.compositor
+21:27:22: Parsing script glow1.compositor
+21:27:22: Parsing script glow2.compositor
+21:27:22: Parsing script glow3.compositor
+21:27:22: Parsing script glowandbloom.compositor
+21:27:22: Parsing script glowsimple0.compositor
+21:27:22: Parsing script glowsimple1.compositor
+21:27:22: Parsing script glowsimple2.compositor
+21:27:22: Parsing script glowsimple3.compositor
+21:27:22: Parsing script motionblur.compositor
+21:27:22: Parsing script oldtv.compositor
+21:27:22: Parsing script radialblur.compositor
+21:27:22: Parsing script redeye.compositor
+21:27:22: Parsing script scanlines.compositor
+21:27:22: Parsing script tiling.compositor
+21:27:22: Parsing script Koine.fontdef
+21:27:22: Parsing script Latin.fontdef
+21:27:22: Parsing script MultiLanguage.fontdef
+21:27:22: Parsing script UserName.fontdef
+21:27:22: Finished parsing scripts for resource group General
+21:27:22: Creating resources for group General
+21:27:22: All done
+21:27:22: Parsing scripts for resource group Internal
+21:27:22: Finished parsing scripts for resource group Internal
+21:27:22: Creating resources for group Internal
+21:27:22: All done
+21:27:22: Texture: KLogoDynamicTexture: Loading 1 faces(PF_A8R8G8B8,512x512x1) Internal format is PF_A8R8G8B8,512x512x1.
+21:27:22: Texture: TechLogoDynamicTexture: Loading 1 faces(PF_A8R8G8B8,512x512x1) Internal format is PF_A8R8G8B8,512x512x1.
+21:27:22: Texture: PartnerLogoDynamicTexture: Loading 1 faces(PF_A8R8G8B8,512x512x1) Internal format is PF_A8R8G8B8,512x512x1.
+21:27:22: Texture: translucent.png: Loading 1 faces(PF_A8R8G8B8,8x8x1) Internal format is PF_A8R8G8B8,8x8x1.
+21:27:22: Mesh: Loading spiral.mesh.
+21:27:22: Mesh: Loading gear0.mesh.
+21:27:22: Texture: KromaiaFixed32.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+21:27:22: Font MultiLanguage using texture size 512x256
+21:27:22: Info: Freetype returned null for character 32 in font MultiLanguage
+21:27:22: Texture: MultiLanguageTexture: Loading 1 faces(PF_BYTE_LA,512x256x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x256x1.
+21:27:22: Texture: KoineFixed32.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+21:27:22: Font UserName using texture size 1024x512
+21:27:22: Info: Freetype returned null for character 32 in font UserName
+21:27:22: Texture: UserNameTexture: Loading 1 faces(PF_BYTE_LA,1024x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,1024x512x1.
+21:27:22: Texture: ribbonband.png: Loading 1 faces(PF_R8G8B8,128x1x1) Internal format is PF_X8R8G8B8,128x1x1.
+21:27:22: Texture: MLogoDynamicTexture: Loading 1 faces(PF_A8R8G8B8,128x64x1) Internal format is PF_A8R8G8B8,128x64x1.
+21:27:22: Texture: Glyph1DynamicTexture: Loading 1 faces(PF_A8R8G8B8,64x16x1) Internal format is PF_A8R8G8B8,64x16x1.
+21:27:22: Texture: Glyph3DynamicTexture: Loading 1 faces(PF_A8R8G8B8,64x16x1) Internal format is PF_A8R8G8B8,64x16x1.
+21:27:22: Texture: SelectionGlyphDynamicTexture: Loading 1 faces(PF_A8R8G8B8,64x128x1) Internal format is PF_A8R8G8B8,64x128x1.
+21:27:22: Texture: QuickStartDynamicTexture: Loading 1 faces(PF_A8R8G8B8,512x512x1) Internal format is PF_A8R8G8B8,512x512x1.
+21:27:22: Texture: QRMakersDynamicTexture: Loading 1 faces(PF_A8R8G8B8,62x62x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,62x62x1.
+21:27:22: Texture: Slot_0_Backup_0.png: Loading 1 faces(PF_R8G8B8,240x135x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,240x135x1.
+21:27:22: Texture: Slot_0_Backup_1.png: Loading 1 faces(PF_R8G8B8,16x16x1) Internal format is PF_X8R8G8B8,16x16x1.
+21:27:22: Texture: Slot_0_Backup_2.png: Loading 1 faces(PF_R8G8B8,16x16x1) Internal format is PF_X8R8G8B8,16x16x1.
+21:27:23: Texture: Slot_1_Backup_0.png: Loading 1 faces(PF_R8G8B8,240x135x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,240x135x1.
+21:27:23: Texture: Slot_1_Backup_1.png: Loading 1 faces(PF_R8G8B8,240x135x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,240x135x1.
+21:27:23: Texture: Slot_1_Backup_2.png: Loading 1 faces(PF_R8G8B8,240x135x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,240x135x1.
+21:27:23: Texture: Slot_2_Backup_0.png: Loading 1 faces(PF_R8G8B8,16x16x1) Internal format is PF_X8R8G8B8,16x16x1.
+21:27:23: Texture: Slot_2_Backup_1.png: Loading 1 faces(PF_R8G8B8,16x16x1) Internal format is PF_X8R8G8B8,16x16x1.
+21:27:23: Texture: Slot_2_Backup_2.png: Loading 1 faces(PF_R8G8B8,16x16x1) Internal format is PF_X8R8G8B8,16x16x1.
+21:27:23: Texture: Slot_3_Backup_0.png: Loading 1 faces(PF_R8G8B8,16x16x1) Internal format is PF_X8R8G8B8,16x16x1.
+21:27:23: Texture: Slot_3_Backup_1.png: Loading 1 faces(PF_R8G8B8,16x16x1) Internal format is PF_X8R8G8B8,16x16x1.
+21:27:23: Texture: Slot_3_Backup_2.png: Loading 1 faces(PF_R8G8B8,16x16x1) Internal format is PF_X8R8G8B8,16x16x1.
+21:27:23: Font MultiLanguage using texture size 2048x1024
+21:27:23: Info: Freetype returned null for character 32 in font MultiLanguage
+21:27:23: Texture: MultiLanguageTexture: Loading 1 faces(PF_BYTE_LA,2048x1024x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,2048x1024x1.
+21:27:23: Font MultiLanguage using texture size 2048x1024
+21:27:23: Info: Freetype returned null for character 32 in font MultiLanguage
+21:27:23: Texture: MultiLanguageTexture: Loading 1 faces(PF_BYTE_LA,2048x1024x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,2048x1024x1.
+21:27:23: Font MultiLanguage using texture size 4096x2048
+21:27:23: Info: Freetype returned null for character 32 in font MultiLanguage
+21:27:23: Texture: MultiLanguageTexture: Loading 1 faces(PF_BYTE_LA,4096x2048x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,4096x2048x1.
+21:27:23: Font MultiLanguage using texture size 4096x2048
+21:27:23: Info: Freetype returned null for character 32 in font MultiLanguage
+21:27:23: Info: Freetype returned null for character 160 in font MultiLanguage
+21:27:23: Texture: MultiLanguageTexture: Loading 1 faces(PF_BYTE_LA,4096x2048x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,4096x2048x1.
+21:27:24: Mesh: Loading lightcolumn.mesh.
+21:27:24: Texture: lightcolumn.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) Internal format is PF_A8R8G8B8,512x512x1.
+21:27:24: Mesh: Loading lightsubcolumn.mesh.
+21:27:24: Mesh: Loading tourglobe.mesh.
+21:27:24: Mesh: Loading tourframe.mesh.
+21:27:24: Mesh: Loading tourcursor.mesh.
+21:27:24: Mesh: Loading tourgate.mesh.
+21:27:24: Mesh: Loading grid6x2.mesh.
+21:27:24: Mesh: Loading grays.mesh.
+21:27:24: Mesh: Loading hudmessage.mesh.
+21:27:24: Mesh: Loading ilios.mesh.
+21:27:24: Mesh: Loading corona.mesh.
+21:27:24: Mesh: Loading suncortex.mesh.
+21:27:25: Texture: ilios.png: Loading 1 faces(PF_A8R8G8B8,2048x2048x1) Internal format is PF_A8R8G8B8,2048x2048x1.
+21:27:25: Mesh: Loading ermis.mesh.
+21:27:25: Texture: ermis.png: Loading 1 faces(PF_A8R8G8B8,2048x2048x1) Internal format is PF_A8R8G8B8,2048x2048x1.
+21:27:25: Mesh: Loading afrodhiti.mesh.
+21:27:25: Texture: afrodhiti.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) Internal format is PF_A8R8G8B8,512x512x1.
+21:27:25: Mesh: Loading gaia.mesh.
+21:27:25: Texture: gaia.png: Loading 1 faces(PF_A8R8G8B8,2048x2048x1) Internal format is PF_A8R8G8B8,2048x2048x1.
+21:27:25: Mesh: Loading aris.mesh.
+21:27:25: Texture: aris.png: Loading 1 faces(PF_A8R8G8B8,2048x2048x1) Internal format is PF_A8R8G8B8,2048x2048x1.
+21:27:25: Mesh: Loading zeus.mesh.
+21:27:25: Texture: zeus.png: Loading 1 faces(PF_A8R8G8B8,2048x2048x1) Internal format is PF_A8R8G8B8,2048x2048x1.
+21:27:25: Mesh: Loading kronos.mesh.
+21:27:25: Texture: kronos.png: Loading 1 faces(PF_A8R8G8B8,2048x2048x1) Internal format is PF_A8R8G8B8,2048x2048x1.
+21:27:25: Mesh: Loading ouranos.mesh.
+21:27:25: Texture: ouranos.png: Loading 1 faces(PF_A8R8G8B8,2048x2048x1) Internal format is PF_A8R8G8B8,2048x2048x1.
+21:27:25: Mesh: Loading poseidhonas.mesh.
+21:27:25: Texture: poseidhonas.png: Loading 1 faces(PF_A8R8G8B8,2048x2048x1) Internal format is PF_A8R8G8B8,2048x2048x1.
+21:27:25: Mesh: Loading door1.mesh.
+21:27:25: Mesh: Loading frame1.mesh.
+21:27:25: Mesh: Loading marker1.mesh.
+21:27:25: Mesh: Loading door1inverse.mesh.
+21:27:25: Mesh: Loading tourroute.mesh.
+21:27:25: Mesh: Loading seal1.mesh.
+21:27:25: Mesh: Loading atrium_II_2.mesh.
+21:27:25: Mesh: Loading atrium_II_1.mesh.
+21:27:25: Mesh: Loading itemcommonsphere.mesh.
+21:27:25: Mesh: Loading item13core.mesh.
+21:27:25: Mesh: Loading flake.mesh.
+21:27:25: Mesh: Loading atrium_III_0.mesh.
+21:27:25: Mesh: Loading toichos_II_5.mesh.
+21:27:25: Mesh: Loading toichos_II_1.mesh.
+21:27:25: Mesh: Loading toichos_II_4.mesh.
+21:27:25: Mesh: Loading toichos_II_3.mesh.
+21:27:25: Mesh: Loading toichos_II_2.mesh.
+21:27:25: Mesh: Loading toichos_II_0.mesh.
+21:27:25: Mesh: Loading blocksolar.mesh.
+21:27:25: Texture: darkmetalsphere.png: Loading 1 faces(PF_A8R8G8B8,128x128x1) Internal format is PF_A8R8G8B8,128x128x1.
+21:27:25: Mesh: Loading blocknormal.mesh.
+21:27:25: Texture: whitemetalsphere.png: Loading 1 faces(PF_A8R8G8B8,128x128x1) Internal format is PF_A8R8G8B8,128x128x1.
+21:27:25: Mesh: Loading bustum_I_0.mesh.
+21:27:25: Texture: metalsphere.png: Loading 1 faces(PF_A8R8G8B8,128x128x1) Internal format is PF_A8R8G8B8,128x128x1.
+21:27:25: Mesh: Loading bustum_I_1.mesh.
+21:27:25: Mesh: Loading atrium_II_0.mesh.
+21:27:25: Mesh: Loading atrium_II_3.mesh.
+21:27:25: Mesh: Loading chamber_I_0.mesh.
+21:27:25: Mesh: Loading chamber_I_3.mesh.
+21:27:25: Mesh: Loading chamber_I_4.mesh.
+21:27:25: Mesh: Loading chamber_I_5.mesh.
+21:27:25: Mesh: Loading chamber_I_6.mesh.
+21:27:25: Mesh: Loading chamber_I_7.mesh.
+21:27:25: Mesh: Loading chamber_I_8.mesh.
+21:27:25: Mesh: Loading chamber_I_9.mesh.
+21:27:25: Mesh: Loading chamber_I_10.mesh.
+21:27:25: Mesh: Loading chamber_I_11.mesh.
+21:27:25: Mesh: Loading chamber_I_12.mesh.
+21:27:25: Mesh: Loading chamber_I_13.mesh.
+21:27:25: Mesh: Loading chamber_I_14.mesh.
+21:27:25: Mesh: Loading chamber_I_15.mesh.
+21:27:25: Mesh: Loading chamber_I_1.mesh.
+21:27:25: Mesh: Loading chamber_I_2.mesh.
+21:27:25: Mesh: Loading switchbox_II_0.mesh.
+21:27:25: Texture: plasticsphere.png: Loading 1 faces(PF_A8R8G8B8,128x128x1) Internal format is PF_A8R8G8B8,128x128x1.
+21:27:25: Mesh: Loading switchbox_II_1.mesh.
+21:27:25: Mesh: Loading altar_I_0.mesh.
+21:27:25: Mesh: Loading dungeon_I_2.mesh.
+21:27:25: Mesh: Loading dungeon_I_0.mesh.
+21:27:25: Mesh: Loading dungeon_I_1.mesh.
+21:27:25: Mesh: Loading door0.mesh.
+21:27:25: Mesh: Loading frame0.mesh.
+21:27:26: Mesh: Loading marker0.mesh.
+21:27:26: Mesh: Loading seal0.mesh.
+21:27:26: Mesh: Loading capsule_I_0.mesh.
+21:27:26: Mesh: Loading capsule_II_0.mesh.
+21:27:26: Mesh: Loading capsule_II_1.mesh.
+21:27:26: Mesh: Loading capsule_II_2.mesh.
+21:27:26: Mesh: Loading capsule_II_3.mesh.
+21:27:26: Mesh: Loading capsule_II_4.mesh.
+21:27:26: Mesh: Loading capsule_II_5.mesh.
+21:27:26: Mesh: Loading box_IV_2.mesh.
+21:27:26: Mesh: Loading box_IV_0.mesh.
+21:27:26: Mesh: Loading box_IV_1.mesh.
+21:27:26: Mesh: Loading pendulus_I_0.mesh.
+21:27:26: Mesh: Loading pendulus_I_1.mesh.
+21:27:26: Mesh: Loading pendulus_I_2.mesh.
+21:27:26: Mesh: Loading pendulus_I_3.mesh.
+21:27:26: Mesh: Loading switchbox_I_0.mesh.
+21:27:26: Mesh: Loading switchbox_I_1.mesh.
+21:27:26: Mesh: Loading switchbox_I_2.mesh.
+21:27:26: Mesh: Loading dungeon_I_4.mesh.
+21:27:26: Mesh: Loading dungeon_I_3.mesh.
+21:27:26: Mesh: Loading oracle0.mesh.
+21:27:26: Mesh: Loading oracle0l0.mesh.
+21:27:26: Mesh: Loading oracle0l1.mesh.
+21:27:26: Mesh: Loading oracle0l2.mesh.
+21:27:26: Mesh: Loading oracle0l3.mesh.
+21:27:26: Mesh: Loading oracle0l4.mesh.
+21:27:26: Mesh: Loading oracle0l5.mesh.
+21:27:26: Mesh: Loading oracle_I_1.mesh.
+21:27:26: Mesh: Loading keybox_I_0.mesh.
+21:27:26: Mesh: Loading toichos_I_0.mesh.
+21:27:26: Mesh: Loading turret_II_0.mesh.
+21:27:26: Mesh: Loading toichos_I_1.mesh.
+21:27:26: Mesh: Loading toichos_I_2.mesh.
+21:27:26: Mesh: Loading toichos_I_3_0.mesh.
+21:27:26: Mesh: Loading columnata1.mesh.
+21:27:26: Mesh: Loading pyrgos_I_0.mesh.
+21:27:26: Mesh: Loading pyrgos_I_1.mesh.
+21:27:26: Mesh: Loading pyrgos_I_2.mesh.
+21:27:26: Mesh: Loading pyrgos_I_3.mesh.
+21:27:26: Mesh: Loading pyrgos_I_4.mesh.
+21:27:26: Mesh: Loading arm_I_0_b.mesh.
+21:27:26: Mesh: Loading arm_I_1.mesh.
+21:27:26: Mesh: Loading arm_I_2.mesh.
+21:27:26: Mesh: Loading arm_I_3.mesh.
+21:27:26: Mesh: Loading arm_I_4.mesh.
+21:27:26: Mesh: Loading arm_I_5.mesh.
+21:27:26: Mesh: Loading arm_I_6.mesh.
+21:27:26: Mesh: Loading arm_I_7.mesh.
+21:27:26: Mesh: Loading arm_I_8.mesh.
+21:27:26: Mesh: Loading arm_I_9.mesh.
+21:27:26: Mesh: Loading arm_I_10.mesh.
+21:27:26: Mesh: Loading shrine0core.mesh.
+21:27:26: Mesh: Loading item6core.mesh.
+21:27:26: Mesh: Loading item6orbit0.mesh.
+21:27:26: Mesh: Loading item6orbit1.mesh.
+21:27:26: Mesh: Loading item6orbit2.mesh.
+21:27:26: Mesh: Loading hudbonusring1.mesh.
+21:27:26: Mesh: Loading vermis0-1.mesh.
+21:27:26: Mesh: Loading vermis7-1.mesh.
+21:27:26: Mesh: Loading vermis1-1.mesh.
+21:27:26: Mesh: Loading daimon_IX_0.mesh.
+21:27:26: Mesh: Loading daimon_IX_1.mesh.
+21:27:26: Mesh: Loading daimon_IX_2.mesh.
+21:27:26: Mesh: Loading daimon_XIII_0.mesh.
+21:27:26: Mesh: Loading drone_I_1.mesh.
+21:27:26: Mesh: Loading drone_I_2.mesh.
+21:27:26: Mesh: Loading drone_I_3.mesh.
+21:27:26: Mesh: Loading ichthyos_I_1.mesh.
+21:27:26: Mesh: Loading ichthyos_I_0.mesh.
+21:27:26: Mesh: Loading ichthyos_I_2.mesh.
+21:27:26: Mesh: Loading ichthyos_I_3.mesh.
+21:27:26: Mesh: Loading ichthyos_I_4.mesh.
+21:27:26: Mesh: Loading ichthyos_I_5.mesh.
+21:27:26: Mesh: Loading drone_I_0.mesh.
+21:27:26: Mesh: Loading drone_I_4.mesh.
+21:27:26: Mesh: Loading drone_II_0.mesh.
+21:27:26: Mesh: Loading drone_II_1.mesh.
+21:27:26: Mesh: Loading drone_II_2.mesh.
+21:27:26: Mesh: Loading trailer_I_1.mesh.
+21:27:26: Mesh: Loading trailer_I_2.mesh.
+21:27:26: Mesh: Loading turret_III_0.mesh.
+21:27:26: Mesh: Loading daimon_X_0.mesh.
+21:27:26: Mesh: Loading daimon_X_1.mesh.
+21:27:26: Mesh: Loading daimon_X_2.mesh.
+21:27:26: Mesh: Loading daimon_X_3.mesh.
+21:27:26: Mesh: Loading daimon_VIII_0.mesh.
+21:27:26: Mesh: Loading daimon_VIII_1.mesh.
+21:27:26: Mesh: Loading omega.mesh.
+21:27:26: Mesh: Loading omega1.mesh.
+21:27:26: Mesh: Loading omegaweapon1.mesh.
+21:27:26: Mesh: Loading omegareactor.mesh.
+21:27:26: Mesh: Loading omegaweapon0.mesh.
+21:27:26: Mesh: Loading alpha.mesh.
+21:27:26: Mesh: Loading propeller.mesh.
+21:27:26: Mesh: Loading boostcharge.mesh.
+21:27:26: Mesh: Loading alphareactor.mesh.
+21:27:26: Mesh: Loading healring.mesh.
+21:27:26: Mesh: Loading alphaweapon0.mesh.
+21:27:26: Mesh: Loading alphaweapon2.mesh.
+21:27:26: Mesh: Loading alphaweapon1.mesh.
+21:27:26: Mesh: Loading hook0.mesh.
+21:27:26: Mesh: Loading hook2.mesh.
+21:27:26: Mesh: Loading hook1.mesh.
+21:27:26: Mesh: Loading compasspointer.mesh.
+21:27:26: Mesh: Loading compasscrosshair3.mesh.
+21:27:26: Mesh: Loading compasscrosshair4.mesh.
+21:27:26: Mesh: Loading compasscrosshair2.mesh.
+21:27:26: Mesh: Loading compasscross.mesh.
+21:27:26: Mesh: Loading compassrhombus.mesh.
+21:27:26: Mesh: Loading compasslock.mesh.
+21:27:26: Mesh: Loading compassparticle.mesh.
+21:27:26: Mesh: Loading foepointer.mesh.
+21:27:26: Mesh: Loading gaugering.mesh.
+21:27:26: Mesh: Loading gaugearrow.mesh.
+21:27:26: Mesh: Loading gaugeclip.mesh.
+21:27:26: Mesh: Loading bubble.mesh.
+21:27:26: Mesh: Loading mu.mesh.
+21:27:26: Mesh: Loading mureactor.mesh.
+21:27:26: Mesh: Loading muweapon0.mesh.
+21:27:26: Mesh: Loading muweapon1.mesh.
+21:27:26: Mesh: Loading muweapon2.mesh.
+21:27:26: Mesh: Loading sphericalspark.mesh.
+21:27:26: Mesh: Loading itemring.mesh.
+21:27:26: Mesh: Loading muweapon3.mesh.
+21:27:26: Mesh: Loading muweapon4.mesh.
+21:27:27: Mesh: Loading tau.mesh.
+21:27:27: Mesh: Loading taureactor.mesh.
+21:27:27: Mesh: Loading tauweapon0.mesh.
+21:27:27: Mesh: Loading tauweapon1.mesh.
+21:27:27: Mesh: Loading tauweapon2.mesh.
+21:27:27: Mesh: Loading tauweapon3.mesh.
+21:27:27: Mesh: Loading tauweapon4.mesh.
+21:27:27: Mesh: Loading psi.mesh.
+21:27:27: Mesh: Loading psireactor.mesh.
+21:27:27: Mesh: Loading psiweapon0.mesh.
+21:27:27: Mesh: Loading psiweapon1.mesh.
+21:27:27: Mesh: Loading psiweapon2.mesh.
+21:27:27: Mesh: Loading psiweapon3.mesh.
+21:27:27: Mesh: Loading psiweapon4.mesh.
+21:27:27: Mesh: Loading psiweapon5.mesh.
+21:27:27: Mesh: Loading psiweapon6.mesh.
+21:27:27: Mesh: Loading psiweapon7.mesh.
+21:27:27: Mesh: Loading psiweapon8.mesh.
+21:27:27: Mesh: Loading psiweapon9.mesh.
+21:27:27: Mesh: Loading hudstun.mesh.
+21:27:27: Mesh: Loading hudfocus.mesh.
+21:27:27: Mesh: Loading ouranos0.mesh.
+21:27:27: Mesh: Loading ouranos1.mesh.
+21:27:27: Mesh: Loading ouranos2.mesh.
+21:27:27: Mesh: Loading item5core.mesh.
+21:27:27: Mesh: Loading item5orbit.mesh.
+21:27:27: Mesh: Loading itemcommoncubechrome.mesh.
+21:27:27: Mesh: Loading item10core.mesh.
+21:27:27: Mesh: Loading item10orbit0.mesh.
+21:27:27: Mesh: Loading item10orbit1.mesh.
+21:27:27: Mesh: Loading item11standalone.mesh.
+21:27:27: Mesh: Loading item7core.mesh.
+21:27:27: Mesh: Loading item9.mesh.
+21:27:27: Mesh: Loading hudgasring.mesh.
+21:27:27: Mesh: Loading gasstream.mesh.
+21:27:27: Mesh: Loading item8.mesh.
+21:27:27: Mesh: Loading item15core.mesh.
+21:27:27: Mesh: Loading item16.mesh.
+21:27:27: Mesh: Loading item12.mesh.
+21:27:27: Mesh: Loading item12orbit0.mesh.
+21:27:27: Mesh: Loading projectile2.mesh.
+21:27:27: Mesh: Loading projectile6.mesh.
+21:27:27: Mesh: Loading projectile6l0.mesh.
+21:27:27: Mesh: Loading projectile3.mesh.
+21:27:27: Mesh: Loading projectile3l0.mesh.
+21:27:27: Mesh: Loading projectile3l1.mesh.
+21:27:27: Mesh: Loading projectile3l2.mesh.
+21:27:27: Mesh: Loading flame_I_0.mesh.
+21:27:27: Mesh: Loading projectile12_0.mesh.
+21:27:27: Mesh: Loading projectile12_1.mesh.
+21:27:27: Mesh: Loading spathi.mesh.
+21:27:27: Mesh: Loading spathi0.mesh.
+21:27:27: Mesh: Loading spathi1.mesh.
+21:27:27: Mesh: Loading blade0.mesh.
+21:27:27: Mesh: Loading blade1.mesh.
+21:27:27: Mesh: Loading blade2.mesh.
+21:27:27: Mesh: Loading blade3.mesh.
+21:27:27: Mesh: Loading blade4.mesh.
+21:27:27: Mesh: Loading blade51.mesh.
+21:27:27: Mesh: Loading projectile7.mesh.
+21:27:27: Mesh: Loading projectile7l0.mesh.
+21:27:27: Mesh: Loading projectile5.mesh.
+21:27:27: Mesh: Loading projectile0.mesh.
+21:27:27: Mesh: Loading projectile1.mesh.
+21:27:27: Mesh: Loading rocket_I_0.mesh.
+21:27:27: Mesh: Loading shockwave.mesh.
+21:27:27: Mesh: Loading radialspark.mesh.
+21:27:27: Mesh: Loading dustring.mesh.
+21:27:27: Mesh: Loading shotgunring.mesh.
+21:27:27: Mesh: Loading flame_I_1.mesh.
+21:27:27: Mesh: Loading moderesume.mesh.
+21:27:27: Mesh: Loading modecontrols.mesh.
+21:27:27: Mesh: Loading modeexit.mesh.
+21:27:27: Mesh: Loading cursorleft.mesh.
+21:27:27: Mesh: Loading cursorright.mesh.
+21:27:27: Mesh: Loading gear1.mesh.
+21:27:27: Mesh: Loading gear2.mesh.
+21:27:27: Mesh: Loading gear3.mesh.
+21:27:27: Mesh: Loading selectorbox.mesh.
+21:27:27: Mesh: Loading hit0-1.mesh.
+21:27:27: Mesh: Loading hit0-2.mesh.
+21:27:27: Mesh: Loading hit1-1.mesh.
+21:27:27: Mesh: Loading hit1-2.mesh.
+21:27:27: Mesh: Loading hit2-1.mesh.
+21:27:27: Mesh: Loading hit2-2.mesh.
+21:27:27: Mesh: Loading hitaxis.mesh.
+21:27:27: Mesh: Loading aspisspark0.mesh.
+21:27:27: Mesh: Loading aspisspark1.mesh.
+21:27:27: Mesh: Loading aspisspark2.mesh.
+21:27:27: Mesh: Loading aspisspark3.mesh.
+21:27:27: Mesh: Loading sparkball0.mesh.
+21:27:27: Mesh: Loading armouricon.mesh.
+21:27:27: Mesh: Loading armourring.mesh.
+21:27:27: Mesh: Loading armoursphere.mesh.
+21:27:27: Mesh: Loading pad1.mesh.
+21:27:27: Mesh: Loading pad2.mesh.
+21:27:27: Mesh: Loading fpfrontend.mesh.
+21:27:27: Mesh: Loading spiritbody.mesh.
+21:27:27: Mesh: Loading spiritleft.mesh.
+21:27:27: Mesh: Loading spiritright.mesh.
+21:27:27: Mesh: Loading spirithair0.mesh.
+21:27:27: Mesh: Loading warningring0.mesh.
+21:27:27: Mesh: Loading warningring1.mesh.
+21:27:27: Mesh: Loading warningring2.mesh.
+21:27:27: Mesh: Loading warningring3.mesh.
+21:27:27: Mesh: Loading hudspiralray.mesh.
+21:27:27: Mesh: Loading orbit0.mesh.
+21:27:27: Mesh: Loading orbit1.mesh.
+21:27:27: Mesh: Loading orbit2.mesh.
+21:27:27: Mesh: Loading orbit3.mesh.
+21:27:27: Mesh: Loading orbit4.mesh.
+21:27:27: Mesh: Loading orbit5.mesh.
+21:27:27: Mesh: Loading orbit6.mesh.
+21:27:27: Mesh: Loading orbit7.mesh.
+21:27:27: Mesh: Loading orbit8.mesh.
+21:27:27: Mesh: Loading orbit9.mesh.
+21:27:27: Mesh: Loading orbit10.mesh.
+21:27:27: Mesh: Loading orbit11.mesh.
+21:27:27: Mesh: Loading orbit12.mesh.
+21:27:27: Mesh: Loading orbit13.mesh.
+21:27:27: Mesh: Loading orbit14.mesh.
+21:27:27: Mesh: Loading orbit15.mesh.
+21:27:27: Mesh: Loading orbit16.mesh.
+21:27:27: Mesh: Loading orbit17.mesh.
+21:27:27: Mesh: Loading orbit18.mesh.
+21:27:27: Mesh: Loading orbit19.mesh.
+21:27:27: Mesh: Loading orbit20.mesh.
+21:27:27: Mesh: Loading suborbit0.mesh.
+21:27:27: Mesh: Loading suborbit1.mesh.
+21:27:27: Mesh: Loading suborbit2.mesh.
+21:27:27: Mesh: Loading suborbit3.mesh.
+21:27:27: Mesh: Loading suborbit4.mesh.
+21:27:27: Mesh: Loading suborbit5.mesh.
+21:27:27: Mesh: Loading suborbit6.mesh.
+21:27:27: Mesh: Loading suborbit7.mesh.
+21:27:27: Mesh: Loading suborbit8.mesh.
+21:27:27: Mesh: Loading suborbit9.mesh.
+21:27:27: Mesh: Loading suborbit10.mesh.
+21:27:27: Mesh: Loading suborbit11.mesh.
+21:27:27: Mesh: Loading suborbit12.mesh.
+21:27:27: Mesh: Loading suborbit13.mesh.
+21:27:27: Mesh: Loading suborbit14.mesh.
+21:27:27: Mesh: Loading suborbit15.mesh.
+21:27:27: Mesh: Loading suborbit16.mesh.
+21:27:27: Mesh: Loading suborbit17.mesh.
+21:27:27: Mesh: Loading suborbit18.mesh.
+21:27:27: Mesh: Loading suborbit19.mesh.
+21:27:27: Mesh: Loading suborbit20.mesh.
+21:27:27: Mesh: Loading suborbit21.mesh.
+21:27:27: Mesh: Loading suborbit22.mesh.
+21:27:27: Mesh: Loading suborbit23.mesh.
+21:27:27: Mesh: Loading suborbit24.mesh.
+21:27:27: Mesh: Loading hudgeodome.mesh.
+21:27:27: Mesh: Loading hudbossarrow.mesh.
+21:27:27: Mesh: Loading hudcompassring.mesh.
+21:27:27: Mesh: Loading hudaxis.mesh.
+21:27:27: Mesh: Loading hudcompassarrow.mesh.
+21:27:27: Mesh: Loading hudbonusring0.mesh.
+21:27:27: Mesh: Loading hudbonusring2.mesh.
+21:27:27: Mesh: Loading hudbonussquare0.mesh.
+21:27:27: Mesh: Loading hudbonussquare1.mesh.
+21:27:27: Mesh: Loading hudsave.mesh.
+21:27:27: Mesh: Loading hudpropeller.mesh.
+21:27:27: Mesh: Loading hudbar.mesh.
+21:27:27: Mesh: Loading hudmissile.mesh.
+21:27:27: Mesh: Loading hudlaser.mesh.
+21:27:27: Mesh: Loading hudshotgun.mesh.
+21:27:27: Mesh: Loading hudstorm.mesh.
+21:27:27: Mesh: Loading hudomega.mesh.
+21:27:27: Mesh: Loading hudgemini.mesh.
+21:27:27: Mesh: Loading iconfastforward.mesh.
+21:27:27: Mesh: Loading solarfilter.mesh.
+21:27:27: Mesh: Loading mapunit.mesh.
+21:27:27: Mesh: Loading maplocation.mesh.
+21:27:27: Mesh: Loading maproute.mesh.
+21:27:27: Mesh: Loading mapsun.mesh.
+21:27:27: Mesh: Loading tickerbottom.mesh.
+21:27:27: Mesh: Loading tickertop.mesh.
+21:27:27: Mesh: Loading tickerleftarrow.mesh.
+21:27:27: Mesh: Loading tickerrightarrow.mesh.
+21:27:27: Mesh: Loading tickervermis.mesh.
+21:27:27: Mesh: Loading tickermarker.mesh.
+21:27:27: Mesh: Loading tickerpending.mesh.
+21:27:27: Mesh: Loading tourlocation.mesh.
+21:27:27: Mesh: Loading iconvermis.mesh.
+21:27:27: Mesh: Loading iconargos.mesh.
+21:27:27: Mesh: Loading iconteuthus.mesh.
+21:27:27: Mesh: Loading iconorion.mesh.
+21:27:27: Mesh: Loading iconmaia.mesh.
+21:27:27: Mesh: Loading mu3.mesh.
+21:27:27: Mesh: Loading tau3.mesh.
+21:27:27: Mesh: Loading psi3.mesh.
+21:27:27: Mesh: Loading omega3.mesh.
+21:27:27: Mesh: Loading milestonecenter.mesh.
+21:27:27: Mesh: Loading submilestone.mesh.
+21:27:27: Mesh: Loading etherray.mesh.
+21:27:27: Texture: cloud_0.png: Loading 1 faces(PF_A8R8G8B8,894x894x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,894x894x1.
+21:27:27: Texture: cloud_1.png: Loading 1 faces(PF_A8R8G8B8,894x894x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,894x894x1.
+21:27:28: Texture: cloud_2.png: Loading 1 faces(PF_A8R8G8B8,894x894x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,894x894x1.
+21:27:28: Mesh: Loading asteroid0.mesh.
+21:27:28: Mesh: Loading asteroid1.mesh.
+21:27:28: Mesh: Loading asteroid2.mesh.
+21:27:28: Mesh: Loading cloud0.mesh.
+21:27:28: Mesh: Loading cloud1.mesh.
+21:27:28: Mesh: Loading cloud2.mesh.
+21:27:28: Mesh: Loading debris4.mesh.
+21:27:28: Mesh: Loading debris0.mesh.
+21:27:28: Mesh: Loading debris1.mesh.
+21:27:28: Mesh: Loading debris2.mesh.
+21:27:28: Mesh: Loading weakpointhit.mesh.
+21:27:28: Mesh: Loading debris3.mesh.
+21:28:24: Mesh: Loading alpha3.mesh.

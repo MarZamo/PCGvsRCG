@@ -1,0 +1,739 @@
+﻿SYSTEM TEXTS
+
+
+//Device
+Устройство
+
+//Mouse + Keyboard
+Мышь + Клавиатура
+
+//Joystick (EXPERTS ONLY)
+Джойстик (ТОЛЬКО МАСТЕРА)
+
+
+//Mouse Motion
+Движение мышью
+
+
+// Keyboard Labels
+// Unassigned key
+Не назначено
+
+// Escape
+Esc
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+// Minus: - on main keyboard
+-
+// Equals
+=
+Backspace
+// Tabulator
+Tab
+Q
+W
+E
+R
+T
+Y
+U
+I
+O
+P
+// Left bracket
+[
+// Right bracket
+]
+// Return: Enter on main keyboard
+Enter
+
+//Left Control
+
+Левая кнопка Control
+
+A
+S
+D
+F
+G
+H
+J
+K
+L
+// Semicolon
+;
+// Apostrophe
+'
+// Grave: Accent
+`
+//Left Shift
+
+Левая кнопка Shift
+
+\
+Z
+X
+C
+V
+B
+N
+M
+,
+// Period: . on main keyboard
+.
+// Slash: / on main keyboard
+/
+//Right shift
+
+Правая кнопка Shift
+
+// Multiply: * on numeric keypad
+* (ЦИФРОВАЯ КЛАВИАТУРА)
+
+//Left Alt
+Левая кнопка Alt
+
+//Space
+
+Пробел
+
+Caps Lock
+
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+Num Lock
+
+Scroll Lock
+
+7 (ЦИФРОВАЯ КЛАВИАТУРА)
+
+8 (ЦИФРОВАЯ КЛАВИАТУРА)
+9 (ЦИФРОВАЯ КЛАВИАТУРА)
+
+// Subtract: - on numeric keypad
+- (ЦИФРОВАЯ КЛАВИАТУРА)
+4 (ЦИФРОВАЯ КЛАВИАТУРА)
+
+5 (ЦИФРОВАЯ КЛАВИАТУРА)
+
+6 (ЦИФРОВАЯ КЛАВИАТУРА)
+
+// Add: + on numeric keypad
++ (ЦИФРОВАЯ КЛАВИАТУРА)
+
+1 (ЦИФРОВАЯ КЛАВИАТУРА)
+
+2 (ЦИФРОВАЯ КЛАВИАТУРА)
+
+3 (ЦИФРОВАЯ КЛАВИАТУРА)
+
+0 (ЦИФРОВАЯ КЛАВИАТУРА)
+
+// Decimal: . on numeric keypad
+. (ЦИФРОВАЯ КЛАВИАТУРА)
+
+// OEM 102: < > | on UK/Germany keyboards
+<>|
+F11
+F12
+// F13: NEC PC98
+F13
+// F14: NEC PC98
+F14
+// F15: NEC PC98
+F15
+// Kana: Japanese keyboard
+Kana
+// ABNT C1: / ? on Portugese/Brazilian keyboards
+/?
+// Convert: Japanese keyboard
+Convert
+// No Convert: Japanese keyboard
+No Convert
+// Yen: Japanese keyboard
+¥
+// ABNT C2: Numpad . on Portugese/Brazilian keyboards
+.
+// = on numeric keypad (NEC PC98)
+=
+// Previous track (circumflex on Japanese keyboard)
+Предыдущая дорожка
+
+// At: NEC PC98
+@
+// Colon: NEC PC98
+:
+// Underline: NEC PC98
+_
+// Kanji: Japanese keyboard
+Kanji
+// Stop: NEC PC98
+Стоп
+
+// AX: Japan AX
+AX
+// Unlabeled: J3100
+Без метки
+// Next track
+Следующая дорожка
+// Enter: Enter on numeric keypad
+Ввод (ЦИФРОВАЯ КЛАВИАТУРА)
+
+//Right Control
+Правая кнопка Control
+
+//Mute
+Приглушить
+
+//Calculator
+
+Калькулятор
+
+//Play/Pause
+Играть/Пауза
+
+//Media Stop
+Остановка носителя
+
+//Volume Down
+Убавить громкость
+
+//Volume Up
+Прибавить громкость
+
+//Web Home
+Домашняя страница
+
+// , on numeric keypad (NEC PC98)
+, (ЦИФРОВАЯ КЛАВИАТУРА)
+
+// Divide: / on numeric keypad
+/ (ЦИФРОВАЯ КЛАВИАТУРА)
+
+SysRq
+
+//Right Alt
+Правая кнопка Alt
+
+Pause
+Home
+
+//Up
+
+Вверх
+
+Page Up
+
+//Left
+Влево
+
+//Right
+Вправо
+
+End
+//Down
+Вниз
+
+Page Down
+Insert
+
+Delete
+//Left Windows
+
+Левая кнопка Windows
+
+//Right Windows
+Правая кнопка Windows
+
+// Menu key / Application key (Windows)
+Меню приложения
+
+//Power
+
+Питание
+
+//Sleep
+Сон
+
+//Wake
+
+Пробуждение
+
+//Web Search
+Поиск в Интернете
+
+//Web Favorites
+Веб-избранное
+
+//Web Refresh
+Обновление веб-страницы
+
+//Web Stop
+
+Остановка веб-страницы
+
+//Web Forward
+
+Вперед на веб-странице
+
+//Web Back
+Назад на веб-странице
+
+//My Computer
+Мой компьютер
+
+//Mail
+
+Почта
+
+//Media Select
+Выбор носителя
+
+
+
+
+// Buttons
+//Mouse Left Button
+Левая кнопка мышки
+
+//Mouse Right Button
+Правая кнопка мышки
+
+//Mouse Middle Button
+Средняя кнопка мышки
+
+//Mouse Button 3
+Кнопка мышки 3
+
+//Mouse Button 4
+
+Кнопка мышки 4
+
+//Mouse Button 5
+
+Кнопка мышки 5
+
+//Mouse Button 6
+
+Кнопка мышки 6
+
+//Mouse Button 7
+
+Кнопка мышки 7
+
+//Joystick Button 0
+
+Кнопка джойстика 0
+
+//Joystick Button 1
+
+Кнопка джойстика 1
+
+//Joystick Button 2
+
+Кнопка джойстика 2
+
+//Joystick Button 3
+
+Кнопка джойстика 3
+
+//Joystick Button 4
+
+Кнопка джойстика 4
+
+//Joystick Button 5
+
+Кнопка джойстика 5
+
+//Joystick Button 6
+
+Кнопка джойстика 6
+
+//Joystick Button 7
+
+Кнопка джойстика 7
+
+//Joystick Button 8
+
+Кнопка джойстика 8
+
+//Joystick Button 9
+
+Кнопка джойстика 9
+
+//Joystick Button 10
+
+Кнопка джойстика 10
+
+//Joystick Button 11
+
+Кнопка джойстика 11
+
+//Joystick Button 12
+
+Кнопка джойстика 12
+
+//Joystick Button 13
+
+Кнопка джойстика 13
+
+//Joystick Button 14
+
+Кнопка джойстика 14
+
+//Joystick Button 15
+
+Кнопка джойстика 15
+
+//Joystick Button 16
+
+Кнопка джойстика 16
+//Joystick Button 17
+
+Кнопка джойстика 17
+
+//Joystick Button 18
+
+Кнопка джойстика 18
+
+//Joystick Button 19
+
+Кнопка джойстика 19
+
+//Joystick Button 20
+
+Кнопка джойстика 20
+
+//Joystick Button 21
+
+Кнопка джойстика 21
+//Joystick Button 22
+
+Кнопка джойстика 22
+
+//Joystick Button 23
+
+Кнопка джойстика 23
+
+//Joystick Button 24
+
+Кнопка джойстика 24
+
+//Joystick Button 25
+
+Кнопка джойстика 25
+
+
+// Axis
+//Mouse X Axis
+
+Ось X мышки
+
+//Mouse Y Axis
+
+Ось Y мышки
+
+//Mouse Z Axis (Wheel)
+Ось Z мышки (колесо)
+
+//Mouse Axis 3
+
+Ось мышки 3
+
+//Mouse Axis 4
+
+Ось мышки 4
+//Mouse Axis 5
+Ось мышки 5
+
+//Mouse Axis 6
+
+Ось мышки 6
+
+//Mouse Axis 7
+
+Ось мышки 7
+
+//Mouse Axis 8
+
+Ось мышки 8
+
+//Mouse Axis 9
+
+Ось мышки 9
+
+//Joystick Axis 0
+
+Ось джойстика 0
+
+//Joystick Axis 1
+
+Ось джойстика 1
+
+//Joystick Axis 2
+
+Ось джойстика 2
+
+//Joystick Axis 3
+
+Ось джойстика 3
+
+//Joystick Axis 4
+
+Ось джойстика 4
+
+//Joystick Axis 5
+
+Ось джойстика 5
+
+//Joystick Axis 6
+
+Ось джойстика 6
+
+//Joystick Axis 7
+
+Ось джойстика 7
+
+//Joystick Axis 8
+
+Ось джойстика 8
+
+//Joystick Axis 9
+
+Ось джойстика 9
+
+//Joystick POV 0
+
+Точка обзора джойстика 0
+
+//Joystick POV 1
+
+Точка обзора джойстика 1
+
+//Joystick POV 2
+
+Точка обзора джойстика 2
+
+//Joystick POV 3
+
+Точка обзора джойстика 3
+
+
+// Sliders
+//Joystick Slider 0
+
+Ползунок джойстика 0
+
+//Joystick Slider 1
+
+Ползунок джойстика 1
+
+//Joystick Slider 2
+
+Ползунок джойстика 2
+
+//Joystick Slider 3
+
+Ползунок джойстика 3
+
+
+// Axis modes
+(+)
+(-)
+//(COMPLETE)
+(ЗАКОНЧЕННАЯ)
+
+//(COMPLETE AND INVERTED)
+
+(ЗАКОНЧЕННАЯ И ПЕРЕВЕРНУТАЯ)
+
+
+// Slider modes
+(+ X)
+(- X)
+//(COMPLETE X)
+(ЗАКОНЧЕННАЯ X)
+
+//(COMPLETE AND INVERTED X)
+(ЗАКОНЧЕННАЯ И ПЕРЕВЕРНУТАЯ X)
+
+(+ Y)
+(- Y)
+//(COMPLETE Y)
+(ЗАКОНЧЕННАЯ Y)
+
+//(COMPLETE AND INVERTED Y)
+
+(ЗАКОНЧЕННАЯ И ПЕРЕВЕРНУТАЯ Y)
+
+
+// POV directions
+//(CENTERED)
+
+(ПО ЦЕНТРУ)
+
+//(NORTH)
+
+(СЕВЕР)
+
+//(SOUTH)
+
+(ЮГ)
+
+//(EAST)
+
+(ВОСТОК)
+
+//(WEST)
+
+(ЗАПАД)
+
+//(NORTH EAST)
+
+(СЕВЕРО-ВОСТОК)
+
+//(SOUTH EAST)
+
+(ЮГО-ВОСТОК)
+
+//(NORTH WEST)
+
+(СЕВЕРО-ЗАПАД)
+
+//(SOUTH WEST)
+
+(ЮГО-ЗАПАД)
+
+
+// Screen mode
+//Full Screen
+
+Во весь экран
+
+//Window
+
+Окно
+
+
+// Months (ONLY three letters)
+//JAN
+
+ЯНВ
+
+//FEB
+ФЕВ
+
+//MAR
+МАР
+
+//APR
+АПР
+
+//MAY
+МАЙ
+
+//JUN
+
+ИЮН
+
+//JUL
+
+ИЮЛ
+
+//AUG
+
+АВГ
+
+//SEP
+
+СЕН
+
+//OCT
+
+ОКТ
+
+//NOV
+
+НОЯ
+
+//DEC
+
+ДЕК
+
+
+// Days of week
+//Sunday
+
+Воскресенье
+
+//Monday
+
+Понедельник
+
+//Tuesday
+
+Вторник
+
+//Wednesday
+
+Среда
+
+//Thursday
+
+Четверг
+
+//Friday
+
+Пятница
+
+//Saturday
+
+Суббота
+
+
+// Terms
+//On
+Вкл
+//Off
+Выкл
+//Music
+Музыка
+//Glow
+Glow
+//Depth of Field
+Depth of Field
+//Indie
+Инди
+//Classic Arcade
+Классические Аркады
+
+
+// Visual styles
+//Simple
+
+Простой
+
+//Normal
+
+Обычный
+
+//Retro
+
+Ретро

@@ -1,0 +1,12 @@
+//Cg Pixel Shader ps_2_0
+
+//////////////////////////////////////////////////
+
+fragment_program Red_Eye_ps_cg cg
+{
+  source redeye.cg
+  profiles ps_2_0 arbfp1
+  entry_point main
+}
+
+//////////////////////////////////////////////////

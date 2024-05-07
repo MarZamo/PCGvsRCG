@@ -1,0 +1,331 @@
+<?xml version="1.0" ?>
+<PRIMECOLOUR PrimeAlpha="1.0" PrimeRGBX="0.6" PrimeRGBY="0.6" PrimeRGBZ="1.0"/>
+<FINALCOLOUR FinalAlpha="1.0" FinalRGBX="0.27" FinalRGBY="0.23" FinalRGBZ="0.73"/>
+<AREAS Number="7">
+
+  <AREA>
+    <LIMBUSAREA />
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 0"
+              IconFileName="iconmaia.mesh"
+              AvatarFileName="alpha3.mesh"
+              UnitFileName="MobulaAlpha.xml"
+              MainAlpha="1.0" MainRGBX="0.8" MainRGBY="0.8" MainRGBZ="1.0"
+              AntiAlpha="1.0" AntiRGBX="0.27" AntiRGBY="0.23" AntiRGBZ="0.73"/>
+    <LEVELS Number="2">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L0-1"
+                   IconFileName="iconmaia.mesh"
+                   GoalsFileName="GoalsLevel00.xml"
+                   FirstMusicTrack="0"
+                   SecondMusicTrack="1"
+                   MusicCrossfadeDuration="2" />
+        <!--***************************************************************************************************************-->
+      </Level>
+      <Level>
+        <ONEIRICLEVEL />
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L0-2-KHAOS"
+                   IconFileName="iconmaia.mesh"
+                   GoalsFileName="GoalsKhaos.xml"
+                   FirstMusicTrack="0"
+                   SecondMusicTrack="0"
+                   MusicCrossfadeDuration="2" />
+        <AsteroidsData MaximumNumberOfAsteroids="0"
+                       MaximumDistance="0"
+                       AsteroidScaleBase="0"
+                       MovementProbability="0"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 1"
+              IconFileName="iconvermis.mesh"
+              AvatarFileName="alpha3.mesh"
+              UnitFileName="MobulaAlpha.xml"
+              MainAlpha="1.0" MainRGBX="0.5" MainRGBY="0.25" MainRGBZ="0.1"
+              AntiAlpha="1.0" AntiRGBX="0.14" AntiRGBY="0.29" AntiRGBZ="0.17"/>
+    <LEVELS Number="2">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="3"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="300"
+                       MaximumDistance="2000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+      <Level>
+        <SECONDARYLEVEL />
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-D1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01_D_01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="2"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="0"
+                       MaximumDistance="14000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+
+
+
+
+
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 1"
+              IconFileName="iconvermis.mesh"
+              AvatarFileName="alpha3.mesh"
+              UnitFileName="MobulaAlpha.xml"
+              MainAlpha="1.0" MainRGBX="0.5" MainRGBY="0.25" MainRGBZ="0.1"
+              AntiAlpha="1.0" AntiRGBX="0.14" AntiRGBY="0.29" AntiRGBZ="0.17"/>
+    <LEVELS Number="2">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="3"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="300"
+                       MaximumDistance="2000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+      <Level>
+        <SECONDARYLEVEL />
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-D1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01_D_01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="2"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="0"
+                       MaximumDistance="14000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 1"
+              IconFileName="iconvermis.mesh"
+              AvatarFileName="alpha3.mesh"
+              UnitFileName="MobulaAlpha.xml"
+              MainAlpha="1.0" MainRGBX="0.5" MainRGBY="0.25" MainRGBZ="0.1"
+              AntiAlpha="1.0" AntiRGBX="0.14" AntiRGBY="0.29" AntiRGBZ="0.17"/>
+    <LEVELS Number="2">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="3"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="300"
+                       MaximumDistance="2000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+      <Level>
+        <SECONDARYLEVEL />
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-D1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01_D_01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="2"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="0"
+                       MaximumDistance="14000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 1"
+              IconFileName="iconvermis.mesh"
+              AvatarFileName="alpha3.mesh"
+              UnitFileName="MobulaAlpha.xml"
+              MainAlpha="1.0" MainRGBX="0.5" MainRGBY="0.25" MainRGBZ="0.1"
+              AntiAlpha="1.0" AntiRGBX="0.14" AntiRGBY="0.29" AntiRGBZ="0.17"/>
+    <LEVELS Number="2">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="3"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="300"
+                       MaximumDistance="2000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+      <Level>
+        <SECONDARYLEVEL />
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-D1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01_D_01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="2"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="0"
+                       MaximumDistance="14000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 1"
+              IconFileName="iconvermis.mesh"
+              AvatarFileName="alpha3.mesh"
+              UnitFileName="MobulaAlpha.xml"
+              MainAlpha="1.0" MainRGBX="0.5" MainRGBY="0.25" MainRGBZ="0.1"
+              AntiAlpha="1.0" AntiRGBX="0.14" AntiRGBY="0.29" AntiRGBZ="0.17"/>
+    <LEVELS Number="2">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="3"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="300"
+                       MaximumDistance="2000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+      <Level>
+        <SECONDARYLEVEL />
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-D1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01_D_01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="2"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="0"
+                       MaximumDistance="14000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+  <AREA>
+    <FOG FogDensity="0.002" FogStartDistance="0" FogEndDistance="0" />
+    <AreaData AreaName="Area 1"
+              IconFileName="iconvermis.mesh"
+              AvatarFileName="alpha3.mesh"
+              UnitFileName="MobulaAlpha.xml"
+              MainAlpha="1.0" MainRGBX="0.5" MainRGBY="0.25" MainRGBZ="0.1"
+              AntiAlpha="1.0" AntiRGBX="0.14" AntiRGBY="0.29" AntiRGBZ="0.17"/>
+    <LEVELS Number="2">
+      <Level>
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="3"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="300"
+                       MaximumDistance="2000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+      <Level>
+        <SECONDARYLEVEL />
+        <!--***************************************************************************************************************-->
+        <BasicData LevelName="L1-D1"
+                   IconFileName="iconvermis.mesh"
+                   GoalsFileName="GoalsLevel01_D_01.xml"
+                   FirstMusicTrack="2"
+                   SecondMusicTrack="2"
+                   MusicCrossfadeDuration="6" />
+        <AsteroidsData MaximumNumberOfAsteroids="0"
+                       MaximumDistance="14000"
+                       AsteroidScaleBase="10"
+                       MovementProbability="0.1"
+                       MovementDirectionX="0" MovementDirectionY="0" MovementDirectionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Level>
+    </LEVELS>
+  </AREA>
+
+</AREAS>

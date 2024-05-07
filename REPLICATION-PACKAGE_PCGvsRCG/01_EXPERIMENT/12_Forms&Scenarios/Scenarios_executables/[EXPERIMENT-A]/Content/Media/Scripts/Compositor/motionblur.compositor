@@ -1,0 +1,56 @@
+compositor MotionBlur
+{
+    technique 
+    {
+        texture scene target_width target_height PF_R8G8B8
+        texture sum target_width target_height PF_R8G8B8
+        texture temp target_width target_height PF_R8G8B8
+
+        // Render scene
+        target scene
+        {
+            input previous
+        }
+
+        // Initialisation pass for sum texture
+        target sum
+        {
+            input previous
+            only_initial on
+        }
+
+        // Do the motion blur
+        target temp
+        {
+            input none
+            pass render_quad
+            {
+                material Ogre/Compositor/Combine
+                input 0 scene
+                input 1 sum
+            }
+        }
+
+        // Copy back sum texture
+        target sum
+        {
+            input none
+            pass render_quad
+            {
+                material Ogre/Compositor/Copyback
+                input 0 temp
+            }
+        }
+
+        // Display result
+        target_output
+        {
+            input none
+            pass render_quad
+            {
+                material Ogre/Compositor/MotionBlur
+                input 0 sum
+            }
+        }
+    }
+}

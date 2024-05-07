@@ -1,0 +1,26 @@
+void ribbon_turbulence_vp ( float4 position : POSITION,
+                            float3 normal : NORMAL,
+                            float2 uv : TEXCOORD0,
+                            float4 col : COLOR,
+                            out float4 oPosition : POSITION,
+                            out float2 oUv : TEXCOORD0,
+                            out float4 oCol : COLOR,
+
+                            uniform float4x4 worldViewProj, 
+                            uniform float curlSize, 
+                            uniform float3 seed, 
+                            uniform float amount)
+{
+  float4 mypos            = position;
+  float3 deviation        = position.xyz;
+  float  alphaMultiplier  = (2.0 - 2.0f * col.a);
+
+  // Calculate some simple turbulence
+  deviation = sin ( 0.1f * (deviation + seed) / curlSize ) * amount * alphaMultiplier;
+  
+  mypos.xyz += deviation;
+
+  oPosition = mul(worldViewProj, mypos);
+  oUv = uv;
+  oCol = col;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<COLOURS Number="3">
+
+  <!--GREEN ********************************************************************************************************-->
+
+  <COLOUR>
+    <ColourData Alpha="1.0" RGBX="0.05" RGBY="0.3" RGBZ="0.05" AssociatedUnitFileName="MobulaDelta.xml" />
+  </COLOUR>
+
+  <!--BLUE ********************************************************************************************************-->
+
+  <COLOUR>
+    <ColourData Alpha="1.0" RGBX="0.1" RGBY="0.25" RGBZ="0.5" AssociatedUnitFileName="MobulaMu.xml" />
+  </COLOUR>
+
+  <!--PURPLE ********************************************************************************************************-->
+
+  <COLOUR>
+    <ColourData Alpha="1.0" RGBX="0.25" RGBY="0.1" RGBZ="0.5" AssociatedUnitFileName="MobulaXi.xml" />
+  </COLOUR>
+
+</COLOURS>

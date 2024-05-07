@@ -1,0 +1,102 @@
+#define GLOW_MULTIPLIER     5.0f
+
+// Pixel size will be considered 1/1000th of the screen, just to make the effect similar on every resolution
+#define PIXEL_SIZE_BASE     0.0010f
+#define PIXEL_SIZE_BASE_2   0.0015f
+#define PIXEL_SIZE_BASE_3   0.0020f
+#define PIXEL_SIZE_BASE_4   0.0025f
+#define PIXEL_SIZE_BASE_5   0.0030f
+
+// Constants to multiply light value
+#define C1   0.05f
+#define C2   0.07f
+#define C3   0.10f
+#define C4   0.15f
+#define C5   0.20f
+#define C6   0.25f
+
+#define AA  10.00f   // Shoulder strength         Original value:   0.22  
+#define BB   0.50f   // Linear strength           Original value:   0.30  
+#define CC   2.00f   // Linear angle              Original value:   0.10  
+#define DD   1.00f   // Toe strength              Original value:   0.20  
+#define EE   0.00f   // Toe numerator             Original value:   0.01  
+#define FF   1.00f   // Toe denominator           Original value:   0.30
+
+// Tone mapping function
+float4 Tonemap( float4 x )
+{
+  return ( ( x * ( AA * x + CC * BB ) + DD * EE ) / ( x * ( AA * x + BB ) + DD * FF ) ) - EE / FF;
+}
+
+// Dither function
+float4 Dither( float4 colour )
+{
+  // Use dither to reduce colour banding (vector should be random and value small, try different approaches)
+  return float4( -0.05f *( colour.g + colour.b ), -0.05f *( colour.r + colour.b ), -0.05f *( colour.r + colour.g ), 1.0f );
+}
+
+// Tone mapping white
+#define LINEAR_WHITE        11.2f   // Linear white point value  Original value:  11.20 
+#define LINEAR_WHITE_VECTOR Tonemap( float4( LINEAR_WHITE, LINEAR_WHITE, LINEAR_WHITE, 1.0f ) )
+
+//A.
+float4 Glow2A_fp
+	(
+		float2 uv: TEXCOORD0,
+
+		uniform sampler2D scene: register(s0),
+		uniform float4 invTexSize
+	) : COLOR
+{
+  // Use a constant pixel size to make the effect similar on every resolution
+  // For Y blur use aspect ratio to make the same blur in horizontal and vertical directions
+  const float pixelSizeModifier = invTexSize.x / invTexSize.y;
+
+  // Pixel size precalculations
+  const float pixelSize1 = PIXEL_SIZE_BASE   * pixelSizeModifier;
+  const float pixelSize2 = PIXEL_SIZE_BASE_2 * pixelSizeModifier;
+  const float pixelSize3 = PIXEL_SIZE_BASE_3 * pixelSizeModifier;
+  const float pixelSize4 = PIXEL_SIZE_BASE_4 * pixelSizeModifier;
+  const float pixelSize5 = PIXEL_SIZE_BASE_5 * pixelSizeModifier;
+
+	// X-blur
+	return
+    tex2D( scene, float2( uv.x - pixelSize5, uv.y ) ) * C1 +
+    tex2D( scene, float2( uv.x - pixelSize4, uv.y ) ) * C2 +
+	  tex2D( scene, float2( uv.x - pixelSize3, uv.y ) ) * C3 +
+	  tex2D( scene, float2( uv.x - pixelSize2, uv.y ) ) * C4 +
+	  tex2D( scene, float2( uv.x - pixelSize1, uv.y ) ) * C5 +
+	  tex2D( scene, float2( uv.x,              uv.y ) ) * C6 +
+	  tex2D( scene, float2( uv.x + pixelSize1, uv.y ) ) * C5 +
+	  tex2D( scene, float2( uv.x + pixelSize2, uv.y ) ) * C4 +
+	  tex2D( scene, float2( uv.x + pixelSize3, uv.y ) ) * C3 +
+    tex2D( scene, float2( uv.x + pixelSize4, uv.y ) ) * C2 +
+	  tex2D( scene, float2( uv.x + pixelSize5, uv.y ) ) * C1;
+}
+
+//B.
+float4 Glow2B_fp
+	(
+		float2 uv: TEXCOORD0,
+
+		uniform sampler2D scene: register(s0),
+		uniform sampler2D blurX: register(s1)
+	) : COLOR
+{
+	// Y-blur
+	float4 colour =
+    tex2D( blurX, float2( uv.x, uv.y - PIXEL_SIZE_BASE_5 ) ) * C1 +
+	  tex2D( blurX, float2( uv.x, uv.y - PIXEL_SIZE_BASE_4 ) ) * C2 +
+	  tex2D( blurX, float2( uv.x, uv.y - PIXEL_SIZE_BASE_3 ) ) * C3 +
+	  tex2D( blurX, float2( uv.x, uv.y - PIXEL_SIZE_BASE_2 ) ) * C4 +
+	  tex2D( blurX, float2( uv.x, uv.y - PIXEL_SIZE_BASE   ) ) * C5 +
+	  tex2D( blurX, float2( uv.x, uv.y                     ) ) * C6 +
+	  tex2D( blurX, float2( uv.x, uv.y + PIXEL_SIZE_BASE   ) ) * C5 +
+	  tex2D( blurX, float2( uv.x, uv.y + PIXEL_SIZE_BASE_2 ) ) * C4 +
+	  tex2D( blurX, float2( uv.x, uv.y + PIXEL_SIZE_BASE_3 ) ) * C3 +
+	  tex2D( blurX, float2( uv.x, uv.y + PIXEL_SIZE_BASE_4 ) ) * C2 +
+	  tex2D( blurX, float2( uv.x, uv.y + PIXEL_SIZE_BASE_5 ) ) * C1;
+
+  // Add calculated glow to original colour and use filmic tone mapping and add dither
+  return Dither( colour ) + Tonemap( 2.0f * tex2D( scene, uv ) + GLOW_MULTIPLIER * ( 0.15f * colour + colour * colour ) ) / LINEAR_WHITE_VECTOR;
+}

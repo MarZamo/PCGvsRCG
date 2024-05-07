@@ -1,0 +1,262 @@
+<?xml version="1.0" ?>
+<SHRINE>
+  <!--***************************************************************************************************************-->
+  <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="300" InitialScaleY="300" InitialScaleZ="300"
+           DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+           EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+  <!--***************************************************************************************************************-->
+  <HULL Number="1">
+    <Hull HullType="0">
+      <ObjectData ModelFileName="shrine0core.mesh" ScaleX="300" ScaleY="300" ScaleZ="300"
+                  PositionX="0" PositionY="0" PositionZ="0"
+                  OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+      <PhysicalObjectData CollisionModelFileName="COMPOUND" ObjectMaterial="1" ObjectMass="0">
+        <CollisionComponents Number="34">
+          <!--Boards ********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.268015" ComponentScaleY="0.010651" ComponentScaleZ="0.268015"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0.200805" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.268015" ComponentScaleY="0.010651" ComponentScaleZ="0.268015"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.200805" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          
+          <!--Pillars *******************************************************************************************************-->
+          <!--First row *******************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="-0.201" ComponentLocalPositionY="0" ComponentLocalPositionZ="0.201"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="-0.067" ComponentLocalPositionY="0" ComponentLocalPositionZ="0.201"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="0.067" ComponentLocalPositionY="0" ComponentLocalPositionZ="0.201"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="0.201" ComponentLocalPositionY="0" ComponentLocalPositionZ="0.201"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Second row *******************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="-0.201" ComponentLocalPositionY="0" ComponentLocalPositionZ="0.067"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="0.201" ComponentLocalPositionY="0" ComponentLocalPositionZ="0.067"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Third row *******************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="-0.201" ComponentLocalPositionY="0" ComponentLocalPositionZ="-0.067"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="0.201" ComponentLocalPositionY="0" ComponentLocalPositionZ="-0.067"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+         <!--Fourth row *******************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="-0.201" ComponentLocalPositionY="0" ComponentLocalPositionZ="-0.201"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="-0.067" ComponentLocalPositionY="0" ComponentLocalPositionZ="-0.201"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="0.067" ComponentLocalPositionY="0" ComponentLocalPositionZ="-0.201"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0266275" ComponentScaleY="0.1901015" ComponentScaleZ="0.0266275"
+                                    ComponentLocalPositionX="0.201" ComponentLocalPositionY="0" ComponentLocalPositionZ="-0.201"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Top bars ******************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0766745" ComponentScaleY="0.0766745" ComponentScaleZ="0.3286055"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0.487288" ComponentLocalPositionZ="0.438141"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.3286055" ComponentScaleY="0.0766745" ComponentScaleZ="0.0766745"
+                                    ComponentLocalPositionX="-0.438141" ComponentLocalPositionY="0.487288" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.3286055" ComponentScaleY="0.0766745" ComponentScaleZ="0.0766745"
+                                    ComponentLocalPositionX="0.438141" ComponentLocalPositionY="0.487288" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0766745" ComponentScaleY="0.0766745" ComponentScaleZ="0.3286055"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0.487288" ComponentLocalPositionZ="-0.438141"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Bottom bars ***************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0766745" ComponentScaleY="0.0766745" ComponentScaleZ="0.3286055"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.487288" ComponentLocalPositionZ="0.438141"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.3286055" ComponentScaleY="0.0766745" ComponentScaleZ="0.0766745"
+                                    ComponentLocalPositionX="-0.438141" ComponentLocalPositionY="-0.487288" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.3286055" ComponentScaleY="0.0766745" ComponentScaleZ="0.0766745"
+                                    ComponentLocalPositionX="0.438141" ComponentLocalPositionY="-0.487288" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.0766745" ComponentScaleY="0.0766745" ComponentScaleZ="0.3286055"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.487288" ComponentLocalPositionZ="-0.438141"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Boxes *********************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.1862125" ComponentScaleY="0.1862125" ComponentScaleZ="0.1862125"
+                                    ComponentLocalPositionX="0.00313" ComponentLocalPositionY="0" ComponentLocalPositionZ="0.625063"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.1862125" ComponentScaleY="0.1862125" ComponentScaleZ="0.1862125"
+                                    ComponentLocalPositionX="0.625063" ComponentLocalPositionY="0" ComponentLocalPositionZ="-0.00313"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.1862125" ComponentScaleY="0.1862125" ComponentScaleZ="0.1862125"
+                                    ComponentLocalPositionX="-0.625063" ComponentLocalPositionY="0" ComponentLocalPositionZ="0.00313"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.1862125" ComponentScaleY="0.1862125" ComponentScaleZ="0.1862125"
+                                    ComponentLocalPositionX="-0.00313" ComponentLocalPositionY="0" ComponentLocalPositionZ="-0.625063"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Top Beams *****************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.010954" ComponentScaleY="0.1121225" ComponentScaleZ="0.010954"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0.298334" ComponentLocalPositionZ="0.625063"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.010954" ComponentScaleY="0.1121225" ComponentScaleZ="0.010954"
+                                    ComponentLocalPositionX="-0.625063" ComponentLocalPositionY="0.298334" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.010954" ComponentScaleY="0.1121225" ComponentScaleZ="0.010954"
+                                    ComponentLocalPositionX="0.625063" ComponentLocalPositionY="0.298334" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.010954" ComponentScaleY="0.1121225" ComponentScaleZ="0.010954"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="0.298334" ComponentLocalPositionZ="-0.625063"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <!--Bottom Beams **************************************************************************************************-->
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.010954" ComponentScaleY="0.1121225" ComponentScaleZ="0.010954"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.298334" ComponentLocalPositionZ="0.625063"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.010954" ComponentScaleY="0.1121225" ComponentScaleZ="0.010954"
+                                    ComponentLocalPositionX="-0.625063" ComponentLocalPositionY="-0.298334" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.010954" ComponentScaleY="0.1121225" ComponentScaleZ="0.010954"
+                                    ComponentLocalPositionX="0.625063" ComponentLocalPositionY="-0.298334" ComponentLocalPositionZ="0"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+          <CollisionComponent>
+            <CollisionComponentData CollisionModelFileName="CUBOID"
+                                    ComponentScaleX="0.010954" ComponentScaleY="0.1121225" ComponentScaleZ="0.010954"
+                                    ComponentLocalPositionX="0" ComponentLocalPositionY="-0.298334" ComponentLocalPositionZ="-0.625063"
+                                    ComponentLocalOrientationW="1" ComponentLocalOrientationX="0" ComponentLocalOrientationY="0" ComponentLocalOrientationZ="0" />
+          </CollisionComponent>
+        </CollisionComponents>
+      </PhysicalObjectData>
+      <AliveObjectData ObjectMaximumLife="500" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+      <ComponentData HullIndexParent="-1"
+                     LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+    </Hull>
+
+
+
+
+
+
+    <!--***************************************************************************************************************-->
+    <LINKS Number="1">
+      <Link LinkType="3">
+        <LinkData HullIndexFirst="-1" HullIndexSecond="0" 
+                  Destructible="0" DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                  EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+        <LinkMovableData LinkMovementType="0" LinkMovementFunctionType="1" LinkMovementControlState="0"
+                         MovementDistancePositive="-1" MovementDistanceNegative="-1" MovementSpeed="10" InitialOffsetPercentage="0"
+                         MovementAxisX="0" MovementAxisY="1" MovementAxisZ="0" />
+      </Link>
+
+    </LINKS>
+
+  </HULL>
+  <!--***************************************************************************************************************-->
+  <ShrineData   SacredPositionOffsetX="0" SacredPositionOffsetY="0" SacredPositionOffsetZ="0" />
+  <!--***************************************************************************************************************-->
+</SHRINE>

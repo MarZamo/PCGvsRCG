@@ -1,0 +1,10 @@
+20:52:43      Resolution Supported: 800 x 600 @ 32-bit colour
+20:52:43      Resolution Supported: 1024 x 768 @ 32-bit colour
+20:52:43      Resolution Supported: 1280 x 720 @ 32-bit colour
+20:52:43      Resolution Supported: 1366 x 768 @ 32-bit colour
+20:53:51      Delayed functions vector size = 50000
+20:53:51      Used BillboardChains
+20:53:51      Short:            50
+20:53:51      Long:             16
+20:53:51      Short Turbulence: 8
+20:53:51      Long Turbulence:  1

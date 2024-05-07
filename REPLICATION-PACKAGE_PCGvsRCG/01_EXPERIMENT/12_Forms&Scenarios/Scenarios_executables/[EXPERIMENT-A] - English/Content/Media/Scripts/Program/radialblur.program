@@ -1,0 +1,13 @@
+//Cg Pixel Shader ps_2_0
+
+//////////////////////////////////////////////////
+
+
+fragment_program Radial_Blur_ps_cg cg
+{
+  source radialblur.cg
+  profiles ps_2_0 arbfp1
+  entry_point main
+}
+
+//////////////////////////////////////////////////

@@ -1,0 +1,1042 @@
+﻿GAME TEXTS
+
+
+//Language original names
+English
+Español
+Français
+Deutsch
+Italiano
+日本語
+Русский
+Português
+
+
+//Language translated names
+英語
+スペイン語
+フランス語
+ドイツ語
+イタリア語
+日本語
+ロシア語
+ポルトガル語
+
+
+//DEVICE
+デバイス
+//Sensitivity
+感度
+//Pitch Up
+ピッチアップ
+//Pitch Down
+ピッチダウン
+//Yaw Left
+左ヨーイング
+//Yaw Right
+右ヨーイング
+//Roll Left
+左ロール
+//Roll Right
+右ロール
+//Accelerate
+加速
+//Decelerate
+減速
+//Boost
+ブースト
+//Strafe Up
+上スライド
+//Strafe Down
+下スライド
+//Strafe Left
+左スライド
+//Strafe Right
+右スライド
+//Primary Fire
+主武装攻撃
+//Secondary Fire
+副武装攻撃
+//Next Armor
+次のアーマー
+//Previous Armor
+前のアーマー
+//Spinner Left Grappling Hook
+スピナー左グラップリングフック
+//Spinner Center Grappling Hook
+スピナー中央グラップリングフック
+//Spinner Right Grappling Hook
+スピナー右グラップリングフック
+//Change Special Weapon
+特殊武器を変更
+//Change Armor
+アーマーを変更
+//Invert Pitch inputs
+ピッチ入力を反転
+//Stats
+ステータス
+//Options
+オプション
+//(NOT CUSTOMIZABLE)
+(カスタマイズ不可)
+//KEY IN\nUSE
+使用中の\nキー
+
+
+//DEVICE TO BE CONFIGURED
+設定するデバイス
+//SENSITIVITY\nPERCENTAGE
+感度の\nパーセンテージ
+//PITCH UP PROPELLERS
+プロペラのピッチアップ
+//PITCH DOWN PROPELLERS
+プロペラのピッチダウン
+//YAW LEFT PROPELLERS
+プロペラの左ヨーイング
+//YAW RIGHT PROPELLERS
+プロペラの右ヨーイング
+//ANTI-CLOCKWISE ROLL\nPROPELLERS
+プロペラの\n反時計回りロ
+//CLOCKWISE ROLL\nPROPELLERS
+プロペラの\n時計回りロール
+//ACCELERATION MAIN\nPROPELLERS
+メインプロペラの\n加速
+//DECELERATION MAIN\nPROPELLERS
+メインプロペラの\n減速
+//PROPELLERS BOOST
+プロペラブースト
+//STRAFING UP PROPELLERS
+プロペラの上スライド
+//STRAFING DOWN PROPELLERS
+プロペラの下スライド
+//STRAFING LEFT PROPELLERS
+プロペラの左スライド
+//STRAFING RIGHT PROPELLERS
+プロペラの右スライド
+//MAIN FIRE
+主武装攻撃
+//SECONDARY FIRE
+副武装攻撃
+//CHANGE TO NEXT ARMOR
+次のアーマーに変更
+//CHANGE TO PREVIOUS ARMOR
+前のアーマーに変更
+//LEFT GRAPPLING HOOK FIRE
+左グラップリングフック発射
+//CENTER GRAPPLING HOOK FIRE
+中央グラップリングフック発射
+//RIGHT GRAPPLING HOOK FIRE
+右グラップリングフック発射
+//SPECIAL WEAPON CHANGE
+特殊武器変更
+//ARMOR CHANGE
+アーマー変更
+//PITCH INPUTS REVERSAL
+ピッチ入力反転
+//CURRENT STATS
+現在のステータス
+//OPTIONS MENU
+オプションメニュー
+
+
+//Wake up, son...
+おい、起きるんだ...
+//The prize is fair...
+報酬は公平だ...
+//...And the way is long.
+...そして道のりは長い
+
+
+//START
+スタート
+//CONFIRM
+確定
+//OK
+OK
+//CANCEL
+キャンセル
+//LOCKED
+ロック中
+//CONTINUE
+続ける
+//YES
+はい
+//NO
+いいえ
+
+
+//KROMAIA
+KROMAIA
+//STORY MODE
+ストーリーモード
+//SCORE ATTACK
+スコアアタック
+//BOSS TRIAL
+ボストライアル
+//VERSUS MODE
+対戦モード
+//STORY MODE DEMO
+ストーリーモードデモ
+//LOAD
+ロード
+//CONFIGURATION
+設定
+//CLEAR DATA
+データクリア
+//EXIT
+終了
+
+
+//START\nSCORE ATTACK
+スコアアタック\nスタート
+//ELYSIUM
+エリュシオン
+//REBOOT
+リブート
+//ARMOR SELECTION MENU
+アーマー選択メニュー
+
+//EXIT
+終了
+//SCORE
+スコア
+
+
+//Enter Your Name
+名前を入力
+//ELYSIUM
+エリュシオン
+
+
+//RESOLUTION
+解像度
+//VISUAL STYLE (F6)
+グラフィックスタイル (F6)
+//VOLUME
+音量
+//MUSIC
+音楽
+//FX
+効果音
+//MUSIC VOLUME
+音量(音楽)
+//FX VOLUME
+音量(効果音)
+//ON
+ON
+//OFF
+OFF
+//LANGUAGE
+言語
+//SCREEN MODE
+スクリーンモード
+//CONTROLS
+コントロール
+//APPLY & SAVE
+適用してセーブ
+//BACK
+戻る
+//SAVE
+セーブ
+//SAVE & CONTINUE
+セーブして続ける
+//EXIT WITHOUT SAVING
+セーブしないで終了
+//APPLY DEFAULT\nSETTINGS
+初期設定を\n適用
+
+
+//LOAD SLOT-
+スロット-をロード
+//CLEAR SLOT-
+スロット-をクリア
+//EMPTY
+空
+//NEW FILE
+新規ファイル
+//AREA
+エリア
+//TIME
+タイム
+
+
+//RESUME
+再開
+//EXIT
+終了
+
+
+//Xbox 360 controller supported
+Xbox 360コントローラーに対応
+
+
+//Ending Demo
+エンディングデモ
+//Demo Time Left
+デモの残り時間
+
+
+//Wake up...
+起きるんだ...
+
+
+//At last...
+遂に...
+//My thoughts have\nreached you, son.
+私の思いが\nお前に届いたのだ。
+//They are the only things\nwhich I am allowed to keep...
+私が持つのを許されたのは\n彼らだけだった...
+//So listen to them...
+だから彼らの言うことを聞け...
+//...and grant me revenge.
+...そして私の復讐を遂げてくれ。
+
+
+//Collect every gate component\nto unlock jumpgates.
+ゲートの部品をすべて集め\nジャンプゲートを開けよ。
+//The icons in a door indicate\nhow many keys are needed.
+ドアの上にあるアイコンは\nいくつ鍵が必要かを示している。
+
+
+//There is a solid ring with a\npointer surrounding your armor...
+お前のアーマーの周りには\nポインター付きのリングがある...
+//This compass will lead\nyou to the truth...
+このコンパスがお前を\n真実へと導くだろう...
+//The arrow in the ring surrounding\nyou points to the next target.
+お前を取り囲むリングの中の矢印は\n次の標的を示している
+
+
+//Shoot at buttons to activate\ndevices or open doors.
+ボタンを撃てばデバイスが\nアクティブになったりドアが開く。
+
+
+//Don't be afraid of entering the portal
+ポータルに入るのを恐れる必要はない
+//Those gates will let you travel\nto different nodes in time and space.
+このゲートからは、さまざまな\n時間と空間のノードに移動できる。
+
+
+//A node can be entered only with its\ndefault armor until it is cleared\nfor the first time.
+クリアするまでは、デフォルトの\nアーマーを装備していなければ\nそのノードには入れない
+//Once a node is cleared\nit can be entered with different armors.
+ノードをクリアすると\n違うアーマーでも入れるようになる。
+//New armor available at Kyllene.\nCollect a mask to summon an armor.
+キュレーネで新しいアーマーが手に入る。\nマスクを集めてアーマーを召喚するといい。
+//You must defeat each of those traitors\nwith every armor to light the\nKyllene Wheel at full power.
+すべてのアーマーを使って裏切り者共を\n一人一人すべて倒し、キュレーネの輪に\nフルパワーで光を当てるのだ。
+
+
+//Tap the boost key to multiply\nthe active thrusters power
+ブーストキーをタップして\nアクティブスラスターのパワーを増幅しよう
+//Advanced Boost does not work tapping\nthe boost key, but holding it.
+アドバンスブーストはブーストキーをタップするのではなく\n長押しして動作させよう
+
+
+//Heavy impacts at great speeds may destroy\nyour armor despite having shields left.
+高速で大きな衝撃を受けるとシールドが残っていても\nアーマーを破壊する可能性がある
+
+
+//Look, son...
+いいか....
+//This is the key to\nruling time and space...
+これは時間と空間を\n支配するための鍵なのだ...
+//Take it and\nopen the gates...
+鍵を手に\nゲートを開け...
+//...to our fate.
+...我々の運命へのな。
+
+
+//Even if You don't remember who you are...
+お前が自分が誰だか覚えていないとしても...
+//I know well what i owe you, son.
+私はお前にどんな借りがあるか知っている。
+//Accept your reward...
+報酬を受け取るのだ...
+//...and let all knowledge be one.
+...そしてすべての知識を一つにするのだ。
+
+
+//Yes, four gods...
+そう、四神...
+//They are the ones to\nblame for all.
+奴らこそがすべての\n元凶なのだ。
+//Vermis, the first of them\nbut not the oldest...
+ウェルミスは最初の神だが\n最古の神ではない...
+//The worm god will rise when\ndisturbance reaches the pillared shrine.
+這いずる神は柱の神殿に\n騒乱が到達すれば立ち上がるだろう。
+
+
+//we are closer to freedom...
+我々は自由に近づいている...
+//They will pay for their crime.\nRepentance will not erase the guilt.
+奴らは犯した罪を償うのだ。\n良心の呵責が罪を消すわけではない。
+//Far beyond the metal forest, Teuthus sleeps peacefully...
+金属の森の遥か先でテウトゥスは穏やかに眠る...
+//Don't be reckless, He has always\nknown that we would search for him.
+無茶をするな、奴は我々が探し出そうと\nすることをずっと知っていた。
+
+
+//Time and space are on our side...
+時間と空間は我々の味方だ...
+//There is no way they\ncan warn each other.
+奴らがお互いに\n警告するのは無理だ。
+//Every device ruled by Argos works\nto gather raw energy for their master...
+アルゴスに支配されているすべてのデバイスは\nその師に生のエネルギーを集めるべく動作する...
+//A greed which is only second\nto his brute force.
+欲深き師だが、その欲望も奴の\n暴力には及ばぬ。
+
+
+//There is only a way to\nfuse these branches and reign:
+この分裂と統治を\n融合させる方法は一つしかない。
+//Bring the same fate\nto all of them.
+奴ら全員に同じ運命を\nもたらすのだ。
+//Orion chose a world filled\nwith life and taught its offspring.
+オリオンは世界を生命で\n満たすことに決め子孫らを教育した。.
+//The hunter and his tribe will use\ntheir science to destroy you at any cost.
+狩人と彼の部族は科学を利用して\n何としてでも我らを粉砕しようとするだろう。
+
+
+//The big one is a menace...
+大きな存在は脅威だ...
+//Take its life...
+その生命を奪え...
+
+
+//Vermis is an elderly god...
+ウェルミスは老いた神だ...
+//But not totally weak...
+だが、弱いわけではない...
+
+
+//His strength goes beyond his arms...
+奴の強さはその力以上のものだ...
+//Don't hesitate...
+ためらうな...
+
+
+//Argos has the upper\nhand in close combat...
+アルゴスは近接戦では\n優勢だ...
+//It is time to test your agility...
+お前の敏捷性を試す時だ...
+
+
+//Orion knows the principles\nbehind your armors...
+オリオンはお前のアーマーの\n特性を知っている...
+//Show him what you have learnt.
+お前が学んだことを奴に見せてやれ。
+
+
+//...
+...
+//There is a long way to go...
+先は長い...
+//Now sleep, son...
+今は眠れ...
+
+
+//Thank you, son.
+ありがとう。
+//Those remaining realities in which I was defeated...
+敗れたという現実は今も私の中に残っていたが...
+//... Now they are just bad dreams.
+...今はそれもただの悪夢に過ぎん。
+//...
+...
+//These brothers did well,\nmy soul was nearly sealed.
+あの兄弟は上手くやった、\n我が魂はほぼ封印された。
+//But I was still able to reach\nto the strongest of them...
+だが、それでも私は彼らの中で\n最強の者に手を伸ばし...
+//...and erase his mind. Your mind.
+...その心を消し去ったのだ。お前の心をな。
+
+
+//My gift to you...
+お前への私からの贈り物...
+//I will take you to the same place...
+同じ場所にお前を連れて行こう...
+//...where your memories rest.
+...お前の記憶が眠るその場所に。
+
+
+//Don't you understand?
+分からないのか？
+//If I return to Chaos,\nthe world we have built\nwill be lost only to start again...
+私がカオスに戻れば\n我々が築いた世界は失われ\nまたやり直さなければならない...
+//I just wanted to bring this\nendless circle to an end.
+私はこの終わりなき繰り返しを\n終わらせたいだけだ。
+//But I guess you can't\nescape your nature...
+だが、お前は生まれついて持った\n性分から逃げられないようだな...
+//...And your nature is to survive.
+...そう、生き抜くという性分から。
+
+
+//It is time to\nmake your choice.
+今こそ\n決断の時だ。
+//End your existence here in the void...
+この虚空の中でお前の存在を終わらせるか...
+//Or enter the gate and give back\nthe time I granted you.
+ゲートに入り私がお前に与えた\n時間を返すのだ。
+
+
+//Wake up, son...
+おい、起きるんだ...
+//Let's play this hopeless\ngame one more time.
+再びこの絶望のゲームを\nプレイしようではないか。
+
+
+//Piloting Basics
+操縦の基本
+//Yawing And Pitching
+ヨーイング＆ピッチ
+//Main orientation mechanics.
+主要姿勢制御メカニズム。
+//Forward acceleration
+前方に加速
+//Keep pressed to increase linear velocity.
+押し続けて直線速度を上昇。
+//Strafing
+スライド
+//Strafing thrusters are used for dodging\nand complex maneuvering.
+スライドスラスターは複雑な操作と\n回避に使用。
+//Rolling
+ロール
+//Advanced orientation thrusters.
+高度な姿勢制御スラスター。
+//Boost
+ブースト
+//Multiplies the power of active thrusters.\nIneffective on inactive thrusters.
+アクティブスラスターのパワーを増幅。\n非アクティブのスラスターには無効。
+//Primary Fire
+主武装攻撃
+//Main weapon. Low reloading time.
+主要兵器。再装弾時間が短い。
+//Secondary Fire
+副武装攻撃
+//Auxiliary weapon.\nHigh firepower and slow reloading.
+補助兵器。\n火力は高いが再装弾時間が長い。
+
+
+//+1 SHIELD LAYER
+シールドレイヤー+1
+//SHIELDS RESTORED
+シールド復元
+//SHIELD LAYER LOST
+シールドレイヤー喪失
+//SHIELDS DOWN
+シールド機能停止
+//ADVANCED BOOST
+アドバンスブースト
+//ADD-ON
+アドオン
+//NEW UPGRADE
+新アップグレード
+
+
+//ALPHA
+アルファ
+//TAU
+タウ
+//MU
+ミュー
+//PSI
+サイ
+//OMEGA
+オメガ
+
+
+//Alpha Armor
+アルファアーマー
+//Tau Armor
+タウアーマー
+//Mu Armor
+ミューアーマー
+//Psi Armor
+サイアーマー
+//Omega Armor
+オメガアーマー
+
+
+//Artillery Type
+砲撃タイプ
+//Assisted Aiming Unit
+補助照準ユニット
+//Precision Shooter
+精密射撃
+//Close Combat Oriented
+近接戦闘重視
+//No Data Available
+該当データなし
+
+
+//STANDARD
+標準
+//ASSISTED
+補助装置付き
+//DIFFICULT
+ハード
+//ELITE
+エリート
+//NO DATA AVAILABLE
+該当データなし
+
+
+//Select Armor
+アーマーを選択
+//Firepower
+火力
+//Ease Of Hitting
+扱いやすさ
+//Rate Of Fire
+連射率
+
+
+//BOOST
+ブースト
+//SCATTER DRIVE
+スキャッタードライブ
+//SEEKER
+シーカー
+//LIGHT NEEDLE
+ライトニードル
+//FIELD BREAKER
+フィールドブレーカー
+//OMEGA DEVICE
+オメガデバイス
+
+
+//SMART TURRETS
+スマートタレット
+
+
+//The Scatter Drive shot spread is\nan optimal short range defense\nagainst fast targets getting too close.
+スキャッタードライブの散弾は\n急接近してくる素早い標的に対して\n近距離では最適の防衛手段だ。
+//Hold Secondary Fire to lock\nmultiple missile targets to be searched.\nRelease when targets are locked.
+「副武装攻撃」を長押しして\n検出された複数のミサイル標的がロックされる。\n標的がロックされたら指を離せ。
+//Holding Secondary Fire adds nextra\nduration for the Light Needle beam.
+「副武装攻撃」を長押しすると\nライトニードルのビームの放射時間が伸びる。
+//Hold Secondary Fire until the Field Breaker\nstar blade is ready to be launched.
+フィールドブレーカーのスターブレード発射準備が\n整うまで「副武装攻撃」を長押しする。
+
+
+//Hold Secondary Fire until loading is complete.
+装弾されるまで「副武装攻撃」を長押しする。
+//Hold Secondary Fire to lock multiple targets.\nRelease when targets are locked.
+「副武装攻撃」を長押しして複数の標的をロックする。\n標的がロックされたら指を離せ。
+
+
+//Smart Turrets are A.I. devices\nwhich aim and fire automatically
+スマートタレットはAIデバイスであり、\n自動的に照準を合わせて射撃する
+
+
+//WAITING
+待機中
+//RELOADING
+装弾中
+//READY
+READY
+
+
+//SPINNER
+スピナー
+//MINE-PROBE
+マインプローブ
+//RADIAL BOLT
+ラジアルボルト
+//GRAVITY SHELL
+グラビティシェル
+//FUSION THRUSTER
+フュージョンスラスター
+//DRONES
+ドローン
+//OFFENSIVE DRONES
+攻撃型ドローン
+//DEFENSIVE DRONES
+防御型ドローン
+
+
+//The Spinner is a grappling hook device\nallowing extreme manoeuvrability\nand fast displacements.\nUse it to cling to structures, asteroids or enemies.
+スピナーは圧倒的な操縦性と素早い\n移動を可能にするグラップリング\nフックデバイス。\n建築物や小惑星、敵に引っ掛けて使おう。
+//Tap the Spinner fire\nto launch grappling hooks.
+スピナー発射をタップして\nグラップリングフックを発射。
+//A second Spinner fire tap\ncuts a fixed cable.
+スピナー発射を再度タップすると\n固定ケーブルを切断。
+//Hold Spinner fire\nto reel a fixed cable.
+スピナー発射の長押しで\n固定ケーブルを巻き取る。
+//Releasing Spinner fire while reeling\ncuts the cable.
+巻き取り中にスピナー発射から指を離すと\nケーブルが切断される。
+//The Mine-Probe is a two-stage bomb device.\nTap fire to launch the projectile and rush\nthe delayed detonation with a second tap.
+マインプローブは2段階の爆弾装置だ。\n発射をタップすると発射物が発射され\n2回目のタップで時間差で爆発する。
+//The Radial Bolt is a close combat weapon\nwhich detects alive entities within range,\nfiring energy streams at their bodies.
+ラジアルボルトは近接戦用の武器であり、\n範囲内にいる生物を検出し、\nエネルギーストリームを放出する。
+//The Gravity Shell is a device casting a gravity bomb\nwhich attracts and assimilates low to medium mass entities before collapsing.
+グラビティシェルは重力爆弾を発射する装置であり、\n崩壊前に軽量から中量の物体を引きつけ吸収する。
+//The Fusion Thruster works as a continuous\nAdvanced Boost, with unlimited power supply.
+フュージョンスラスターは無制限の動力供給で\n継続的なアドバンスブーストとして動作する。
+//Drones are smart units which operate and\nselect their own targets independently.
+ドローンは単独で動作し、標的を選択する\n自律機能を持つユニットだ。
+
+
+//JUMPGATE COMPONENT
+ジャンプゲートパーツ
+//ALTERNATIVE MARKER ITEM
+オルタナティブマーカーアイテム
+//WEAPON UP ITEM
+ウェポンアップアイテム
+//THISAUROS
+宝庫
+//SOUL VIAL
+魂の小瓶
+//SHIELD ITEM
+シールドアイテム
+//BONUS
+ボーナス
+//ADVANCED BOOST
+アドバンスブースト
+//ADVANCED BOOST LEFT PACK
+アドバンスブーストパック（左）
+//ADVANCED BOOST RIGHT PACK
+アドバンスブーストパック（右）
+//EXTRA BONUS
+エキストラボーナス
+//MACRO BONUS
+マクロボーナス
+//KEY
+鍵
+//MESSAGE
+メッセージ
+//ADD-ON
+アドオン
+//ADD-ON FIRST PACK
+アドオンファーストパック
+//ADD-ON SECOND PACK
+アドオンセカンドパック
+
+
+//WARNING
+警告
+//NEXT BONUS\nAVAILABLE
+次のボーナスが\n入手可能
+//DOOR UNLOCKED
+ドアアンロック
+
+
+//GAME OVER
+ゲームオーバー
+
+
+//Code Accepted
+コード承認
+//Sequence Error
+シーケンスエラー
+
+
+//SC
+スコア
+//LV
+LV
+//Level
+レベル
+//Level Up
+レベルアップ
+//Power Increased
+パワー上昇
+//Top Speed Raised
+最高速度上昇
+//Reloading Time Improved
+再装弾時間短縮
+//Advanced Boost Capacity Increased
+アドバンスブースト機能アップ
+//Shield Capacity Increased
+シールド機能アップ
+//Your score will be use to level up
+レベルアップにはスコアを使用
+//Level up to improve your skills
+レベルアップしてスキルを改善
+//Super-Frame Mode
+スーパーフレームモード
+//New Super-Frame Mode Unlocked
+新しいスーパーフレームモードをアンロック
+//After completing a game cycle\nA new Super-Frame Mode is unlocked
+ゲームサイクルをクリアすると\n新しいスーパーフレームモードがアンロックされる
+//Super-Frame Modes increase difficulty level
+スーパーフレームモードでは難易度が上がる
+
+
+//EXTRA
+エキストラ
+
+
+//Racer
+レーサー
+
+
+//Games
+ゲーム
+
+
+//Credits
+クレジット
+
+
+//Time left
+残り時間
+
+
+//Round -
+ラウンド –
+
+
+//Player -
+プレイヤー –
+//Wins
+勝利数
+
+
+//DIFFICULTY LEVEL
+難易度
+//EASY
+イージー
+//MEDIUM
+ミディアム
+//HARD
+ハード
+//ULTIMATE
+ウルティメイト
+
+
+//Score Attack
+スコアアタック
+//Racer
+レーサー
+//Asteroids Mode
+小惑星モード
+//Survival Mode
+サバイバルモード
+//Endless Runner
+エンドレスランナー
+//Time Attack
+タイムアタック
+//Kromaia: Rogue
+クロマイア：ローグ
+
+
+//Collect items and destroy enemies\nto reach the highest score
+アイテムを集め、敵を倒して\n最高スコアを叩き出そう
+//Retrieve all the items as fast as you can
+できる限り早くすべてのアイテムを回収しよう
+//Destroy every asteroid in your way
+途中にあるすべての小惑星を破壊しよう
+//Survive as long as you can
+できる限り長く生き延びよう
+//Avoid every obstacle to survive
+すべての障害物を避けて生き延びよう
+//Reach the next check point before\nrunning out of time
+時間切れになる前に次のチェックポイントに\n到達しよう
+//Explore beyond your homebase domains\nand upgrade your equipment
+本拠地領域外を探索し\n装備をアップグレードしよう
+
+
+// Achievement Titles (Don't translate)
+Give Me My Bullets
+Rider On The Worm
+Space Bound Ricochet
+Squid Row
+Playing With Fire
+Breaking The Claw
+Ace Of Lightspades
+Cosmic Dance End
+One
+Sad Strings Of Destiny
+Bomb Rules
+Try The Lightning
+And Physics For All
+Master Of Realities
+Fade To White
+Keeper of the 12 Keys
+I'm In For The Kill
+Staying Hungry
+Third Evening In Scoreland
+Appetite For Insolation
+Who's Next?
+Chaining Is My Business
+So Far, So Good
+Star Way To Hell
+Beyond Strength
+Four Kicks
+
+
+// Achievement Descriptions
+//Unlock the Alpha Armor
+アルファアーマーをアンロック
+//Defeat Vermis
+ウェルミスを倒す
+//Unlock the Tau Armor
+タウアーマーをアンロック
+//Defeat Teuthus
+テウトゥスを倒す
+//Unlock the Mu Armor
+ミューアーマーをアンロック
+//Defeat Argos
+アルゴスを倒す
+//Unlock the Psi Armor
+サイアーマーをアンロック
+//Defeat Orion
+オリオンを倒す
+//Unlock the Omega Armor
+オメガアーマーをアンロック
+//Obtain the Spinner
+スピナーを入手
+//Obtain the Mine-Probe
+マインプローブを入手
+//Obtain the Radial Bolt
+ラジアルボルトを入手
+//Obtain the Gravity shell
+グラビティシェルを入手
+//Clear every dimension
+すべてのディメンションをクリア
+//Complete the game
+ゲームをクリア
+//Obtain every treasure
+すべての宝物を入手
+//Score 25,000 In Score Attack Mode
+スコアアタックモードで二万五千点以上獲得
+//Score 50,000 In Score Attack Mode
+スコアアタックモードで五万点以上獲得
+//Score 100,000 In Score Attack Mode
+スコアアタックモードで十万点以上獲得
+//Reach the Sun
+太陽に到達
+//Beat a boss without getting any damage
+ダメージを受けることなくボスを倒す
+//Achieve a x100 hit combo
+x100のヒットコンボ達成
+//Reach the end and unlock Super-Frame Mode 1
+ゲームをクリアし、スーパーフレームモード1をアンロック
+//Reach the end for a second time and unlock Super-Frame Mode 2
+ゲームを2回クリアし、スーパーフレームモード2をアンロック
+//Unlock Super-Frame Mode 3
+スーパーフレームモード3をアンロック
+//Unlock Super-Frame Mode 4
+スーパーフレームモード4をアンロック
+
+
+//DIFFICULTY:\nCHOOSE SAVE POINT\nFREQUENCY
+難易度：\nセーブポイントの\n頻度を選択
+//EXPLORER MODE:\nPLAY IN A NON\nHOSTILE ENVIRONMENT
+探検者モード：\n敵が攻撃してこない\n環境でプレイ
+//SAVE POINT
+セーブポイント
+//SAVING...
+セーブ中...
+//DELETE
+削除
+
+
+//GLOW (F5)
+GLOW (F5)
+//SHADER QUALITY (F7)
+シェーダ品質 (F7)
+
+
+// Omega-II Gemini armor texts
+//OMEGA-II GEMINI
+オメガIIジェミニ
+//Omega-II Gemini Armor
+オメガIIジェミニアーマー
+//DRONE CASTER
+ドローンキャスター
+//The Drone Caster fires smart\nunits which operate and select\ntheir own targets independently
+ドローンキャスターは単独で動作し、\n標的を選択する自律機能を持つ\nユニットを発射する。
+//Assault Unit
+攻撃ユニット
+//TANK
+戦車
+
+// Configuration texts
+//CO-OP MODE
+協力モード
+//Enables/Disables Co-op Mode
+協力モードを有効/無効にする
+//CAMERA CHANGE
+カメラ変更
+//Switches To Next Camera
+次のカメラに切り替える
+//LINEAR FRICTION DEACTIVATOR
+線形摩擦無効化装置
+//Disables Linear Friction Simulation
+線形摩擦シミュレーションを無効にする
+
+// Modes text
+//PURE MODE
+ピュアモード
+//Conquer Kromaia Ω in one life!
+一度も死なずにクロマイアΩを征服する！
+
+// Leaderboard menu texts
+//LEADERBOARDS
+リーダーボード
+//Previous/Next Page
+前のページ/次のページ
+//All Users
+全ユーザー
+//My Friends
+友達
+//Search Myself
+自分を探す
+
+// Power-ups
+//LIFE WIPER
+ライフワイパー
+
+// Treasure power-up
+//LINEAR FRICTION DEACTIVATOR
+線形摩擦無効化装置
+//The Linear Friction Deactivator\nallows to disable\nlinear friction simulation\nfor your armor.
+線形摩擦無効化装置\nは、アーマーの\n線形摩擦シミュレーションを\n無効にする。
+
+// Weapons
+//Stunning Bolt
+スタンニングボルト
+//Explosive Bullet
+爆発弾
+//Limpet Grenade
+吸着型手りゅう弾
+//Chain Reaction Explosive
+連鎖反応型爆薬
+//Turret Armed Drone
+タレット付きドローン
+//Bolt Casting Drone
+ボルト投射ドローン
+//Flamethrower
+火炎放射器
+//Incendiary Bomb
+焼夷弾
+
+// Messages
+//Current Leaderboard Position:
+現在のリーダーボードランキング：
+//LOADING...
+読み込み中...
+//THANK YOU FOR PLAYING
+プレイしてくれてありがとう
+
+// Co-operative mode
+//The Co-operative Ad Hoc Mode\nallows to split the armor\ncontrols between two players.
+協力型アドホックモード\nでは、アーマーコントロールを\n2人のプレイヤー間で分けることができる。
+//The player enabling it controls\nthe weaponry turret while\nthe other one pilots the armor.
+アーマーコントロールを有効にするプレイヤーが\n武器となるタレットを制御し、\nもう1人のプレイヤーがアーマーを操縦する。
+//Use the defined button to\nenable/disable this special mode.
+定義したボタンを使ってこの特別\nモードを有効または無効にしよう。
+
+// Special unit
+//The Omega-II Gemini armor\nis equipped with a Plasma\nCannon and a Drone Caster.
+オメガIIジェミニアーマーには、\nプラズマキャノンとドローンキャスターが\n装備されている。
+//You will lose it when it is\ndamaged or after teleporting\nthrough gates.
+ダメージを受けたり、ゲートを超えて\nテレポートするとなくなってしまうので\n注意しよう。
+
+// Symbols
+Ω
+
+// Options
+//Use Motion Sensor
+モーションセンサーを使う

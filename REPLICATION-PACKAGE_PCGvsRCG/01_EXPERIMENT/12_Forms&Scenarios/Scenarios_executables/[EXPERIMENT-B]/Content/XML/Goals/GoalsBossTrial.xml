@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<MISSIONS Number="1">
+
+  <!--SHRINE ********************************************************************************************************-->
+
+  <MISSION>
+    <MissionData ReferenceType="2000" ReferencePositionX="172444" ReferencePositionY="-22093.9" ReferencePositionZ="327685" />
+    <GOALS Number="2">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="1001" GoalLocalPositionX="0" GoalLocalPositionY="1" GoalLocalPositionZ="0.5" />
+        <EnemiesData FileName="Marble.xml" Number="4" />
+        <EnemiesData FileName="Vermis.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="1002" GoalLocalPositionX="0" GoalLocalPositionY="1" GoalLocalPositionZ="-0.5" />
+        <EnemiesData FileName="Marble.xml" Number="4" />
+        <EnemiesData FileName="Squid.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+</MISSIONS>

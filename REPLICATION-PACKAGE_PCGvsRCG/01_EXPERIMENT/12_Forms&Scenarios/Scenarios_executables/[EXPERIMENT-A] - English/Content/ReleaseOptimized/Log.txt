@@ -1,0 +1,7 @@
+21:27:21      Resolution Supported: 800 x 600 @ 32-bit colour
+21:27:21      Resolution Supported: 1024 x 768 @ 32-bit colour
+21:27:21      Resolution Supported: 1280 x 720 @ 32-bit colour
+21:27:21      Resolution Supported: 1366 x 768 @ 32-bit colour
+21:28:08      No empty billboard chains!!
+21:28:08      No empty billboard chains!!
+21:28:08      No empty billboard chains!!

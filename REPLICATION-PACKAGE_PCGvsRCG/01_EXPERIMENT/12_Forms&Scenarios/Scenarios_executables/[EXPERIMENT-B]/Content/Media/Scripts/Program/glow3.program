@@ -1,0 +1,88 @@
+
+// Glow programs
+
+//////////////////////////////////////////////////
+
+fragment_program Glow3A_fp cg
+{
+  source glow3.cg
+  entry_point Glow3A_fp
+
+  profiles ps_2_0 arbfp1
+}
+
+//////////////////////////////////////////////////
+
+material GlowCompositorMat/Glow3A
+{
+  technique
+  {
+    pass
+    {
+      cull_hardware none
+      cull_software none
+      depth_func always_pass
+
+      fragment_program_ref Glow3A_fp
+      {
+      }
+
+      texture_unit map
+      {
+        tex_coord_set 0
+        tex_address_mode clamp
+        filtering bilinear
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////////
+
+fragment_program Glow3B_fp cg
+{
+  source glow3.cg
+  entry_point Glow3B_fp
+
+  default_params
+  {
+    param_named_auto invTexSize inverse_texture_size 0
+  }
+
+  profiles ps_2_0 arbfp1
+}
+
+//////////////////////////////////////////////////
+
+material GlowCompositorMat/Glow3B
+{
+  technique
+  {
+    pass
+    {
+      cull_hardware none
+      cull_software none
+      depth_func always_pass
+
+      fragment_program_ref Glow3B_fp
+      {
+      }
+
+      texture_unit scene
+      {
+        tex_coord_set 0
+        tex_address_mode clamp
+        filtering bilinear
+      }
+
+      texture_unit map
+      {
+        tex_coord_set 0
+        tex_address_mode clamp
+        filtering bilinear
+      }
+    }
+  }
+}
+
+//////////////////////////////////////////////////

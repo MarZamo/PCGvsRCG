@@ -1,0 +1,726 @@
+﻿SYSTEM TEXTS
+
+
+//Device
+デバイス
+
+//Mouse + Keyboard
+マウス + キーボード
+
+//Joystick (EXPERTS ONLY)
+ジョイスティック (エキスパートのみ)
+
+
+//Mouse Motion
+マウスの動き
+
+
+// Keyboard Labels
+// Unassigned key
+割り当てなし
+
+// Escape
+Esc
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+// Minus: - on main keyboard
+-
+// Equals
+=
+Backspace
+// Tabulator
+Tab
+Q
+W
+E
+R
+T
+Y
+U
+I
+O
+P
+// Left bracket
+[
+// Right bracket
+]
+// Return: Enter on main keyboard
+Enter
+
+//Left Control
+
+左Ctrl
+
+A
+S
+D
+F
+G
+H
+J
+K
+L
+// Semicolon
+;
+// Apostrophe
+'
+// Grave: Accent
+`
+//Left Shift
+
+左Shift
+
+\
+Z
+X
+C
+V
+B
+N
+M
+,
+// Period: . on main keyboard
+.
+// Slash: / on main keyboard
+/
+//Right shift
+
+右Shift
+
+// Multiply: * on numeric keypad
+* (テンキー)
+
+//Left Alt
+左Alt
+
+Space
+
+Caps Lock
+
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+Num Lock
+
+Scroll Lock
+
+7 (テンキー)
+8 (テンキー)
+9 (テンキー)
+// Subtract: - on numeric keypad
+- (テンキー)
+4 (テンキー)
+5 (テンキー)
+6 (テンキー)
+// Add: + on numeric keypad
++ (テンキー)
+1 (テンキー)
+2 (テンキー)
+3 (テンキー)
+0 (テンキー)
+// Decimal: . on numeric keypad
+. (テンキー)
+// OEM 102: < > | on UK/Germany keyboards
+<>|
+F11
+F12
+// F13: NEC PC98
+F13
+// F14: NEC PC98
+F14
+// F15: NEC PC98
+F15
+// Kana: Japanese keyboard
+Kana
+// ABNT C1: / ? on Portugese/Brazilian keyboards
+/?
+// Convert: Japanese keyboard
+Convert
+// No Convert: Japanese keyboard
+No Convert
+// Yen: Japanese keyboard
+¥
+// ABNT C2: Numpad . on Portugese/Brazilian keyboards
+.
+// = on numeric keypad (NEC PC98)
+=
+// Previous track (circumflex on Japanese keyboard)
+Previous Track
+
+// At: NEC PC98
+@
+// Colon: NEC PC98
+:
+// Underline: NEC PC98
+_
+// Kanji: Japanese keyboard
+Kanji
+// Stop: NEC PC98
+Stop
+// AX: Japan AX
+AX
+// Unlabeled: J3100
+ラベルなし
+
+// Next track
+Next Track
+
+// Enter: Enter on numeric keypad
+Enter (テンキー)
+
+//Right Control
+右Ctrl
+
+//Mute
+ミュート
+
+//Calculator
+
+計算機
+
+//Play/Pause
+再生/一時停止
+
+//Media Stop
+メディア停止
+
+//Volume Down
+音量ダウン
+
+//Volume Up
+音量アップ
+
+//Web Home
+
+Webホーム
+// , on numeric keypad (NEC PC98)
+, (テンキー)
+
+// Divide: / on numeric keypad
+/ (テンキー)
+
+SysRq
+
+//Right Alt
+右Alt
+
+//Pause
+
+一時停止
+Home
+
+//Up
+
+上
+
+Page Up
+
+//Left
+左
+
+//Right
+右
+End
+
+//Down
+下
+
+Page Down
+
+Insert
+
+Delete
+
+//Left Windows
+
+左Windows
+
+//Right Windows
+右Windows
+
+// Menu key / Application key (Windows)
+アプリメニュー
+
+Power
+
+Sleep
+Wake
+
+//Web Search
+Web検索
+
+//Web Favorites
+Webお気に入り
+
+//Web Refresh
+Webリフレッシュ
+
+//Web Stop
+
+Webストップ
+
+//Web Forward
+
+Web進む
+
+//Web Back
+Web戻る
+
+//My Computer
+マイコンピューター
+
+//Mail
+
+メール
+
+//Media Select
+メディア選択
+
+
+
+
+// Buttons
+//Mouse Left Button
+マウス左ボタン
+
+//Mouse Right Button
+マウス右ボタン
+
+//Mouse Middle Button
+マウス中央ボタン
+
+//Mouse Button 3
+マウスボタン3
+
+//Mouse Button 4
+
+マウスボタン4
+
+//Mouse Button 5
+
+マウスボタン5
+
+//Mouse Button 6
+
+マウスボタン6
+
+//Mouse Button 7
+
+マウスボタン7
+
+//Joystick Button 0
+
+ジョイスティックボタン0
+
+//Joystick Button 1
+
+ジョイスティックボタン1
+
+//Joystick Button 2
+
+ジョイスティックボタン2
+
+//Joystick Button 3
+
+ジョイスティックボタン3
+
+//Joystick Button 4
+
+ジョイスティックボタン4
+
+//Joystick Button 5
+
+ジョイスティックボタン5
+
+//Joystick Button 6
+
+ジョイスティックボタン6
+
+//Joystick Button 7
+
+ジョイスティックボタン7
+
+//Joystick Button 8
+
+ジョイスティックボタン8
+
+//Joystick Button 9
+
+ジョイスティックボタン9
+
+//Joystick Button 10
+
+ジョイスティックボタン10
+
+//Joystick Button 11
+
+ジョイスティックボタン11
+
+//Joystick Button 12
+
+ジョイスティックボタン12
+
+//Joystick Button 13
+
+ジョイスティックボタン13
+
+//Joystick Button 14
+
+ジョイスティックボタン14
+
+//Joystick Button 15
+
+ジョイスティックボタン15
+
+//Joystick Button 16
+
+ジョイスティックボタン16
+
+//Joystick Button 17
+
+ジョイスティックボタン17
+
+//Joystick Button 18
+
+ジョイスティックボタン18
+
+//Joystick Button 19
+
+ジョイスティックボタン19
+
+//Joystick Button 20
+
+ジョイスティックボタン20
+
+//Joystick Button 21
+
+ジョイスティックボタン21
+
+//Joystick Button 22
+
+ジョイスティックボタン22
+
+//Joystick Button 23
+
+ジョイスティックボタン23
+
+//Joystick Button 24
+
+ジョイスティックボタン24
+
+//Joystick Button 25
+
+ジョイスティックボタン25
+
+// Axis
+//Mouse X Axis
+
+マウスX軸
+
+//Mouse Y Axis
+
+マウスY軸
+
+//Mouse Z Axis (Wheel)
+マウスZ軸 (ホイール)
+
+//Mouse Axis 3
+
+マウス軸3
+
+//Mouse Axis 4
+
+マウス軸4
+
+//Mouse Axis 5
+
+マウス軸5
+
+//Mouse Axis 6
+
+マウス軸6
+
+//Mouse Axis 7
+
+マウス軸7
+
+//Mouse Axis 8
+
+マウス軸8
+
+//Mouse Axis 9
+
+マウス軸9
+
+//Joystick Axis 0
+
+ジョイスティック軸0
+
+//Joystick Axis 1
+
+ジョイスティック軸1
+
+//Joystick Axis 2
+
+ジョイスティック軸2
+
+//Joystick Axis 3
+
+ジョイスティック軸3
+
+//Joystick Axis 4
+
+ジョイスティック軸4
+
+//Joystick Axis 5
+
+ジョイスティック軸5
+
+//Joystick Axis 6
+
+ジョイスティック軸6
+
+//Joystick Axis 7
+
+ジョイスティック軸7
+
+//Joystick Axis 8
+
+ジョイスティック軸8
+
+//Joystick Axis 9
+
+ジョイスティック軸9
+
+//Joystick POV 0
+
+ジョイスティック POV 0
+
+//Joystick POV 1
+
+ジョイスティック POV 1
+
+//Joystick POV 2
+
+ジョイスティック POV 2
+
+//Joystick POV 3
+
+ジョイスティック POV 3
+
+
+// Sliders
+//Joystick Slider 0
+
+ジョイスティックスライダー 0
+
+//Joystick Slider 1
+
+ジョイスティックスライダー 1
+
+//Joystick Slider 2
+
+ジョイスティックスライダー 2
+
+//Joystick Slider 3
+
+ジョイスティックスライダー 3
+
+
+// Axis modes
+(+)
+(-)
+//(COMPLETE)
+(完了)
+
+//(COMPLETE AND INVERTED)
+
+(完了および反転)
+
+
+// Slider modes
+(+ X)
+(- X)
+//(COMPLETE X)
+(完了X)
+
+//(COMPLETE AND INVERTED X)
+(完了および反転X)
+
+(+ Y)
+(- Y)
+//(COMPLETE Y)
+(完了Y)
+
+//(COMPLETE AND INVERTED Y)
+
+(完了および反転Y)
+
+
+// POV directions
+//(CENTERED)
+
+(中心)
+
+//(NORTH)
+
+(北)
+
+//(SOUTH)
+
+(南)
+
+//(EAST)
+
+(東)
+
+//(WEST)
+
+(西)
+
+//(NORTH EAST)
+
+(北東)
+
+//(SOUTH EAST)
+
+(南東)
+
+//(NORTH WEST)
+
+(北西)
+
+//(SOUTH WEST)
+
+(南西)
+
+
+// Screen mode
+//Full Screen
+
+全画面
+
+//Window
+
+ウィンドウ
+
+
+// Months (ONLY three letters)
+//JAN
+
+1月
+
+//FEB
+2月
+
+//MAR
+3月
+
+//APR
+4月
+
+//MAY
+5月
+
+//JUN
+
+6月
+
+//JUL
+
+7月
+
+//AUG
+
+8月
+
+//SEP
+
+9月
+
+//OCT
+
+10月
+
+//NOV
+
+11月
+//DEC
+
+12月
+
+
+// Days of week
+//Sunday
+
+日曜日
+
+//Monday
+
+月曜日
+
+//Tuesday
+
+火曜日
+
+//Wednesday
+
+水曜日
+
+//Thursday
+
+木曜日
+
+//Friday
+
+金曜日
+
+//Saturday
+
+土曜日
+
+
+// Terms
+//On
+On
+//Off
+Off
+//Music
+音楽
+//Glow
+Glow
+//Depth of Field
+Depth of Field
+//Indie
+インディー
+//Classic Arcade
+古典的なアーケード
+
+
+// Visual styles
+//Simple
+
+シンプル
+
+//Normal
+
+ノーマル
+//Retro
+
+レトロ

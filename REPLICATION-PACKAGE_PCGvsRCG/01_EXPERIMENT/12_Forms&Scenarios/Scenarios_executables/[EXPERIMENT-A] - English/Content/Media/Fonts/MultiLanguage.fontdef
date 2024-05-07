@@ -1,0 +1,8 @@
+MultiLanguage
+{
+
+    type        truetype
+    source      mplus-1m-regular.ttf
+    code_points 32-126
+
+}

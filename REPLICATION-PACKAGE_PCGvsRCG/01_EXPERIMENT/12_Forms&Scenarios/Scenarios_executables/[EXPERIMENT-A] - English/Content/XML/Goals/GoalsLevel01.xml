@@ -1,0 +1,2157 @@
+<?xml version="1.0" ?>
+<MISSIONS Number="81">
+
+  <GLOBAL GlobalTranslationX="17000" GlobalTranslationY="-4000" GlobalTranslationZ="6000" />
+
+
+
+
+
+
+
+  <!-- PLATFORM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="157565" ReferencePositionY="-18700" ReferencePositionZ="306000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="1" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="e556" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ITEM #1 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="157243" ReferencePositionY="-18450" ReferencePositionZ="306000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="2" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--MESSAGE *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="1000" />
+    <MissionData ReferenceType="4262"
+                 ReferencePositionX="157450" ReferencePositionY="-18535" ReferencePositionZ="306000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ATRIUM ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="-3500" />
+    <MissionData ReferenceType="1069"
+                 ReferencePositionX="157243" ReferencePositionY="-18435" ReferencePositionZ="306000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GATES Number ="1" >
+      <GateData GateType="1" SealDisabled="1"
+                AreaIndex="0" LevelIndex="0"
+                LocalPositionX="4" LocalPositionY="0" LocalPositionZ="0" />
+    </GATES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1062"
+                 ReferencePositionX="157243" ReferencePositionY="-18495" ReferencePositionZ="306000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- PILLARS ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1057"
+                 ReferencePositionX="157243" ReferencePositionY="-18395" ReferencePositionZ="306000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="13" SeparationDistance="1000" PositionsDeviation="100" RandomFlippingXZ="0" ReferencesRange="6" >
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="55154-355" />
+      <MissionCloneRow RowData="5520-1515" />
+      <MissionCloneRow RowData="5514-2355" />
+      <MissionCloneRow RowData="553012515" />
+      <MissionCloneRow RowData="551241255" />
+      <MissionCloneRow RowData="554053055" />
+      <MissionCloneRow RowData="552431555" />
+      <MissionCloneRow RowData="551312455" />
+      <MissionCloneRow RowData="550243155" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- PILLAR ------------------------------------------>
+  
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1060"
+                 ReferencePositionX="157243" ReferencePositionY="-18580" ReferencePositionZ="307000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #2 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="157243" ReferencePositionY="-18535" ReferencePositionZ="307000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="4" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- PILLAR ------------------------------------------>
+  
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1058"
+                 ReferencePositionX="156243" ReferencePositionY="-18360" ReferencePositionZ="308000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #3 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="-50" LocalPositionY="0" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="1"     DimensionY="2"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="156243" ReferencePositionY="-18315" ReferencePositionZ="308000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="DaimonEtaProjectile.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--STATUE ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1047"
+                 ReferencePositionX="156900" ReferencePositionY="-18040" ReferencePositionZ="309000"
+                 BaseOrientationW="0" BaseOrientationX="0" BaseOrientationY="1" BaseOrientationZ="0" />
+
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--STATUE ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1047"
+                 ReferencePositionX="157100" ReferencePositionY="-18040" ReferencePositionZ="309000"
+                 BaseOrientationW="0" BaseOrientationX="0.1" BaseOrientationY="1" BaseOrientationZ="0" />
+
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- DERELICT ROAD ********************************************************************************************************-->
+
+  <MISSION>
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="157000" ReferencePositionY="-18095" ReferencePositionZ="309500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="31" SeparationDistance="120" PositionsDeviation="15" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="-------0-------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="-----------1---" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="----2----------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="----------1----" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="3--------------" />
+      <MissionCloneRow RowData="----------2----" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---1------1----" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="----2----------" />
+      <MissionCloneRow RowData="--------1------" />
+      <MissionCloneRow RowData="----1----------" />
+      <MissionCloneRow RowData="---------2-----" />
+      <MissionCloneRow RowData="-----1---------" />
+      <MissionCloneRow RowData="--------1------" />
+      <MissionCloneRow RowData="------2--------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="--------1------" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>  
+
+  <!--ROAD #1 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="157000" ReferencePositionY="-18095" ReferencePositionZ="309500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="19" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="------1--" />
+      <MissionCloneRow RowData="------1--" />
+      <MissionCloneRow RowData="------1--" />
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="----75-53" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="7555f----" />
+      <MissionCloneRow RowData="1--------" />
+      <MissionCloneRow RowData="1--------" />
+      <MissionCloneRow RowData="1--------" />
+      <MissionCloneRow RowData="b5553----" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="---------" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--CHAMBER ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1029"
+                 ReferencePositionX="157200" ReferencePositionY="-18095" ReferencePositionZ="309500"
+                 BaseOrientationW="0.7071" BaseOrientationX="0" BaseOrientationY="0.7071" BaseOrientationZ="0" />
+    <BUTTONS Number ="3" PuzzleSolved="0" ReferenceLinkIndex="-1" FirstMovementIndex="0" SecondMovementIndex="0" FirstIterationsNumber="1" SecondIterationsNumber="1" >
+      <ButtonData ButtonType="1" StartOn="0" GlobalPositionX="157310" GlobalPositionY="-18090" GlobalPositionZ="309530" />
+      <ButtonData ButtonType="1" StartOn="0" GlobalPositionX="157310" GlobalPositionY="-18090" GlobalPositionZ="309500" />
+      <ButtonData ButtonType="1" StartOn="0" GlobalPositionX="157310" GlobalPositionY="-18090" GlobalPositionZ="309470" />
+      <ItemsData ItemType="5" Number="1" />
+      <EnemiesData FileName="DaimonAlpha.xml" Number="5" />
+    </BUTTONS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ALTAR ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="157600" ReferencePositionY="-18000" ReferencePositionZ="309700"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0" LocalPositionY="1.15" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="2"     DimensionY="3"      DimensionZ="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+ 
+   <!-- ITEM #4 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="157000" ReferencePositionY="-18070" ReferencePositionZ="309260"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="DaimonEtaProjectile.xml" Number="2" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #5 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="157480" ReferencePositionY="-18070" ReferencePositionZ="309260"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0" LocalPositionY="20" LocalPositionZ="200" />
+        <DimensionsData    DimensionX="1"     DimensionY="3"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="DaimonEtaProjectile.xml" Number="3" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--ROAD #2 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="156760" ReferencePositionY="-18095" ReferencePositionZ="310900"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0.1" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="3" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="1" />
+      <MissionCloneRow RowData="1" />
+      <MissionCloneRow RowData="1" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #6 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="156760" ReferencePositionY="-18070" ReferencePositionZ="310900"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="DaimonEtaProjectile.xml" Number="5" />
+        <EnemiesData FileName="DaimonLightning.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ALTAR ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="156600" ReferencePositionY="-18000" ReferencePositionZ="310780"
+                 BaseOrientationW="0" BaseOrientationX="-0.1" BaseOrientationY="1" BaseOrientationZ="0" />
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0" LocalPositionY="1.15" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="1"     DimensionY="3"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ROAD #3 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="156760" ReferencePositionY="-18095" ReferencePositionZ="311380"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="4" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="1" />
+      <MissionCloneRow RowData="1" />
+      <MissionCloneRow RowData="1" />
+      <MissionCloneRow RowData="1" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+  <!--DUNGEON #1 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1063"
+                 ReferencePositionX="156980" ReferencePositionY="-18000" ReferencePositionZ="311300"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BUTTONS Number ="1" PuzzleSolved="0" ReferenceLinkIndex="-1" FirstMovementIndex="0" SecondMovementIndex="0" FirstIterationsNumber="1" SecondIterationsNumber="1" >
+      <ButtonData ButtonType="1" StartOn="0" GlobalPositionX="157060" GlobalPositionY="-18000" GlobalPositionZ="311150" />
+    </BUTTONS>
+    <GATES Number ="1" >
+      <GateData GateType="3" SealDisabled="1"
+                AreaIndex="1" LevelIndex="1"
+                LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+    </GATES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ROAD #4 ********************************************************************************************************-->
+
+  <MISSION>
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="156760" ReferencePositionY="-18095" ReferencePositionZ="311800"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="3" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="1--" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="--1" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- PLATFORM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="157565" ReferencePositionY="-18400" ReferencePositionZ="311500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="1" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="e556" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--CAPSULES ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="157400" ReferencePositionY="-18095" ReferencePositionZ="313200"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="7" SeparationDistance="300" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="2" >
+      <MissionCloneRow RowData="5-5" />
+      <MissionCloneRow RowData="5-5" />
+      <MissionCloneRow RowData="-55" />
+      <MissionCloneRow RowData="5-5" />
+      <MissionCloneRow RowData="5-5" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--CAPSULES ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1056"
+                 ReferencePositionX="157400" ReferencePositionY="-18095" ReferencePositionZ="313200"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0.1" />
+    <MISSIONCLONESROWS Number ="3" SeparationDistance="300" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="1" >
+      <MissionCloneRow RowData="2--" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ROAD #5 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="157400" ReferencePositionY="-18095" ReferencePositionZ="313200"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="21" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="-a-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-2-" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="-a-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-2-" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #7 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="157400" ReferencePositionY="-18070" ReferencePositionZ="313200"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonEtaProjectile.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- BEFORE PENDULUM: DERELICT ROAD ********************************************************************************************************-->
+
+  <MISSION>
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="157600" ReferencePositionY="-18095" ReferencePositionZ="315300"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="11" SeparationDistance="120" PositionsDeviation="15" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="--------1------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="------2--------" />
+      <MissionCloneRow RowData="--------1------" />
+      <MissionCloneRow RowData="-----1---------" />
+      <MissionCloneRow RowData="---------2-----" />
+      <MissionCloneRow RowData="----1----------" />
+      <MissionCloneRow RowData="--------1------" />
+      <MissionCloneRow RowData="----2----------" />
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---1------1----" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+  <!--ROADS BY PENDULUM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="157400" ReferencePositionY="-18000" ReferencePositionZ="316200"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="----75555" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="---------" />
+      <MissionCloneRow RowData="----1----" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="158000" ReferencePositionY="-18000" ReferencePositionZ="316200"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="55553----" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="----1----" />
+      <MissionCloneRow RowData="----1----" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--CHAMBER #2 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1029"
+                 ReferencePositionX="158700" ReferencePositionY="-18000" ReferencePositionZ="316500"
+                 BaseOrientationW="0" BaseOrientationX="0" BaseOrientationY="1" BaseOrientationZ="0" />
+    <EXTRAS Number="1">
+      <Extra ExtraID="2" LocalPositionX="0" LocalPositionY="0.9" LocalPositionZ="0">
+        <Keys Number="0">
+        </Keys>
+      </Extra>
+    </EXTRAS>
+    <BUTTONS Number ="3" PuzzleSolved="0" ReferenceLinkIndex="-1" FirstMovementIndex="0" SecondMovementIndex="0" FirstIterationsNumber="1" SecondIterationsNumber="1" >
+      <ButtonData ButtonType="1" StartOn="0" GlobalPositionX="158810" GlobalPositionY="-17970" GlobalPositionZ="316390" />
+      <ButtonData ButtonType="1" StartOn="0" GlobalPositionX="158810" GlobalPositionY="-18000" GlobalPositionZ="316390" />
+      <ButtonData ButtonType="1" StartOn="0" GlobalPositionX="158590" GlobalPositionY="-17970" GlobalPositionZ="316390" />
+      <ItemsData ItemType="5" Number="0" />
+      <EnemiesData FileName="DaimonAlpha.xml" Number="5" />
+    </BUTTONS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--STATUE ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1047"
+                 ReferencePositionX="156800" ReferencePositionY="-17950" ReferencePositionZ="316500"
+                 BaseOrientationW="0" BaseOrientationX="0" BaseOrientationY="1" BaseOrientationZ="0" />
+
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--PENDULUM #1 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1030"
+                 ReferencePositionX="157700" ReferencePositionY="-18000" ReferencePositionZ="315900"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BUTTONS Number ="1" PuzzleSolved="1" ReferenceLinkIndex="-1" FirstMovementIndex="0" SecondMovementIndex="0" FirstIterationsNumber="-1" SecondIterationsNumber="1" >
+      <ButtonData ButtonType="0" StartOn="1" GlobalPositionX="157830" GlobalPositionY="-17950" GlobalPositionZ="315870" />
+    </BUTTONS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.46" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+  
+  <!-- ITEM #8 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="157700" ReferencePositionY="-17942.5" ReferencePositionZ="315900"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DaimonLightning.xml" Number="2" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--PENDULUM #2 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1030"
+                 ReferencePositionX="157700" ReferencePositionY="-18000" ReferencePositionZ="316200"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BUTTONS Number ="1" PuzzleSolved="1" ReferenceLinkIndex="-1" FirstMovementIndex="0" SecondMovementIndex="0" FirstIterationsNumber="-1" SecondIterationsNumber="1" >
+      <ButtonData ButtonType="0" StartOn="1" GlobalPositionX="157830" GlobalPositionY="-17950" GlobalPositionZ="316170" />
+    </BUTTONS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.46" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #9 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="157700" ReferencePositionY="-17942.5" ReferencePositionZ="316200"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DaimonLightning.xml" Number="2" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--PENDULUM #3 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1030"
+                 ReferencePositionX="157700" ReferencePositionY="-18000" ReferencePositionZ="316500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BUTTONS Number ="1" PuzzleSolved="1" ReferenceLinkIndex="-1" FirstMovementIndex="0" SecondMovementIndex="0" FirstIterationsNumber="-1" SecondIterationsNumber="1" >
+      <ButtonData ButtonType="0" StartOn="1" GlobalPositionX="157830" GlobalPositionY="-17950" GlobalPositionZ="316470" />
+    </BUTTONS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.46" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>  
+
+  <!-- ITEM #10 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="157700" ReferencePositionY="-17942.5" ReferencePositionZ="316500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DaimonLightning.xml" Number="2" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <!--LAST PENDULUM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1030"
+                 ReferencePositionX="157700" ReferencePositionY="-18000" ReferencePositionZ="316800"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BUTTONS Number ="1" PuzzleSolved="1" ReferenceLinkIndex="-1" FirstMovementIndex="0" SecondMovementIndex="0" FirstIterationsNumber="-1" SecondIterationsNumber="1" >
+      <ButtonData ButtonType="0" StartOn="1" GlobalPositionX="157830" GlobalPositionY="-17950" GlobalPositionZ="316770" />
+    </BUTTONS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.46" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #11 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="157700" ReferencePositionY="-17942.5" ReferencePositionZ="316800"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DaimonLightning.xml" Number="2" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+  <!--ROOM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1063"
+                 ReferencePositionX="157700" ReferencePositionY="-17980" ReferencePositionZ="317050"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="2" SeparationDistance="200" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="6" >
+      <MissionCloneRow RowData="3" />
+      <MissionCloneRow RowData="2" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ROOM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1066"
+                 ReferencePositionX="157700" ReferencePositionY="-17780" ReferencePositionZ="317150"
+                 BaseOrientationW="0.7071" BaseOrientationX="-0.7071" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ROOM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1068"
+                 ReferencePositionX="157700" ReferencePositionY="-17780" ReferencePositionZ="316950"
+                 BaseOrientationW="0" BaseOrientationX="0" BaseOrientationY="1" BaseOrientationZ="0" />
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="2"     DimensionY="2"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ROOF ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="157700" ReferencePositionY="-17675" ReferencePositionZ="317050"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="3" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="-a-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-2-" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--ROAD BY THE ORACLE *******************************************************************************************************-->
+
+  <MISSION>
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="160200" ReferencePositionY="-16000" ReferencePositionZ="319000"
+                 BaseOrientationW="0.7071" BaseOrientationX="-0.7071" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="5" SeparationDistance="160" PositionsDeviation="15" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="-1-------" />
+      <MissionCloneRow RowData="-1-------" />
+      <MissionCloneRow RowData="--1------" />
+      <MissionCloneRow RowData="----b----" />
+      <MissionCloneRow RowData="------5-5" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>  
+  
+  
+
+  <!--ORACLE *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1009"
+                 ReferencePositionX="159000" ReferencePositionY="-16000" ReferencePositionZ="319000"
+                 BaseOrientationW="0" BaseOrientationX="0" BaseOrientationY="0.7071" BaseOrientationZ="-0.7071" />
+    <EXTRAS Number="1">
+      <Extra ExtraID="1" LocalPositionX="0" LocalPositionY="-0.27" LocalPositionZ="0">
+        <Keys Number="2">
+          <KeyData TotemType="48" GlobalPositionX="158860" GlobalPositionY="-16400" GlobalPositionZ="319200" />
+          <KeyData TotemType="48" GlobalPositionX="158980" GlobalPositionY="-16400" GlobalPositionZ="319200" />
+        </Keys>
+      </Extra>
+    </EXTRAS>
+
+    <BLOCKSMATRICES Number ="2" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="-0.1" LocalPositionY="-0.1" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="1"     DimensionY="10"      DimensionZ="2" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0.1" LocalPositionY="-0.1" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="2"     DimensionY="4"      DimensionZ="2" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--WALLS ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1041"
+                 ReferencePositionX="159000" ReferencePositionY="-16000" ReferencePositionZ="319200"
+                 BaseOrientationW="0.7071" BaseOrientationX="-0.7071" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="7" SeparationDistance="200" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="3" >
+      <MissionCloneRow RowData="01210" />
+      <MissionCloneRow RowData="-----" />
+      <MissionCloneRow RowData="-----" />
+      <MissionCloneRow RowData="-----" />
+      <MissionCloneRow RowData="-----" />
+      <MissionCloneRow RowData="-----" />
+      <MissionCloneRow RowData="01210" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1041"
+                 ReferencePositionX="159000" ReferencePositionY="-16000" ReferencePositionZ="319200"
+                 BaseOrientationW="0.5" BaseOrientationX="-0.5" BaseOrientationY="0.5" BaseOrientationZ="-0.5" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="200" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="012310" />
+      <MissionCloneRow RowData="------" />
+      <MissionCloneRow RowData="------" />
+      <MissionCloneRow RowData="------" />
+      <MissionCloneRow RowData="------" />
+      <MissionCloneRow RowData="012310" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ALTAR ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="159200" ReferencePositionY="-16400" ReferencePositionZ="319200"
+                 BaseOrientationW="0.7071" BaseOrientationX="-0.7071" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #12 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="158800" ReferencePositionY="-16400" ReferencePositionZ="319095"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="3" />
+        <EnemiesData FileName="DaimonTurretMissile.xml" Number="3" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ALTAR ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="158800" ReferencePositionY="-16400" ReferencePositionZ="319200"
+                 BaseOrientationW="0.7071" BaseOrientationX="-0.7071" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #13 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="159200" ReferencePositionY="-16400" ReferencePositionZ="319095"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="3" />
+        <EnemiesData FileName="DaimonTurretMissile.xml" Number="3" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- DERELICT RAMP #1 ********************************************************************************************************-->
+
+  <MISSION>
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="158000" ReferencePositionY="-17780" ReferencePositionZ="318000"
+                 BaseOrientationW="1" BaseOrientationX="-0.2" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="9" SeparationDistance="120" PositionsDeviation="30" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="---------------" />
+      <MissionCloneRow RowData="---------2-----" />
+      <MissionCloneRow RowData="-----1---------" />
+      <MissionCloneRow RowData="--------1------" />
+      <MissionCloneRow RowData="----2----------" />
+      <MissionCloneRow RowData="--------1------" />
+      <MissionCloneRow RowData="---1------1----" />
+      <MissionCloneRow RowData="----2----------" />
+      <MissionCloneRow RowData="--------1------" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- DERELICT RAMP #2 ********************************************************************************************************-->
+
+  <MISSION>
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="158900" ReferencePositionY="-17200" ReferencePositionZ="318500"
+                 BaseOrientationW="1" BaseOrientationX="-0.2" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="9" SeparationDistance="120" PositionsDeviation="30" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="-----1---------" />
+      <MissionCloneRow RowData="---------2-----" />
+      <MissionCloneRow RowData="-----1---------" />
+      <MissionCloneRow RowData="--------1------" />
+      <MissionCloneRow RowData="----2----------" />
+      <MissionCloneRow RowData="--------1------" />
+      <MissionCloneRow RowData="---1------1----" />
+      <MissionCloneRow RowData="----2----------" />
+      <MissionCloneRow RowData="--------1------" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+  <!--POST ORACLE PATH *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1033"
+                 ReferencePositionX="160900" ReferencePositionY="-15200" ReferencePositionZ="319000"
+                 BaseOrientationW="0.7071" BaseOrientationX="-0.7071" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="4" SeparationDistance="400" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="0" />
+      <MissionCloneRow RowData="0" />
+      <MissionCloneRow RowData="0" />
+      <MissionCloneRow RowData="0" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+  
+  <!-- ITEM #14 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="160900" ReferencePositionY="-15200" ReferencePositionZ="319000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="-20" GoalLocalPositionZ="-30" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DroneBeta.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+  
+  <!--CLOCK ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1034"
+                 ReferencePositionX="160900" ReferencePositionY="-14300" ReferencePositionZ="319000"
+                 BaseOrientationW="0.7071" BaseOrientationX="-0.7071" BaseOrientationY="0.1" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+  
+  <!-- ITEM #15 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="160800" ReferencePositionY="-14300" ReferencePositionZ="318280"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="-20" GoalLocalPositionZ="-30" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="3" />
+        <EnemiesData FileName="TrailerAlpha.xml" Number="2" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="160700" ReferencePositionY="-14300" ReferencePositionZ="319000"
+                 BaseOrientationW="0.7071" BaseOrientationX="-0.7071" BaseOrientationY="0.1" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #16 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="160700" ReferencePositionY="-14300" ReferencePositionZ="319000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="-20" GoalLocalPositionZ="-30" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="3" />
+        <EnemiesData FileName="TrailerAlpha.xml" Number="2" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ITEM #17 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="160600" ReferencePositionY="-13840" ReferencePositionZ="320500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="30" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DaimonTurretMissile.xml" Number="3" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="3" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--TOTEM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="160600" ReferencePositionY="-13920" ReferencePositionZ="320500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0.5" LocalPositionY="0" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="1"     DimensionY="2"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="160600" ReferencePositionY="-14000" ReferencePositionZ="320500"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="3" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="753" />
+      <MissionCloneRow RowData="1-1" />
+      <MissionCloneRow RowData="b5f" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+  <!--TURNED PILLARS *******************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1057"
+                 ReferencePositionX="159100" ReferencePositionY="-11000" ReferencePositionZ="321500"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="9" SeparationDistance="1000" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="6" >
+      <MissionCloneRow RowData="551541355" />
+      <MissionCloneRow RowData="552013515" />
+      <MissionCloneRow RowData="5514-2355" />
+      <MissionCloneRow RowData="553012515" />
+      <MissionCloneRow RowData="551241255" />
+      <MissionCloneRow RowData="554053055" />
+      <MissionCloneRow RowData="552431555" />
+      <MissionCloneRow RowData="521312455" />
+      <MissionCloneRow RowData="050243155" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ITEM #18 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="162490" ReferencePositionY="-13395" ReferencePositionZ="319085"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="30" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DaimonLightning.xml" Number="3" />
+        <EnemiesData FileName="DroneBeta.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ARM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1101"
+                 ReferencePositionX="162300" ReferencePositionY="-13300" ReferencePositionZ="319000"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+  
+  <!--ARM PLATFORM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="162300" ReferencePositionY="-13550" ReferencePositionZ="319000"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-1-" />
+      <MissionCloneRow RowData="-2-" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--ARM TOWER ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="162300" ReferencePositionY="-13504" ReferencePositionZ="318954"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="-0-" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="162300" ReferencePositionY="-13458" ReferencePositionZ="318908"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="-0-" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="162300" ReferencePositionY="-13412" ReferencePositionZ="318862"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="-0-" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="162300" ReferencePositionY="-13366" ReferencePositionZ="318816"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="-0-" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="162300" ReferencePositionY="-13320" ReferencePositionZ="318770"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="-0-" />
+    </MISSIONCLONESROWS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1036"
+                 ReferencePositionX="162300" ReferencePositionY="-13274" ReferencePositionZ="318724"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <MISSIONCLONESROWS Number ="6" SeparationDistance="120" PositionsDeviation="0" RandomFlippingXZ="0" ReferencesRange="4" >
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="---" />
+      <MissionCloneRow RowData="-0-" />
+    </MISSIONCLONESROWS>
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0.5" LocalPositionY="0.5" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="1"     DimensionY="3"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #19 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="162300" ReferencePositionY="-13424" ReferencePositionZ="318450"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DaimonLightning.xml" Number="3" />
+        <EnemiesData FileName="DroneBeta.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--DUNGEON #2 ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1063"
+                 ReferencePositionX="162100" ReferencePositionY="-13760" ReferencePositionZ="318580"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BUTTONS Number ="1" PuzzleSolved="0" ReferenceLinkIndex="-1" FirstMovementIndex="0" SecondMovementIndex="0" FirstIterationsNumber="1" SecondIterationsNumber="1" >
+      <ButtonData ButtonType="1" StartOn="0" GlobalPositionX="162200" GlobalPositionY="-13860" GlobalPositionZ="318490" />
+    </BUTTONS>
+    <GATES Number ="1" >
+      <GateData GateType="3" SealDisabled="1"
+                AreaIndex="1" LevelIndex="1"
+                LocalPositionX="0" LocalPositionY="0" LocalPositionZ="0" />
+    </GATES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0.95" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--SHRINE ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="2000"
+                 ReferencePositionX="164500" ReferencePositionY="-12000" ReferencePositionZ="319000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <EXTRAS Number="1">
+      <Extra ExtraID="3" LocalPositionX="0" LocalPositionY="0.11" LocalPositionZ="0">
+        <Keys Number="0">
+          <KeyData TotemType="48" GlobalPositionX="158820" GlobalPositionY="-16400" GlobalPositionZ="319200" />
+          <KeyData TotemType="48" GlobalPositionX="158980" GlobalPositionY="-16400" GlobalPositionZ="319200" />
+        </Keys>
+      </Extra>
+    </EXTRAS>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!--TOTEM ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <VOLATILE VolatilityRadius="3500" />
+    <MissionData ReferenceType="1000"
+                 ReferencePositionX="164500" ReferencePositionY="-12000" ReferencePositionZ="318500"
+                 BaseOrientationW="0.923" BaseOrientationX="-0.382" BaseOrientationY="0" BaseOrientationZ="0" />
+    <BLOCKSMATRICES Number ="1" >
+      <BlocksMatrix>
+        <!--***************************************************************************************************************-->
+        <LocalPositionData LocalPositionX="0.5" LocalPositionY="0" LocalPositionZ="0" />
+        <DimensionsData    DimensionX="1"     DimensionY="2"      DimensionZ="1" />
+        <Type1BlocksData  Number="1" />
+        <!--***************************************************************************************************************-->
+      </BlocksMatrix>
+    </BLOCKSMATRICES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="-1" GoalLocalPositionX="0" GoalLocalPositionY="0" GoalLocalPositionZ="0" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+  <!-- ITEM #20 ------------------------------------------>
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="164500" ReferencePositionY="-11945" ReferencePositionZ="318440"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <TargetData GoalNotice="2000" GoalLocalPositionX="0" GoalLocalPositionY="30" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="DaimonObstacleSpike.xml" Number="5" />
+        <EnemiesData FileName="Ichthyos.xml" Number="5" />
+        <EnemiesData FileName="DroneAlpha.xml" Number="3" />
+        <EnemiesData FileName="DroneBeta.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+
+
+
+
+
+
+  <!--FINAL BOSSES ********************************************************************************************************-->
+
+  <MISSION>
+    <RANDOMORIENTATIONFACTORFORBIDDEN />
+    <MissionData ReferenceType="0"
+                 ReferencePositionX="164500" ReferencePositionY="-12000" ReferencePositionZ="319000"
+                 BaseOrientationW="1" BaseOrientationX="0" BaseOrientationY="0" BaseOrientationZ="0" />
+    <GATES Number ="1" >
+      <GateData GateType="1" SealDisabled="0"
+                AreaIndex="0" LevelIndex="0"
+                LocalPositionX="0" LocalPositionY="-600" LocalPositionZ="0" />
+    </GATES>
+    <GOALS Number="1">
+      <Goal>
+        <!--***************************************************************************************************************-->
+        <MAINGOAL />
+        <TargetData GoalNotice="1001" GoalLocalPositionX="-500" GoalLocalPositionY="-600" GoalLocalPositionZ="0" />
+        <EnemiesData FileName="Vermis.xml" Number="1" />
+        <!--***************************************************************************************************************-->
+      </Goal>
+    </GOALS>
+  </MISSION>
+
+
+
+
+</MISSIONS>

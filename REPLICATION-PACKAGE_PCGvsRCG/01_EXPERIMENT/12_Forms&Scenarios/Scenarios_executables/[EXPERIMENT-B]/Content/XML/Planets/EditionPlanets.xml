@@ -1,0 +1,244 @@
+<?xml version="1.0" ?>
+<PLANETS Number="9">
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="696000" InitialScaleY="696000" InitialScaleZ="696000"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="ilios.mesh" ScaleX="696000" ScaleY="696000" ScaleZ="696000" 
+                    PositionX="0" PositionY="0" PositionZ="-694439" 
+                    OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+        <PhysicalObjectData CollisionModelFileName="" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="1.0" AtmosphereRGBY="1.0" AtmosphereRGBZ="1.0"
+                NumberOfCoronas="10" IsUsedAsSun="1" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="2439.7" InitialScaleY="2439.7" InitialScaleZ="2439.7"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="ermis.mesh" ScaleX="2439.7" ScaleY="2439.7" ScaleZ="2439.7" 
+                    PositionX="-93834.882" PositionY="10000" PositionZ="238428.1862" 
+                    OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+        <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+                    
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="0.5" AtmosphereRGBY="0.5" AtmosphereRGBZ="0.5"
+                NumberOfCoronas="0" IsUsedAsSun="0" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="6051.8" InitialScaleY="6051.8" InitialScaleZ="6051.8"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="afrodhiti.mesh" ScaleX="6051.8" ScaleY="6051.8" ScaleZ="6051.8" 
+                    PositionX="187669.7647" PositionY="-20000" PositionZ="328195.0639" 
+                    OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+        <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="0.39" AtmosphereRGBY="0.22" AtmosphereRGBZ="0.06"
+                NumberOfCoronas="0" IsUsedAsSun="0" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="6371" InitialScaleY="6371" InitialScaleZ="6371"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="gaia.mesh" ScaleX="6371" ScaleY="6371" ScaleZ="6371" 
+                    PositionX="93834.882" PositionY="30000" PositionZ="386781.5921" 
+                    OrientationW="0.98" OrientationX="-0.17" OrientationY="0" OrientationZ="0" />
+        <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="0.55" AtmosphereRGBY="0.67" AtmosphereRGBZ="0.88"
+                NumberOfCoronas="0" IsUsedAsSun="0" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="3397.2" InitialScaleY="3397.2" InitialScaleZ="3397.2"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="aris.mesh" ScaleX="3397.2" ScaleY="3397.2" ScaleZ="3397.2" 
+                    PositionX="-187669.7647" PositionY="-40000" PositionZ="476856.38" 
+                    OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+        <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="0.71" AtmosphereRGBY="0.32" AtmosphereRGBZ="0.22"
+                NumberOfCoronas="0" IsUsedAsSun="0" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="71492" InitialScaleY="71492" InitialScaleZ="71492"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="zeus.mesh" ScaleX="71492" ScaleY="71492" ScaleZ="71492" 
+                    PositionX="563009.292" PositionY="50000" PositionZ="881997.73247" 
+                    OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+        <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="0.31" AtmosphereRGBY="0.22" AtmosphereRGBZ="0.06"
+                NumberOfCoronas="0" IsUsedAsSun="0" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="60268" InitialScaleY="60268" InitialScaleZ="60268"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="kronos.mesh" ScaleX="60268" ScaleY="60268" ScaleZ="60268" 
+                    PositionX="-563009.292" PositionY="-60000" PositionZ="1194648.0653" 
+                    OrientationW="0.97" OrientationX="0.17" OrientationY="0" OrientationZ="0.17" />
+        <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="0.61" AtmosphereRGBY="0.49" AtmosphereRGBZ="0.20"
+                NumberOfCoronas="0" IsUsedAsSun="0" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="25559" InitialScaleY="25559" InitialScaleZ="25559"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="ouranos.mesh" ScaleX="25559" ScaleY="25559" ScaleZ="25559" 
+                    PositionX="375339.528" PositionY="70000" PositionZ="1695674.497" 
+                    OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+        <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="0.38" AtmosphereRGBY="0.55" AtmosphereRGBZ="0.53"
+                NumberOfCoronas="0" IsUsedAsSun="0" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="24786" InitialScaleY="24786" InitialScaleZ="24786"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="poseidhonas.mesh" ScaleX="24786" ScaleY="24786" ScaleZ="24786" 
+                    PositionX="1000" PositionY="-80000" PositionZ="2120607.4601" 
+                    OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+        <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="0.20" AtmosphereRGBY="0.35" AtmosphereRGBZ="0.66"
+                NumberOfCoronas="0" IsUsedAsSun="0" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+  <PLANET>
+    <!--***************************************************************************************************************-->
+    <GENERAL LinearVelocityLossPerSecond="0.0" AngularVelocityLossPerSecond="0.0" InitialScaleX="24000" InitialScaleY="24000" InitialScaleZ="24000"
+             DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+             EffectsMaskKill="00000000000000000000000000000000" EffectsMaskDestroy="00000000000000000000000000000000" />
+    <!--***************************************************************************************************************-->
+    <HULL Number="1">
+      <Hull HullType="0">
+        <ObjectData ModelFileName="adhis.mesh" ScaleX="24000" ScaleY="24000" ScaleZ="24000" 
+                    PositionX="0" PositionY="0" PositionZ="-2000000" 
+                    OrientationW="1" OrientationX="0" OrientationY="0" OrientationZ="0" />
+        <PhysicalObjectData CollisionModelFileName="SPHEROID" ObjectMass="0" ObjectMaterial="0" />
+        <AliveObjectData ObjectMaximumLife="100" ObjectArmor="0" 
+                       DestructionDelay="0" EffectMultiplierKill="1" EffectMultiplierDestroy="1"
+                       EffectsMaskKill="00000000000000000000000000000110" EffectsMaskDestroy="00000000000000000000000000000110" />
+        <ComponentData HullIndexParent="-1"
+                       LocalDirectionX="0" LocalDirectionY="0" LocalDirectionZ="0" />
+      </Hull>
+    </HULL>
+    <!--***************************************************************************************************************-->
+    <PlanetData AtmosphereRGBX="0" AtmosphereRGBY="0" AtmosphereRGBZ="0"
+                NumberOfCoronas="0" IsUsedAsSun="0" />
+    <!--***************************************************************************************************************-->
+  </PLANET>
+</PLANETS>
